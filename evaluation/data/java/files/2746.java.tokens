@@ -1,0 +1,1 @@
+package jcuda . driver ; public class CUfilter_mode { public static final int CU_TR_FILTER_MODE_POINT = <int> ; public static final int CU_TR_FILTER_MODE_LINEAR = <int> ; public static String stringFor ( int n ) { switch ( n ) { case CU_TR_FILTER_MODE_POINT : return <str> ; case CU_TR_FILTER_MODE_LINEAR : return <str> ; } return <str> + n ; } private CUfilter_mode ( ) { } }

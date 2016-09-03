@@ -1,0 +1,1 @@
+package jcuda . runtime ; import jcuda . NativePointerObject ; public class cudaMipmappedArray extends NativePointerObject { public cudaMipmappedArray ( ) { } @Override public String toString ( ) { return <str> + <str> + Long . toHexString ( getNativePointer ( ) ) + <str> ; } }

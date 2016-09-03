@@ -1,0 +1,1 @@
+package jcuda . jcurand ; import jcuda . NativePointerObject ; public class curandDiscreteDistribution extends NativePointerObject { public curandDiscreteDistribution ( ) { } @Override public String toString ( ) { return <str> + <str> + Long . toHexString ( getNativePointer ( ) ) + <str> ; } }

@@ -1,0 +1,1 @@
+package com . netflix . hystrix . util ; @Deprecated public class ExceptionThreadingUtility { @Deprecated public static void attachCallingThreadStack ( Throwable e ) { } @Deprecated public static void assignCallingThread ( Thread callingThread ) { } }

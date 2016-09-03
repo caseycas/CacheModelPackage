@@ -1,0 +1,1 @@
+package jcuda . driver ; public class CUipcMem_flags { public static final int CU_IPC_MEM_LAZY_ENABLE_PEER_ACCESS = <hex> ; public static String stringFor ( int n ) { if ( n = = <int> ) { return <str> + n ; } String result = <str> ; if ( ( n & CU_IPC_MEM_LAZY_ENABLE_PEER_ACCESS ) ! = <int> ) result + = <str> ; return result ; } private CUipcMem_flags ( ) { } }

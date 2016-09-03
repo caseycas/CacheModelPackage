@@ -1,0 +1,1 @@
+package jcuda . jcusparse ; import jcuda . NativePointerObject ; public class csrgemm2Info extends NativePointerObject { public csrgemm2Info ( ) { } @Override public String toString ( ) { return <str> + <str> + Long . toHexString ( getNativePointer ( ) ) + <str> ; } }

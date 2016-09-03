@@ -1,0 +1,1 @@
+package org . jbox2d . particle ; import org . jbox2d . common . Vec2 ; public class ParticleContact { public int indexA , indexB ; public int flags ; public float weight ; public final Vec2 normal = new Vec2 ( ) ; }

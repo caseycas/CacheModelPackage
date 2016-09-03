@@ -1,0 +1,1 @@
+package com . netflix . hystrix . strategy . properties ; import com . netflix . hystrix . HystrixTimerThreadPoolProperties ; public class HystrixPropertiesTimerThreadPoolDefault extends HystrixTimerThreadPoolProperties { }

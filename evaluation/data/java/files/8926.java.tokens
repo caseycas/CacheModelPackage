@@ -1,0 +1,1 @@
+package org . eclipse . ui . console ; import org . eclipse . core . runtime . IAdaptable ; import org . eclipse . ui . part . IPageBookViewPage ; public interface IConsolePageParticipant extends IAdaptable { public void init ( IPageBookViewPage page , IConsole console ) ; public void dispose ( ) ; public void activated ( ) ; public void deactivated ( ) ; }

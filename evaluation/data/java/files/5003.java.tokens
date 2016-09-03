@@ -1,0 +1,1 @@
+package io . netty . handler . timeout ; public final class ReadTimeoutException extends TimeoutException { private static final long serialVersionUID = <int> ; public static final ReadTimeoutException INSTANCE = new ReadTimeoutException ( ) ; private ReadTimeoutException ( ) { } }

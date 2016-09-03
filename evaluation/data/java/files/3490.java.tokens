@@ -1,0 +1,1 @@
+package org . nd4j . bytebuddy . shape ; public interface OffsetMapper { int getOffset ( int baseOffset , int [ ] shape , int [ ] stride , int [ ] indices ) ; }

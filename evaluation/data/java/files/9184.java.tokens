@@ -1,0 +1,1 @@
+package org . eclipse . debug . core . model ; import org . eclipse . core . runtime . IAdaptable ; import org . eclipse . debug . core . ILaunch ; public interface IDebugElement extends IAdaptable { public String getModelIdentifier ( ) ; public IDebugTarget getDebugTarget ( ) ; public ILaunch getLaunch ( ) ; }

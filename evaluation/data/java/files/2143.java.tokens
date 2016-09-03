@@ -1,0 +1,1 @@
+package junit . tests . framework ; import junit . framework . TestCase ; public class NotVoidTestCase extends TestCase { public int testNotVoid ( ) { return <int> ; } public void testVoid ( ) { } }

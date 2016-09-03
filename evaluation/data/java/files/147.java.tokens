@@ -1,0 +1,1 @@
+package com . netflix . hystrix . strategy . concurrency ; import com . netflix . hystrix . strategy . HystrixPlugins ; public interface HystrixRequestVariable < T > extends HystrixRequestVariableLifecycle < T > { public T get ( ) ; }

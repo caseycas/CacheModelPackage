@@ -1,0 +1,1 @@
+package com . netflix . hystrix . metric ; import rx . Observable ; public interface HystrixEventStream < E extends HystrixEvent > { Observable < E > observe ( ) ; }

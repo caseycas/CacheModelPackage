@@ -1,0 +1,1 @@
+package org . eclipse . debug . core . sourcelookup ; import org . eclipse . debug . core . DebugPlugin ; public interface ISourcePathComputer extends ISourcePathComputerDelegate { public static final String ATTR_SOURCE_PATH_COMPUTER_ID = DebugPlugin . getUniqueIdentifier ( ) + <str> ; public String getId ( ) ; }
