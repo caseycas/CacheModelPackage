@@ -11,7 +11,7 @@ from Config import Config
 MAX_LINE = 50000
 MAX_TOKENS = 10000
 DOWNSAMPLE = 1.0
-LMFILE = "./lm.ini"
+LMFILE = os.path.dirname(os.path.realpath(__file__)) + "/lm.ini"
 
 def RepresentsInt(s):
     try: 
@@ -352,23 +352,25 @@ def train(input_file_dir, fold_num, order, downSample, splitSelection):
             train_file = '%s/fold%d.train' % (input_file_dir, i)
             discountStr = buildSmoother(order)
 
-            config_file = Config("lm.ini")
+            #File path to lm.ini depends on where you run it
+
+            config_file = Config(LMFILE)
             lm_args = config_file.ConfigSectionMap("language_model")
-            if(lm_args["model"] == "MITLM"):
+            if(lm_args["model_type"] == "MITLM"):
                 #Get vocab...
                 print("%s -t %s -write-vocab %s.vocab" % (lm_args["location"],train_file, train_file))
                 os.system("%s -t %s -write-vocab %s.vocab" % (lm_args["location"],train_file, train_file))
                 #Alternative uses mitlm instead...
                 print('%s -order %d -v %s.vocab -unk -smoothing ModKN -t %s -write-lm %s.%dgrams' % (lm_args["location"],order, train_file, train_file, train_file, order))
                 os.system('%s -order %d -v %s.vocab -unk -smoothing ModKN -t %s -write-lm %s.%dgrams' % (lm_args["location"],order, train_file, train_file, train_file, order))
-            elif(lm_args["model"] == "SRILM"):
+            elif(lm_args["model_type"] == "SRILM"):
                 #Original Srilm
                 print('%s -text %s -lm %s.kn.lm.gz -order %d -unk -kndiscount -interpolate' % (lm_args["location"],train_file, train_file, order))
                 os.system('%s -text %s -lm %s.kn.lm.gz -order %d -unk -kndiscount -interpolate' % (lm_args["location"],train_file, train_file, order))
                 print('%s -lm %s.kn.lm.gz -unk -order %d -write-lm %s.%dgrams' % (lm_args["location2"],train_file, order, train_file, order))
                 os.system('%s -lm %s.kn.lm.gz -unk -order %d -write-lm %s.%dgrams' % (lm_args["location2"],train_file, order, train_file, order))
                 os.system('rm %s.kn.lm.gz' % train_file)
-            elif(lm_args["model"] == "KENLM"):
+            elif(lm_args["model_type"] == "KENLM"):
                 #Kenlm
                 print('%s -o %d --interpolate_unigrams 0 <% >%s.%dgrams'% (lm_args["location"],order, train_file, order))
                 os.system('%s -o %d --interpolate_unigrams 0 <%s >%s.%dgrams'% (lm_args["location"],order, train_file, train_file, order))
@@ -420,14 +422,14 @@ if __name__ == '__main__':
     parser.add_argument("ngram_order", help = "What size ngram model do you want to build?", type=int)
     parser.add_argument("sample", default = 1.0, type=float, help="What fraction (0.0-1.0) of the corpus do you want to use, defaults to all")
     parser.add_argument("split_type", default = 2, type=int, help="What type of training split are you using (0,1,2,3).  2 is default and divides files randomly.  1 divides training sets by groups of projects in a balanced format, 1 does this randomly with no balancing, 3 is for this but when a pickle file is not available.  These are for testing cross project entropies.  If you're not sure what this is, just use default, otherwise use 0 if using lexed results from simplePyLex.py")
-    parser.parse_args()
-    input_file_dir = parser["train_file_dir"]
-    order = parser["ngram_order"]
-    downSample = parser["sample"]
-    splitSelection = parser["split_type"]
+    args = parser.parse_args()
+    input_file_dir = args.train_file_dir
+    order = args.ngram_order
+    downSample = args.sample
+    splitSelection = args.split_type
     fold_num = 10
     assert(downSample >= 0.0 and downSample <= 1.0)
     assert(splitSelection in (0,1,2,3))
-   
+
     clearFiles(input_file_dir) 
     train(input_file_dir, fold_num, order, downSample, splitSelection)

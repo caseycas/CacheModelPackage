@@ -1,0 +1,11 @@
+[language_model]
+#Kenlm defaults
+location = ~/kenlm/build/bin/lmplz
+model_type = KENLM
+#Srilm defaults
+#location = ./bin/ngram-count
+#location2 = ./bin/ngram
+#model_type = SRILM
+#Mitlm defaults
+#location = ~/mitlm/estimate-ngram 
+#model_type = MITLM

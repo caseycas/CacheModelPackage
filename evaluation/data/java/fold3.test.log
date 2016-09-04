@@ -1,0 +1,31 @@
+
+=========================================================
+Author: Zhaopeng Tu
+ Email: tuzhaopeng@gmail.com
+  Date: 2013-11-18
+  Note: A Caching LM-based Code Suggestion Tool V0.3
+=========================================================
+
+Parameters:
+Input File: ./data/java//fold3.test
+Output File: ./data/java//fold3.test.output
+Ngram File: ./data/java//fold3.train.3grams	 Order: 3
+Back-off: 1
+Test Mode: 0
+Test on Files: 1
+Entropy Mode
+Cache: 0, Order: 10
+
+Debug: 1
+
+
+
+=================================================
+Reading ngrams...
+1/3 finished.
+2/3 finished.
+3/3 finished.
+./data/java//fold3.test
+Total tokens: 111209
+Sum: 510435
+Entropy: 4.58987
