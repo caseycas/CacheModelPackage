@@ -222,7 +222,7 @@ public:
                 if (iter != token_counts.end())
                 {
                     candidates.at(i).m_prob += cache_discount * ((float)iter->second/cache_count);
-                    candidates.at(i).m_debug += ", in cache with order " + int_to_string(valid_order) + " : " + int_to_string(iter->second) + "/" + to_string(cache_count);
+                    candidates.at(i).m_debug += ", in cache with order " + int_to_string(valid_order) + " : " + int_to_string(iter->second) + "/" + int_to_string(cache_count);
                     token_counts.erase(candidates.at(i).m_token);
                 }
             }
@@ -231,7 +231,7 @@ public:
             for (iter=token_counts.begin(); iter!=token_counts.end(); ++iter)
             {
                 Word candidate(iter->first, cache_discount * ((float)iter->second/cache_count));
-                candidate.m_debug += "only in cache with order " + int_to_string(valid_order) + " : " + int_to_string(iter->second) + "/" + to_string(cache_count);
+                candidate.m_debug += "only in cache with order " + int_to_string(valid_order) + " : " + int_to_string(iter->second) + "/" + int_to_string(cache_count);
                 candidates.push_back(candidate);
             }
 
