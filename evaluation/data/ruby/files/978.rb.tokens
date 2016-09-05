@@ -1,0 +1,1 @@
+class ChangeSentAtToDatetime < ActiveRecord :: Migration def self . up remove_column <str> , <str> add_column <str> , <str> , <str> ActiveRecord :: Base . connection . execute ( <str> ) end def self . down remove_column <str> , <str> add_column <str> , <str> , <str> end end 

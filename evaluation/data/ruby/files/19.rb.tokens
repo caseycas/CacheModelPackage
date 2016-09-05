@@ -1,0 +1,1 @@
+require <str> module Fog module Compute class Linode class Image < Fog :: Model identity <str> attribute <str> attribute <str> attribute <str> attribute <str> , <str> : <str> attribute <str> end end end end 

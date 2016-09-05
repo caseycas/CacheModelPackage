@@ -1,0 +1,1 @@
+class CutyCapt < Formula desc <str> homepage <str> url <str> version <str> sha256 <str> bottle do cellar <str> sha256 <str> = > <str> sha256 <str> = > <str> sha256 <str> = > <str> sha256 <str> = > <str> end depends_on <str> def install system <str> , <str> system <str> bin . install <str> end test do system <str> bin <str> , <str> , <str> assert File . exist? <str> end end 

@@ -1,0 +1,1 @@
+package org . gradle . process . internal ; public enum ExecHandleState { INIT , STARTING , STARTED , ABORTED , FAILED , DETACHED , SUCCEEDED } 

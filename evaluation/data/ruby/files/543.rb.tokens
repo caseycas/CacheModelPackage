@@ -1,0 +1,1 @@
+class ChangeSupressToSuppress < ActiveRecord :: Migration def up SiteSetting . where ( name : <str> ) . update_all ( { name : <str> } ) end def down SiteSetting . where ( name : <str> ) . update_all ( { name : <str> } ) end end 

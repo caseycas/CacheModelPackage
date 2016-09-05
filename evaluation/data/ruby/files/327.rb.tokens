@@ -1,0 +1,1 @@
+class FixWrongOnlySharing < ActiveRecord :: Migration def up Contact . where ( <str> : true , <str> : false ) . where ( id : AspectMembership . select ( <str> ) ) . update_all ( <str> : true ) end def down raise ActiveRecord :: IrreversibleMigration end end 

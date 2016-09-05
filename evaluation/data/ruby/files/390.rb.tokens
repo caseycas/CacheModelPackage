@@ -1,0 +1,1 @@
+i = <int> while i < <int> case <str> when <str> raise when <str> raise when <str> raise when <str> i += <int> end end 

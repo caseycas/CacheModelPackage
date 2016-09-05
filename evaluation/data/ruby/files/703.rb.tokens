@@ -1,0 +1,1 @@
+puts Object . const_defined? ( <str> ) 

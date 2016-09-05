@@ -1,1 +1,0 @@
-package jcuda . jcublas ; public class cublasDiagType { public static final int CUBLAS_DIAG_NON_UNIT = <int> ; public static final int CUBLAS_DIAG_UNIT = <int> ; private cublasDiagType ( ) { } public static String stringFor ( int n ) { switch ( n ) { case CUBLAS_DIAG_NON_UNIT : return <str> ; case CUBLAS_DIAG_UNIT : return <str> ; } return <str> + n ; } }

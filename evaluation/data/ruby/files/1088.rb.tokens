@@ -1,0 +1,1 @@
+require <str> module Msf class Encoder :: Alphanum < Msf :: Encoder def initialize ( info ) super ( info ) off = <int> register_options ( [ OptString . new ( <str> , [ false , <str> ] ) , OptInt . new ( <str> , [ false , <str> , off ] ) , OptBool . new ( <str> , [ true , <str> , false ] ) ] , Msf :: Encoder :: Alphanum ) end end end 

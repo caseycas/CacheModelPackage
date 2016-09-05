@@ -1,0 +1,1 @@
+class Activemq < Formula desc <str> homepage <str> url <str> sha256 <str> bottle <str> depends_on <str> = > <str> def install rm_rf Dir [ <str> ] libexec . install Dir [ <str> ] ( bin / <str> ) . write_env_script libexec / <str> , Language :: Java . java_home_env ( <str> ) end test do system <str> bin <str> , <str> , <str> end end 

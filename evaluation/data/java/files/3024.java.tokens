@@ -1,1 +1,0 @@
-package jcuda . runtime ; public class cudaTextureFilterMode { public static final int cudaFilterModePoint = <int> ; public static final int cudaFilterModeLinear = <int> ; public static String stringFor ( int m ) { switch ( m ) { case cudaFilterModePoint : return <str> ; case cudaFilterModeLinear : return <str> ; } return <str> + m ; } private cudaTextureFilterMode ( ) { } }

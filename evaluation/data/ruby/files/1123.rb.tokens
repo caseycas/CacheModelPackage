@@ -1,0 +1,1 @@
+require_relative <str> class QueueAsJob < ActiveJob :: Base MY_QUEUE = <str> queue_as MY_QUEUE def perform ( greeter = <str> ) JobBuffer . add ( <str> greeter <str> ) end end 

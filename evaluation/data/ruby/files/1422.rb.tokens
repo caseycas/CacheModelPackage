@@ -1,0 +1,1 @@
+require File . expand_path ( <str> , __FILE__ ) describe <str> do before <str> do @match_data = <str> . match ( <str> ) end it <str> do @match_data . inspect . should be_kind_of ( String ) end it <str> do @match_data . inspect . should == <str> end end 

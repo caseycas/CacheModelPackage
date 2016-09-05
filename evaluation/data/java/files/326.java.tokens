@@ -1,0 +1,1 @@
+package io . netty . channel . pool ; public interface ChannelPoolMap < K , P extends ChannelPool > { P get ( K key ) ; boolean contains ( K key ) ; } 

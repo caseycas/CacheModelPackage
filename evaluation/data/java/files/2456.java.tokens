@@ -1,1 +1,0 @@
-package jcuda . driver ; import jcuda . NativePointerObject ; public class CUcontext extends NativePointerObject { public CUcontext ( ) { } @Override public String toString ( ) { return <str> + <str> + Long . toHexString ( getNativePointer ( ) ) + <str> ; } }

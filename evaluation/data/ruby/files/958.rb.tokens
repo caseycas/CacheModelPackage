@@ -1,0 +1,1 @@
+class RenameTrustLevelBadges < ActiveRecord :: Migration def rename ( id , old , new ) execute <str> new <str> old <str> id <str> rescue puts <str> new <str> end def up rename <int> , <str> , <str> rename <int> , <str> , <str> rename <int> , <str> , <str> end def down rename <int> , <str> , <str> rename <int> , <str> , <str> rename <int> , <str> , <str> end end 

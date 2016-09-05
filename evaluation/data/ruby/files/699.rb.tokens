@@ -1,0 +1,1 @@
+require <str> require <str> describe Puppet :: FileServing :: Content do it_should_behave_like <str> end 

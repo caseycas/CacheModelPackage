@@ -1,0 +1,1 @@
+class Projects :: BadgesController < Projects :: ApplicationController def build respond_to do | format | format . html { render_404 } format . svg do image = Ci :: ImageForBuildService . new . execute ( project , <str> : params [ <str> ] ) send_file ( image . path , <str> : image . name , <str> : <str> , <str> : <str> ) end end end end 

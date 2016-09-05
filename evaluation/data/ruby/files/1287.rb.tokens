@@ -1,0 +1,1 @@
+module Rex module Proto module Rmi module Model class Ping < Element attr_accessor <str> private def decode_stream_id ( io ) stream_id = read_byte ( io ) unless stream_id == PING_MESSAGE raise Rex :: Proto :: Rmi :: DecodeError , <str> end stream_id end def encode_stream_id [ stream_id ] . pack ( <str> ) end end end end end end 

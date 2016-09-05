@@ -1,0 +1,1 @@
+SIMPLE_GEM = <<- <str> GEMDATA <str> <str> __END__ <str> GEMDATA 

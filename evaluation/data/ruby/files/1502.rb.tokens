@@ -1,0 +1,1 @@
+h = { } . compare_by_identity objs = <int> . times . map { Object . new } objs . each { | o | h [ o ] = o } <int> . times { objs . each { | o | h [ o ] } } 

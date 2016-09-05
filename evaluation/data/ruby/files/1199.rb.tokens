@@ -1,0 +1,1 @@
+module Jobs class CleanUpUnmatchedIPs < Jobs :: Scheduled every <int> . day def execute ( args ) ScreenedIpAddress . roll_up last_match_threshold = SiteSetting . max_age_unmatched_ips . days . ago ScreenedIpAddress . where ( <str> : ScreenedIpAddress . actions [ <str> ] ) . where ( <str> , last_match_threshold , last_match_threshold ) . destroy_all end end end 

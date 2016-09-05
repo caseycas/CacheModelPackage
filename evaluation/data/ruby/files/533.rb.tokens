@@ -1,0 +1,1 @@
+module Fog module Compute class CloudSigma class Real def get_ip ( ip ) request ( <str> ip <str> ) end end class Mock def get_ip ( ip ) mock_get ( <str> , <int> , ip ) end end end end end 

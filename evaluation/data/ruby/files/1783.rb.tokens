@@ -1,0 +1,1 @@
+require <str> require <str> srcdir = File . expand_path ( <str> , __dir__ ) Dir . mktmpdir ( <str> ) { | d | dir = File . join ( d , <str> ) args = <str> srcdir <str> srcdir <str> srcdir <str> args << <str> << dir r = RDoc :: RDoc . new r . document args } 

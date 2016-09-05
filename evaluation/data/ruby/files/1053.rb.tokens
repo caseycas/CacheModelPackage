@@ -1,0 +1,1 @@
+class Arpoison < Formula desc <str> homepage <str> url <str> sha256 <str> bottle do cellar <str> revision <int> sha256 <str> = > <str> sha256 <str> = > <str> sha256 <str> = > <str> end depends_on <str> def install system <str> bin . install <str> man8 . install <str> end end 

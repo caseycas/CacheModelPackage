@@ -1,1 +1,0 @@
-package junit . tests . framework ; import junit . framework . TestCase ; public class Success extends TestCase { @Override public void runTest ( ) { } public void testSuccess ( ) { } }

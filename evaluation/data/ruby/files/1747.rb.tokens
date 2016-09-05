@@ -1,0 +1,1 @@
+class Scamper < Formula desc <str> homepage <str> url <str> version <str> sha256 <str> bottle do cellar <str> sha256 <str> = > <str> sha256 <str> = > <str> sha256 <str> = > <str> end depends_on <str> = > <str> depends_on <str> def install system <str> , <str> , <str> , <str> prefix <str> system <str> , <str> end end 

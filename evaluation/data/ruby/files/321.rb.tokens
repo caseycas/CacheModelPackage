@@ -1,0 +1,1 @@
+class Stream :: Mention < Stream :: Base def link ( opts = { } ) Rails . application . routes . url_helpers . mentions_path ( opts ) end def title I18n . translate ( <str> ) end def posts @posts || = StatusMessage . where_person_is_mentioned ( self . user . person ) end end 

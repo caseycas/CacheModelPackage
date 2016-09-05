@@ -1,0 +1,1 @@
+require File . expand_path ( <str> , __FILE__ ) describe <str> do it <str> do bignum_value . coerce ( <int> ) . first . positive? . should == true end it <str> do bignum_value . coerce ( <int> ) . first . positive? . should == false end it <str> do bignum_value . coerce ( - <int> ) . first . positive? . should == false end end 

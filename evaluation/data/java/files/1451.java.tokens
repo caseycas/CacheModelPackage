@@ -1,0 +1,1 @@
+package org . gradle . tooling . model . build ; import org . gradle . tooling . model . Model ; import org . gradle . tooling . model . UnsupportedMethodException ; public interface BuildEnvironment extends Model { GradleEnvironment getGradle ( ) ; JavaEnvironment getJava ( ) throws UnsupportedMethodException ; } 

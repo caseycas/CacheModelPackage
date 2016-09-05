@@ -1,0 +1,1 @@
+class TestLastThread < Test :: Unit :: TestCase def test_last_thread assert_separately ( [ ] , << - <str> ) require <str> Thread . new { sleep <int> . <int> } t0 = Time . now Thread . current . __runnable_sleep__ <int> t1 = Time . now t = t1 - t0 assert_in_delta ( <int> . <int> , t , <int> . <int> ) end ; end end 

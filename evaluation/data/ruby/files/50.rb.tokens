@@ -1,0 +1,1 @@
+class Company < ActiveRecord :: Base has_one <str> self . sequence_name = <str> validates_presence_of <str> def validate errors . add ( <str> , <str> ) if rating == <int> end end 

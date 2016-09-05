@@ -1,0 +1,1 @@
+package org . elasticsearch . cluster ; public interface ClusterInfoService { public ClusterInfo getClusterInfo ( ) ; public void addListener ( Listener listener ) ; public interface Listener { public void onNewInfo ( ClusterInfo info ) ; } } 

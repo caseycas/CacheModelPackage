@@ -1,0 +1,1 @@
+module Fog module Compute class Cloudstack class Real def list_network_device ( * args ) options = { } if args [ <int> ] . is_a? Hash options = args [ <int> ] options . merge! ( <str> = > <str> ) else options . merge! ( <str> = > <str> ) end request ( options ) end end end end end 

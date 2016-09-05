@@ -1,0 +1,1 @@
+require File . expand_path ( <str> , __FILE__ ) describe <str> do before <str> do CallSiteSpecs :: C . new . c @cache = CallSiteSpecs :: C . constant_caches ( <str> ) . first end it <str> do @cache . scope . should be_an_instance_of ( Rubinius :: ConstantScope ) end end 

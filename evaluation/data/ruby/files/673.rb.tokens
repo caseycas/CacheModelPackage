@@ -1,0 +1,1 @@
+module ModuleSpecs::Autoload class KHash < Hash K = <str> end end ScratchPad . record <str> 

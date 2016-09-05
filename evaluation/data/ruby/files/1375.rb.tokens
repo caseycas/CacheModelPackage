@@ -1,0 +1,1 @@
+class AuditEvent < ActiveRecord :: Base serialize <str> , Hash belongs_to <str> , <str> : <str> validates <str> , <str> : true validates <str> , <str> : true validates <str> , <str> : true after_initialize <str> def initialize_details self . details = { } if details . nil? end def author_name self . user . name end end 

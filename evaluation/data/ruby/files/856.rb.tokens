@@ -1,0 +1,1 @@
+require <str> require <str> require <str> class Dhasen include DRbUndumped def initialize @mutex = Mutex . new end def sparse ( str , * arg ) @mutex . synchronize do Chasen . getopt ( * arg ) Chasen . sparse ( str ) end end end if __FILE__ == $0 DRb . start_service ( nil , Dhasen . new ) puts DRb . uri DRb . thread . join end 

@@ -1,0 +1,1 @@
+package org . nd4j . linalg . api . ops ; import org . nd4j . linalg . api . ndarray . INDArray ; public interface LossFunction extends Accumulation { INDArray input ( ) ; INDArray output ( ) ; } 

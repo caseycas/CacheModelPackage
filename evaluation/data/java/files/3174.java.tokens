@@ -1,1 +1,0 @@
-package jcuda . runtime ; public class dim3 { public int x = <int> ; public int y = <int> ; public int z = <int> ; public dim3 ( ) { x = <int> ; y = <int> ; z = <int> ; } public dim3 ( int x , int y , int z ) { this . x = x ; this . y = y ; this . z = z ; } @Override public String toString ( ) { return <str> + <str> + x + <str> + <str> + y + <str> + <str> + z + <str> ; } }

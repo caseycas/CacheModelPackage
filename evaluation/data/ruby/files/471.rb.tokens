@@ -1,0 +1,1 @@
+class IndexUserBadges < ActiveRecord :: Migration def change execute <str> add_index <str> , [ <str> , <str> , <str> ] , <str> : true , <str> : <str> end end 

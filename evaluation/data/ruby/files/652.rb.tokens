@@ -1,0 +1,1 @@
+class Chgems < Formula desc <str> homepage <str> url <str> sha256 <str> head <str> def install system <str> , <str> , <str> prefix <str> end end 

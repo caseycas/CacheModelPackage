@@ -1,1 +1,0 @@
-package io . netty . buffer ; import java . nio . ByteBuffer ; public class ReadOnlyByteBufferBufTest extends ReadOnlyDirectByteBufferBufTest { @Override protected ByteBuffer allocate ( int size ) { return ByteBuffer . allocate ( size ) ; } }

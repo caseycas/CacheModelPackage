@@ -1,0 +1,1 @@
+Shindo . tests ( <str> , [ <str> ] ) do compute = Fog :: Compute [ <str> ] tests ( <str> ) do response = compute . storage_domains tests ( <str> ) do test ( <str> ) { response . kind_of? Array } test ( <str> ) { response . first . kind_of? OVIRT :: StorageDomain } end end end 

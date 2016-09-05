@@ -1,0 +1,1 @@
+test_name <str> do confine <str> , <str> = > <str> on agents , <str> + <str> + <str> do | test | assert_match <str> , test . stdout assert_no_match <str> , test . stdout end end 

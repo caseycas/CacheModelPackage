@@ -1,1 +1,0 @@
-package org . eclipse . debug . examples . core . pda . protocol ; public class PDAVMResumeCommand extends PDACommand { public PDAVMResumeCommand ( ) { super ( <str> ) ; } @Override public PDACommandResult createResult ( String resultText ) { return new PDACommandResult ( resultText ) ; } }

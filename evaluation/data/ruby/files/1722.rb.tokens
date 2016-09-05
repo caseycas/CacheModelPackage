@@ -1,0 +1,1 @@
+<int> . times { Thread . new { sleep } } i = <int> while i < <int> i += <int> IO . pipe . each ( & <str> ) end 

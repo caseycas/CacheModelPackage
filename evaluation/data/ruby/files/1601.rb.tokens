@@ -1,0 +1,1 @@
+class ModuleSpecs :: Autoload :: EX1 < Exception def self . trample1 <int> . times { return } end def self . trample2 begin raise <str> rescue end end trample1 trample2 end 

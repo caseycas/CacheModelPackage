@@ -1,0 +1,1 @@
+module Gitlab class GitLogger < Gitlab :: Logger def self . file_name_noext <str> end def format_message ( severity , timestamp , progname , msg ) <str> timestamp . to_s ( <str> ) <str> severity <str> msg <str> end end end 

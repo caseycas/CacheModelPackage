@@ -1,0 +1,1 @@
+require <str> module IRB def IRB . print_usage lc = IRB . conf [ <str> ] path = lc . find ( <str> ) space_line = false IRB :: MagicFile . open ( path ) { | f | f . each_line do | l | if <str> =~ l lc . puts l unless space_line space_line = true next end space_line = false l . sub! ( <str> , <str> ) next if <str> =~ l lc . puts l end } end end 

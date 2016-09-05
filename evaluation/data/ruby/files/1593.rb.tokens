@@ -1,0 +1,1 @@
+module Fog module Compute class CloudSigma class Real def delete_server ( server_id ) delete_request ( <str> server_id <str> ) end end class Mock def delete_server ( server_id ) mock_delete ( <str> , <int> , server_id ) end end end end end 

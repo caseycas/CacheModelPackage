@@ -1,0 +1,1 @@
+class AddUniqueIndexToNamespace < ActiveRecord :: Migration def change remove_index <str> , <str> : <str> if index_exists? ( <str> , <str> ) remove_index <str> , <str> : <str> if index_exists? ( <str> , <str> ) add_index <str> , <str> , <str> : true add_index <str> , <str> , <str> : true end end 

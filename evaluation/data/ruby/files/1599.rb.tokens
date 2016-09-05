@@ -1,0 +1,1 @@
+class UserField < ActiveRecord :: Base validates_presence_of <str> , <str> , <str> has_many <str> , <str> : <str> accepts_nested_attributes_for <str> def self . max_length <int> end end 

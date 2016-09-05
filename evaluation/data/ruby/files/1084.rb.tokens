@@ -1,0 +1,1 @@
+module Puppet::Parser ; end require <str> require <str> require <str> require <str> require <str> require <str> require <str> require <str> require <str> require <str> Dir [ File . dirname ( __FILE__ ) + <str> ] . each { | f | require f } class Puppet :: LexError < RuntimeError ; end 

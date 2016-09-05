@@ -1,0 +1,1 @@
+module Bosh::Director::Models class Stemcell < Sequel :: Model ( Bosh :: Director :: Config . db ) many_to_many <str> one_to_many <str> def validate validates_presence [ <str> , <str> , <str> ] validates_unique [ <str> , <str> ] validates_format VALID_ID , [ <str> , <str> ] end def desc <str> name <str> version <str> end end end 

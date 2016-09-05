@@ -1,0 +1,1 @@
+class PhotoPresenter < BasePresenter def base_hash { id : id , <str> : guid , <str> : { <str> : height , <str> : width } , <str> : { <str> : url ( <str> ) , <str> : url ( <str> ) , <str> : url ( <str> ) } } end end 

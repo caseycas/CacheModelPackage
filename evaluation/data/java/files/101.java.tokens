@@ -1,0 +1,1 @@
+package org . gradle . test ; public class JavaClassWithConstants { public static final String STRING_CONST = <str> ; static final char CHAR_CONST = <str> ; static final int INT_CONST = <int> ; protected static final Object OBJECT_CONST = new JavaClassWithConstants ( ) ; static String ignored = <str> ; String ignored2 = <str> ; } 

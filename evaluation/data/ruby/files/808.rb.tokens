@@ -1,0 +1,1 @@
+module Banzai module Pipeline def self . [] ( name ) name || = <str> const_get ( <str> name . to_s . camelize <str> ) end end end 

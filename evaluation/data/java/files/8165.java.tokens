@@ -1,1 +1,0 @@
-package org . eclipse . debug . ui . memory ; public interface IMemoryRenderingBindingsListener { void memoryRenderingBindingsChanged ( ) ; }

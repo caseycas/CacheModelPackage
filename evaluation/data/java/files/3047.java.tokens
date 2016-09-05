@@ -1,1 +1,0 @@
-package jcuda . jcurand ; import jcuda . NativePointerObject ; public class curandGenerator extends NativePointerObject { public curandGenerator ( ) { } @Override public String toString ( ) { return <str> + <str> + Long . toHexString ( getNativePointer ( ) ) + <str> ; } }

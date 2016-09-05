@@ -1,0 +1,1 @@
+require <str> require <str> class Gem :: Commands :: ListCommand < Gem :: Commands :: QueryCommand def initialize super <str> , <str> remove_option ( <str> ) end def arguments <str> end def defaults_str <str> end def description <<- <str> EOF <str> <str> EOF end def usage <str> program_name <str> end end 

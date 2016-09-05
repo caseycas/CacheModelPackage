@@ -1,0 +1,1 @@
+class BitStruct class PadField < Field def self . class_name @class_name || = <str> end def add_accessors_to ( cl , attr = name ) end def inspectable? ; false ; end end end 

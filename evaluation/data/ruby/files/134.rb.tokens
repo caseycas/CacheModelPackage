@@ -1,0 +1,1 @@
+class Libdshconfig < Formula desc <str> homepage <str> url <str> sha256 <str> bottle do cellar <str> revision <int> sha256 <str> = > <str> sha256 <str> = > <str> sha256 <str> = > <str> end def install system <str> , <str> , <str> , <str> prefix <str> system <str> , <str> end end 

@@ -1,0 +1,1 @@
+Sequel . migration do change do if [ <str> , <str> ] . include? ( adapter_scheme ) run ( <str> ) elsif [ <str> ] . include? ( adapter_scheme ) run ( <str> ) end end end 

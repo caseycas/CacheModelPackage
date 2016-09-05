@@ -1,0 +1,1 @@
+require File . expand_path ( <str> , __FILE__ ) describe <str> do before <str> do @script = fixture ( __FILE__ , <str> ) @tempdir = File . dirname ( @script ) end it <str> do output = ruby_exe ( @script , <str> = > <str> @tempdir <str> ) output . should == @tempdir end it <str> do output = ruby_exe ( nil , <str> = > <str> @tempdir <str> ) output . should == @tempdir end end 

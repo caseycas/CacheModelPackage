@@ -1,0 +1,1 @@
+class Tiff2png < Formula desc <str> homepage <str> url <str> sha256 <str> bottle do cellar <str> sha256 <str> = > <str> sha256 <str> = > <str> sha256 <str> = > <str> end depends_on <str> depends_on <str> depends_on <str> def install bin . mkpath system <str> , <str> prefix <str> , <str> ENV . cc <str> , <str> end test do system <str> bin <str> , test_fixtures ( <str> ) end end 

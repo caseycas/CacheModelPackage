@@ -1,1 +1,0 @@
-package com . badlogic . gdx . net ; import com . badlogic . gdx . Net . Protocol ; import com . badlogic . gdx . utils . Disposable ; import com . badlogic . gdx . utils . GdxRuntimeException ; public interface ServerSocket extends Disposable { public Protocol getProtocol ( ) ; public Socket accept ( SocketHints hints ) ; }

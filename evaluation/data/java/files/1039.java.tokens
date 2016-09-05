@@ -1,0 +1,1 @@
+package org . jbox2d . callbacks ; import org . jbox2d . common . Vec2 ; public interface ParticleRaycastCallback { float reportParticle ( int index , Vec2 point , Vec2 normal , float fraction ) ; } 

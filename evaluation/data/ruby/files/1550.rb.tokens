@@ -1,0 +1,1 @@
+class Jhead < Formula desc <str> homepage <str> url <str> sha256 <str> bottle do cellar <str> sha256 <str> = > <str> sha256 <str> = > <str> sha256 <str> = > <str> sha256 <str> = > <str> end patch <str> def install system <str> , <str> , <str> prefix <str> end test do system <str> bin <str> , test_fixtures ( <str> ) end end 

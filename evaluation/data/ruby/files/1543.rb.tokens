@@ -1,0 +1,1 @@
+class RemoveExtraSpamRecord < ActiveRecord :: Migration def up execute <str> execute <str> end def down end end 

@@ -1,0 +1,1 @@
+require <str> module Fog module Compute class OpenNebula class Group < Fog :: Model identity <str> attribute <str> def save raise Fog :: Errors :: Error . new ( <str> ) end def to_label name end end end end end 

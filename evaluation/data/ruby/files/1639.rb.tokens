@@ -1,0 +1,1 @@
+module Fog module Compute class Cloudstack class Real def create_pool ( algorithm , name , options = { } ) options . merge! ( <str> = > <str> , <str> = > algorithm , <str> = > name ) request ( options ) end end end end end 

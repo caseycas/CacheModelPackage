@@ -1,0 +1,1 @@
+require <str> require <str> if __FILE__ == $0 def ARGV . shift it = super ( ) raise <str> $0 <str> unless it it end DRb . start_service ( <str> , [ <int> , <int> , <str> , <int> , <str> , <int> ] ) es = DRb :: ExtServ . new ( ARGV . shift , ARGV . shift ) DRb . thread . join es . stop_service if es . alive? end 

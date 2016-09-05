@@ -1,0 +1,1 @@
+class Speedometer < ActiveRecord :: Base self . primary_key = <str> belongs_to <str> has_many <str> end 

@@ -1,0 +1,1 @@
+require <str> module Fog module Joyent class Analytics class Value < Fog :: Model attribute <str> attribute <str> attribute <str> , <str> = > <str> attribute <str> attribute <str> , <str> = > <str> attribute <str> attribute <str> attribute <str> , <str> = > <str> attribute <str> attribute <str> , <str> = > <str> end end end end 

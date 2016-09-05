@@ -1,0 +1,1 @@
+class UpdateUsersCaseInsensitiveEmails < ActiveRecord :: Migration def up execute <str> results = execute << <str> SQL <str> <str> SQL results . each do | row | execute <str> row [ <str> ] . downcase <str> row [ <str> ] <str> row [ <str> ] <str> end execute <str> execute <str> end def down execute <str> execute <str> end end 

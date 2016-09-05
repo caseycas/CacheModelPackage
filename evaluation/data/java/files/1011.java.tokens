@@ -1,0 +1,1 @@
+package org . gradle . ide . visualstudio ; import org . gradle . api . Action ; import org . gradle . api . Incubating ; @Incubating public interface TextConfigFile extends ConfigFile { void withContent ( Action < ? super TextProvider > action ) ; } 

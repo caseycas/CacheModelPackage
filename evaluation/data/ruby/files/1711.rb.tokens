@@ -1,0 +1,1 @@
+class JpegArchive < Formula desc <str> homepage <str> url <str> sha256 <str> bottle do cellar <str> sha256 <str> = > <str> sha256 <str> = > <str> sha256 <str> = > <str> end depends_on <str> def install system <str> , <str> , <str> prefix <str> end test do system <str> bin <str> , test_fixtures ( <str> ) , <str> end end 

@@ -1,0 +1,1 @@
+class Modman < Formula desc <str> homepage <str> url <str> sha256 <str> bottle <str> def install bin . install <str> bash_completion . install <str> = > <str> end test do system <str> bin <str> end end 

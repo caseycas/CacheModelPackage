@@ -1,0 +1,1 @@
+module AuthenticatesWithTwoFactor extend ActiveSupport :: Concern included do skip_before_action <str> , <str> : [ <str> ] end def prompt_for_two_factor ( user ) session [ <str> ] = user . id render <str> and return end end 

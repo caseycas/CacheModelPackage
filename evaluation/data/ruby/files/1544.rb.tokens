@@ -1,0 +1,1 @@
+module Fog module Compute class BareMetalCloud class Real def get_server ( server_id ) request ( <str> = > <int> , <str> = > <str> , <str> = > Fog :: ToHashDocument . new , <str> = > <str> , <str> = > { <str> = > server_id } ) end end end end end 

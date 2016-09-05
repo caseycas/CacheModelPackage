@@ -1,0 +1,1 @@
+class RemoveUsersFromTopicAllowedUsers < ActiveRecord :: Migration def up sql = << <str> SQL <str> <str> SQL execute sql end def down end end 

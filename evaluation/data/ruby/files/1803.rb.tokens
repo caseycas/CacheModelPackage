@@ -1,0 +1,1 @@
+class Tclap < Formula desc <str> homepage <str> url <str> sha256 <str> def install system <str> , <str> prefix <str> system <str> ENV . deparallelize system <str> , <str> end end 

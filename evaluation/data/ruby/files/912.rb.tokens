@@ -1,0 +1,1 @@
+class SiteTextSerializer < ApplicationSerializer attributes <str> , <str> , <str> , <str> def id object [ <str> ] end def value object [ <str> ] end def overridden? current_val = value I18n . overrides_disabled do return I18n . t ( object [ <str> ] ) != current_val end end alias_method <str> , <str> end 

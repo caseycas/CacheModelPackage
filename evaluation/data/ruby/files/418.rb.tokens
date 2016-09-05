@@ -1,0 +1,1 @@
+test_name <str> agents . each do | agent | teardown do on agent , <str> end step <str> on ( agent , puppet ( <str> ) ) step <str> on ( agent , puppet ( <str> ) ) do assert_match ( <str> , stdout ) end end 

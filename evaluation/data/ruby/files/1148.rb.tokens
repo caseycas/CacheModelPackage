@@ -1,0 +1,1 @@
+class Redo < Formula desc <str> homepage <str> url <str> sha256 <str> resource <str> do url <str> , <str> = > <str> end def install ENV [ <str> ] = prefix system <str> rm share / <str> man1 . install resource ( <str> ) end end 

@@ -1,0 +1,1 @@
+require <str> require <str> describe Puppet :: Indirector :: Status :: Local do it <str> do Puppet :: Status . indirection . terminus_class = <str> expect ( Puppet :: Status . indirection . find ( <str> ) . version ) . to eq ( Puppet . version ) end end 

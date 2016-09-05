@@ -1,0 +1,1 @@
+require <str> describe Fog :: Image do Fog :: Image . providers . each do | provider | describe <str> provider <str> do it <str> do Fog . stub <str> , { } do assert_raises ( ArgumentError ) { Fog :: Image [ provider ] } end end end end end 

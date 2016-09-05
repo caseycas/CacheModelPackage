@@ -1,0 +1,1 @@
+require <str> module Net::SSH::Transport::HMAC class None < Abstract key_length <int> mac_length <int> def digest ( data ) <str> end end end 

@@ -1,0 +1,1 @@
+module Sass::Script::Value class Bool < Base TRUE = new ( true ) FALSE = new ( false ) def self . new ( value ) value ? TRUE : FALSE end attr_reader <str> alias_method <str> , <str> def to_s ( opts = { } ) @value . to_s end alias_method <str> , <str> end end 

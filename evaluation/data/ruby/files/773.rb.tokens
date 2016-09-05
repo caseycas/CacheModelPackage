@@ -1,0 +1,1 @@
+module Bosh::Director::ModelHelper def safe_find_or_create ( options ) Bosh :: Common . retryable ( sleep : <int> . <int> , <str> : <int> , <str> : [ Exception ] ) do find_or_create ( options ) end end end 

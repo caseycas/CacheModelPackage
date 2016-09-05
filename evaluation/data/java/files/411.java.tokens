@@ -1,0 +1,1 @@
+package org . elasticsearch . search . aggregations . metrics . percentiles ; public interface Percentile { double getPercent ( ) ; double getValue ( ) ; } 

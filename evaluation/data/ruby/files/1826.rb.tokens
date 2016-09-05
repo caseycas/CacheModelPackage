@@ -1,0 +1,1 @@
+RSpec . configure do | config | unless ENV [ <str> ] warning = <str> puts RSpec :: Core :: Formatters :: ConsoleCodes . wrap ( warning , <str> ) config . filter_run_excluding <str> : true end end 

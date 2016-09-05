@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts . dsl ; import org . gradle . api . Action ; import org . gradle . api . Incubating ; import org . gradle . api . artifacts . ComponentModuleMetadata ; @Incubating public interface ComponentModuleMetadataHandler { public void module ( Object moduleNotation , Action < ? super ComponentModuleMetadata > rule ) ; } 

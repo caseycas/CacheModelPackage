@@ -1,0 +1,1 @@
+class Ondir < Formula desc <str> homepage <str> head <str> url <str> sha256 <str> def install system <str> system <str> , <str> prefix <str> , <str> end end 

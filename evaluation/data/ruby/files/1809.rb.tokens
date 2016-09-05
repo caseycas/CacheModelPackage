@@ -1,0 +1,1 @@
+require_dependency <str> module Jobs class InviteEmail < Jobs :: Base def execute ( args ) raise Discourse :: InvalidParameters . new ( <str> ) unless args [ <str> ] . present? invite = Invite . find_by ( id : args [ <str> ] ) message = InviteMailer . send_invite ( invite ) Email :: Sender . new ( message , <str> ) . send end end end 

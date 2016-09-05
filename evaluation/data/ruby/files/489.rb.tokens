@@ -1,0 +1,1 @@
+Gitlab :: Seeder . quiet do User . seed do | s | s . id = <int> s . name = <str> s . email = <str> s . notification_email = <str> s . username = <str> s . password = <str> s . admin = true s . projects_limit = <int> s . confirmed_at = DateTime . now end end 

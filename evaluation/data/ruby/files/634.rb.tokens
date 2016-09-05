@@ -1,0 +1,1 @@
+class Parser19Action def register MSpec . register <str> , self MSpec . register <str> , self end def load SpecGuard . ruby_version_override = <str> end def unload SpecGuard . ruby_version_override = nil end end 

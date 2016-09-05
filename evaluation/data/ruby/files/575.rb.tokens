@@ -1,0 +1,1 @@
+class Discodex < Formula desc <str> homepage <str> url <str> version <str> sha256 <str> depends_on <str> def install system <str> , <str> , <str> prefix <str> prefix . install ( <str> ) end end 

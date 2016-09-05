@@ -1,0 +1,1 @@
+require_relative <str> module Puppet::DataProviders ; end class Puppet :: DataProviders :: FunctionEnvDataProvider < Puppet :: Plugins :: DataProviders :: EnvironmentDataProvider include Puppet :: DataProviders :: DataFunctionSupport def loader ( key , scope ) scope . compiler . loaders . private_environment_loader end end 

@@ -1,0 +1,1 @@
+class AddStageIdxToBuilds < ActiveRecord :: Migration def change add_column <str> , <str> , <str> end end 

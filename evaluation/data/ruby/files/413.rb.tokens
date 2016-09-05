@@ -1,0 +1,1 @@
+require <str> describe <str> , <str> : true do context <str> do describe file ( <str> ) do it { should contain ( <str> ) } end end context <str> do describe <str> do subject { file ( <str> ) } it { should contain <str> } end end end 

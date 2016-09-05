@@ -1,0 +1,1 @@
+require <str> describe ProjectSnippet , <str> : true do describe <str> do it { is_expected . to belong_to ( <str> ) } end describe <str> do end describe <str> do it { is_expected . to validate_presence_of ( <str> ) } end end 

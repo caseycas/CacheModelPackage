@@ -1,0 +1,1 @@
+class BadgeTypeSerializer < ApplicationSerializer attributes <str> , <str> , <str> def sort_order <int> - object . id end end 

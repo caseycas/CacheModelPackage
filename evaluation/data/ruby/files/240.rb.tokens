@@ -1,0 +1,1 @@
+class AddEmailInReplyToToUserOptions < ActiveRecord :: Migration def up add_column <str> , <str> , <str> , <str> : false , <str> : true change_column <str> , <str> , <str> , <str> : <int> , <str> : false execute <str> end def down remove_column <str> , <str> end end 

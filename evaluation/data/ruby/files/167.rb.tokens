@@ -1,0 +1,1 @@
+class CreateReplies < ActiveRecord :: Migration def change create_table <str> , id : false do | t | t . references <str> t . integer <str> t . timestamps end add_index <str> , [ <str> , <str> ] , <str> : true execute <str> end end 

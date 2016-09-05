@@ -1,0 +1,1 @@
+class RemoveSessionsAgain < ActiveRecord :: Migration def self . up drop_table <str> end def self . down create_table <str> do | t | t . string <str> , <str> = > false t . text <str> t . timestamps end add_index <str> , <str> add_index <str> , <str> end end 

@@ -1,0 +1,1 @@
+Puppet :: Parser :: Functions :: newfunction ( <str> , <str> = > <str> , <str> = > - <int> , <str> = > <<- <str> DOC <str> <str> DOC ) do | args | function_fail ( [ <str> ] ) end 

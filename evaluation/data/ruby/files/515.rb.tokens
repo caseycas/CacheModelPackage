@@ -1,0 +1,1 @@
+module Postgres::Conversion def encode_bytea ( str ) str . gsub ( <str> ) { | b | <str> b [ <int> ] . to_s ( <int> ) . rjust ( <int> , <str> ) <str> } end def decode_bytea ( str ) str . gsub ( <str> ) { | s | if s . size == <int> then s [ <int> , <int> ] else s [ <int> , <int> ] . oct . chr end } end end 

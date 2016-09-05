@@ -1,0 +1,1 @@
+package org . gradle . api . resources ; import org . gradle . api . GradleException ; public class ResourceException extends GradleException { public ResourceException ( ) { } public ResourceException ( String message ) { super ( message ) ; } public ResourceException ( String message , Throwable cause ) { super ( message , cause ) ; } } 

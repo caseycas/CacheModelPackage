@@ -1,0 +1,1 @@
+require File . expand_path ( <str> , __FILE__ ) require File . expand_path ( <str> , __FILE__ ) require File . expand_path ( <str> , __FILE__ ) describe <str> do it_behaves_like <str> , <str> it_behaves_like <str> , <str> it <str> do h = new_hash ( <str> : <int> , <str> : <int> ) ( h > h ) . should be_false end end 

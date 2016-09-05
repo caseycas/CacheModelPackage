@@ -1,0 +1,1 @@
+class PostActionCreator def initialize ( user , post ) @user = user @post = post end def perform ( action ) guardian . ensure_post_can_act! ( @post , action , <str> : PostAction . counts_for ( [ @post ] . compact , @user ) [ @post . try ( <str> ) ] ) PostAction . act ( @user , @post , action ) end private def guardian @guardian || = Guardian . new ( @user ) end end 

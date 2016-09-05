@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . views . memory . renderings ; public interface IContentChangeComputer { public void clearCache ( ) ; public void cache ( Object [ ] elements ) ; public Object [ ] compare ( Object [ ] newElements ) ; public boolean isEmpty ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . play . distribution ; import org . gradle . api . Incubating ; import org . gradle . api . distribution . Distribution ; import org . gradle . play . PlayApplicationBinarySpec ; @Incubating public interface PlayDistribution extends Distribution { PlayApplicationBinarySpec getBinary ( ) ; } 

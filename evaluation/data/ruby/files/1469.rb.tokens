@@ -1,0 +1,1 @@
+class GroupUsers < ActiveRecord :: Migration def change create_table <str> , <str> : true do | t | t . integer <str> , <str> : false t . integer <str> , <str> : false t . timestamps end add_index <str> , [ <str> , <str> ] , <str> : true end end 

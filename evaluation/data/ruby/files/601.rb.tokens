@@ -1,0 +1,1 @@
+class Dvdauthor < Formula desc <str> homepage <str> url <str> sha256 <str> revision <int> depends_on <str> = > <str> depends_on <str> depends_on <str> depends_on <str> def install system <str> , <str> , <str> prefix <str> , <str> man <str> system <str> ENV . j1 system <str> , <str> end end 

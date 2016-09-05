@@ -1,0 +1,1 @@
+module ActionView module Helpers module Tags class ColorField < TextField def render options = @options . stringify_keys options [ <str> ] || = validate_color_string ( value ( object ) ) @options = options super end private def validate_color_string ( string ) regex = <str> if regex . match ( string ) string . downcase else <str> end end end end end end 

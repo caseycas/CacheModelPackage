@@ -1,0 +1,1 @@
+Sequel . migration do change do alter_table ( <str> ) do add_column ( <str> , Time ) end end end 

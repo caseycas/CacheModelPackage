@@ -1,0 +1,1 @@
+class RenameSiteSettings < ActiveRecord :: Migration def up execute <str> execute <str> end def down execute <str> execute <str> end end 

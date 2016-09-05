@@ -1,0 +1,1 @@
+module Ember module Handlebars class Template < Tilt :: Template def compile_ember_handlebars ( string , ember_template = <str> ) if :: Rails . env . development? <str> ember_template <str> indent ( string ) . inspect <str> else <str> ember_template <str> indent ( string ) . inspect <str> end end end end end 

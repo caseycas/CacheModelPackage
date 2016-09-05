@@ -1,0 +1,1 @@
+require <str> require <str> Tk :: Iwidgets :: Spindate . new . pack ( <str> = > <int> , <str> = > <int> ) Tk . mainloop 

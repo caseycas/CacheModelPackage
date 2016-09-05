@@ -1,0 +1,1 @@
+require <str> require <str> df = Tk :: Iwidgets :: Datefield . new ( <str> = > proc { puts ( df . get ) } ) df . pack ( <str> = > <str> , <str> = > true , <str> = > <int> , <str> = > <int> ) Tk . mainloop 

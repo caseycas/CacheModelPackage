@@ -1,0 +1,1 @@
+class Clib < Formula desc <str> homepage <str> url <str> sha256 <str> head <str> bottle do cellar <str> sha256 <str> = > <str> sha256 <str> = > <str> sha256 <str> = > <str> end def install ENV [ <str> ] = prefix system <str> , <str> end test do system <str> bin <str> , <str> , <str> end end 

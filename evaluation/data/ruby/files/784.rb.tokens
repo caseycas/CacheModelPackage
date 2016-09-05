@@ -1,0 +1,1 @@
+class AddUserIdIndexToPosts < ActiveRecord :: Migration def change add_index <str> , <str> end end 

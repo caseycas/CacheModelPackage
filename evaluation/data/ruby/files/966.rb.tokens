@@ -1,0 +1,1 @@
+require_relative <str> require <str> module REXMLTests class LightParserTester < Test :: Unit :: TestCase include REXMLTestUtils include REXML def test_parsing File . open ( fixture_path ( <str> ) ) do | f | parser = REXML :: Parsers :: LightParser . new ( f ) parser . parse end end end end 

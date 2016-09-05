@@ -1,0 +1,1 @@
+require <str> require <str> RSpec . describe Msf :: OptRaw do valid_values = [ { <str> = > <str> , <str> = > <str> } , { <str> = > <str> File . expand_path ( <str> , FILE_FIXTURES_PATH ) <str> , <str> = > <str> } ] invalid_values = [ ] it_behaves_like <str> , valid_values , invalid_values , <str> end 

@@ -1,0 +1,1 @@
+class Iodine < Formula desc <str> homepage <str> head <str> stable do url <str> mirror <str> sha256 <str> depends_on <str> end bottle do cellar <str> revision <int> sha256 <str> = > <str> sha256 <str> = > <str> end def install system <str> , <str> , <str> prefix <str> end test do system <str> sbin <str> , <str> end end 

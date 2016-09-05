@@ -1,0 +1,1 @@
+class RenameDeferedColumnsOnPostAction < ActiveRecord :: Migration def change rename_column <str> , <str> , <str> rename_column <str> , <str> , <str> end end 

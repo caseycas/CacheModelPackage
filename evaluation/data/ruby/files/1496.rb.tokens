@@ -1,0 +1,1 @@
+require <str> require <str> RSpec . describe Metasploit :: Framework :: LoginScanner :: Buffalo do it_behaves_like <str> , <str> : true , <str> : false it_behaves_like <str> it_behaves_like <str> end 

@@ -1,0 +1,1 @@
+class RaiseHookUrlLimit < ActiveRecord :: Migration def change change_column <str> , <str> , <str> , <str> : <int> end end 

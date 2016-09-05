@@ -1,0 +1,1 @@
+cd = <str> . chomp + <str> ARGF . each { | line | if <str> =~ line stat = line . split ( <str> ) addr = stat [ <int> ] . hex + <hex> retired = stat [ <int> ] . to_i ticks = stat [ <int> ] . to_i src = <str> addr . to_s ( <int> ) <str> . chomp src . sub! ( cd , <str> ) puts <str> % [ src , addr , retired , ticks ] end } 

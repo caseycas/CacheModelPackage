@@ -1,0 +1,1 @@
+require <str> require <str> class AnonymousTest < ActiveSupport :: TestCase test <str> do assert Module . new . anonymous? assert Class . new . anonymous? end test <str> do assert ! Kernel . anonymous? assert ! Object . anonymous? end end 

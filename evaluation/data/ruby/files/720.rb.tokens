@@ -1,0 +1,1 @@
+class Shorten < Formula desc <str> homepage <str> url <str> sha256 <str> bottle do cellar <str> sha256 <str> = > <str> sha256 <str> = > <str> sha256 <str> = > <str> end def install system <str> , <str> , <str> , <str> prefix <str> system <str> , <str> end test do system <str> bin <str> , test_fixtures ( <str> ) , <str> assert File . exist? <str> end end 

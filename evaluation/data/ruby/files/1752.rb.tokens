@@ -1,0 +1,1 @@
+require <str> require <str> describe Puppet :: Reports , <str> do before do Puppet . settings . stubs ( <str> ) end it <str> do expect ( Puppet :: Reports . report ( <str> ) ) . to be_instance_of ( Module ) end end 

@@ -1,0 +1,1 @@
+class Chruby < Formula desc <str> homepage <str> url <str> sha256 <str> head <str> def install system <str> , <str> , <str> prefix <str> end def caveats ; <<- <str> EOS <str> . undent <str> EOS end end 

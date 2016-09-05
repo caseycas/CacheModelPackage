@@ -1,0 +1,1 @@
+require File . expand_path ( <str> , __FILE__ ) describe <str> do before <str> do CallSiteSpecs :: A . new . p @cache = CallSiteSpecs :: A . call_sites ( <str> ) . first end it <str> do @cache . ip . should == <int> end end 

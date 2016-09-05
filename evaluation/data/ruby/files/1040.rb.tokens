@@ -1,0 +1,1 @@
+require <str> Puppet :: Util :: NagiosMaker . create_nagios_type <str> 

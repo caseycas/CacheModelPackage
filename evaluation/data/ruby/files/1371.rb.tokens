@@ -1,0 +1,1 @@
+module Fog module Joyent class Analytics class Real def delete_instrumentation ( id ) request ( <str> = > <str> @joyent_username <str> id <str> , <str> = > <str> , <str> = > <int> ) end end class Mock def delete_instrumentation ( id ) response = Excon :: Response . new response . status = <int> response end end end end end 

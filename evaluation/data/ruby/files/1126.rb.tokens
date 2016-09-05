@@ -1,0 +1,1 @@
+module Workers class FetchWebfinger < Base sidekiq_options <str> : <str> def perform ( account ) person = Person . find_or_fetch_by_identifier ( account ) Diaspora :: Fetcher :: Public . queue_for ( person ) unless person . nil? end end end 

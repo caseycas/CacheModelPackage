@@ -1,0 +1,1 @@
+class ProjectHook < WebHook belongs_to <str> scope <str> , - > { where ( <str> : true ) } scope <str> , - > { where ( <str> : true ) } scope <str> , - > { where ( <str> : true ) } scope <str> , - > { where ( <str> : true ) } scope <str> , - > { where ( <str> : true ) } scope <str> , - > { where ( <str> : true ) } end 

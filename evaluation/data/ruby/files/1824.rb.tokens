@@ -1,0 +1,1 @@
+module ActionPack def self . gem_version Gem :: Version . new VERSION :: STRING end module VERSION MAJOR = <int> MINOR = <int> TINY = <int> PRE = <str> STRING = [ MAJOR , MINOR , TINY , PRE ] . compact . join ( <str> ) end end 

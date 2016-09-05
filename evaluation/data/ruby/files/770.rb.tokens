@@ -1,0 +1,1 @@
+module Fog module Compute class GoGrid class Real def support_password_get ( id , options = { } ) request ( <str> = > <str> , <str> = > { <str> = > id } . merge! ( options ) ) end end end end end 

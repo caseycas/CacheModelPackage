@@ -1,0 +1,1 @@
+package org . gradle . language . base . internal . model ; public interface VariantAxisCompatibilityFactory { < T > VariantAxisCompatibility < T > getVariantAxisCompatibility ( T o ) ; } 

@@ -1,0 +1,1 @@
+module ActionDispatch module Journey module NFA module Dot def to_dot edges = transitions . map { | from , sym , to | <str> from <str> to <str> sym || <str> } <<- <str> eodot <str> <str> eodot end end end end end 

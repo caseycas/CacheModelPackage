@@ -1,0 +1,1 @@
+Kaminari . configure do | config | config . default_per_page = <int> config . max_per_page = <int> end 

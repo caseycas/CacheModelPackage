@@ -1,0 +1,1 @@
+class RemoveClosedFromIssue < ActiveRecord :: Migration def up remove_column <str> , <str> end def down add_column <str> , <str> , <str> end end 

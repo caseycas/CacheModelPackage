@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . model . provisional ; import org . eclipse . ui . IMemento ; public interface IElementMementoRequest extends IViewerUpdate { public IMemento getMemento ( ) ; } 

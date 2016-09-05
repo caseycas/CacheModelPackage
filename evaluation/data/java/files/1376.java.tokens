@@ -1,0 +1,1 @@
+package org . gradle . test . fixtures . server . http ; public interface HttpResourceInteraction { HttpResourceInteraction contentType ( String encoding ) ; } 

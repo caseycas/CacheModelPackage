@@ -1,0 +1,1 @@
+package org . gradle . internal . resource ; import java . nio . charset . Charset ; public abstract class CharsetUtil { public static final Charset UTF_8 = Charset . forName ( <str> ) ; } 

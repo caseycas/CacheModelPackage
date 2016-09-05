@@ -1,0 +1,1 @@
+require_dependency <str> class Course < ARUnit2Model belongs_to <str> has_many <str> end 

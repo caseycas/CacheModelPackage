@@ -1,0 +1,1 @@
+class Proguard < Formula desc <str> homepage <str> url <str> sha256 <str> bottle <str> def install libexec . install <str> libexec . install <str> bin . write_jar_script libexec / <str> , <str> bin . write_jar_script libexec / <str> , <str> end test do expect = <<- <str> EOS <str> . undent <str> EOS assert_equal expect , shell_output ( <str> bin <str> , <int> ) end end 

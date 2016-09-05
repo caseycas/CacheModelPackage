@@ -1,0 +1,1 @@
+module Rex module Payloads module Win32 module Common def self . resolve_call_sym <str> + <str> + <str> + <str> + <str> + <str> end end end end end 

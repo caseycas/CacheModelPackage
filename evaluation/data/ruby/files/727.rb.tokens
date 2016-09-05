@@ -1,0 +1,1 @@
+class Freealut < Formula desc <str> homepage <str> url <str> mirror <str> sha256 <str> patch <str> depends_on <str> = > <str> depends_on <str> = > <str> depends_on <str> = > <str> def install system <str> system <str> , <str> , <str> , <str> prefix <str> , <str> man <str> system <str> , <str> end end 

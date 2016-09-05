@@ -1,0 +1,1 @@
+class ProfilerAction def register MSpec . register <str> , self MSpec . register <str> , self end def start @profiler = Rubinius :: Profiler :: Instrumenter . new ( <str> = > [ <str> , <str> ] ) @profiler . start end def finish @profiler . stop @profiler . show end end 

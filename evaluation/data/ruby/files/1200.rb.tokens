@@ -1,0 +1,1 @@
+require File . expand_path ( <str> , __FILE__ ) with_feature <str> do describe <str> do before ( <str> ) do @exception = EncodingSpecs :: UndefinedConversionError . exception end it <str> do @exception . destination_encoding . should be_an_instance_of ( Encoding ) end it <str> do @exception . destination_encoding . should == Encoding :: US_ASCII end end end 

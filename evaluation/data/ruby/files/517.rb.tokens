@@ -1,0 +1,1 @@
+class Mpop < Formula desc <str> homepage <str> url <str> sha256 <str> depends_on <str> = > <str> depends_on <str> def install system <str> , <str> prefix <str> , <str> system <str> , <str> end end 

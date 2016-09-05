@@ -1,0 +1,1 @@
+module NotifierHelper def post_message ( post , opts = { } ) if post . respond_to? <str> post . message . plain_text_without_markdown else I18n . translate <str> end end def comment_message ( comment , opts = { } ) if comment . post . public? comment . message . plain_text_without_markdown else I18n . translate <str> end end end 

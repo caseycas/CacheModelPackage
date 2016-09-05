@@ -1,0 +1,1 @@
+class CreateActions < ActiveRecord :: Migration def change create_table <str> do | t | t . integer <str> , <str> : false t . integer <str> , <str> : false t . integer <str> t . integer <str> t . integer <str> t . integer <str> t . timestamps end add_index <str> , [ <str> , <str> ] add_index <str> , [ <str> ] end end 

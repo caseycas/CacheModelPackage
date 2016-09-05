@@ -1,0 +1,1 @@
+require File . expand_path ( <str> , __FILE__ ) require <str> class Person < ActiveRecord :: Base establish_connection <str> : <str> , <str> : <str> connection . create_table table_name , <str> : true do | t | t . string <str> end end bob = Person . create! ( name : <str> ) puts Person . all . inspect bob . destroy puts Person . all . inspect 

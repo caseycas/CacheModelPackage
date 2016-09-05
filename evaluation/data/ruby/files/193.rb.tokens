@@ -1,0 +1,1 @@
+if <str> [ <int> ] . kind_of? Fixnum unless Fixnum . methods . include? <str> class Fixnum def ord ; self ; end end end end require <str> require <str> require <str> 

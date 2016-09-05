@@ -1,0 +1,1 @@
+package org . elasticsearch . rest ; public interface RestFilterChain { void continueProcessing ( RestRequest request , RestChannel channel ) ; } 

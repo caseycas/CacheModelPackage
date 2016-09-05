@@ -1,0 +1,1 @@
+class AddProfileBackgroundToUser < ActiveRecord :: Migration def change add_column <str> , <str> , <str> , <str> : <int> end end 

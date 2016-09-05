@@ -1,0 +1,1 @@
+class ProjectSnippet < Snippet belongs_to <str> belongs_to <str> , <str> : <str> validates <str> , <str> : true scope <str> , - > { order ( <str> ) } scope <str> , - > { where ( [ <str> , Time . current ] ) } scope <str> , - > { where ( [ <str> , Time . current ] ) } end 

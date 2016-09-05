@@ -1,0 +1,1 @@
+if ENV [ <str> ] == <str> APP_ROOT = <str> num_workers = ENV [ <str> ] . to_i > <int> ? ENV [ <str> ] . to_i : <int> workers <str> num_workers <str> threads <int> , <int> bind <str> APP_ROOT <str> stdout_redirect <str> APP_ROOT <str> , <str> APP_ROOT <str> pidfile <str> APP_ROOT <str> state_path <str> APP_ROOT <str> daemonize true preload_app! end 

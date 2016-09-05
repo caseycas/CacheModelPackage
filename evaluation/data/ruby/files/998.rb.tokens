@@ -1,0 +1,1 @@
+class CategorySearchData < ActiveRecord :: Base belongs_to <str> validates_presence_of <str> end 

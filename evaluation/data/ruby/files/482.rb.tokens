@@ -1,0 +1,1 @@
+test_name <str> manifest = <str> apply_manifest_on ( agents , manifest ) do fail_test <str> if stdout . include? <str> end 

@@ -1,1 +1,0 @@
-package org . nd4j . bytebuddy . arrays . assign ; public interface AssignValue { void assign ( int [ ] arr , int index , int value ) ; }

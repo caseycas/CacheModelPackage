@@ -1,0 +1,1 @@
+RSpec . shared_examples_for <str> do it { is_expected . to respond_to <str> } end 

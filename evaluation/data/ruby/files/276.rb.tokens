@@ -1,0 +1,1 @@
+unless Object . const_defined? ( <str> ) and RUBY_NAME if Object . const_defined? ( <str> ) and RUBY_ENGINE RUBY_NAME = RUBY_ENGINE else require <str> RUBY_NAME = RbConfig :: CONFIG [ <str> ] || RbConfig :: CONFIG [ <str> ] end end 

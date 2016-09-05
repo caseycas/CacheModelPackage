@@ -1,0 +1,1 @@
+test_name <str> confine <str> , <str> = > <str> name = <str> rand ( <int> ) . to_i <str> agents . each do | agent | step <str> agent . user_present ( name ) step <str> on agent , puppet_resource ( <str> , name , <str> ) step <str> fail_test <str> name <str> if agent . user_list . include? name step <str> agent . user_absent ( name ) end 

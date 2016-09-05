@@ -1,0 +1,1 @@
+class AddIssuesTrackerToProject < ActiveRecord :: Migration def change add_column <str> , <str> , <str> , <str> : <str> , <str> : false end end 

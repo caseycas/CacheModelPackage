@@ -1,0 +1,1 @@
+require <str> require <str> describe Bosh :: Stemcell do it { should be_a ( Module ) } end 

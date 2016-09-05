@@ -1,0 +1,1 @@
+require <str> here = ARGV . shift DRb . start_service ( here , [ <int> , <int> , <str> , <int> , <str> , <int> ] ) puts DRb . uri DRb . thread . join 

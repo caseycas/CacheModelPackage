@@ -1,0 +1,1 @@
+class RenameExpressionColumnsInForumThread < ActiveRecord :: Migration def change rename_column <str> , <str> , <str> rename_column <str> , <str> , <str> rename_column <str> , <str> , <str> remove_column <str> , <str> remove_column <str> , <str> end end 

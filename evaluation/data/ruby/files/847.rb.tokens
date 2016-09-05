@@ -1,0 +1,1 @@
+describe <str> , <str> = > true do it <str> do <str> . match ( <str> ) . send ( @method ) . should == <int> end end 

@@ -1,0 +1,1 @@
+class Libsoxr < Formula desc <str> homepage <str> url <str> mirror <str> sha256 <str> bottle do cellar <str> revision <int> sha256 <str> = > <str> sha256 <str> = > <str> sha256 <str> = > <str> end depends_on <str> = > <str> conflicts_with <str> , <str> = > <str> def install system <str> , <str> , * std_cmake_args system <str> , <str> end end 

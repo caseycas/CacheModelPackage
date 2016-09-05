@@ -1,1 +1,0 @@
-package org . nd4j . linalg . dataset . api ; public interface DataSetPreProcessor { void preProcess ( DataSet toPreProcess ) ; }

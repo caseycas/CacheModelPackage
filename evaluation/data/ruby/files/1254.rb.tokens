@@ -1,0 +1,1 @@
+class Ipsumdump < Formula desc <str> homepage <str> url <str> sha256 <str> head <str> bottle do sha256 <str> = > <str> sha256 <str> = > <str> sha256 <str> = > <str> end def install system <str> , <str> prefix <str> system <str> system <str> , <str> end test do system <str> bin <str> , <str> , <str> , <str> test_fixtures ( <str> ) <str> end end 

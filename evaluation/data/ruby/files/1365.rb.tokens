@@ -1,0 +1,1 @@
+module Puppet::ModuleTool::Errors class ModuleToolError < Puppet :: Error def v ( version ) ( version || <str> ) . to_s . sub ( <str> , <str> ) end def vstring if @action == <str> <str> v ( @installed_version ) <str> v ( @requested_version ) <str> else <str> v ( @installed_version || @requested_version ) <str> end end end end 

@@ -1,0 +1,1 @@
+require <str> require <str> require <str> require <str> describe Fog :: PowerDNS do include Fog :: BinSpec let ( <str> ) { PowerDNS } end 

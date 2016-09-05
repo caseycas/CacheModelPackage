@@ -1,0 +1,1 @@
+module MetaClassSpecs def self . metaclass_of obj class << obj self end end class A def self . cheese <str> end end class B < A def self . cheese <str> end end class C class << self class << self def ham <str> end end end end class D < C ; end end 

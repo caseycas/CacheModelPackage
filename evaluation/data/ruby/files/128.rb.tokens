@@ -1,0 +1,1 @@
+require <str> require <str> describe Puppet :: DataBinding do describe <str> do it <str> do Puppet :: DataBinding . indirection . reset_terminus_class expect ( Puppet :: DataBinding . indirection . terminus_class ) . to eq ( <str> ) end end end 

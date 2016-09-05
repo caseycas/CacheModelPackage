@@ -1,0 +1,1 @@
+class CreateColorSchemes < ActiveRecord :: Migration def change create_table <str> do | t | t . string <str> , <str> : false t . boolean <str> , <str> : false , <str> : false t . integer <str> t . integer <str> , <str> : false , <str> : <int> t . timestamps end end end 

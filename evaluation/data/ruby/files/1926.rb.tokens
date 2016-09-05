@@ -1,0 +1,1 @@
+module Fog module Vcloud class Compute class Real basic_request <str> , <int> , <str> end end end end 

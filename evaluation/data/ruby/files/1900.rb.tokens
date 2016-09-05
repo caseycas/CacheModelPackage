@@ -1,0 +1,1 @@
+require <str> module Msf module Handler module FindShell include FindPort def self . handler_type return <str> end def self . general_handler_type <str> end def initialize ( info = { } ) super options . remove_option ( <str> ) end protected end end end 

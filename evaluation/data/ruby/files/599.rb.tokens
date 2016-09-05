@@ -1,0 +1,1 @@
+Puppet :: Functions . create_function ( <str> ) do def rb_func_a ( ) <str> end end 

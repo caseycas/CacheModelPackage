@@ -1,0 +1,1 @@
+Haml :: Template . options [ <str> ] = true Haml :: Filters . remove_filter ( <str> ) Haml :: Filters . remove_filter ( <str> ) 

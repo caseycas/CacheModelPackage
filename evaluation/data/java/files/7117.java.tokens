@@ -1,1 +1,0 @@
-package org . apache . cassandra . auth ; import java . util . Set ; public interface IResource { String getName ( ) ; IResource getParent ( ) ; boolean hasParent ( ) ; boolean exists ( ) ; Set < Permission > applicablePermissions ( ) ; }

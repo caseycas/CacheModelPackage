@@ -1,0 +1,1 @@
+module Bosh::Director::Models class Task < Sequel :: Model ( Bosh :: Director :: Config . db ) def validate validates_presence [ <str> , <str> , <str> ] end end end 

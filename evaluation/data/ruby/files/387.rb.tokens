@@ -1,0 +1,1 @@
+require File . expand_path ( <str> , __FILE__ ) describe <str> do it <str> do t = Rubinius :: Tuple . new ( <int> ) t . put ( <int> , <int> ) t . put ( <int> , <int> ) t . put ( <int> , <int> ) t . put ( <int> , <int> ) t . put ( <int> , <int> ) t . swap ( <int> , <int> ) t . at ( <int> ) . should == <int> t . at ( <int> ) . should == <int> end end 

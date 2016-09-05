@@ -1,0 +1,1 @@
+class Gem :: Source :: Vendor < Gem :: Source :: Installed def initialize path @uri = path end def <=> other case other when Gem :: Source :: Lock then - <int> when Gem :: Source :: Vendor then <int> when Gem :: Source then <int> else nil end end end 

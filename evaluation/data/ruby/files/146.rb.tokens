@@ -1,0 +1,1 @@
+class Mcpp < Formula desc <str> homepage <str> url <str> sha256 <str> patch <str> def install system <str> , <str> , <str> , <str> prefix <str> , <str> system <str> , <str> end end 

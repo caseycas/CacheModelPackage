@@ -1,0 +1,1 @@
+require <str> class FileFormatter < DottedFormatter def register super MSpec . unregister <str> , self MSpec . unregister <str> , self MSpec . register <str> , self MSpec . register <str> , self end alias_method <str> , <str> alias_method <str> , <str> end 

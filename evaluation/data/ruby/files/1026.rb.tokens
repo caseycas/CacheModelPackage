@@ -1,0 +1,1 @@
+require <str> target = <str> unless macro_defined? ( <str> , <str> ) have_header ( ioctl_h = <str> ) or ioctl_h = nil fionread = <str> . find do | h | have_macro ( <str> , [ h , ioctl_h ] . compact ) end if fionread $defs << <str> fionread <str> create_makefile ( target ) end else if have_func ( <str> , <str> ) have_func ( <str> , <str> ) create_makefile ( target ) end end 

@@ -1,0 +1,1 @@
+package org . gradle . launcher . daemon . client ; import org . gradle . launcher . daemon . context . DaemonInstanceDetails ; public interface DaemonStartListener { void daemonStarted ( DaemonInstanceDetails daemonInfo ) ; } 

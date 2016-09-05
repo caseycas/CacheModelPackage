@@ -1,1 +1,0 @@
-package org . eclipse . debug . core . commands ; public interface ISuspendHandler extends IDebugCommandHandler { }

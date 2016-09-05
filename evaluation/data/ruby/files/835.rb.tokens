@@ -1,0 +1,1 @@
+class Jsvc < Formula desc <str> homepage <str> url <str> version <str> sha256 <str> patch <str> depends_on <str> def install ENV . append <str> , <str> MacOS . preferred_arch <str> ENV . append <str> , <str> MacOS . preferred_arch <str> ENV . append <str> , <str> prefix . install <str> cd <str> system <str> , <str> , <str> system <str> bin . install <str> end end 

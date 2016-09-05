@@ -1,1 +1,0 @@
-package org . nd4j . linalg . benchmark . linearview ; import org . nd4j . linalg . benchmark . api . OpRunner ; import org . nd4j . linalg . factory . Nd4j ; public class LinearViewOpRunner implements OpRunner { int num = <int> ; @Override public void runOp ( ) { Nd4j . create ( <int> ) . reshape ( <int> , num / <int> ) . resetLinearView ( ) ; } }

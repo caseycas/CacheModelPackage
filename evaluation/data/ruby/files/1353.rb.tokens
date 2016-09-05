@@ -1,0 +1,1 @@
+s = Struct . new ( * ( <str> .. <str> ) . map { | x | x . to_sym } ) x = s . new i = <int> while i < <int> i += <int> x . z end 

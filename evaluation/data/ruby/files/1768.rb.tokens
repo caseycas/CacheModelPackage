@@ -1,0 +1,1 @@
+class Liblacewing < Formula desc <str> homepage <str> head <str> url <str> sha256 <str> revision <int> bottle do cellar <str> revision <int> sha256 <str> = > <str> sha256 <str> = > <str> sha256 <str> = > <str> end depends_on <str> def install system <str> , <str> prefix <str> system <str> system <str> , <str> mv <str> lib <str> , <str> lib <str> end end 

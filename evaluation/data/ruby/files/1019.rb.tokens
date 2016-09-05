@@ -1,0 +1,1 @@
+class Rdate < Formula desc <str> homepage <str> url <str> sha256 <str> bottle do cellar <str> revision <int> sha256 <str> = > <str> sha256 <str> = > <str> sha256 <str> = > <str> end def install system <str> , <str> , <str> , <str> prefix <str> , <str> man <str> system <str> , <str> end test do system <str> bin <str> , <str> , <str> , <str> , <str> end end 

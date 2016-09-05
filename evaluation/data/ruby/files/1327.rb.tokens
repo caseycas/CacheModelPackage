@@ -1,0 +1,1 @@
+module ActionView module Helpers module DebugHelper include TagHelper def debug ( object ) Marshal :: dump ( object ) object = ERB :: Util . html_escape ( object . to_yaml ) content_tag ( <str> , object , <str> = > <str> ) rescue content_tag ( <str> , object . inspect , <str> = > <str> ) end end end end 

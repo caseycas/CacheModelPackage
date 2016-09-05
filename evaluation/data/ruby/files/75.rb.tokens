@@ -1,0 +1,1 @@
+require <str> class Object def encode ( str , encoding ) unless str . is_a? String and encoding . is_a? String raise ArgumentError , <str> end if FeatureGuard . enabled? <str> str . force_encoding encoding end str end end 

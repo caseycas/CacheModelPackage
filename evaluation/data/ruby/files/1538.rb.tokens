@@ -1,0 +1,1 @@
+class Udpxy < Formula desc <str> homepage <str> url <str> sha256 <str> version <str> bottle do sha256 <str> = > <str> sha256 <str> = > <str> sha256 <str> = > <str> end patch <str> def install system <str> system <str> , <str> , <str> prefix <str> , <str> end plist_options <str> = > <str> def plist ; <<- <str> EOS <str> . undent <str> EOS end end 

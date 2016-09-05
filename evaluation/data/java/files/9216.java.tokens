@@ -1,1 +1,0 @@
-package org . eclipse . debug . core . commands ; public interface ITerminateHandler extends IDebugCommandHandler { }

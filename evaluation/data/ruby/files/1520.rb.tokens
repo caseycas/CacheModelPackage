@@ -1,0 +1,1 @@
+module Fog module Bluebox class BLB class Real def get_lb_services ( lb_application_id ) request ( <str> = > <int> , <str> = > <str> , <str> = > <str> lb_application_id <str> ) end end class Mock end end end end 

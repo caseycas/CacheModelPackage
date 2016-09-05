@@ -1,0 +1,1 @@
+require File . expand_path ( <str> , __FILE__ ) describe <str> do before <str> do ruby_exe ( <str> ) end it <str> do $? . exitstatus . should == <int> end end 

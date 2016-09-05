@@ -1,1 +1,0 @@
-package org . eclipse . debug . ui . memory ; public interface IMemoryRenderingManager extends IMemoryRenderingBindingsProvider { public IMemoryRenderingType [ ] getRenderingTypes ( ) ; public IMemoryRenderingType getRenderingType ( String id ) ; }

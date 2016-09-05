@@ -1,0 +1,1 @@
+def test_domain <str> end def do_not_delete_record <str> test_domain <str> end def cleanup_records Fog :: DNS [ <str> ] . records . each do | r | r . destroy if r . name =~ <str> test_domain <str> and r . name != do_not_delete_record end end 

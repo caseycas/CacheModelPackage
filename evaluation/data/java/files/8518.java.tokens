@@ -1,1 +1,0 @@
-package org . eclipse . debug . internal . ui . viewers . model . provisional ; public interface IElementLabelProvider { public void update ( ILabelUpdate [ ] updates ) ; }

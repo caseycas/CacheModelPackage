@@ -1,0 +1,1 @@
+module Fog module Compute class Ninefold class Real def list_events ( options = { } ) request ( <str> , options , <str> = > [ <int> ] , <str> = > <str> , <str> = > Array ) end end end end end 

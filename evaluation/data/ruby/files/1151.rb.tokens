@@ -1,0 +1,1 @@
+class Person include ActiveModel :: Validations extend ActiveModel :: Translation attr_accessor <str> , <str> , <str> , <str> def condition_is_true true end end class Person :: Gender extend ActiveModel :: Translation end class Child < Person end 

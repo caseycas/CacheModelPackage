@@ -1,1 +1,0 @@
-package jcuda . jcusolver ; import jcuda . NativePointerObject ; public class csrqrInfo extends NativePointerObject { public csrqrInfo ( ) { } @Override public String toString ( ) { return <str> + <str> + Long . toHexString ( getNativePointer ( ) ) + <str> ; } }

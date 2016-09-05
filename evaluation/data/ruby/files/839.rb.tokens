@@ -1,0 +1,1 @@
+module Fog module Compute class Ovirt class Real def list_templates ( filters = { } ) client . templates ( filters ) . map { | ovirt_obj | ovirt_attrs ovirt_obj } end end class Mock def list_templates ( filters = { } ) xml = read_xml <str> Nokogiri :: XML ( xml ) . xpath ( <str> ) . map do | t | ovirt_attrs OVIRT :: Template :: new ( self , t ) end end end end end end 

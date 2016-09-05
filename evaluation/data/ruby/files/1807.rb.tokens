@@ -1,0 +1,1 @@
+module Fog module Compute class Joyent class Key < Fog :: Model identity <str> attribute <str> attribute <str> attribute <str> , <str> = > <str> def destroy requires <str> service . delete_key ( name ) end end end end end 

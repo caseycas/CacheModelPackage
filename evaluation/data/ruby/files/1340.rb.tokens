@@ -1,0 +1,1 @@
+class MigrateToNewMembersModel < ActiveRecord :: Migration def up execute <str> execute <str> end def down Member . delete_all end end 

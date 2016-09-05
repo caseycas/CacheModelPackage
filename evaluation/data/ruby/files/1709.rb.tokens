@@ -1,0 +1,1 @@
+require <str> class TestKOI8 < Test :: Unit :: TestCase ASSERTS = <str> def test_koi8_r eval ( <str> + ASSERTS . gsub ( <str> , <str> ) ) end def test_koi8_u eval ( <str> + ASSERTS . gsub ( <str> , <str> ) ) end end 

@@ -1,0 +1,1 @@
+i = <int> @ret = [ <str> , true , false , <str> , <int> , nil , <int> . <int> , <hex> ] def foo ( i ) @ret [ i % @ret . size ] end while i < <int> case foo ( i ) when <str> then <str> when true then true when false then false when <str> then <str> when <int> then <str> when nil then nil when <int> . <int> then <str> when <hex> then <str> end i += <int> end 

@@ -1,0 +1,1 @@
+package org . gradle . launcher . cli ; import org . gradle . cli . CommandLineParser ; import org . gradle . cli . ParsedCommandLine ; public interface CommandLineAction { void configureCommandLineParser ( CommandLineParser parser ) ; Runnable createAction ( CommandLineParser parser , ParsedCommandLine commandLine ) ; } 

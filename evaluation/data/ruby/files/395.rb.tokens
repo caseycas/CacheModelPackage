@@ -1,0 +1,1 @@
+class BeNaNMatcher def matches? ( actual ) @actual = actual @actual . kind_of? ( Float ) && @actual . nan? end def failure_message [ <str> @actual <str> , <str> ] end def negative_failure_message [ <str> @actual <str> , <str> ] end end class Object def be_nan BeNaNMatcher . new end end 

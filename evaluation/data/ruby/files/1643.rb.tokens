@@ -1,0 +1,1 @@
+h = { } strs = [ * <int> .. <int> ] . map! { | i | i . fdiv ( <int> ) } strs . each { | s | h [ s ] = s } <int> . times { strs . each { | s | h [ s ] } } 

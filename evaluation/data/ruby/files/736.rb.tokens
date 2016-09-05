@@ -1,0 +1,1 @@
+require <str> module Bosh::Director module Api::Controllers class CleanupController < BaseController post <str> , <str> = > <str> do job_queue = JobQueue . new payload = json_decode ( request . body ) task = Bosh :: Director :: Jobs :: CleanupArtifacts . enqueue ( current_user , payload [ <str> ] , job_queue ) redirect <str> task . id <str> end end end end 

@@ -1,0 +1,1 @@
+test_name <str> agents . each do | agent | target = agent . tmpfile ( <str> ) step <str> on agent , <str> target <str> step <str> on ( agent , puppet_resource ( <str> , <str> , <str> , <str> , <str> target <str> ) ) step <str> on ( agent , <str> target <str> target <str> ) do fail_test <str> unless stdout =~ <str> end end 

@@ -1,0 +1,1 @@
+package org . gradle . cli ; public class SystemPropertiesCommandLineConverter extends AbstractPropertiesCommandLineConverter { @Override protected String getPropertyOption ( ) { return <str> ; } @Override protected String getPropertyOptionDetailed ( ) { return <str> ; } @Override protected String getPropertyOptionDescription ( ) { return <str> ; } } 

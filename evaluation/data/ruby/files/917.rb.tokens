@@ -1,0 +1,1 @@
+long_lived = [ ] if RUBY_VERSION > <str> <int> . times { GC . start ( <str> : false , <str> : true , <str> : false ) } elsif GC . start end i = <int> short_lived = <str> while i < <int> long_lived [ <int> ] = short_lived i += <int> end 

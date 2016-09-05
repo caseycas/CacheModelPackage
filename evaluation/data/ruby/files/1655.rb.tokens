@@ -1,0 +1,1 @@
+module Puppet::Pops::Patterns NUMERIC = <str> ILLEGAL_HOSTNAME_CHARS = <str> NAME = <str> CLASSREF_EXT = <str> CLASSREF = <str> DOLLAR_VAR = <str> VAR_NAME = <str> PARAM_NAME = <str> NUMERIC_VAR_NAME = <str> end 

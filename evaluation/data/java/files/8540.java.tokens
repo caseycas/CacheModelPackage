@@ -1,1 +1,0 @@
-package org . eclipse . debug . internal . ui . viewers . model . provisional ; public interface ICheckUpdate extends ILabelUpdate { public static final String PROP_CHECK = <str> ; public void setChecked ( boolean checked , boolean grayed ) ; }

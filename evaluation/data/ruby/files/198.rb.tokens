@@ -1,0 +1,1 @@
+module Fog module Compute class Openvz class Real def start_server ( id , options = { } ) vzctl ( <str> , { <str> = > id } . merge ( options ) ) end end class Mock def start_server ( id , options = { } ) server = self . data [ <str> ] . find { | s | s [ <str> ] . to_s == id . to_s } unless server . nil? server [ <str> ] = <str> end end end end end end 

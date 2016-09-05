@@ -1,0 +1,1 @@
+class Treasure < ActiveRecord :: Base has_and_belongs_to_many <str> belongs_to <str> , <str> = > true belongs_to <str> has_many <str> , <str> = > <str> has_and_belongs_to_many <str> , <str> : <str> , <str> : false accepts_nested_attributes_for <str> end class HiddenTreasure < Treasure end 

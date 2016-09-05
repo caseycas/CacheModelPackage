@@ -1,0 +1,1 @@
+class Admin :: ImpersonateController < Admin :: AdminController def create params . require ( <str> ) user = User . find_by_username_or_email ( params [ <str> ] ) raise Discourse :: NotFound if user . blank? guardian . ensure_can_impersonate! ( user ) StaffActionLogger . new ( current_user ) . log_impersonate ( user ) log_on_user ( user ) render <str> : true end end 

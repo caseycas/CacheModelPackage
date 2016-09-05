@@ -1,0 +1,1 @@
+require <str> describe CategoryGroup do describe <str> do context <str> do before do @permission_types = CategoryGroup . permission_types end it <str> do expect ( @permission_types [ <str> ] ) . to eq ( <int> ) end it <str> do expect ( @permission_types [ <str> ] ) . to eq ( <int> ) end end end end 

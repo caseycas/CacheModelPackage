@@ -1,0 +1,1 @@
+require <str> describe Banzai :: Filter :: TaskListFilter , <str> : true do include FilterSpecHelper it <str> do exp = act = <str> expect ( filter ( act ) . to_html ) . to eq exp end it <str> do act = filter ( <str> ) expect ( act . to_html ) . to start_with <str> end end 

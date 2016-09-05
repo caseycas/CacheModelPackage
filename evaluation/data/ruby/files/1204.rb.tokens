@@ -1,0 +1,1 @@
+module Fog module Compute class VcloudDirector class Real def post_reboot_vapp ( id ) request ( <str> = > <int> , <str> = > <str> , <str> = > Fog :: ToHashDocument . new , <str> = > <str> id <str> ) end end end end end 

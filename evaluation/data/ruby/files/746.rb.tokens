@@ -1,0 +1,1 @@
+require <str> class TestGemSourceFetchProblem < Gem :: TestCase def test_exception source = Gem :: Source . new @gem_repo error = RuntimeError . new <str> sf = Gem :: SourceFetchProblem . new source , error e = assert_raises RuntimeError do raise sf end assert_equal <str> , e . message end end 

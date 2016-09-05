@@ -1,1 +1,0 @@
-package com . badlogic . gdx . graphics ; import com . badlogic . gdx . graphics . Pixmap . Format ; import com . badlogic . gdx . graphics . glutils . KTXTextureData ; public interface CubemapData { public boolean isPrepared ( ) ; public void prepare ( ) ; public void consumeCubemapData ( ) ; public int getWidth ( ) ; public int getHeight ( ) ; public boolean isManaged ( ) ; }

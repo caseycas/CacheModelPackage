@@ -1,1 +1,0 @@
-package org . nd4j . linalg . api . parallel . tasks ; import java . util . concurrent . Callable ; public interface Task < V > extends Callable < V > { V invokeBlocking ( ) ; void invokeAsync ( ) ; V blockUntilComplete ( ) ; V call ( ) ; }

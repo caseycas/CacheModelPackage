@@ -1,0 +1,1 @@
+$INCFLAGS << <str> $srcs = Dir [ File . join ( $srcdir , <str> SRC_EXT . join ( <str> ) <str> ) ] inits = $srcs . map { | s | File . basename ( s , <str> ) } inits . delete ( <str> ) inits . map! { | s | <str> s <str> } $defs << <str> inits . join ( <str> ) <str> create_makefile ( <str> ) 

@@ -1,0 +1,1 @@
+module Workers module Mail class Liked < Base sidekiq_options <str> : <str> def perform ( recipient_id , sender_id , like_id ) Notifier . liked ( recipient_id , sender_id , like_id ) . deliver_now rescue ActiveRecord :: RecordNotFound = > e logger . warn ( <str> e . message <str> ) raise e unless e . message . start_with? ( <str> ) end end end end 

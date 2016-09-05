@@ -1,0 +1,1 @@
+class CupsPdf < Formula desc <str> homepage <str> url <str> sha256 <str> patch <str> def install system ENV . cc , ENV . cflags , <str> , <str> , <str> ( etc + <str> ) . install <str> ( lib + <str> ) . install <str> ( share + <str> ) . install <str> end def caveats ; <<- <str> EOF <str> . undent <str> EOF end end 

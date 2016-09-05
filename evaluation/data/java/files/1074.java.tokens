@@ -1,0 +1,1 @@
+package org . gradle . launcher . daemon . server . api ; public class DaemonStoppedException extends RuntimeException { public static final String MESSAGE = <str> ; public DaemonStoppedException ( ) { super ( MESSAGE ) ; } } 

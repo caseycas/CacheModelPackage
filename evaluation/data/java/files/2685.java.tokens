@@ -1,1 +1,0 @@
-package jcuda . jcublas ; public class cublasSideMode { public static final int CUBLAS_SIDE_LEFT = <int> ; public static final int CUBLAS_SIDE_RIGHT = <int> ; private cublasSideMode ( ) { } public static String stringFor ( int n ) { switch ( n ) { case CUBLAS_SIDE_LEFT : return <str> ; case CUBLAS_SIDE_RIGHT : return <str> ; } return <str> + n ; } }

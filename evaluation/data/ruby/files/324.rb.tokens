@@ -1,0 +1,1 @@
+class Flake < Formula desc <str> homepage <str> url <str> sha256 <str> def install ENV . j1 system <str> , <str> , <str> prefix <str> system <str> system <str> , <str> end end 

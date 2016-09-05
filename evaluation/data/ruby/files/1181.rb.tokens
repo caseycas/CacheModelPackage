@@ -1,0 +1,1 @@
+class Dmalloc < Formula desc <str> homepage <str> url <str> sha256 <str> def install system <str> , <str> , <str> prefix <str> system <str> , <str> , <str> , <str> , <str> end test do system <str> bin <str> , <str> , <str> end end 

@@ -1,0 +1,1 @@
+class Treaty < ActiveRecord :: Base self . primary_key = <str> has_and_belongs_to_many <str> end 

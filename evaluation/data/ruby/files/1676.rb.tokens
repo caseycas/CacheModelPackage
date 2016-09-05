@@ -1,0 +1,1 @@
+module ActionCable module SubscriptionAdapter extend ActiveSupport :: Autoload autoload <str> autoload <str> end end 

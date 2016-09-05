@@ -1,0 +1,1 @@
+require <str> require <str> class HardwareTests < Homebrew :: TestCase def test_hardware_cpu_type assert_includes [ <str> , <str> ] , Hardware :: CPU . type end def test_hardware_intel_family families = [ <str> , <str> , <str> , <str> , <str> , <str> , <str> , <str> , <str> , <str> ] assert_includes families , Hardware :: CPU . family end if Hardware :: CPU . intel? end 

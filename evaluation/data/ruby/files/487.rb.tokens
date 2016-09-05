@@ -1,0 +1,1 @@
+module Fog module Compute class Glesys class Real def template_list request ( <str> ) end end end end end 

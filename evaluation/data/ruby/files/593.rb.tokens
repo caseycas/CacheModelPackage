@@ -1,0 +1,1 @@
+module Puppet::Util::Splayer def splayed? ! ! @splayed end def splay ( do_splay = Puppet [ <str> ] ) return unless do_splay return if splayed? time = rand ( Puppet [ <str> ] + <int> ) Puppet . info <str> time <str> sleep ( time ) @splayed = true end end 

@@ -1,0 +1,1 @@
+class LabelLink < ActiveRecord :: Base belongs_to <str> , <str> : true belongs_to <str> validates <str> , <str> : true validates <str> , <str> : true end 

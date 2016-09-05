@@ -1,0 +1,1 @@
+require <str> describe Workers :: DeleteAccount do describe <str> do it <str> do account_deletion = double allow ( AccountDeletion ) . to receive ( <str> ) . and_return ( account_deletion ) expect ( account_deletion ) . to receive ( <str> ) Workers :: DeleteAccount . new . perform ( <int> ) end end end 

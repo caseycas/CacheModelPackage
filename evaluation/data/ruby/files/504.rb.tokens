@@ -1,0 +1,1 @@
+module ActionCable module Channel module Naming extend ActiveSupport :: Concern class_methods do def channel_name @channel_name || = name . sub ( <str> , <str> ) . gsub ( <str> , <str> ) . underscore end end delegate <str> , <str> : <str> end end end 

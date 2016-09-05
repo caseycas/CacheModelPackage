@@ -1,0 +1,1 @@
+module Bosh::Stemcell class ArchiveHandler def initialize @shell = Bosh :: Core :: Shell . new end def compress ( directory , archive_filename ) @shell . run ( <str> archive_filename <str> directory <str> ) end end end 

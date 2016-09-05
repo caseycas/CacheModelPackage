@@ -1,0 +1,1 @@
+require <str> require <str> RSpec . describe Rex :: Exploitation :: CmdStagerCertutil do let ( <str> ) { <str> } subject ( <str> ) do described_class . new ( exe ) end describe <str> do it <str> do result = cmd_stager . generate expect ( result ) . to be_kind_of ( Array ) expect ( result ) . to_not be_empty end end end 

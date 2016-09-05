@@ -1,0 +1,1 @@
+require <str> module Fog module Compute class Linode class Flavor < Fog :: Model identity <str> attribute <str> attribute <str> attribute <str> attribute <str> attribute <str> attribute <str> attribute <str> attribute <str> def bits <int> end end end end end 

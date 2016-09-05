@@ -1,0 +1,1 @@
+class PeopleHaveLastNames < ActiveRecord :: Migration :: Current def self . up add_column <str> , <str> , <str> end def self . down remove_column <str> , <str> end end 

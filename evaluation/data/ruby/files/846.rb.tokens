@@ -1,0 +1,1 @@
+Shindo . tests ( <str> , [ <str> ] ) do compute = Fog :: Compute [ <str> ] tests ( <str> ) do <str> . each do | collection | test ( <str> collection <str> ) { compute . respond_to? collection } end end tests ( <str> ) do <str> . each do | collection | test ( <str> collection <str> ) { compute . respond_to? collection } end end end 

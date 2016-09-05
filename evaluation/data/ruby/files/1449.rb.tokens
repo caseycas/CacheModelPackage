@@ -1,0 +1,1 @@
+require <str> module Gitlab module Sherlock @collection = Collection . new class << self attr_reader <str> end def self . enabled? Rails . env . development? && ! ! ENV [ <str> ] end def self . enable_line_profiler? RUBY_ENGINE == <str> end end end 

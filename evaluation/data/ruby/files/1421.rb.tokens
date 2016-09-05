@@ -1,0 +1,1 @@
+require <str> describe CommentsController , <str> : <str> do describe <str> do before do sign_in <str> , alice end context <str> do it <str> , <str> : true do get <str> , format : <str> , <str> : <int> save_fixture ( html_for ( <str> ) , <str> ) end end end end 

@@ -1,0 +1,1 @@
+class CreateDraftSequence < ActiveRecord :: Migration def change create_table <str> do | t | t . integer <str> , <str> : false t . string <str> , <str> : false t . integer <str> , <str> : false end add_index <str> , [ <str> , <str> ] , <str> : true end end 

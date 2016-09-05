@@ -1,0 +1,1 @@
+module Fog module DNS class Rage4 class Real def set_record_failover ( id , active , failover ) request ( <str> = > <int> , <str> = > <str> , <str> = > <str> id <str> active <str> failover <str> ) end end end end end 

@@ -1,0 +1,1 @@
+package jcuda . runtime ; public class cudaPos { public long x ; public long y ; public long z ; public cudaPos ( ) { } public cudaPos ( long x , long y , long z ) { this . x = x ; this . y = y ; this . z = z ; } @Override public String toString ( ) { return <str> + <str> + x + <str> + <str> + y + <str> + <str> + z + <str> ; } } 

@@ -1,0 +1,1 @@
+module Fog module Compute class Cloudstack class Real def ldap_config ( options = { } ) options . merge! ( <str> = > <str> ) request ( options ) end end end end end 

@@ -1,0 +1,1 @@
+module ActiveModel module Type module Helpers module Mutable def cast ( value ) deserialize ( serialize ( value ) ) end def changed_in_place? ( raw_old_value , new_value ) raw_old_value != serialize ( new_value ) end end end end end 

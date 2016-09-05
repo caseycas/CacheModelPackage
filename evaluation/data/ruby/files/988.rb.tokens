@@ -1,0 +1,1 @@
+RSpec . shared_context <str> do after ( <str> ) do Metasploit :: Framework :: Spec :: Constants . clean end end 

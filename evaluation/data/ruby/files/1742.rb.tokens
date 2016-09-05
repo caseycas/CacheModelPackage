@@ -1,0 +1,1 @@
+class Gem :: Resolver :: Set attr_accessor <str> attr_accessor <str> attr_accessor <str> def initialize @prerelease = false @remote = true @errors = [ ] end def find_all req raise NotImplementedError end def prefetch reqs end def remote? @remote end end 

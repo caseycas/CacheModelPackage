@@ -1,0 +1,1 @@
+module Fog module Compute class Bluebox class Real def create_template ( block_id , options = { } ) request ( <str> = > <int> , <str> = > <str> , <str> = > <str> , <str> = > { <str> = > block_id } . merge! ( options ) ) end end end end end 

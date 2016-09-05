@@ -1,0 +1,1 @@
+class Fasd < Formula desc <str> homepage <str> url <str> sha256 <str> bottle <str> def install bin . install <str> man1 . install <str> end test do system <str> bin <str> , <str> , <str> end end 

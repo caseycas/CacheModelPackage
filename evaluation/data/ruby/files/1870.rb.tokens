@@ -1,0 +1,1 @@
+Puppet :: Type . newtype ( <str> ) do desc <str> newparam <str> do desc <str> end end 

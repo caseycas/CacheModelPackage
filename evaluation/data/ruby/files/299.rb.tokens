@@ -1,0 +1,1 @@
+require File . expand_path ( <str> , __FILE__ ) describe <str> do it <str> do lambda { String . send <str> , Fixnum } . should raise_error ( TypeError ) lambda { Object . send <str> , String } . should raise_error ( TypeError ) end it <str> do lambda { BasicObject . send <str> , String } . should raise_error ( TypeError ) end end 

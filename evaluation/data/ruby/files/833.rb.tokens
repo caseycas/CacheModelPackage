@@ -1,0 +1,1 @@
+Fabricator ( <str> ) do name { sequence ( <str> ) { | i | <str> i <str> } } description <str> field_type <str> editable true required true end 

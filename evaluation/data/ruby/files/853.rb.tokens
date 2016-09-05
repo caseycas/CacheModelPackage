@@ -1,0 +1,1 @@
+class Libexif < Formula desc <str> homepage <str> url <str> sha256 <str> bottle do cellar <str> revision <int> sha256 <str> = > <str> sha256 <str> = > <str> sha256 <str> = > <str> sha256 <str> = > <str> end fails_with <str> do build <int> cause <str> end def install system <str> , <str> prefix <str> , <str> system <str> , <str> end end 

@@ -1,0 +1,1 @@
+require <str> describe LabelLink , <str> : true do let ( <str> ) { create ( <str> ) } it { expect ( label ) . to be_valid } it { is_expected . to belong_to ( <str> ) } it { is_expected . to belong_to ( <str> ) } end 

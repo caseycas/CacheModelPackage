@@ -1,0 +1,1 @@
+class String if RUBY_VERSION < <str> def getbyte ( index ) self [ index ] end end end 

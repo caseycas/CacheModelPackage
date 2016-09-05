@@ -1,0 +1,1 @@
+class Gem :: Package :: IOSource < Gem :: Package :: Source attr_reader <str> def initialize io @io = io end def start @start || = begin if io . pos > <int> raise Gem :: Package :: Error , <str> end value = io . read <int> io . rewind value end end def present? true end def with_read_io yield io end def with_write_io yield io end def path end end 

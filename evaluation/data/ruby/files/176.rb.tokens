@@ -1,0 +1,1 @@
+class AddAkismetToApplicationSettings < ActiveRecord :: Migration def change change_table <str> do | t | t . boolean <str> , <str> : false t . string <str> end end end 

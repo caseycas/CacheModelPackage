@@ -1,1 +1,0 @@
-package jcuda . jcublas ; public class cublasFillMode { public static final int CUBLAS_FILL_MODE_LOWER = <int> ; public static final int CUBLAS_FILL_MODE_UPPER = <int> ; private cublasFillMode ( ) { } public static String stringFor ( int n ) { switch ( n ) { case CUBLAS_FILL_MODE_LOWER : return <str> ; case CUBLAS_FILL_MODE_UPPER : return <str> ; } return <str> + n ; } }

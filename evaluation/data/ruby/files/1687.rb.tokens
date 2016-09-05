@@ -1,0 +1,1 @@
+class RemoveUploadedAvatarTemplateFromUsers < ActiveRecord :: Migration def change remove_column <str> , <str> end end 

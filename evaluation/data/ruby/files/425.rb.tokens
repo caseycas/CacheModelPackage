@@ -1,0 +1,1 @@
+require File . expand_path ( <str> , __FILE__ ) describe <str> do it <str> do the_answer = <str> the_answer . should_receive ( <str> ) . with ( <int> , true ) . and_return ( <int> ) Integer ( the_answer ) . should == <int> end end 

@@ -1,0 +1,1 @@
+class Streamripper < Formula desc <str> homepage <str> url <str> sha256 <str> depends_on <str> = > <str> depends_on <str> fails_with <str> do build <int> cause <str> end def install ENV . append_to_cflags ENV . cppflags chmod <oct> , <str> system <str> , <str> prefix <str> , <str> , <str> system <str> , <str> end end 

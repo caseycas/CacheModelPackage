@@ -1,0 +1,1 @@
+begin require <str> have_func ( <str> , <str> ) have_func ( <str> , <str> ) have_func ( <str> , <str> ) have_func ( <str> , <str> ) have_func ( <str> , <str> ) have_func ( <str> , <str> ) have_func ( <str> , <str> ) create_makefile ( <str> ) end 

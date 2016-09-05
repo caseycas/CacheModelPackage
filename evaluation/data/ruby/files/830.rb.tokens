@@ -1,0 +1,1 @@
+class Ripmime < Formula desc <str> homepage <str> url <str> sha256 <str> def install system <str> , <str> , <str> ENV . cflags <str> bin . install <str> man1 . install <str> end end 

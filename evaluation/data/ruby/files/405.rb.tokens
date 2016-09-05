@@ -1,0 +1,1 @@
+class Rp < Formula desc <str> homepage <str> head <str> url <str> version <str> sha256 <str> depends_on <str> = > <str> depends_on <str> = > <str> patch <str> def install mkdir <str> do system <str> , <str> system <str> end bin . install <str> end end 

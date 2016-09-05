@@ -1,0 +1,1 @@
+require <str> have_header ( <str> ) && have_func ( <str> ) && have_func ( <str> ) && create_makefile ( <str> ) 

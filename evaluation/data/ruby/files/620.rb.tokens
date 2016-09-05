@@ -1,0 +1,1 @@
+class TkDialog_Demo1 < TkDialog private def title <str> end def message <str> end def bitmap <str> end def default_button <int> end def buttons [ <str> , <str> , <str> ] end end ret = TkDialog_Demo1 . new ( <str> = > { <str> = > <str> } ) . value case ret when <int> print <str> when <int> print <str> when <int> showCode <str> end 

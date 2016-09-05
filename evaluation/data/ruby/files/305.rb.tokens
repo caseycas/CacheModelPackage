@@ -1,0 +1,1 @@
+class ApacheOpennlp < Formula desc <str> homepage <str> url <str> mirror <str> sha256 <str> bottle <str> def install libexec . install Dir [ <str> ] bin . write_exec_script libexec / <str> end test do assert_equal <str> , pipe_output ( <str> bin <str> , <str> ) . chomp end end 

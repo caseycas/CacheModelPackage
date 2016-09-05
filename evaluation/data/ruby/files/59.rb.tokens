@@ -1,0 +1,1 @@
+Group . ensure_automatic_groups! if g = Group . find_by ( name : <str> , id : <int> ) g . destroy! end 

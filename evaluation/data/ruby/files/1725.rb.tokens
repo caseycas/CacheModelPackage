@@ -1,0 +1,1 @@
+class FuzzyFind < Formula desc <str> homepage <str> url <str> version <str> sha256 <str> head <str> bottle do cellar <str> sha256 <str> = > <str> sha256 <str> = > <str> sha256 <str> = > <str> sha256 <str> = > <str> end def install system <str> bin . install <str> man1 . install <str> ( share / <str> ) . install <str> end test do system <str> bin <str> , <str> end end 

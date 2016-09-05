@@ -1,0 +1,1 @@
+require File . expand_path ( <str> , __FILE__ ) require File . expand_path ( <str> , __FILE__ ) with_feature <str> do describe <str> do it <str> do char = new_character <str> char . digit? . should be_true end it <str> do char = new_character <str> char . digit? . should be_false end end end 

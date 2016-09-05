@@ -1,0 +1,1 @@
+class BashGitPrompt < Formula desc <str> homepage <str> url <str> sha256 <str> head <str> bottle <str> def install share . install <str> , <str> , <str> , <str> , <str> , <str> , <str> ( share / <str> ) . install Dir [ <str> ] , <str> doc . install <str> end def caveats ; <<- <str> EOS <str> . undent <str> EOS end end 

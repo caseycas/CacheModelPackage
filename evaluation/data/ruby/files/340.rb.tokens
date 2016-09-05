@@ -1,0 +1,1 @@
+class FlaggedTopicSerializer < ActiveModel :: Serializer attributes <str> , <str> , <str> , <str> , <str> , <str> , <str> , <str> , <str> end 

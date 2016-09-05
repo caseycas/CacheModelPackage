@@ -1,0 +1,1 @@
+package org . nd4j . instrumentation . server ; import org . junit . Test ; public class RunInstrumentationApplication { @Test public void testInstrumentationApplication ( ) throws Exception { InstrumentationApplication app = new InstrumentationApplication ( ) ; app . start ( ) ; app . stop ( ) ; } } 

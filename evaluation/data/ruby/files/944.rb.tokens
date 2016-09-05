@@ -1,0 +1,1 @@
+class UserNameSerializer < BasicUserSerializer attributes <str> , <str> end 
