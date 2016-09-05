@@ -7,24 +7,21 @@ Author: Zhaopeng Tu
 =========================================================
 
 Parameters:
-Input File: ./data/ruby//fold0.test
-Output File: ./data/ruby//fold0.test.output
+Input File: ./data/ruby//fold1.test
+Output File: ./data/ruby//fold1.test.output
+Ngram File: ./data/ruby//fold1.train.3grams	 Order: 3
+Back-off: 1
+Test Mode: 0
+Test on Files: 1
+Entropy Mode
+Cache: 1, Order: 3
+Type: WINDOW CACHE, Interpolation weight: DYNAMIC
+Debug: 1
 
-=========================================================
-Author: Zhaopeng Tu
- Email: tuzhaopeng@gmail.com
-  Date: 2013-11-18
-  Note: A Caching LM-based Code Suggestion Tool V0.3
-=========================================================
 
 
-=========================================================
-Author: Zhaopeng Tu
- Email: tuzhaopeng@gmail.com
-  Date: 2013-11-18
-  Note: A Caching LM-based Code Suggestion Tool V0.3
-=========================================================
-
+=================================================
+Reading ngrams...
 
 =========================================================
 Author: Zhaopeng Tu
@@ -49,87 +46,18 @@ Debug: 1
 
 =================================================
 Reading ngrams...
+
+=========================================================
+Author: Zhaopeng Tu
+ Email: tuzhaopeng@gmail.com
+  Date: 2013-11-18
+  Note: A Caching LM-based Code Suggestion Tool V0.3
+=========================================================
+
+Parameters:
+Input File: ./data/ruby//fold0.test
+Output File: ./data/ruby//fold0.test.output
 Ngram File: ./data/ruby//fold0.train.3grams	 Order: 3
-Back-off: 1
-Test Mode: 0
-Test on Files: 1
-Entropy Mode
-Cache: 1, Order: 3
-Type: WINDOW CACHE, Interpolation weight: DYNAMIC
-Debug: 1
-
-
-
-=================================================
-Reading ngrams...
-Parameters:
-Input File: ./data/ruby//fold1.test
-Output File: ./data/ruby//fold1.test.output
-Ngram File: ./data/ruby//fold1.train.3grams	 Order: 3
-Back-off: 1
-Test Mode: 0
-Test on Files: 1
-Entropy Mode
-Cache: 1, Order: 3
-Type: WINDOW CACHE, Interpolation weight: DYNAMIC
-Debug: 1
-
-
-
-=================================================
-Reading ngrams...
-Parameters:
-Input File: ./data/ruby//fold3.test
-Output File: ./data/ruby//fold3.test.output
-Ngram File: ./data/ruby//fold3.train.3grams	 Order: 3
-Back-off: 1
-Test Mode: 0
-Test on Files: 1
-Entropy Mode
-Cache: 1, Order: 3
-Type: WINDOW CACHE, Interpolation weight: DYNAMIC
-Debug: 1
-
-
-
-=================================================
-Reading ngrams...
-
-=========================================================
-Author: Zhaopeng Tu
- Email: tuzhaopeng@gmail.com
-  Date: 2013-11-18
-  Note: A Caching LM-based Code Suggestion Tool V0.3
-=========================================================
-
-Parameters:
-Input File: ./data/ruby//fold7.test
-Output File: ./data/ruby//fold7.test.output
-Ngram File: ./data/ruby//fold7.train.3grams	 Order: 3
-Back-off: 1
-Test Mode: 0
-Test on Files: 1
-Entropy Mode
-Cache: 1, Order: 3
-Type: WINDOW CACHE, Interpolation weight: DYNAMIC
-Debug: 1
-
-
-
-=================================================
-Reading ngrams...
-
-=========================================================
-Author: Zhaopeng Tu
- Email: tuzhaopeng@gmail.com
-  Date: 2013-11-18
-  Note: A Caching LM-based Code Suggestion Tool V0.3
-=========================================================
-
-Parameters:
-Input File: ./data/ruby//fold8.test
-Output File: ./data/ruby//fold8.test.output
-Ngram File: ./data/ruby//fold8.train.3grams	 Order: 3
 Back-off: 1
 Test Mode: 0
 Test on Files: 1
@@ -199,9 +127,9 @@ Author: Zhaopeng Tu
 =========================================================
 
 Parameters:
-Input File: ./data/ruby//fold9.test
-Output File: ./data/ruby//fold9.test.output
-Ngram File: ./data/ruby//fold9.train.3grams	 Order: 3
+Input File: ./data/ruby//fold3.test
+Output File: ./data/ruby//fold3.test.output
+Ngram File: ./data/ruby//fold3.train.3grams	 Order: 3
 Back-off: 1
 Test Mode: 0
 Test on Files: 1
@@ -238,6 +166,78 @@ Debug: 1
 
 =================================================
 Reading ngrams...
+
+=========================================================
+Author: Zhaopeng Tu
+ Email: tuzhaopeng@gmail.com
+  Date: 2013-11-18
+  Note: A Caching LM-based Code Suggestion Tool V0.3
+=========================================================
+
+Parameters:
+Input File: ./data/ruby//fold7.test
+Output File: ./data/ruby//fold7.test.output
+Ngram File: ./data/ruby//fold7.train.3grams	 Order: 3
+Back-off: 1
+Test Mode: 0
+Test on Files: 1
+Entropy Mode
+Cache: 1, Order: 3
+Type: WINDOW CACHE, Interpolation weight: DYNAMIC
+Debug: 1
+
+
+
+=================================================
+Reading ngrams...
+
+=========================================================
+Author: Zhaopeng Tu
+ Email: tuzhaopeng@gmail.com
+  Date: 2013-11-18
+  Note: A Caching LM-based Code Suggestion Tool V0.3
+=========================================================
+
+Parameters:
+Input File: ./data/ruby//fold8.test
+Output File: ./data/ruby//fold8.test.output
+Ngram File: ./data/ruby//fold8.train.3grams	 Order: 3
+Back-off: 1
+Test Mode: 0
+Test on Files: 1
+Entropy Mode
+Cache: 1, Order: 3
+Type: WINDOW CACHE, Interpolation weight: DYNAMIC
+Debug: 1
+
+
+
+=================================================
+Reading ngrams...
+
+=========================================================
+Author: Zhaopeng Tu
+ Email: tuzhaopeng@gmail.com
+  Date: 2013-11-18
+  Note: A Caching LM-based Code Suggestion Tool V0.3
+=========================================================
+
+Parameters:
+Input File: ./data/ruby//fold9.test
+Output File: ./data/ruby//fold9.test.output
+Ngram File: ./data/ruby//fold9.train.3grams	 Order: 3
+Back-off: 1
+Test Mode: 0
+Test on Files: 1
+Entropy Mode
+Cache: 1, Order: 3
+Type: WINDOW CACHE, Interpolation weight: DYNAMIC
+Debug: 1
+
+
+
+=================================================
+Reading ngrams...
 1/3 finished.
 1/3 finished.
 1/3 finished.
@@ -268,53 +268,53 @@ Reading ngrams...
 3/3 finished.
 3/3 finished.
 3/3 finished.
-./data/ruby//fold6.test
-Total tokens: 75426
-Sum: 265807
-Entropy: 3.52408
-./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/ruby//fold6.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/ruby//fold6.scope -INPUT_FILE ./data/ruby//fold6.test -OUTPUT_FILE ./data/ruby//fold6.test.output | tee ./data/ruby//fold6.test.log
-./data/ruby//fold2.test
-Total tokens: 80829
-Sum: 251112
-Entropy: 3.1067
-./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/ruby//fold2.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/ruby//fold2.scope -INPUT_FILE ./data/ruby//fold2.test -OUTPUT_FILE ./data/ruby//fold2.test.output | tee ./data/ruby//fold2.test.log
-./data/ruby//fold8.test
-Total tokens: 78878
-Sum: 260848
-Entropy: 3.30698
-./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/ruby//fold8.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/ruby//fold8.scope -INPUT_FILE ./data/ruby//fold8.test -OUTPUT_FILE ./data/ruby//fold8.test.output | tee ./data/ruby//fold8.test.log
 ./data/ruby//fold9.test
-Total tokens: 97110
-Sum: 336873
-Entropy: 3.46898
+Total tokens: 81111
+Sum: 327119
+Entropy: 4.03298
 ./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/ruby//fold9.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/ruby//fold9.scope -INPUT_FILE ./data/ruby//fold9.test -OUTPUT_FILE ./data/ruby//fold9.test.output | tee ./data/ruby//fold9.test.log
-./data/ruby//fold3.test
-Total tokens: 108416
-Sum: 316999
-Entropy: 2.92392
-./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/ruby//fold3.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/ruby//fold3.scope -INPUT_FILE ./data/ruby//fold3.test -OUTPUT_FILE ./data/ruby//fold3.test.output | tee ./data/ruby//fold3.test.log
-./data/ruby//fold4.test
-Total tokens: 104217
-Sum: 333207
-Entropy: 3.19724
-./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/ruby//fold4.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/ruby//fold4.scope -INPUT_FILE ./data/ruby//fold4.test -OUTPUT_FILE ./data/ruby//fold4.test.output | tee ./data/ruby//fold4.test.log
+./data/ruby//fold8.test
+Total tokens: 95836
+Sum: 316507
+Entropy: 3.30259
+./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/ruby//fold8.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/ruby//fold8.scope -INPUT_FILE ./data/ruby//fold8.test -OUTPUT_FILE ./data/ruby//fold8.test.output | tee ./data/ruby//fold8.test.log
+./data/ruby//fold5.test
+Total tokens: 96830
+Sum: 327113
+Entropy: 3.37822
+./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/ruby//fold5.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/ruby//fold5.scope -INPUT_FILE ./data/ruby//fold5.test -OUTPUT_FILE ./data/ruby//fold5.test.output | tee ./data/ruby//fold5.test.log
+./data/ruby//fold6.test
+Total tokens: 99806
+Sum: 305201
+Entropy: 3.05794
+./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/ruby//fold6.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/ruby//fold6.scope -INPUT_FILE ./data/ruby//fold6.test -OUTPUT_FILE ./data/ruby//fold6.test.output | tee ./data/ruby//fold6.test.log
 ./data/ruby//fold1.test
-Total tokens: 107990
-Sum: 393349
-Entropy: 3.64246
+Total tokens: 103165
+Sum: 280137
+Entropy: 2.71542
 ./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/ruby//fold1.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/ruby//fold1.scope -INPUT_FILE ./data/ruby//fold1.test -OUTPUT_FILE ./data/ruby//fold1.test.output | tee ./data/ruby//fold1.test.log
 ./data/ruby//fold7.test
-Total tokens: 117637
-Sum: 295474
-Entropy: 2.51174
+Total tokens: 96491
+Sum: 391736
+Entropy: 4.05982
 ./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/ruby//fold7.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/ruby//fold7.scope -INPUT_FILE ./data/ruby//fold7.test -OUTPUT_FILE ./data/ruby//fold7.test.output | tee ./data/ruby//fold7.test.log
-./data/ruby//fold5.test
-Total tokens: 132189
-Sum: 361984
-Entropy: 2.73838
-./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/ruby//fold5.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/ruby//fold5.scope -INPUT_FILE ./data/ruby//fold5.test -OUTPUT_FILE ./data/ruby//fold5.test.output | tee ./data/ruby//fold5.test.log
+./data/ruby//fold2.test
+Total tokens: 100314
+Sum: 365757
+Entropy: 3.64612
+./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/ruby//fold2.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/ruby//fold2.scope -INPUT_FILE ./data/ruby//fold2.test -OUTPUT_FILE ./data/ruby//fold2.test.output | tee ./data/ruby//fold2.test.log
+./data/ruby//fold4.test
+Total tokens: 116756
+Sum: 349975
+Entropy: 2.99749
+./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/ruby//fold4.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/ruby//fold4.scope -INPUT_FILE ./data/ruby//fold4.test -OUTPUT_FILE ./data/ruby//fold4.test.output | tee ./data/ruby//fold4.test.log
 ./data/ruby//fold0.test
-Total tokens: 137408
-Sum: 411674
-Entropy: 2.996
+Total tokens: 122214
+Sum: 429600
+Entropy: 3.51515
 ./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/ruby//fold0.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/ruby//fold0.scope -INPUT_FILE ./data/ruby//fold0.test -OUTPUT_FILE ./data/ruby//fold0.test.output | tee ./data/ruby//fold0.test.log
+./data/ruby//fold3.test
+Total tokens: 127577
+Sum: 396966
+Entropy: 3.11158
+./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/ruby//fold3.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/ruby//fold3.scope -INPUT_FILE ./data/ruby//fold3.test -OUTPUT_FILE ./data/ruby//fold3.test.output | tee ./data/ruby//fold3.test.log

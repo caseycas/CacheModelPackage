@@ -262,7 +262,7 @@ inline bool file_exists (const std::string& name)
   return (stat (name.c_str(), &buffer) == 0); 
 }
 
-inline string to_string(double m)
+inline string double_to_string(double m)
 {		
 	char r[64];
 	int		i;
@@ -286,9 +286,9 @@ inline string to_string(double m)
 	return string(r);
 }	
 
-inline string to_string(int m)
+inline string int_to_string(int m)
 {
-	return to_string((double)m);
+	return double_to_string((double)m);
 }
 #endif
 

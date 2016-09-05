@@ -327,7 +327,7 @@ void Suggestion::GetCandidates(const string& prefix,
         {
             for (int i=0; i<(int)candidates.size(); ++i)
             {
-                candidates.at(i).m_debug = "ngram prob: " + to_string(candidates.at(i).m_prob);
+                candidates.at(i).m_debug = "ngram prob: " + double_to_string(candidates.at(i).m_prob);
             }
         }
     }
@@ -357,7 +357,7 @@ float Suggestion::GetProbability(const string& prefix,
         prob = Data::NGRAM->GetProbability(prefix, token, Data::USE_BACKOFF);
         if (Data::DEBUG)
         {
-            debug_info = "ngram prob: " + to_string(pow(2, prob));
+            debug_info = "ngram prob: " + double_to_string(pow(2, prob));
         }
     }
 
@@ -377,7 +377,7 @@ float Suggestion::GetProbability(const string& prefix,
 
             int ngram_count = Data::CACHE.GetCount(cache_prefix, token);
             prob = ngram_discount * pow(2, prob) + cache_discount * ((float)ngram_count/cache_count);
-            debug_info += ", in cache: " + to_string(ngram_count) + "/" + to_string(cache_count);
+            debug_info += ", in cache: " + int_to_string(ngram_count) + "/" + int_to_string(cache_count);
             
             if (prob > 0.0)
             {   //Noticed this behavior in 4 and 5 grams. (in both cache and no cache model, doesn't appear in trigrams for either?)
