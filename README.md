@@ -6,14 +6,16 @@ for robustness and ease of use.  While the original Cache model was based
 on SRILM language models, this allows for the swapping out to the model of your
 choice.
 
-I have currently tested this package on Ubuntu.  Further tests with OSX and
-maybe windows incoming.
+I have currently tested this package on Ubuntu and MacOSX.  Further tests with OSX and
+maybe windows will be provided in the future.
 
 # Installing Language Models
 
-This package is set up to be able to swap out different language models and train and test with them.  The cache model is then built on top of them. While the projects themselves include additional instructions for installation, I'm including the commands I need to use to get them working on Ubuntu 15.10
+This package is set up to be able to swap out different language models and train and test with them.  The cache model is then built on top of them. For convenience, I've provided binaries for SRILM and MITLM that have worked for me on linux (Ubuntu 15.10) and Mac OS X (10.11), under evaluation/srilm or evaluation/mitlm.  If these binaries do not work for you, I've 
+included some 
 
 #Mitlm
+On Linux:
     git clone https://github.com/mitlm/mitlm.git ~/mitlm
     sudo apt-get install gfortran autoconf automake libtool autoconf_archive
     cd ~/mitlm
@@ -21,10 +23,31 @@ This package is set up to be able to swap out different language models and trai
     ./configure
     make
     make install
+On Mac (source: https://github.com/eddieantonio/mitlm/issues/49):
+To install from brew as a command line tool (this is where the included estimate ngram comes from):
+
+    brew tap eddieantonio/eddieantonio
+    brew install mitlm
+
+Then you can run "estimate-ngram ...."
+To install from source via brew, you can try:
+
+    brew install libtool autoconf gcc
+    ./autogen.sh --prefix=/usr/local
+    make
+    make install
+
+I have not successfully compiled from source on MAC OSX, but there is a variety of advice on doing so in these issues:
+https://github.com/jrwdunham/old/issues/32
+https://github.com/mitlm/mitlm/issues/42
+http://simon-joseph.github.io/mitml-osx-yosemite/
+
 
 #Srilm
-I've included binaries for the relevant SRILM programs in ./evaluation/scripts.  They should work on linux machines. If these do not work, you need to compile
-from source.  This requires a license from www.speech.sri.com/projects/srilm
+I've included binaries for the relevant SRILM programs in ./evaluation/.  They should work on linux or mac machines. 
+If these do not work, you need to compile from source.  This requires a license from www.speech.sri.com/projects/srilm
+Follow the steps in the included INSTALL file to compile from source.  Additional MacOSX instructions can be found here:
+http://www1.icsi.berkeley.edu/~wooters/SRILM/
 
 #KenLM
 Instructions incoming.
