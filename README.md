@@ -12,7 +12,8 @@ maybe windows will be provided in the future.
 # Installing Language Models
 
 This package is set up to be able to swap out different language models and train and test with them.  The cache model is then built on top of them. For convenience, I've provided binaries for SRILM and MITLM that have worked for me on linux (Ubuntu 15.10) and Mac OS X (10.11), under evaluation/srilm or evaluation/mitlm.  If these binaries do not work for you, I've 
-included some 
+included some instructions to compile them from source.  Currently, it seems the SRILM binary is portable to other systems,
+but MITLM must be compiled from source on your own machine.
 
 #Mitlm
 On Linux:
@@ -69,10 +70,28 @@ As a final note, the current ruby and java corpora have been lexed in such a
 way to collpase string and number literals to a few types (like &lt;str&gt;, &lt;int&gt;, 
 etc).
 
+# Changing language corpora
+
+The file evaluation/scripts/lm.ini contains information that must be set to choose what language model is used.
+I've include commented out suggestions for how to select your language model, which requires two* items.
+The first is the variable model_type, which selects which language model to run.  Currently, this is either
+SRILM or MITLM.  The second is location, which is the path to the binary for this language model.  Using mitlm
+as an example, which uses the 'estimate-ngram' binary:
+
+    model_type = MITLM
+    location = ~/mitlm/bin/estimate-ngram
+
+*SRILM requires two binaries to run 'ngram-count' and 'ngram'.  These must be specified as in variables as
+location and location2 respectively. So, for example, srilm could be configured as your model like this:
+
+    model_Type = SRILM
+    location = ~/srilm/bin/ngram-count
+    location = ~/srilm/bin/ngram
+
 
 #Compiling Cache Model Code
 The directory evaluation/cachemodel contains the source for producing the entropies
-from the language model files.  Before running, you should run:
+from the language model files.  Before running, you must run:
 
     cd evaluation/cachemodel
     make
