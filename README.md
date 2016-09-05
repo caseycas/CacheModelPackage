@@ -14,13 +14,13 @@ maybe windows incoming.
 This package is set up to be able to swap out different language models and train and test with them.  The cache model is then built on top of them. While the projects themselves include additional instructions for installation, I'm including the commands I need to use to get them working on Ubuntu 15.10
 
 #Mitlm
-git clone https://github.com/mitlm/mitlm.git ~/mitlm
-sudo apt-get install gfortran autoconf automake libtool autoconf_archive
-cd ~/mitlm
-./autogen.sh
-./configure
-make
-make install
+    git clone https://github.com/mitlm/mitlm.git ~/mitlm
+    sudo apt-get install gfortran autoconf automake libtool autoconf_archive
+    cd ~/mitlm
+    ./autogen.sh
+    ./configure
+    make
+    make install
 
 #Srilm
 I've included binaries for the relevant SRILM programs in ./evaluation/scripts.  They should work on linux machines. If these do not work, you need to compile
@@ -37,13 +37,13 @@ netty/netty, eclipse/ide, nostra13/Android-Universal-Image-Loader,
 elastic/elasticsearch, ReactiveX/RxJava, google/guava) all from github except
 the eclipse ide.  The ruby corpus is a random sample of ruby files from 15
 projects (cloudfoundry/bosh, Homebrew/homebrew, rapid7/metasploit-framework, 
-diaspora/diaspora, jekyll/jekyll, rubinius/rubinius, discourse/discourse,  
+diaspora/diaspora, jekyll/jekyll, rubinius/rubinius, discourse/discourse, 
 mysociety/alaveteli, ruby/ruby, fog/fog, puppetlabs/puppet, sass/sass, 
 gitlabhq/gitlabhq, rails/rails, zunda/emoticommits).  The english corpus is 
 simply the Brown Corpus.  The random samples of the code corpora were choosen
 to bring their size down to about 1 million tokens, the same as the Brown corpus.
 As a final note, the current ruby and java corpora have been lexed in such a 
-way to collpase string and number literals to a few types (like <str>, <int>, 
+way to collpase string and number literals to a few types (like &lt;str&gt;, &lt;int&gt;, 
 etc).
 
 
@@ -51,22 +51,22 @@ etc).
 The directory evaluation/cachemodel contains the source for producing the entropies
 from the language model files.  Before running, you should run:
 
-cd evaluation/cachemodel
-make
-cp completion ../
+    cd evaluation/cachemodel
+    make
+    cp completion ../
 
 #Running Instructions
 I've provided sample shell scripts in evaluation to create cache and no cache models.  These are located in evaluation/.  To run the java one from example, 
 type "sh java_example.sh".  I will use this shell script to explain the folder
 structure.
 
-mkdir -p ./results/entropy/java/summary
+    mkdir -p ./results/entropy/java/summary
 
 First, create some directories to store the output. The evalation/results/java directory will store the raw entropy output from the code with additional debug
 information.  The summary directory below this will store a csv file that 
 summarizes the entropies for each test set.
 
-./scripts/train.py ./data/java/ 3 1.0 2
+    ./scripts/train.py ./data/java/ 3 1.0 2
 
 The train.py script is a wrapper to run a 10-fold cross validation on a corpus 
 with a selected language model.  These are specified in evaluation/scripts/lm.ini.
@@ -79,8 +79,8 @@ fraction of the data, and an option for splitting.  Running "train.py -h" can
 provide additional information.  If you are just testing this out, just use 1.0 
 and 2 as the final arguments.
 
-./scripts/cross.py ./data/java/ 3 -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES > ./results/entropy/java/3gramsCache.txt
-./scripts/cross.py ./data/java/ 3 -ENTROPY -BACKOFF -DEBUG -FILES > ./results/entropy/java/3gramsNoCache.txt
+    ./scripts/cross.py ./data/java/ 3 -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES > ./results/entropy/java/3gramsCache.txt
+    ./scripts/cross.py ./data/java/ 3 -ENTROPY -BACKOFF -DEBUG -FILES > ./results/entropy/java/3gramsNoCache.txt
 
 These 2 commands run the 10 test sets against the 10 trained models created by 
 train.py. The flags are forwarded to the completion binary, whose arguments are
@@ -103,7 +103,7 @@ fold0.train.3grams - The ARPA format language models built from this training
 split.
 
 
-python ./scripts/convertCacheResults.py ./results/entropy/java/ ./results/entropy/java/summary/3grams.csv
+    python ./scripts/convertCacheResults.py ./results/entropy/java/ ./results/entropy/java/summary/3grams.csv
 
 This final step is a convenience script to convert the output of the models into a
 csv file. Each ngram order and cache/no cache option gets its own column in the 
