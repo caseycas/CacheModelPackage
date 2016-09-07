@@ -6,6 +6,9 @@ for robustness and ease of use.  While the original Cache model was based
 on SRILM language models, this allows for the swapping out to the model of your
 choice.
 
+Along with the language models, this package uses a combination of C++ and python.
+Make sure that that you run the scripts under python 2.7.
+
 I have currently tested this package on Ubuntu and MacOSX.  Further tests with OSX and
 maybe windows will be provided in the future.
 
