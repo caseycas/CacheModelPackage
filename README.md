@@ -139,12 +139,13 @@ If you look at evaluation/data/java after running train.py and cross.py, you'll
 see several new files.  I will provide a brief explanation of the relevant ones 
 here.  Each is referenced by a fold0, fold1, etc, which refers to what fold it is 
 in.  Using fold0 as an example:
-fold0.test - A list of the files to be used in this fold's test set.
-fold0.train - This is a merged set of tokens, one file per line of this fold's training data.
-fold0.test.log - The individual outputs of ./completion, which are combined in
-evaluation/results/entropy/java/*.txt
-fold0.test.output - The per token entropy data, output by using the -DEBUG option.
-fold0.train.3grams - The ARPA format language models built from this training 
+
+* fold0.test - A list of the files to be used in this fold's test set.
+* fold0.train - This is a merged set of tokens, one file per line of this fold's training data.
+* fold0.test.log - The individual outputs of ./completion, which are combined in
+* evaluation/results/entropy/java/*.txt
+* fold0.test.output - The per token entropy data, output by using the -DEBUG option.
+* fold0.train.3grams - The ARPA format language models built from this training 
 split.
 
 
