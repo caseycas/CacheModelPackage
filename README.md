@@ -61,21 +61,42 @@ http://www1.icsi.berkeley.edu/~wooters/SRILM/
 Instructions incoming.
 
 #Sample corpora
-There are several sample corpora provided in the package.  The java corpus is a 
-random sample of files from 12 java projects (apache/cassandra, gradle/gradle,
+There are several sample corpora provided in the package. 
+
+The java corpus is a random sample of files from 12 java projects (apache/cassandra, gradle/gradle,
 clojure/clojure, junit-team/junit, deeplearning4j/nd4j, libgdx/libgdx, 
 netty/netty, eclipse/ide, nostra13/Android-Universal-Image-Loader, 
 elastic/elasticsearch, ReactiveX/RxJava, google/guava) all from github except
-the eclipse ide.  The ruby corpus is a random sample of ruby files from 15
+the eclipse ide.  
+
+The ruby corpus is a random sample of ruby files from 15
 projects (cloudfoundry/bosh, Homebrew/homebrew, rapid7/metasploit-framework, 
 diaspora/diaspora, jekyll/jekyll, rubinius/rubinius, discourse/discourse, 
 mysociety/alaveteli, ruby/ruby, fog/fog, puppetlabs/puppet, sass/sass, 
-gitlabhq/gitlabhq, rails/rails, zunda/emoticommits).  The english corpus is 
-simply the Brown Corpus.  The random samples of the code corpora were choosen
-to bring their size down to about 1 million tokens, the same as the Brown corpus.
+gitlabhq/gitlabhq, rails/rails, zunda/emoticommits).  
+
+The english corpus is simply the Brown Corpus obtained from nltk.  The random samples 
+of the code corpora were choosen to bring their size down to about 1 million tokens, 
+the same as the Brown corpus. 
+
 As a final note, the current ruby and java corpora have been lexed in such a 
 way to collpase string and number literals to a few types (like &lt;str&gt;, &lt;int&gt;, 
 etc).
+
+Additionally, I've included a variety of domain specific variants of english listed below: 
+
+The Shakespeare corpus was obtained from http://norvig.com/ngrams/ and split into separate files, and
+is slightly under 1 million tokens.
+
+The Scifi corpus is take from a selection of 20 scifi books from the Gutenberg corpus. It is approximately
+1.5 million tokens.  See https://www.gutenberg.org/wiki/Science_Fiction_(Bookshelf) for details.
+
+The legal corpus is a lexed version of the US Code, minus Title 41.  It is slightly over 2 million tokens.
+See http://uscode.house.gov/download/download.shtml for details.
+
+The NASA corpus was obtained by html scraping of active NASA directives.  It is approximately a quarter of
+a million tokens.  See http://nodis3.gsfc.nasa.gov/Rpt_current_directives.cfm for the list of these
+directories.
 
 # Changing language model (How to modify lm.ini)
 
@@ -175,3 +196,7 @@ language model file it will use to generate new tokens, 3 tells the script that 
 2 is the number of new tokens to generate after the base, and java is the language (used for lexing the string).
 
 Note: The Generation Mode currently just uses the raw ngram language model and does not make use of the cache.
+
+# Find a Bug?
+
+If you find any bugs or run into problems while running this package, please open an issue and let me know. 
