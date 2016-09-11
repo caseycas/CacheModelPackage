@@ -1,0 +1,1 @@
+package org . gradle . api . tasks . testing ; import org . gradle . api . GradleException ; import org . gradle . api . Incubating ; @Incubating public class TestExecutionException extends GradleException { public TestExecutionException ( String message ) { super ( message ) ; } public TestExecutionException ( String message , Throwable cause ) { super ( message , cause ) ; } } 

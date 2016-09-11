@@ -1,0 +1,1 @@
+package org . eclipse . debug . core . sourcelookup ; public interface ISourceContainerType extends ISourceContainerTypeDelegate { public String getName ( ) ; public String getId ( ) ; public String getDescription ( ) ; } 

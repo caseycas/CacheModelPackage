@@ -1,0 +1,1 @@
+package org . gradle . performance . results ; import java . util . List ; public interface ResultsStore { List < String > getTestNames ( ) ; TestExecutionHistory getTestResults ( String testName ) ; TestExecutionHistory getTestResults ( String testName , int mostRecentN ) ; } 

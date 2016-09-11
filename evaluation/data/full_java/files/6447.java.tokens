@@ -1,0 +1,1 @@
+package org . elasticsearch . index . fielddata ; public interface IndexGeoPointFieldData extends IndexFieldData < AtomicGeoPointFieldData > { } 

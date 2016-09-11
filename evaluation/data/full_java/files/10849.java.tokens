@@ -1,0 +1,1 @@
+package org . gradle . internal . id ; public interface IdGenerator < T > { T generateId ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle ; import org . junit . Test ; import static org . junit . Assert . * ; public class DoNothingTest { @Test public void doNothing ( ) { } @Test public void doNothingButFail ( ) { fail ( <str> ) ; } @Test public void doNothingButError ( ) { throw new RuntimeException ( <str> ) ; } } 

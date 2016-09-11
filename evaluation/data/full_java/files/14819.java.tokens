@@ -1,0 +1,1 @@
+package org . gradle . jvm . internal ; import org . gradle . api . BuildableModelElement ; import java . io . File ; public interface JarFile extends BuildableModelElement { File getFile ( ) ; void setFile ( File jarFile ) ; } 

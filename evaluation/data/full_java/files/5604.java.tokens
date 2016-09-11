@@ -1,0 +1,1 @@
+package org . elasticsearch . cluster . routing ; import java . util . List ; public abstract class ShardShuffler { public abstract int nextSeed ( ) ; public abstract List < ShardRouting > shuffle ( List < ShardRouting > shards , int seed ) ; public List < ShardRouting > shuffle ( List < ShardRouting > shards ) { return shuffle ( shards , nextSeed ( ) ) ; } } 

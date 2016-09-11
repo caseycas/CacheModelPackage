@@ -1,0 +1,1 @@
+package org . gradle . api . internal . artifacts . ivyservice . ivyresolve ; public interface ModuleComponentRepository { String getId ( ) ; String getName ( ) ; ModuleComponentRepositoryAccess getLocalAccess ( ) ; ModuleComponentRepositoryAccess getRemoteAccess ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . tooling ; import org . gradle . api . Incubating ; @Incubating public interface CancellationTokenSource { void cancel ( ) ; CancellationToken token ( ) ; } 

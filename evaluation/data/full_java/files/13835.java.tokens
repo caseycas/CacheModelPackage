@@ -1,0 +1,1 @@
+package org . gradle . launcher . daemon . protocol ; public class ForwardInput extends InputMessage { private final byte [ ] bytes ; public ForwardInput ( byte [ ] bytes ) { this . bytes = bytes ; } public byte [ ] getBytes ( ) { return bytes ; } } 

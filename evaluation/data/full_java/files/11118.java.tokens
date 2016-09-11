@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts ; import java . util . Set ; public interface ClientModule extends ExternalModuleDependency { void addDependency ( ModuleDependency dependency ) ; String getId ( ) ; Set < ModuleDependency > getDependencies ( ) ; ClientModule copy ( ) ; } 

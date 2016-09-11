@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . model . provisional ; public interface IModelDeltaVisitor { public boolean visit ( IModelDelta delta , int depth ) ; } 

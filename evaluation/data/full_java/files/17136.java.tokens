@@ -1,0 +1,1 @@
+package org . jbox2d . callbacks ; import org . jbox2d . common . Vec2 ; import org . jbox2d . dynamics . Fixture ; import org . jbox2d . dynamics . World ; public interface RayCastCallback { public float reportFixture ( Fixture fixture , Vec2 point , Vec2 normal , float fraction ) ; } 

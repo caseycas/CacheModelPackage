@@ -1,0 +1,1 @@
+package org . gradle . tooling . model . eclipse ; import org . gradle . tooling . model . SourceDirectory ; public interface EclipseSourceDirectory extends SourceDirectory { String getPath ( ) ; } 

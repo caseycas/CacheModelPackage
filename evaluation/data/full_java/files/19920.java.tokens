@@ -1,0 +1,1 @@
+package io . netty . example . udt . echo . rendezvous ; public final class Config { private Config ( ) { } public static final String hostOne = <str> ; public static final int portOne = <int> ; public static final String hostTwo = <str> ; public static final int portTwo = <int> ; } 

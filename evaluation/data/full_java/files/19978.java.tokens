@@ -1,0 +1,1 @@
+package io . netty . handler . ssl ; interface OpenSslEngineMap { OpenSslEngineMap EMPTY = new OpenSslEngineMap ( ) { @Override public OpenSslEngine remove ( long ssl ) { return null ; } @Override public void add ( OpenSslEngine engine ) { } } ; OpenSslEngine remove ( long ssl ) ; void add ( OpenSslEngine engine ) ; } 

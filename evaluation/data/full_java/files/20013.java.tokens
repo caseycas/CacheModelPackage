@@ -1,0 +1,1 @@
+package io . netty . handler . timeout ; import io . netty . channel . Channel ; public enum IdleState { READER_IDLE , WRITER_IDLE , ALL_IDLE } 

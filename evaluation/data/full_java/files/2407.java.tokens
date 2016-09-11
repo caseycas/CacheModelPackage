@@ -1,0 +1,1 @@
+package jcuda . driver ; import jcuda . NativePointerObject ; import jcuda . runtime . cudaEvent_t ; public class CUevent extends NativePointerObject { public CUevent ( ) { } public CUevent ( cudaEvent_t event ) { super ( event ) ; } @Override public String toString ( ) { return <str> + <str> + Long . toHexString ( getNativePointer ( ) ) + <str> ; } } 

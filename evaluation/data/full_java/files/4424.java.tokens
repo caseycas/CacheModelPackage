@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . model . provisional ; public interface IModelChangedListener { public void modelChanged ( IModelDelta delta , IModelProxy proxy ) ; } 

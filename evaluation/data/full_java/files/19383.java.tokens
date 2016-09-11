@@ -1,0 +1,1 @@
+package io . netty . handler . codec . http2 . hpack ; public interface HeaderListener { void addHeader ( byte [ ] name , byte [ ] value , boolean sensitive ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . test ; @Deprecated @JavaAnnotation public interface JavaInterfaceWithAnnotation { @Deprecated @JavaAnnotation String getAnnotatedProperty ( ) ; @Deprecated @JavaAnnotation void annotatedMethod ( ) ; } 

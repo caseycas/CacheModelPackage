@@ -1,0 +1,1 @@
+package com . google . common . collect ; import com . google . common . testing . AbstractPackageSanityTests ; public class PackageSanityTests extends AbstractPackageSanityTests { public PackageSanityTests ( ) { publicApiOnly ( ) ; setDefault ( DiscreteDomain . class , DiscreteDomain . integers ( ) ) ; } } 

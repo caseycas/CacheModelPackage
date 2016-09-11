@@ -1,0 +1,1 @@
+package io . netty . handler . codec . spdy ; public interface SpdySynReplyFrame extends SpdyHeadersFrame { @Override SpdySynReplyFrame setStreamId ( int streamID ) ; @Override SpdySynReplyFrame setLast ( boolean last ) ; @Override SpdySynReplyFrame setInvalid ( ) ; } 

@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . model . provisional ; public interface IModelSelectionPolicyFactory { public IModelSelectionPolicy createModelSelectionPolicyAdapter ( Object element , IPresentationContext context ) ; } 

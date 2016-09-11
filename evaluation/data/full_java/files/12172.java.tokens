@@ -1,0 +1,1 @@
+package org . gradle . logging ; import org . gradle . api . logging . LogLevel ; public interface StyledTextOutputFactory { StyledTextOutput create ( String logCategory ) ; StyledTextOutput create ( Class logCategory ) ; StyledTextOutput create ( Class logCategory , LogLevel logLevel ) ; StyledTextOutput create ( String logCategory , LogLevel logLevel ) ; } 

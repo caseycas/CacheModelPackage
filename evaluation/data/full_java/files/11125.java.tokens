@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts ; public interface ConfigurablePublishArtifact extends PublishArtifact { void setName ( String name ) ; void setExtension ( String extension ) ; void setType ( String type ) ; void setClassifier ( String classifier ) ; ConfigurablePublishArtifact builtBy ( Object . . . tasks ) ; } 

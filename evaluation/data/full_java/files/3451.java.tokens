@@ -1,0 +1,1 @@
+package org . nd4j . linalg . dataset ; public class IrisDataSetIterator extends BaseDatasetIterator { private static final long serialVersionUID = - <int> ; public IrisDataSetIterator ( int batch , int numExamples ) { super ( batch , numExamples , new IrisDataFetcher ( ) ) ; } } 

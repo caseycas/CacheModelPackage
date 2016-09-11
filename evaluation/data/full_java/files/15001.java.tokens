@@ -1,0 +1,1 @@
+package org . gradle . nativeplatform . toolchain ; import org . gradle . api . Incubating ; import org . gradle . internal . HasInternalProtocol ; import org . gradle . platform . base . ToolChain ; @Incubating @HasInternalProtocol public interface NativeToolChain extends ToolChain { } 

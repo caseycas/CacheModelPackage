@@ -1,0 +1,1 @@
+package org . gradle . messaging . remote ; import org . gradle . api . Action ; public interface MessagingServer { ConnectionAcceptor accept ( Action < ObjectConnection > action ) ; } 

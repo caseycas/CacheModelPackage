@@ -1,0 +1,1 @@
+package org . gradle . internal . typeconversion ; public interface NotationConvertResult < T > { boolean hasResult ( ) ; void converted ( T result ) ; } 

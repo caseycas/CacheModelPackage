@@ -1,0 +1,1 @@
+package org . eclipse . debug . core . model ; import org . eclipse . debug . core . IStreamListener ; public interface IStreamMonitor { public void addListener ( IStreamListener listener ) ; public String getContents ( ) ; public void removeListener ( IStreamListener listener ) ; } 

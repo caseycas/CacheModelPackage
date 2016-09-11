@@ -1,0 +1,1 @@
+package org . gradle . internal . service . scopes ; import org . gradle . internal . service . ServiceRegistry ; public interface ServiceRegistryFactory { ServiceRegistry createFor ( Object domainObject ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . api . tasks . testing ; import org . gradle . api . Nullable ; import org . gradle . internal . HasInternalProtocol ; @HasInternalProtocol public interface TestDescriptor { String getName ( ) ; @Nullable String getClassName ( ) ; boolean isComposite ( ) ; @Nullable TestDescriptor getParent ( ) ; } 

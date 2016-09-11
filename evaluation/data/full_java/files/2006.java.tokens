@@ -1,0 +1,1 @@
+package org . nd4j . linalg . api . ops ; public interface TransformOp extends Op { TransformOp derivative ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . api . internal . hash ; import java . io . File ; public interface Hasher { byte [ ] hash ( File file ) ; } 

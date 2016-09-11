@@ -1,0 +1,1 @@
+package org . gradle . api . plugins . jetty . internal ; public interface Proxy { public Object getProxiedObject ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . logging . internal ; import org . fusesource . jansi . Ansi ; import org . gradle . logging . StyledTextOutput ; public interface ColorMap { Color getColourFor ( StyledTextOutput . Style style ) ; Color getStatusBarColor ( ) ; interface Color { void on ( Ansi ansi ) ; void off ( Ansi ansi ) ; } } 

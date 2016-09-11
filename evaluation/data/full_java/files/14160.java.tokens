@@ -1,0 +1,1 @@
+package org . gradle . messaging . remote . internal ; import java . util . concurrent . TimeUnit ; public interface ProtocolContext < T > { void dispatchOutgoing ( T message ) ; void dispatchIncoming ( T message ) ; Callback callbackLater ( int delay , TimeUnit delayUnits , Runnable action ) ; void stopLater ( ) ; void stopped ( ) ; interface Callback { void cancel ( ) ; } } 

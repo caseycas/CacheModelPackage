@@ -1,0 +1,1 @@
+package org . gradle ; import junit . framework . TestCase ; public class SomeTest2 extends TestCase { public void testOk2 ( ) { } } 

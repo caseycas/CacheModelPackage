@@ -1,0 +1,1 @@
+package org . gradle . play . distribution ; import org . gradle . api . Incubating ; import org . gradle . api . PolymorphicDomainObjectContainer ; import org . gradle . api . distribution . Distribution ; @Incubating public interface PlayDistributionContainer extends PolymorphicDomainObjectContainer < Distribution > { } 

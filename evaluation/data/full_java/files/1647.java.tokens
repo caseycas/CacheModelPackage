@@ -1,0 +1,1 @@
+package org . apache . cassandra . utils ; import java . io . File ; import org . junit . Test ; import org . apache . cassandra . io . util . FileUtils ; public class CLibraryTest { @Test public void testSkipCache ( ) { File file = FileUtils . createTempFile ( <str> , <str> ) ; CLibrary . trySkipCache ( file . getPath ( ) , <int> , <int> ) ; } } 

@@ -1,0 +1,1 @@
+package org . gradle . internal . concurrent ; import java . util . concurrent . ExecutorService ; import java . util . concurrent . TimeUnit ; public interface StoppableExecutor extends AsyncStoppable , ExecutorService { void stop ( ) ; void stop ( int timeoutValue , TimeUnit timeoutUnits ) throws IllegalStateException ; } 

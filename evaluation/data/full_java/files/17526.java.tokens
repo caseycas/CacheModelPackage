@@ -1,0 +1,1 @@
+package com . badlogic . gdx . physics . bullet . dynamics ; public final class btConeTwistFlags { public final static int BT_CONETWIST_FLAGS_LIN_CFM = <int> ; public final static int BT_CONETWIST_FLAGS_LIN_ERP = <int> ; public final static int BT_CONETWIST_FLAGS_ANG_CFM = <int> ; } 

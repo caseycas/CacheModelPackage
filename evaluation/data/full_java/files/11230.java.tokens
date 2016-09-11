@@ -1,0 +1,1 @@
+package org . gradle . api . execution ; import org . gradle . api . Task ; import org . gradle . api . tasks . TaskState ; public interface TaskExecutionListener { void beforeExecute ( Task task ) ; void afterExecute ( Task task , TaskState state ) ; } 

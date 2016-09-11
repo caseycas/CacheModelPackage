@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts . repositories ; public interface IvyPatternRepositoryLayout extends RepositoryLayout { void artifact ( String pattern ) ; void ivy ( String pattern ) ; boolean getM2Compatible ( ) ; void setM2compatible ( boolean m2compatible ) ; } 

@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . model . provisional ; public interface IChildrenCountUpdate extends IViewerUpdate { public void setChildCount ( int numChildren ) ; } 

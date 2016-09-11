@@ -1,0 +1,1 @@
+package jcuda . runtime ; public class cudaSurfaceFormatMode { public static final int cudaFormatModeForced = <int> ; public static final int cudaFormatModeAuto = <int> ; public static String stringFor ( int m ) { switch ( m ) { case cudaFormatModeForced : return <str> ; case cudaFormatModeAuto : return <str> ; } return <str> + m ; } private cudaSurfaceFormatMode ( ) { } } ; 

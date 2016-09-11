@@ -1,0 +1,1 @@
+package org . elasticsearch . common . recycler ; abstract class AbstractRecycler < T > implements Recycler < T > { protected final Recycler . C < T > c ; protected AbstractRecycler ( Recycler . C < T > c ) { this . c = c ; } @Override public V < T > obtain ( ) { return obtain ( - <int> ) ; } @Override public void close ( ) { } } 

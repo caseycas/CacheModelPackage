@@ -1,0 +1,1 @@
+package org . gradle . jvm ; import org . gradle . api . Buildable ; import org . gradle . api . Incubating ; import org . gradle . api . file . FileCollection ; @Incubating public interface Classpath extends Buildable { FileCollection getFiles ( ) ; } 

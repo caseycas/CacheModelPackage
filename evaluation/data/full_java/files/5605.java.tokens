@@ -1,0 +1,1 @@
+package org . elasticsearch . cluster . routing ; public interface ShardsIterator { void reset ( ) ; int size ( ) ; int sizeActive ( ) ; int assignedReplicasIncludingRelocating ( ) ; ShardRouting nextOrNull ( ) ; int remaining ( ) ; @Override int hashCode ( ) ; @Override boolean equals ( Object other ) ; Iterable < ShardRouting > asUnordered ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . provider ; import java . io . Serializable ; public class CustomModel implements Serializable { public CustomModel ( CustomAction customAction ) { } } 

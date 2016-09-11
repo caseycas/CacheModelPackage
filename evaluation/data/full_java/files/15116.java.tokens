@@ -1,0 +1,1 @@
+package org . gradle . language . routes . internal ; import org . gradle . language . base . sources . BaseLanguageSourceSet ; import org . gradle . language . routes . RoutesSourceSet ; public class DefaultRoutesSourceSet extends BaseLanguageSourceSet implements RoutesSourceSet { @Override protected String getTypeName ( ) { return <str> ; } } 

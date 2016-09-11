@@ -1,0 +1,1 @@
+package org . gradle . api . internal ; public interface ClassGenerator { < T > Class < ? extends T > generate ( Class < T > type ) ; } 

@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . breadcrumb ; import org . eclipse . jface . viewers . ISelection ; public interface IBreadcrumbDropDownSite { public void notifySelection ( ISelection selection ) ; public void close ( ) ; public void updateSize ( ) ; } 

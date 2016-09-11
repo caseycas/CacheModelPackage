@@ -1,0 +1,1 @@
+package org . elasticsearch . action ; import org . elasticsearch . action . support . IndicesOptions ; public interface IndicesRequest { String [ ] indices ( ) ; IndicesOptions indicesOptions ( ) ; static interface Replaceable extends IndicesRequest { IndicesRequest indices ( String [ ] indices ) ; } } 

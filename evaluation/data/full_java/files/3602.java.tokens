@@ -1,0 +1,1 @@
+package org . eclipse . debug . core . model ; import org . eclipse . core . runtime . CoreException ; public interface ILogicalStructureTypeDelegate { public boolean providesLogicalStructure ( IValue value ) ; public IValue getLogicalStructure ( IValue value ) throws CoreException ; } 

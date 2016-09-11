@@ -1,0 +1,1 @@
+package org . gradle . openapi . external . ui ; import java . awt . * ; @Deprecated public interface GradleTabVersion1 { public String getName ( ) ; public Component createComponent ( ) ; public void aboutToShow ( ) ; } 

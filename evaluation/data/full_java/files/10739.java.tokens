@@ -1,0 +1,1 @@
+package org . gradle . build . docs . model ; public interface Attachable < T > { void attach ( ClassMetaDataRepository < T > repository ) ; } 

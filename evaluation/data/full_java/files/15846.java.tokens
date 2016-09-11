@@ -1,0 +1,1 @@
+package org . gradle . tooling ; import org . gradle . api . Incubating ; @Incubating public class BuildActionFailureException extends GradleConnectionException { public BuildActionFailureException ( String message , Throwable throwable ) { super ( message , throwable ) ; } } 

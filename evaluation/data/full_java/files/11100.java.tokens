@@ -1,0 +1,1 @@
+package org . gradle . api ; import java . lang . annotation . * ; @Incubating @Documented @Retention ( RetentionPolicy . RUNTIME ) @Inherited @Target ( { ElementType . TYPE } ) public @interface NonExtensible { } 

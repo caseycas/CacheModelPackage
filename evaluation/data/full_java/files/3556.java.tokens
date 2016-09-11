@@ -1,0 +1,1 @@
+package org . eclipse . debug . core ; public interface ILaunchesListener { public void launchesRemoved ( ILaunch [ ] launches ) ; public void launchesAdded ( ILaunch [ ] launches ) ; public void launchesChanged ( ILaunch [ ] launches ) ; } 

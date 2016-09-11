@@ -1,0 +1,1 @@
+package org . gradle . platform . base ; import org . gradle . api . GradleException ; public class ModelInstantiationException extends GradleException { public ModelInstantiationException ( String message ) { this ( message , null ) ; } public ModelInstantiationException ( String message , Throwable cause ) { super ( message , cause ) ; } } 

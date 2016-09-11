@@ -1,0 +1,1 @@
+package org . apache . cassandra . cql3 . statements ; public enum Bound { START ( <int> ) , END ( <int> ) ; public final int idx ; Bound ( int idx ) { this . idx = idx ; } public Bound reverse ( ) { return isStart ( ) ? END : START ; } public boolean isStart ( ) { return this = = START ; } public boolean isEnd ( ) { return this = = END ; } } 

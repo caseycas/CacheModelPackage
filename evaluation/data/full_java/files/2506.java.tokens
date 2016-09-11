@@ -1,0 +1,1 @@
+package jcuda . jcusparse ; public class cusparseSideMode { public static final int CUSPARSE_SIDE_LEFT = <int> ; public static final int CUSPARSE_SIDE_RIGHT = <int> ; private cusparseSideMode ( ) { } public static String stringFor ( int n ) { switch ( n ) { case CUSPARSE_SIDE_LEFT : return <str> ; case CUSPARSE_SIDE_RIGHT : return <str> ; } return <str> + n ; } } 

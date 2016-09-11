@@ -1,0 +1,1 @@
+package org . elasticsearch . action ; public interface RealtimeRequest { < R extends RealtimeRequest > R realtime ( Boolean realtime ) ; } 

@@ -1,0 +1,1 @@
+package org . elasticsearch . common . inject ; import org . elasticsearch . common . inject . internal . ErrorsException ; import org . elasticsearch . common . inject . internal . InternalContext ; interface ContextualCallable < T > { T call ( InternalContext context ) throws ErrorsException ; } 

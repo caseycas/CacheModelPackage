@@ -1,0 +1,1 @@
+package org . eclipse . debug . core . commands ; public interface IDebugCommandHandler { public void canExecute ( IEnabledStateRequest request ) ; public boolean execute ( IDebugCommandRequest request ) ; } 

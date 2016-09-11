@@ -1,0 +1,1 @@
+package org . gradle . tooling . events . test ; import org . gradle . api . Incubating ; import org . gradle . tooling . events . SkippedResult ; @Incubating public interface TestSkippedResult extends TestOperationResult , SkippedResult { } 

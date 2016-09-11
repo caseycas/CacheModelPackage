@@ -1,0 +1,1 @@
+package org . gradle . api . internal . file . collections ; import org . gradle . api . internal . file . FileResolver ; public interface FileCollectionResolveContext { FileCollectionResolveContext add ( Object element ) ; FileCollectionResolveContext push ( FileResolver fileResolver ) ; ResolvableFileCollectionResolveContext newContext ( ) ; } 

@@ -1,0 +1,1 @@
+package org . elasticsearch . action ; import java . util . List ; public interface CompositeIndicesRequest { List < ? extends IndicesRequest > subRequests ( ) ; } 

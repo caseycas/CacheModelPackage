@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . protocol ; public interface TaskVersion1 { String getPath ( ) ; String getName ( ) ; String getDescription ( ) ; ProjectVersion3 getProject ( ) ; } 

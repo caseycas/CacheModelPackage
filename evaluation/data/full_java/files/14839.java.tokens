@@ -1,0 +1,1 @@
+package org . gradle . jvm . tasks . api . internal ; public class AnnotationAnnotationValue extends AnnotationValue < AnnotationMember > { public AnnotationAnnotationValue ( String name , AnnotationMember value ) { super ( name , value ) ; } } 

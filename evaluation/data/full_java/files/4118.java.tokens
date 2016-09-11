@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . commands . actions ; public class DropToFrameCommandActionDelegate extends DebugCommandActionDelegate { public DropToFrameCommandActionDelegate ( ) { super ( ) ; setAction ( new DropToFrameCommandAction ( ) ) ; } } 

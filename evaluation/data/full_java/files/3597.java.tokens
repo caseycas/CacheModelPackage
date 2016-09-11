@@ -1,0 +1,1 @@
+package org . eclipse . debug . core . model ; public interface IFlushableStreamMonitor extends IStreamMonitor { public void flushContents ( ) ; public void setBuffered ( boolean buffer ) ; public boolean isBuffered ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . cache . internal . filelock ; import org . gradle . cache . internal . FileLock ; public interface LockState extends FileLock . State { boolean isDirty ( ) ; LockState completeUpdate ( ) ; LockState beforeUpdate ( ) ; } 

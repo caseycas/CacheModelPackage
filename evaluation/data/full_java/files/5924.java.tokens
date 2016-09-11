@@ -1,0 +1,1 @@
+package org . elasticsearch . common . io ; import java . io . Reader ; public abstract class CharSequenceReader extends Reader implements CharSequence { } 

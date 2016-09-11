@@ -1,0 +1,1 @@
+package org . elasticsearch . index . store ; import org . elasticsearch . common . settings . Settings ; public class SmbMMapFsTests extends AbstractAzureFsTestCase { @Override public Settings indexSettings ( ) { return Settings . builder ( ) . put ( super . indexSettings ( ) ) . put ( <str> , <str> ) . build ( ) ; } } 

@@ -1,0 +1,1 @@
+package org . apache . cassandra . io . sstable . format ; import org . apache . cassandra . db . DecoratedKey ; import org . apache . cassandra . db . rows . ColumnData ; public interface SSTableFlushObserver { void begin ( ) ; void startPartition ( DecoratedKey key , long indexPosition ) ; void nextCell ( ColumnData cell ) ; void complete ( ) ; } 

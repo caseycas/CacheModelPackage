@@ -1,0 +1,1 @@
+package org . gradle . jvm . test ; import org . gradle . api . Incubating ; import org . gradle . jvm . JvmComponentSpec ; import org . gradle . platform . base . test . TestSuiteSpec ; @Incubating public interface JvmTestSuiteSpec extends TestSuiteSpec { @Override JvmComponentSpec getTestedComponent ( ) ; } 

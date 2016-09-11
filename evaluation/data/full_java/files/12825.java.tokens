@@ -1,0 +1,1 @@
+package org . gradle . internal . component . local . model ; import org . gradle . api . artifacts . ModuleDependency ; import org . gradle . internal . component . model . DependencyMetaData ; public interface DslOriginDependencyMetaData extends DependencyMetaData { ModuleDependency getSource ( ) ; } 

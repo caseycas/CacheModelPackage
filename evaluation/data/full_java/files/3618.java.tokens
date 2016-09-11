@@ -1,0 +1,1 @@
+package org . eclipse . debug . core . model ; import java . io . IOException ; public interface IStreamsProxy { public IStreamMonitor getErrorStreamMonitor ( ) ; public IStreamMonitor getOutputStreamMonitor ( ) ; public void write ( String input ) throws IOException ; } 

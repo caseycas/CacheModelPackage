@@ -1,0 +1,1 @@
+package org . elasticsearch . http ; public interface HttpServerAdapter { void dispatchRequest ( HttpRequest request , HttpChannel channel ) ; } 

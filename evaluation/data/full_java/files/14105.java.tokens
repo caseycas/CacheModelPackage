@@ -1,0 +1,1 @@
+package org . gradle . messaging . actor ; public interface ActorFactory { Actor createActor ( Object target ) ; Actor createBlockingActor ( Object target ) ; } 

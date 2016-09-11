@@ -1,0 +1,1 @@
+package org . gradle . api . internal . artifacts . ivyservice . ivyresolve ; import org . gradle . api . internal . artifacts . ResolveContext ; public interface ResolverProviderFactory { boolean canCreate ( ResolveContext context ) ; ComponentResolvers create ( ResolveContext context ) ; } 

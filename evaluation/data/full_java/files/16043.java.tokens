@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . protocol ; import java . util . List ; public interface InternalBuildProgressListener { String TEST_EXECUTION = <str> ; String TASK_EXECUTION = <str> ; String BUILD_EXECUTION = <str> ; void onEvent ( Object event ) ; List < String > getSubscribedOperations ( ) ; } 

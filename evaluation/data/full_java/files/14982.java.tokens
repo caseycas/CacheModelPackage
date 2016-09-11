@@ -1,0 +1,1 @@
+package org . gradle . nativeplatform . tasks ; import org . gradle . api . Incubating ; import org . gradle . api . Task ; @Incubating public interface ObjectFilesToBinary extends Task { void source ( Object source ) ; } 

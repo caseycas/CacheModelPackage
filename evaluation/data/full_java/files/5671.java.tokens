@@ -1,0 +1,1 @@
+package org . elasticsearch . common . blobstore ; public interface BlobMetaData { String name ( ) ; long length ( ) ; } 

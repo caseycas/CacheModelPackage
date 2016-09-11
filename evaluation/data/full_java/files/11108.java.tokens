@@ -1,0 +1,1 @@
+package org . gradle . api ; import org . gradle . internal . HasInternalProtocol ; @HasInternalProtocol public interface ProjectState { boolean getExecuted ( ) ; Throwable getFailure ( ) ; void rethrowFailure ( ) ; } 

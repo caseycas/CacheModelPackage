@@ -1,0 +1,1 @@
+package org . gradle . plugin . use . internal ; public interface PluginRequests extends Iterable < PluginRequest > { boolean isEmpty ( ) ; int size ( ) ; } 

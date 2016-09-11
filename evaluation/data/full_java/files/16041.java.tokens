@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . protocol ; public interface InternalBuildController { BuildResult < ? > getBuildModel ( ) throws BuildExceptionVersion1 ; BuildResult < ? > getModel ( Object target , ModelIdentifier modelIdentifier ) throws BuildExceptionVersion1 , InternalUnsupportedModelException ; } 

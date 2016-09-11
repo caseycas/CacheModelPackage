@@ -1,0 +1,1 @@
+package org . gradle ; import org . junit . After ; import org . junit . Before ; import org . junit . Test ; import static org . junit . Assert . * ; public class BrokenBeforeAndAfter { @Before public void brokenBefore ( ) { fail ( <str> ) ; } @After public void brokenAfter ( ) { fail ( <str> ) ; } @Test public void ok ( ) { } } 

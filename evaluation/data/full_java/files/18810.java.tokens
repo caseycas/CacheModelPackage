@@ -1,0 +1,1 @@
+package io . netty . buffer ; public class LittleEndianCompositeByteBufTest extends AbstractCompositeByteBufTest { public LittleEndianCompositeByteBufTest ( ) { super ( Unpooled . LITTLE_ENDIAN ) ; } } 

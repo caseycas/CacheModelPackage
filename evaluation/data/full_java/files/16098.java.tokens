@@ -1,0 +1,1 @@
+package org . gradle . tooling . model ; import java . util . List ; import java . util . Set ; public interface DomainObjectSet < T > extends Set < T > { List < T > getAll ( ) ; T getAt ( int index ) throws IndexOutOfBoundsException ; } 

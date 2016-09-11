@@ -1,0 +1,1 @@
+package org . gradle . cache . internal . locklistener ; public class NoOpFileLockContentionHandler implements FileLockContentionHandler { public void start ( long lockId , Runnable whenContended ) { } public void stop ( long lockId ) { } public int reservePort ( ) { return - <int> ; } public void pingOwner ( int port , long lockId , String displayName ) { } } 

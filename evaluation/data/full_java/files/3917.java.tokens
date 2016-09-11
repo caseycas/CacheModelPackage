@@ -1,0 +1,1 @@
+package org . eclipse . debug . tests . stepfilters ; import org . eclipse . debug . core . model . IStepFilter ; public class TestStepFilter implements IStepFilter { @Override public boolean isFiltered ( Object object ) { if ( object instanceof Boolean ) { return ( Boolean ) object ; } return false ; } } 

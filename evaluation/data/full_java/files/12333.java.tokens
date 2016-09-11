@@ -1,0 +1,1 @@
+package org . gradle . util ; public interface ChangeListener < T > { void added ( T element ) ; void removed ( T element ) ; void changed ( T element ) ; } 

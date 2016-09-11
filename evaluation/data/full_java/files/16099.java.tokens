@@ -1,0 +1,1 @@
+package org . gradle . tooling . model ; import org . gradle . api . Nullable ; public interface Element extends Model { String getName ( ) ; @Nullable String getDescription ( ) ; } 

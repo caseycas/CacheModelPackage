@@ -1,0 +1,1 @@
+package org . elasticsearch . rest ; import org . elasticsearch . ElasticsearchException ; import java . io . Closeable ; public abstract class RestFilter implements Closeable { public int order ( ) { return <int> ; } @Override public void close ( ) { } public abstract void process ( RestRequest request , RestChannel channel , RestFilterChain filterChain ) throws Exception ; } 

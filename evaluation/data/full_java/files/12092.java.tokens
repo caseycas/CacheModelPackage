@@ -1,0 +1,1 @@
+package org . gradle . internal . invocation ; import org . gradle . api . Nullable ; import org . gradle . api . internal . GradleInternal ; public interface BuildController { GradleInternal getGradle ( ) ; GradleInternal run ( ) ; GradleInternal configure ( ) ; boolean hasResult ( ) ; @Nullable Object getResult ( ) ; void setResult ( @Nullable Object result ) ; } 

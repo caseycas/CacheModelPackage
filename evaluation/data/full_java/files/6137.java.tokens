@@ -1,0 +1,1 @@
+package org . elasticsearch . common . xcontent ; import org . elasticsearch . rest . RestStatus ; public interface StatusToXContent extends ToXContent { RestStatus status ( ) ; } 

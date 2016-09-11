@@ -1,0 +1,1 @@
+package com . google . common . util . concurrent ; final class Platform { static boolean isInstanceOfThrowableClass ( Throwable t , Class < ? extends Throwable > expectedClass ) { return true ; } private Platform ( ) { } } 

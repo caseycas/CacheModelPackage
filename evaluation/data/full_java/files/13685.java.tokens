@@ -1,0 +1,1 @@
+package org . gradle . language . nativeplatform . tasks ; abstract public class AbstractNativePCHCompileTask extends AbstractNativeCompileTask { } 

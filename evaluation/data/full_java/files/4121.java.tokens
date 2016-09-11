@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . commands . actions ; import org . eclipse . debug . core . IRequest ; public interface ICommandParticipant { public void requestDone ( IRequest request ) ; } 

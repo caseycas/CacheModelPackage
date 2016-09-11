@@ -1,0 +1,1 @@
+package org . gradle . launcher . cli ; import org . gradle . launcher . daemon . client . DaemonStopClient ; public class StopDaemonAction implements Runnable { private final DaemonStopClient client ; public StopDaemonAction ( DaemonStopClient client ) { this . client = client ; } public void run ( ) { client . stop ( ) ; } } 

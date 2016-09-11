@@ -1,0 +1,1 @@
+package org . elasticsearch . index . fielddata ; import org . apache . lucene . util . BytesRef ; public abstract class SortedBinaryDocValues { public abstract void setDocument ( int docId ) ; public abstract int count ( ) ; public abstract BytesRef valueAt ( int index ) ; } 

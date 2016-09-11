@@ -1,0 +1,1 @@
+package org . elasticsearch . search . sort ; public enum SortOrder { ASC { @Override public String toString ( ) { return <str> ; } } , DESC { @Override public String toString ( ) { return <str> ; } } } 

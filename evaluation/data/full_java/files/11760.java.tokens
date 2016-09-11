@@ -1,0 +1,1 @@
+package org . gradle . api . tasks ; import org . gradle . api . internal . IConventionAware ; import org . gradle . api . plugins . Convention ; @Deprecated public interface ConventionValue { Object getValue ( Convention convention , IConventionAware conventionAwareObject ) ; } 

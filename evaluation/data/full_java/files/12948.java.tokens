@@ -1,0 +1,1 @@
+package org . gradle . api . tasks . diagnostics ; import org . gradle . api . artifacts . ConfigurationContainer ; public class DependencyReportTask extends AbstractDependencyReportTask { @Override public ConfigurationContainer getTaskConfigurations ( ) { return getProject ( ) . getConfigurations ( ) ; } } 

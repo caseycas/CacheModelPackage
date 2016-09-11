@@ -1,0 +1,1 @@
+package org . gradle . openapi . wrappers ; public class NoLongerSupportedException extends UnsupportedOperationException { public NoLongerSupportedException ( ) { super ( <str> ) ; } } 

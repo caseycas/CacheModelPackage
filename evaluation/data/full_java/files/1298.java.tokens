@@ -1,0 +1,1 @@
+package org . apache . cassandra . utils . progress ; public interface ProgressListener { void progress ( String tag , ProgressEvent event ) ; } 

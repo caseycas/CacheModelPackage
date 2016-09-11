@@ -1,0 +1,1 @@
+package org . gradle . internal . event ; public interface ListenerManager { void addListener ( Object listener ) ; void removeListener ( Object listener ) ; < T > T getBroadcaster ( Class < T > listenerClass ) ; < T > ListenerBroadcast < T > createAnonymousBroadcaster ( Class < T > listenerClass ) ; void useLogger ( Object logger ) ; ListenerManager createChild ( ) ; } 

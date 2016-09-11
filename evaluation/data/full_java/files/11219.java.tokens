@@ -1,0 +1,1 @@
+package org . gradle . api . component ; import org . gradle . api . Incubating ; import org . gradle . api . NamedDomainObjectSet ; @Incubating public interface SoftwareComponentContainer extends NamedDomainObjectSet < SoftwareComponent > { } 

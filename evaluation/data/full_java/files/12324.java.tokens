@@ -1,0 +1,1 @@
+package org . gradle . tooling . provider . model ; import org . gradle . api . Incubating ; import org . gradle . api . Project ; @Incubating public interface ToolingModelBuilder { boolean canBuild ( String modelName ) ; Object buildAll ( String modelName , Project project ) ; } 

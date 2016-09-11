@@ -1,0 +1,1 @@
+package org . gradle . api . plugins . quality ; import org . gradle . api . reporting . ReportContainer ; import org . gradle . api . reporting . SingleFileReport ; public interface CodeNarcReports extends ReportContainer < SingleFileReport > { SingleFileReport getXml ( ) ; SingleFileReport getHtml ( ) ; SingleFileReport getText ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . internal . exceptions ; public interface DiagnosticsVisitor { DiagnosticsVisitor candidate ( String displayName ) ; DiagnosticsVisitor example ( String example ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . play . internal . platform ; import org . gradle . play . platform . PlayPlatform ; public interface PlayPlatformInternal extends PlayPlatform { String getDependencyNotation ( String playModule ) ; } 

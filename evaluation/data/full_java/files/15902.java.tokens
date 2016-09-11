@@ -1,0 +1,1 @@
+package org . gradle . tooling . events . test ; import org . gradle . api . Incubating ; @Incubating public enum JvmTestKind { SUITE ( <str> ) , ATOMIC ( <str> ) , UNKNOWN ( <str> ) ; private final String label ; JvmTestKind ( String label ) { this . label = label ; } public String getLabel ( ) { return label ; } } 

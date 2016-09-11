@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts ; public interface DependencyResolutionListener { void beforeResolve ( ResolvableDependencies dependencies ) ; void afterResolve ( ResolvableDependencies dependencies ) ; } 

@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . model . provisional ; import org . eclipse . jface . viewers . TreePath ; public interface ICheckboxModelProxy { public boolean setChecked ( IPresentationContext context , Object viewerInput , TreePath path , boolean checked ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . gradleplugin . userinterface ; import java . io . File ; public interface AlternateUIInteraction { public void openFile ( File file , int line ) ; public void editFile ( File file , int line ) ; public boolean doesSupportEditingOpeningFiles ( ) ; } 

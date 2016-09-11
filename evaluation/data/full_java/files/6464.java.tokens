@@ -1,0 +1,1 @@
+package org . elasticsearch . index . fielddata ; import org . apache . lucene . index . SortedNumericDocValues ; public abstract class SortedNumericDoubleValues { protected SortedNumericDoubleValues ( ) { } public abstract void setDocument ( int doc ) ; public abstract double valueAt ( int index ) ; public abstract int count ( ) ; } 

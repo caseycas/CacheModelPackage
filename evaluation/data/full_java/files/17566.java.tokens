@@ -1,0 +1,1 @@
+package com . badlogic . gdx . physics . bullet . dynamics ; public final class btPoint2PointFlags { public final static int BT_P2P_FLAGS_ERP = <int> ; public final static int BT_P2P_FLAGS_CFM = <int> ; } 

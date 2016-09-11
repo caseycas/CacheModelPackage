@@ -1,0 +1,1 @@
+package org . gradle . api . internal ; public class NullNamingPropertyException extends RuntimeException { NullNamingPropertyException ( Object thing , String property ) { super ( String . format ( <str> , thing , property ) ) ; } } 

@@ -1,0 +1,1 @@
+package com . badlogic . gdx . backends . headless ; public class HeadlessApplicationConfiguration { public float renderInterval = <float> / <int> f ; public String preferencesDirectory = <str> ; } 

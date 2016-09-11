@@ -1,0 +1,1 @@
+package org . elasticsearch . transport ; public abstract class BaseTransportResponseHandler < T extends TransportResponse > implements TransportResponseHandler < T > { } 

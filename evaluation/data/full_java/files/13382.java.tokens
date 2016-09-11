@@ -1,0 +1,1 @@
+package org . gradle . plugins . javascript . envjs . http ; import java . io . File ; public interface HttpFileServerFactory { HttpFileServer start ( File contentRoot , int port ) ; } 

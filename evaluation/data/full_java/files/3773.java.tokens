@@ -1,0 +1,1 @@
+package org . eclipse . debug . examples . core . pda . protocol ; public class PDARegistersCommand extends PDACommand { public PDARegistersCommand ( String group ) { super ( <str> + group ) ; } @Override public PDACommandResult createResult ( String resultText ) { return new PDARegistersCommandResult ( resultText ) ; } } 

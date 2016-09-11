@@ -1,0 +1,1 @@
+package org . gradle . api . internal . tasks ; import org . gradle . api . internal . changedetection . TaskArtifactState ; public interface TaskExecutionContext { TaskArtifactState getTaskArtifactState ( ) ; void setTaskArtifactState ( TaskArtifactState taskArtifactState ) ; } 

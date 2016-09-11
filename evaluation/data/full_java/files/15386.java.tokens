@@ -1,0 +1,1 @@
+package org . gradle . internal . resource . local ; import org . gradle . internal . hash . HashValue ; import java . io . File ; public interface LocallyAvailableResource { File getFile ( ) ; HashValue getSha1 ( ) ; long getLastModified ( ) ; long getContentLength ( ) ; } 

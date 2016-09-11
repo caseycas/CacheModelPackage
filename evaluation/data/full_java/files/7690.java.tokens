@@ -1,0 +1,1 @@
+package org . elasticsearch . tribe ; import org . elasticsearch . common . inject . AbstractModule ; public class TribeModule extends AbstractModule { @Override protected void configure ( ) { bind ( TribeService . class ) . asEagerSingleton ( ) ; } } 

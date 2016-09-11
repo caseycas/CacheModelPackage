@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . commands . actions ; import org . eclipse . debug . internal . ui . views . launch . LaunchView ; public class TerminateAndRelaunchHandler extends DebugActionHandler { public TerminateAndRelaunchHandler ( ) { super ( LaunchView . TERMINATE_AND_RELAUNCH ) ; } } 

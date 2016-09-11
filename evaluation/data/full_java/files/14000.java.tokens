@@ -1,0 +1,1 @@
+package org . gradle . api . publication . maven . internal ; import org . gradle . api . artifacts . maven . MavenPom ; import org . gradle . api . artifacts . maven . PublishFilter ; public interface PomFilter { String getName ( ) ; PublishFilter getFilter ( ) ; void setFilter ( PublishFilter filter ) ; MavenPom getPomTemplate ( ) ; void setPomTemplate ( MavenPom pom ) ; } 

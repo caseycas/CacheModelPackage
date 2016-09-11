@@ -1,0 +1,1 @@
+package org . jbox2d . collision . shapes ; public enum ShapeType { CIRCLE , EDGE , POLYGON , CHAIN } 

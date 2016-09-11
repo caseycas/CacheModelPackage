@@ -1,0 +1,1 @@
+package org . gradle . api . plugins . buildcomparison . render . internal ; import org . gradle . api . plugins . buildcomparison . compare . internal . BuildComparisonResult ; public interface BuildComparisonResultRenderer < C > { void render ( BuildComparisonResult result , C context ) ; } 

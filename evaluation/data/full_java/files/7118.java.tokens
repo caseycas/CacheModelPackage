@@ -1,0 +1,1 @@
+package org . elasticsearch . search . aggregations ; import java . util . Map ; public interface Aggregation { String getName ( ) ; Object getProperty ( String path ) ; Map < String , Object > getMetaData ( ) ; } 

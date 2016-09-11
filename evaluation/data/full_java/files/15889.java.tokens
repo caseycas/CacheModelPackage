@@ -1,0 +1,1 @@
+package org . gradle . tooling . events . task ; import org . gradle . api . Incubating ; import org . gradle . tooling . events . FinishEvent ; @Incubating public interface TaskFinishEvent extends TaskProgressEvent , FinishEvent { @Override TaskOperationResult getResult ( ) ; } 

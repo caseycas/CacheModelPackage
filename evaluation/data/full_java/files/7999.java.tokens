@@ -1,0 +1,1 @@
+package org . elasticsearch . common . xcontent . cbor ; import org . elasticsearch . common . xcontent . BaseXContentTestCase ; import org . elasticsearch . common . xcontent . XContentType ; public class CborXContentTests extends BaseXContentTestCase { @Override public XContentType xcontentType ( ) { return XContentType . CBOR ; } } 

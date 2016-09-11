@@ -1,0 +1,1 @@
+package org . elasticsearch . index . query ; public interface SpanQueryBuilder < QB extends SpanQueryBuilder > extends QueryBuilder < QB > { } 

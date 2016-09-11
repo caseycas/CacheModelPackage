@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts ; import org . gradle . api . Incubating ; @Incubating public interface ComponentModuleMetadataDetails extends ComponentModuleMetadata { void replacedBy ( Object moduleNotation ) ; } 

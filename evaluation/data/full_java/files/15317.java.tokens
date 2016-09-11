@@ -1,0 +1,1 @@
+package org . gradle . jvm . application . scripts ; import org . gradle . api . Incubating ; import org . gradle . api . resources . TextResource ; @Incubating public interface TemplateBasedScriptGenerator extends ScriptGenerator { void setTemplate ( TextResource template ) ; TextResource getTemplate ( ) ; } 

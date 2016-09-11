@@ -1,0 +1,1 @@
+package io . netty . handler . codec . socksx . v5 ; import org . junit . Test ; import static org . junit . Assert . assertTrue ; public class DefaultSocks5InitialResponseTest { @Test public void testConstructorParamsAreNotNull ( ) { try { new DefaultSocks5InitialResponse ( null ) ; } catch ( Exception e ) { assertTrue ( e instanceof NullPointerException ) ; } } } 

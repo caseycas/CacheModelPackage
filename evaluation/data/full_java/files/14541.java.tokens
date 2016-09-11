@@ -1,0 +1,1 @@
+package org . gradle . internal . nativeplatform . filesystem ; public interface FileSystem extends org . gradle . internal . nativeintegration . filesystem . FileSystem { } 

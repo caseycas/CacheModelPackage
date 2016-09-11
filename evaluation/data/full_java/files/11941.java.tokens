@@ -1,0 +1,1 @@
+package org . gradle . execution . taskgraph ; import org . gradle . api . Task ; import java . util . List ; public interface TaskExecutionPlan { void taskComplete ( TaskInfo task ) ; void awaitCompletion ( ) ; List < Task > getTasks ( ) ; TaskInfo getTaskToExecute ( ) ; } 

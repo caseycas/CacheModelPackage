@@ -1,0 +1,1 @@
+package org . gradle . play . internal . run ; public interface PlayRunWorkerClientProtocol { void update ( PlayAppLifecycleUpdate result ) ; } 

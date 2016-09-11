@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts . repositories ; import org . gradle . api . credentials . Credentials ; public interface PasswordCredentials extends Credentials { String getUsername ( ) ; void setUsername ( String userName ) ; String getPassword ( ) ; void setPassword ( String password ) ; } 

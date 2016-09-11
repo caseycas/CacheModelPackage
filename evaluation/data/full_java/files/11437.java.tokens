@@ -1,0 +1,1 @@
+package org . gradle . api . internal . classpath ; import org . gradle . internal . classpath . ClassPath ; public interface ModuleRegistry { Module getExternalModule ( String name ) throws UnknownModuleException ; Module getModule ( String name ) throws UnknownModuleException ; ClassPath getAdditionalClassPath ( ) ; } 

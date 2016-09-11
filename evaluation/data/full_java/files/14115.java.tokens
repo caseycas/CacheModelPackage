@@ -1,0 +1,1 @@
+package org . gradle . messaging . dispatch ; public interface DispatchFailureHandler < T > { void dispatchFailed ( T message , Throwable failure ) ; } 

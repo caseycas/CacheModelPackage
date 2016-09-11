@@ -1,0 +1,1 @@
+package org . eclipse . debug . examples . core . pda . protocol ; public class PDAFrameCommandResult extends PDACommandResult { final public PDAFrameData fFrame ; PDAFrameCommandResult ( String response ) { super ( response ) ; fFrame = new PDAFrameData ( response ) ; } } 

@@ -1,0 +1,1 @@
+package org . elasticsearch ; import java . io . IOException ; public class ElasticsearchCorruptionException extends IOException { public ElasticsearchCorruptionException ( String message ) { super ( message ) ; } public ElasticsearchCorruptionException ( Throwable ex ) { super ( ex ) ; } } 

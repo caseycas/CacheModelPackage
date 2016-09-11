@@ -1,0 +1,1 @@
+package io . netty . handler . codec . spdy ; public interface SpdyRstStreamFrame extends SpdyStreamFrame { SpdyStreamStatus status ( ) ; SpdyRstStreamFrame setStatus ( SpdyStreamStatus status ) ; @Override SpdyRstStreamFrame setStreamId ( int streamId ) ; @Override SpdyRstStreamFrame setLast ( boolean last ) ; } 

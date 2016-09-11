@@ -1,0 +1,1 @@
+package org . jbox2d . pooling ; public interface IOrderedStack < E > { public E pop ( ) ; public E [ ] pop ( int argNum ) ; public void push ( int argNum ) ; } 

@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . commands . actions ; import org . eclipse . debug . core . commands . ISuspendHandler ; import org . eclipse . debug . ui . actions . DebugCommandHandler ; public class SuspendCommandHandler extends DebugCommandHandler { @Override protected Class < ISuspendHandler > getCommandType ( ) { return ISuspendHandler . class ; } } 

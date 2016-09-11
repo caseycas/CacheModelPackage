@@ -1,0 +1,1 @@
+package org . elasticsearch . common . io . stream ; import java . io . IOException ; public interface StreamableReader < T > { T readFrom ( StreamInput in ) throws IOException ; } 

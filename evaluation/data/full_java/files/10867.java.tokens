@@ -1,0 +1,1 @@
+package org . gradle . internal . operations ; public interface BuildOperationQueue < T extends BuildOperation > { public void add ( T operation ) ; public void waitForCompletion ( ) throws MultipleBuildOperationFailures ; } 

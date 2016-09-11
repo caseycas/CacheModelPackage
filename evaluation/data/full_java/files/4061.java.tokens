@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . actions . breakpoints ; public class DisableBreakpointsAction extends EnableBreakpointsAction { @Override protected boolean isEnableAction ( ) { return false ; } } 

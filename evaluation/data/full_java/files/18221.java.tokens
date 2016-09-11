@@ -1,0 +1,1 @@
+package com . badlogic . gdx . net ; public class ServerSocketHints { public int backlog = <int> ; public int performancePrefConnectionTime = <int> ; public int performancePrefLatency = <int> ; public int performancePrefBandwidth = <int> ; public boolean reuseAddress = true ; public int acceptTimeout = <int> ; public int receiveBufferSize = <int> ; } 

@@ -1,0 +1,1 @@
+package org . apache . cassandra . cql3 ; import org . antlr . runtime . BaseRecognizer ; import org . antlr . runtime . RecognitionException ; public interface ErrorListener { void syntaxError ( BaseRecognizer recognizer , String [ ] tokenNames , RecognitionException e ) ; void syntaxError ( BaseRecognizer recognizer , String errorMsg ) ; } 

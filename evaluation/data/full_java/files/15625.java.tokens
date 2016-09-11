@@ -1,0 +1,1 @@
+public class MainClass { @Override public String toString ( ) { return <str> ; } } 

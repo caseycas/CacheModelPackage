@@ -1,0 +1,1 @@
+package org . gradle . gradleplugin . foundation . filters ; import org . gradle . foundation . ProjectView ; import org . gradle . foundation . TaskView ; public class AllowAllProjectAndTaskFilter implements ProjectAndTaskFilter { public boolean doesAllowProject ( ProjectView project ) { return true ; } public boolean doesAllowTask ( TaskView task ) { return true ; } } 

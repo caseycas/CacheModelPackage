@@ -1,0 +1,1 @@
+package org . gradle . api . plugins . buildcomparison . compare . internal ; import org . gradle . api . plugins . buildcomparison . outcome . internal . BuildOutcome ; public interface BuildOutcomeComparatorFactory { < T extends BuildOutcome > BuildOutcomeComparator < T , ? > getComparator ( Class < T > outcomeType ) ; } 

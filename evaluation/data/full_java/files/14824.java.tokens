@@ -1,0 +1,1 @@
+package org . gradle . jvm . internal ; import org . gradle . platform . base . DependencySpec ; import java . util . Collection ; public interface WithDependencies { void setDependencies ( Collection < DependencySpec > dependencies ) ; Collection < DependencySpec > getDependencies ( ) ; } 

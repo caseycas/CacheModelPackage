@@ -1,0 +1,1 @@
+package org . gradle . plugins . javascript . envjs . http ; import java . io . File ; public interface HttpFileServer { int getPort ( ) ; String getResourceUrl ( String path ) ; File getContentRoot ( ) ; void stop ( ) ; } 

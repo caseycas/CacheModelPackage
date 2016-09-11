@@ -1,0 +1,1 @@
+package org . gradle . language . nativeplatform . internal . incremental . sourceparser ; import org . gradle . language . nativeplatform . internal . SourceIncludes ; import java . io . File ; public interface CSourceParser { SourceIncludes parseSource ( File sourceFile ) ; } 

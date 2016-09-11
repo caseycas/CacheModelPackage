@@ -1,0 +1,1 @@
+package com . google . common . escape ; final class Platform { private static final char [ ] CHAR_BUFFER = new char [ <int> ] ; static char [ ] charBufferFromThreadLocal ( ) { return CHAR_BUFFER ; } private Platform ( ) { } } 

@@ -1,0 +1,1 @@
+package org . gradle . plugins . ear . descriptor ; public interface EarSecurityRole { public String getDescription ( ) ; public void setDescription ( String description ) ; public String getRoleName ( ) ; public void setRoleName ( String roleName ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . launcher . daemon . protocol ; public class BuildEvent extends Message { private final Object payload ; public BuildEvent ( Object payload ) { this . payload = payload ; } public Object getPayload ( ) { return payload ; } @Override public String toString ( ) { return String . format ( <str> , getClass ( ) . getSimpleName ( ) , payload ) ; } } 

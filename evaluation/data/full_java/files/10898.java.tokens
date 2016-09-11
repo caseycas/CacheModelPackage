@@ -1,0 +1,1 @@
+package org . gradle . internal . service ; public class ServiceValidationException extends ServiceLookupException { public ServiceValidationException ( String message ) { super ( message ) ; } } 

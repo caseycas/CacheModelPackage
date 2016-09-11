@@ -1,0 +1,1 @@
+package org . gradle . internal . resource . local ; import org . gradle . internal . resource . ExternalResource ; public interface LocallyAvailableExternalResource extends ExternalResource { LocallyAvailableResource getLocalResource ( ) ; } 

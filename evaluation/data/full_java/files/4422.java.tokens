@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . model . provisional ; public interface IHasChildrenUpdate extends IViewerUpdate { public void setHasChilren ( boolean hasChildren ) ; } 

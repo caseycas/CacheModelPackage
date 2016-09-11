@@ -1,0 +1,1 @@
+package org . elasticsearch . client ; public interface AdminClient { ClusterAdminClient cluster ( ) ; IndicesAdminClient indices ( ) ; } 

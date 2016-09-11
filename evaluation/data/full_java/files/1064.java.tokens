@@ -1,0 +1,1 @@
+package org . apache . cassandra . tools . nodetool ; import io . airlift . command . Command ; @Command ( name = <str> , hidden = true , description = <str> ) @Deprecated public class CfHistograms extends TableHistograms { } 

@@ -1,0 +1,1 @@
+package org . elasticsearch . search . aggregations . metrics . max ; import org . elasticsearch . search . aggregations . metrics . NumericMetricsAggregation ; public interface Max extends NumericMetricsAggregation . SingleValue { double getValue ( ) ; } 

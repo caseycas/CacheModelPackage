@@ -1,0 +1,1 @@
+package org . elasticsearch . indices . analysis ; import org . apache . lucene . analysis . TokenStream ; import org . elasticsearch . index . analysis . TokenFilterFactory ; public class DummyTokenFilterFactory implements TokenFilterFactory { @Override public String name ( ) { return <str> ; } @Override public TokenStream create ( TokenStream tokenStream ) { return null ; } } 

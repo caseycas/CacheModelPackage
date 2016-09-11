@@ -1,0 +1,1 @@
+package org . gradle ; import org . gradle . api . Incubating ; import org . gradle . api . Nullable ; import java . util . List ; @Incubating public interface TaskExecutionRequest { List < String > getArgs ( ) ; @Nullable String getProjectPath ( ) ; } 

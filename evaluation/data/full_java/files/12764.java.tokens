@@ -1,0 +1,1 @@
+package org . gradle . api . internal . artifacts . repositories . resolver ; import java . util . ArrayList ; import java . util . List ; class MavenMetadata { String timestamp ; String buildNumber ; List < String > versions = new ArrayList < String > ( ) ; } 

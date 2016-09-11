@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . protocol . eclipse ; public interface EclipseLinkedResourceVersion1 { String getName ( ) ; String getType ( ) ; String getLocation ( ) ; String getLocationUri ( ) ; } 

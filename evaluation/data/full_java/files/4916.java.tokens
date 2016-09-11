@@ -1,0 +1,1 @@
+package org . elasticsearch . action ; import org . elasticsearch . action . support . IndicesOptions ; public interface DocumentRequest < T > extends IndicesRequest { String index ( ) ; String type ( ) ; String id ( ) ; IndicesOptions indicesOptions ( ) ; T routing ( String routing ) ; String routing ( ) ; } 

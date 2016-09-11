@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts ; public interface Dependency { String DEFAULT_CONFIGURATION = <str> ; String ARCHIVES_CONFIGURATION = <str> ; String CLASSIFIER = <str> ; String getGroup ( ) ; String getName ( ) ; String getVersion ( ) ; boolean contentEquals ( Dependency dependency ) ; Dependency copy ( ) ; } 

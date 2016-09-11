@@ -1,0 +1,1 @@
+package org . gradle . api . publish . maven . internal . publisher ; public interface MavenProjectIdentity { String getGroupId ( ) ; void setGroupId ( String groupId ) ; String getArtifactId ( ) ; void setArtifactId ( String artifactId ) ; String getVersion ( ) ; void setVersion ( String version ) ; } 

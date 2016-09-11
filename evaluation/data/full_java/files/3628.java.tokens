@@ -1,0 +1,1 @@
+package org . eclipse . debug . core . model ; public interface IWatchExpressionListener { public void watchEvaluationFinished ( IWatchExpressionResult result ) ; } 

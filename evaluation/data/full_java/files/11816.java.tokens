@@ -1,0 +1,1 @@
+package org . gradle . cache ; import java . io . File ; public interface CacheRepository { CacheBuilder store ( String key ) ; CacheBuilder store ( Object scope , String key ) ; CacheBuilder cache ( String key ) ; CacheBuilder cache ( File baseDir ) ; CacheBuilder cache ( Object scope , String key ) ; } 

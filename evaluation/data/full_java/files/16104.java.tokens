@@ -1,0 +1,1 @@
+package org . gradle . tooling . model ; public interface HasGradleProject { GradleProject getGradleProject ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . messaging . remote . internal . protocol ; public class UnknownMessage extends DiscoveryMessage { private final String description ; public UnknownMessage ( String description ) { super ( null , null ) ; this . description = description ; } @Override public String toString ( ) { return description ; } } 

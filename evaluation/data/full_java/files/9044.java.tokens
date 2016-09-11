@@ -1,0 +1,1 @@
+package org . elasticsearch . test . rest . section ; import org . elasticsearch . test . rest . RestTestExecutionContext ; import java . io . IOException ; public interface ExecutableSection { void execute ( RestTestExecutionContext executionContext ) throws IOException ; } 

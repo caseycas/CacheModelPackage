@@ -1,0 +1,1 @@
+package org . gradle . testkit . runner . internal . dist ; import java . net . URI ; public final class URILocatedGradleDistribution extends GradleDistribution { private final URI location ; public URILocatedGradleDistribution ( URI location ) { this . location = location ; } public URI getLocation ( ) { return location ; } } 

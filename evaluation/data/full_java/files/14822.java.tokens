@@ -1,0 +1,1 @@
+package org . gradle . jvm . internal ; import org . gradle . jvm . JvmLibrarySpec ; import org . gradle . platform . base . internal . PlatformAwareComponentSpecInternal ; public interface JvmLibrarySpecInternal extends JvmLibrarySpec , PlatformAwareComponentSpecInternal { } 

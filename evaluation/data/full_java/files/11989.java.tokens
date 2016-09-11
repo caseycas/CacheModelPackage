@@ -1,0 +1,1 @@
+package org . gradle . initialization ; public interface BuildClientMetaData { void describeCommand ( Appendable output , String . . . args ) ; } 

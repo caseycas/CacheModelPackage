@@ -1,0 +1,1 @@
+package org . gradle . api . internal . artifacts . ivyservice . resolveengine . artifact ; import org . gradle . api . artifacts . ResolvedArtifact ; import java . util . Set ; public interface ResolvedArtifacts { Set < ResolvedArtifact > getArtifacts ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . initialization ; public interface BuildCancellationToken { boolean isCancellationRequested ( ) ; void cancel ( ) ; boolean addCallback ( Runnable cancellationHandler ) ; void removeCallback ( Runnable cancellationHandler ) ; } 

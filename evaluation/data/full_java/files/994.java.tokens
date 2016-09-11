@@ -1,0 +1,1 @@
+package org . apache . cassandra . streaming ; import java . util . Set ; import javax . management . NotificationEmitter ; import javax . management . openmbean . CompositeData ; public interface StreamManagerMBean extends NotificationEmitter { public static final String OBJECT_NAME = <str> ; Set < CompositeData > getCurrentStreams ( ) ; } 

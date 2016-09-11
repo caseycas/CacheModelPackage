@@ -1,0 +1,1 @@
+package org . elasticsearch . common . lease ; import org . elasticsearch . ElasticsearchException ; public interface Releasable extends AutoCloseable { @Override void close ( ) ; } 

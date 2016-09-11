@@ -1,0 +1,1 @@
+package org . gradle . build . docs . dsl . source . model ; import org . gradle . api . Action ; public interface TypeContainer { void visitTypes ( Action < TypeMetaData > action ) ; } 

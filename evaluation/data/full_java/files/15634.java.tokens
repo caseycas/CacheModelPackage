@@ -1,0 +1,1 @@
+package org . gradle ; import java . util . Locale ; class LocaleHolder { private static Locale locale ; public static Locale set ( Locale locale ) { Locale old = LocaleHolder . locale ; LocaleHolder . locale = locale ; return old ; } public static Locale get ( ) { return locale ; } } 

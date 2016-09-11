@@ -1,0 +1,1 @@
+package org . elasticsearch . common . util ; import org . apache . lucene . util . Accountable ; import org . elasticsearch . common . lease . Releasable ; public interface BigArray extends Releasable , Accountable { public long size ( ) ; } 

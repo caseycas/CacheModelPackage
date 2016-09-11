@@ -1,0 +1,1 @@
+package org . elasticsearch . indices . analysis ; import org . elasticsearch . index . analysis . CharFilterFactory ; import java . io . Reader ; public class DummyCharFilterFactory implements CharFilterFactory { @Override public String name ( ) { return <str> ; } @Override public Reader create ( Reader reader ) { return null ; } } 

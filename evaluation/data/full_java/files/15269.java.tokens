@@ -1,0 +1,1 @@
+package org . gradle . api . distribution ; import org . gradle . api . Incubating ; import org . gradle . api . NamedDomainObjectContainer ; @Incubating public interface DistributionContainer extends NamedDomainObjectContainer < Distribution > { } 

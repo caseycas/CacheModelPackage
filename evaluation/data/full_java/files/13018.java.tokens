@@ -1,0 +1,1 @@
+package org . gradle . apiImpl ; public class Impl { public void implMethod ( ) { double a = <float> * <int> ; } } 

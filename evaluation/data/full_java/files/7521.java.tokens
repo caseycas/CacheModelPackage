@@ -1,0 +1,1 @@
+package org . elasticsearch . search . internal ; import org . apache . lucene . search . ScoreDoc ; import org . elasticsearch . search . Scroll ; public class ScrollContext { public int totalHits = - <int> ; public float maxScore ; public ScoreDoc lastEmittedDoc ; public Scroll scroll ; } 

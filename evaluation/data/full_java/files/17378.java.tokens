@@ -1,0 +1,1 @@
+package com . badlogic . gdx . physics . bullet . collision ; public final class btInternalEdgeAdjustFlags { public final static int BT_TRIANGLE_CONVEX_BACKFACE_MODE = <int> ; public final static int BT_TRIANGLE_CONCAVE_DOUBLE_SIDED = <int> ; public final static int BT_TRIANGLE_CONVEX_DOUBLE_SIDED = <int> ; } 

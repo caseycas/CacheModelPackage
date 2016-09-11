@@ -1,0 +1,1 @@
+package org . gradle . internal . component . model ; import java . io . Serializable ; public interface ModuleSource extends Serializable { } 

@@ -1,0 +1,1 @@
+package org . elasticsearch . search . aggregations . bucket . global ; import org . elasticsearch . search . aggregations . bucket . SingleBucketAggregation ; public interface Global extends SingleBucketAggregation { } 

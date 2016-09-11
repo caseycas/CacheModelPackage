@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . adapter ; public interface SourceObjectMapping { Object getSourceObject ( ) ; Class < ? > getTargetType ( ) ; void mapToType ( Class < ? > type ) ; void mixIn ( Class < ? > mixInBeanType ) ; void mixIn ( MethodInvoker invoker ) ; } 

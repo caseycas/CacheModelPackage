@@ -1,0 +1,1 @@
+package org . gradle . play . internal ; import org . gradle . platform . base . TransformationFileType ; public interface ScalaSourceCode extends TransformationFileType { } 

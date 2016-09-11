@@ -1,0 +1,1 @@
+package org . gradle . internal . exceptions ; import java . lang . annotation . * ; @Retention ( RetentionPolicy . RUNTIME ) @Target ( ElementType . TYPE ) @Inherited public @interface Contextual { } 

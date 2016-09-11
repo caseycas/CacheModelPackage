@@ -1,0 +1,1 @@
+package org . elasticsearch . common . util ; public interface FloatArray extends BigArray { public abstract float get ( long index ) ; public abstract float set ( long index , float value ) ; public abstract float increment ( long index , float inc ) ; public abstract void fill ( long fromIndex , long toIndex , float value ) ; } 

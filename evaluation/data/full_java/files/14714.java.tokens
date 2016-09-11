@@ -1,0 +1,1 @@
+package org . gradle . platform . base ; import org . gradle . api . Incubating ; @Incubating public interface ModuleDependencySpecBuilder extends DependencySpecBuilder { ModuleDependencySpecBuilder module ( String name ) ; ModuleDependencySpecBuilder group ( String name ) ; ModuleDependencySpecBuilder version ( String range ) ; } 

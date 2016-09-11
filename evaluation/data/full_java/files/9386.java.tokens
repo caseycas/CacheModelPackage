@@ -1,0 +1,1 @@
+package com . google . common . graph ; import com . google . common . annotations . Beta ; @Beta public interface Hypergraph < N , E > extends Graph < N , E > { boolean addEdge ( E edge , N . . . nodes ) ; boolean addEdge ( E edge , Iterable < N > nodes ) ; } 

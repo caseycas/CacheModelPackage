@@ -1,0 +1,1 @@
+package org . gradle . internal . reflect ; public class NoSuchPropertyException extends RuntimeException { public NoSuchPropertyException ( String message ) { super ( message ) ; } } 

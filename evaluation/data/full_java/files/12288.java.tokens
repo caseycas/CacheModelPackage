@@ -1,0 +1,1 @@
+package org . gradle . process . internal . child ; public interface WorkerContext { ClassLoader getApplicationClassLoader ( ) ; } 

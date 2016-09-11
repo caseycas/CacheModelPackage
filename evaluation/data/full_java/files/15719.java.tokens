@@ -1,0 +1,1 @@
+package org . gradle ; public class BadTest { public void failingTest ( ) { throw new IllegalArgumentException ( <str> ) ; } } 

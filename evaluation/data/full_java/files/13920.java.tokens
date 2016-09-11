@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . provider ; import org . gradle . internal . classloader . ClassLoaderSpec ; import java . util . List ; public interface PayloadClassLoaderFactory { ClassLoader getClassLoaderFor ( ClassLoaderSpec spec , List < ? extends ClassLoader > parents ) ; } 

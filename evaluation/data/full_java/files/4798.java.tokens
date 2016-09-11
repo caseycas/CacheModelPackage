@@ -1,0 +1,1 @@
+package org . eclipse . ui . console ; public interface IScrollLockStateProvider { public void setScrollLock ( boolean scrollLock ) ; public boolean getScrollLock ( ) ; public void setAutoScrollLock ( boolean scrollLock ) ; public boolean getAutoScrollLock ( ) ; } 

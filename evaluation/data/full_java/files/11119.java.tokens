@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts ; import org . gradle . api . Incubating ; import java . util . List ; @Incubating public interface ComponentMetadata { ModuleVersionIdentifier getId ( ) ; boolean isChanging ( ) ; String getStatus ( ) ; List < String > getStatusScheme ( ) ; } 

@@ -1,0 +1,1 @@
+package reflector ; public interface IBar { String stuff ( ) ; class Factory { public static IBar get ( ) { return new SubBar ( ) ; } } } class Bar { public String stuff ( ) { return <str> ; } } class SubBar extends Bar implements IBar { } 

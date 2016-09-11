@@ -1,0 +1,1 @@
+package org . gradle . tooling . model . java ; import org . gradle . api . Incubating ; import org . gradle . api . Nullable ; import org . gradle . tooling . model . UnsupportedMethodException ; @Incubating public interface JavaSourceAware { @Nullable JavaSourceSettings getJavaSourceSettings ( ) throws UnsupportedMethodException ; } 

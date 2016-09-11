@@ -1,0 +1,1 @@
+package org . gradle . internal . io ; import org . gradle . api . Nullable ; public interface TextStream { void text ( String text ) ; void endOfStream ( @Nullable Throwable failure ) ; } 

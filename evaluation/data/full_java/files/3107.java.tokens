@@ -1,0 +1,1 @@
+package jcuda . runtime ; public class cudaTextureAddressMode { public static final int cudaAddressModeWrap = <int> ; public static final int cudaAddressModeClamp = <int> ; public static String stringFor ( int m ) { switch ( m ) { case cudaAddressModeWrap : return <str> ; case cudaAddressModeClamp : return <str> ; } return <str> + m ; } private cudaTextureAddressMode ( ) { } } 

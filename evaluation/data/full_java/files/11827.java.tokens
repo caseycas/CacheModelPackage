@@ -1,0 +1,1 @@
+package org . gradle . cache . internal ; public interface CacheInitializationAction { boolean requiresInitialization ( FileLock fileLock ) ; void initialize ( FileLock fileLock ) ; } 

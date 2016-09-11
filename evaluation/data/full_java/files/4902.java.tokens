@@ -1,0 +1,1 @@
+package org . elasticsearch ; import java . security . BasicPermission ; public final class SpecialPermission extends BasicPermission { private static final long serialVersionUID = - <int> ; public SpecialPermission ( ) { super ( <str> ) ; } public SpecialPermission ( String name , String actions ) { this ( ) ; } } 

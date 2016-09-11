@@ -1,0 +1,1 @@
+package org . gradle . jvm ; import org . gradle . platform . base . ComponentSpec ; public interface JvmComponentSpec extends ComponentSpec { } 

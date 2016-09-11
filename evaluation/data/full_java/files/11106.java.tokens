@@ -1,0 +1,1 @@
+package org . gradle . api ; import org . gradle . internal . exceptions . Contextual ; @Contextual public class ProjectConfigurationException extends GradleException { public ProjectConfigurationException ( String message , Throwable cause ) { super ( message , cause ) ; } } 

@@ -1,0 +1,1 @@
+package org . gradle . buildinit . plugins . internal ; public abstract class BuildInitTypeIds { private BuildInitTypeIds ( ) { } public static final String BASIC = <str> ; public static final String POM = <str> ; public static final String JAVA_LIBRARY = <str> ; public static final String GROOVY_LIBRARY = <str> ; public static final String SCALA_LIBRARY = <str> ; } 

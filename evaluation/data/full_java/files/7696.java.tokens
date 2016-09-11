@@ -1,0 +1,1 @@
+package org . elasticsearch . watcher ; import org . elasticsearch . common . inject . AbstractModule ; public class ResourceWatcherModule extends AbstractModule { @Override protected void configure ( ) { bind ( ResourceWatcherService . class ) . asEagerSingleton ( ) ; } } 

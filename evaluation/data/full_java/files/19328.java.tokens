@@ -1,0 +1,1 @@
+package io . netty . handler . codec . http2 ; class DefaultHttp2HeaderTableListSize { private int maxHeaderListSize = Integer . MAX_VALUE ; public void maxHeaderListSize ( int max ) throws Http2Exception { if ( max < <int> ) { maxHeaderListSize = Integer . MAX_VALUE ; } else { maxHeaderListSize = max ; } } public int maxHeaderListSize ( ) { return maxHeaderListSize ; } } 

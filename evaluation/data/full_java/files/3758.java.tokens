@@ -1,0 +1,1 @@
+package org . eclipse . debug . examples . core . pda . protocol ; public class PDADropFrameCommand extends PDACommand { public PDADropFrameCommand ( int threadId ) { super ( <str> + threadId ) ; } @Override public PDACommandResult createResult ( String resultText ) { return new PDACommandResult ( resultText ) ; } } 

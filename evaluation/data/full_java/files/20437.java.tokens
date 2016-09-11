@@ -1,0 +1,1 @@
+package com . sun . nio . sctp ; public class Association { static { UnsupportedOperatingSystemException . raise ( ) ; } } 

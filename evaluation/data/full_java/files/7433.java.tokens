@@ -1,0 +1,1 @@
+package org . elasticsearch . search . aggregations . pipeline . movavg . models ; import org . elasticsearch . common . xcontent . ToXContent ; public interface MovAvgModelBuilder extends ToXContent { } 

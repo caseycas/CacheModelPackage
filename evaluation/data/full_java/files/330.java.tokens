@@ -1,0 +1,1 @@
+package org . apache . cassandra . db ; import org . apache . cassandra . io . IVersionedSerializer ; public class RangeSliceVerbHandler extends ReadCommandVerbHandler { @Override protected IVersionedSerializer < ReadResponse > serializer ( ) { return ReadResponse . rangeSliceSerializer ; } } 

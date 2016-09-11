@@ -1,0 +1,1 @@
+package org . eclipse . debug . ui . contexts ; public interface IDebugContextListener { public void debugContextChanged ( DebugContextEvent event ) ; } 

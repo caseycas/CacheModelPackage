@@ -1,0 +1,1 @@
+package org . gradle . util ; public class BuildCommencedTimeProvider { private final long fixedTime = System . currentTimeMillis ( ) ; public long getCurrentTime ( ) { return fixedTime ; } } 

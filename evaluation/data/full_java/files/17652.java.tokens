@@ -1,0 +1,1 @@
+package com . badlogic . gdx . physics . bullet . linearmath ; public final class HullFlag { public final static int QF_TRIANGLES = ( <int> < < <int> ) ; public final static int QF_REVERSE_ORDER = ( <int> < < <int> ) ; public final static int QF_DEFAULT = QF_TRIANGLES ; } 

@@ -1,0 +1,1 @@
+package org . gradle . api . internal . classpath ; import java . util . Set ; public interface PluginModuleRegistry { Set < Module > getPluginModules ( ) ; } 

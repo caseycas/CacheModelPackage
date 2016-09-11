@@ -1,0 +1,1 @@
+package org . gradle . api . internal . tasks . execution ; import org . gradle . api . internal . TaskInternal ; import java . util . Collection ; public interface TaskValidator { void validate ( TaskInternal task , Collection < String > messages ) ; } 

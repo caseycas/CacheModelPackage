@@ -1,0 +1,1 @@
+package org . gradle . tooling . model . idea ; import org . gradle . api . Nullable ; import java . io . File ; public interface IdeaCompilerOutput { boolean getInheritOutputDirs ( ) ; @Nullable File getOutputDir ( ) ; @Nullable File getTestOutputDir ( ) ; } 

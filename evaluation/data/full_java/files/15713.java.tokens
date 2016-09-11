@@ -1,0 +1,1 @@
+package org . gradle ; import java . util . * ; import org . junit . * ; import static org . junit . Assert . * ; import mockit . * ; public class JMockitTest { @Mocked List testList ; @Test public void testOk ( ) throws Exception { new Expectations ( ) { { testList . size ( ) ; result = <int> ; } } ; assertEquals ( testList . size ( ) , <int> ) ; } } 

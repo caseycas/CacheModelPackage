@@ -1,0 +1,1 @@
+import org . codehaus . groovy . transform . GroovyASTTransformationClass ; @GroovyASTTransformationClass ( { <str> } ) public @interface MagicField { } 

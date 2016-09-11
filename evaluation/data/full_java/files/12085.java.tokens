@@ -1,0 +1,1 @@
+package org . gradle . internal . graph ; import java . util . Collection ; public interface DirectedGraphWithEdgeValues < N , V > extends DirectedGraph < N , V > { void getEdgeValues ( N from , N to , Collection < V > values ) ; } 

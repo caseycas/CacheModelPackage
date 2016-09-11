@@ -1,0 +1,1 @@
+package org . gradle . api . internal . changedetection . rules ; class OutputFileChange extends FileChange { public OutputFileChange ( String path , ChangeType change ) { super ( path , change ) ; } @Override protected String getFileType ( ) { return <str> ; } } 

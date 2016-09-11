@@ -1,0 +1,1 @@
+package org . gradle . testing . jacoco . tasks ; import org . gradle . api . Incubating ; import org . gradle . api . reporting . * ; @Incubating public interface JacocoReportsContainer extends ReportContainer < Report > { DirectoryReport getHtml ( ) ; SingleFileReport getXml ( ) ; SingleFileReport getCsv ( ) ; } 

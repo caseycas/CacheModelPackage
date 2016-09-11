@@ -1,0 +1,1 @@
+package org . gradle . nativeplatform ; import org . gradle . api . Incubating ; import java . io . File ; @Incubating public interface NativeExecutableBinary extends NativeBinary { File getExecutableFile ( ) ; } 

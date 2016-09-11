@@ -1,0 +1,1 @@
+package org . gradle . tooling ; import org . gradle . api . Incubating ; import java . io . Serializable ; @Incubating public interface BuildAction < T > extends Serializable { T execute ( BuildController controller ) ; } 

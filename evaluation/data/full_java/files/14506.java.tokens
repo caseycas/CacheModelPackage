@@ -1,0 +1,1 @@
+package org . gradle . internal . nativeintegration . console ; public class FallbackConsoleMetaData implements ConsoleMetaData { public boolean isStdOut ( ) { return true ; } public boolean isStdErr ( ) { return true ; } public int getCols ( ) { return <int> ; } } 

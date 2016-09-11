@@ -1,0 +1,1 @@
+package jcuda . jcusolver ; import jcuda . NativePointerObject ; public class cusolverRfHandle extends NativePointerObject { public cusolverRfHandle ( ) { } @Override public String toString ( ) { return <str> + <str> + Long . toHexString ( getNativePointer ( ) ) + <str> ; } } 

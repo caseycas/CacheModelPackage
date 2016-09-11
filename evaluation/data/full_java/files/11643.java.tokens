@@ -1,0 +1,1 @@
+package org . gradle . api . internal . project ; import java . io . File ; public interface ProjectIdentifier { String getName ( ) ; String getPath ( ) ; ProjectIdentifier getParentIdentifier ( ) ; File getProjectDir ( ) ; File getBuildFile ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . messaging . dispatch ; import org . gradle . api . Nullable ; public interface Receive < T > { @Nullable T receive ( ) ; } 

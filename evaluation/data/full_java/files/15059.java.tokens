@@ -1,0 +1,1 @@
+package org . gradle . nativeplatform . toolchain . internal . gcc ; import org . gradle . nativeplatform . platform . internal . NativePlatformInternal ; public interface TargetPlatformConfiguration { boolean supportsPlatform ( NativePlatformInternal targetPlatform ) ; void apply ( DefaultGccPlatformToolChain platformToolChain ) ; } 

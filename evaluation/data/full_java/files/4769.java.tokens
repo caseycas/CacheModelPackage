@@ -1,0 +1,1 @@
+package org . eclipse . debug . ui . memory ; import org . eclipse . debug . core . DebugException ; public interface IResettableMemoryRendering extends IMemoryRendering { public void resetRendering ( ) throws DebugException ; } 

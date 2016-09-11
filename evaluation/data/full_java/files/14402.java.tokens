@@ -1,0 +1,1 @@
+package org . gradle . model . internal . manage . schema . extract ; public class ModelSchemaAspectExtractionResult { private final ModelSchemaAspect aspect ; public ModelSchemaAspectExtractionResult ( ModelSchemaAspect aspect ) { this . aspect = aspect ; } public ModelSchemaAspect getAspect ( ) { return aspect ; } } 

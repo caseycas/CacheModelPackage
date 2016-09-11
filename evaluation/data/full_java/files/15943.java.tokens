@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . consumer ; import java . util . concurrent . ExecutorService ; import java . util . concurrent . Executors ; public class DefaultExecutorServiceFactory implements ExecutorServiceFactory { public ExecutorService create ( ) { return Executors . newSingleThreadExecutor ( ) ; } } 

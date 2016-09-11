@@ -1,0 +1,1 @@
+package org . apache . cassandra . repair ; public class SyncStat { public final NodePair nodes ; public final long numberOfDifferences ; public SyncStat ( NodePair nodes , long numberOfDifferences ) { this . nodes = nodes ; this . numberOfDifferences = numberOfDifferences ; } } 

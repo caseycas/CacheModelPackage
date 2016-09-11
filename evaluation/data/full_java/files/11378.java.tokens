@@ -1,0 +1,1 @@
+package org . gradle . api . internal . changedetection ; import org . gradle . api . internal . TaskInternal ; public interface TaskArtifactStateRepository { TaskArtifactState getStateFor ( TaskInternal task ) ; } 

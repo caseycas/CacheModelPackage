@@ -1,0 +1,1 @@
+package org . gradle . tooling . model . eclipse ; public interface EclipseLinkedResource { String getName ( ) ; String getType ( ) ; String getLocation ( ) ; String getLocationUri ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts . repositories ; import java . net . URI ; import java . util . Set ; public interface MavenArtifactRepository extends ArtifactRepository , AuthenticationSupported { URI getUrl ( ) ; void setUrl ( Object url ) ; Set < URI > getArtifactUrls ( ) ; void artifactUrls ( Object . . . urls ) ; void setArtifactUrls ( Iterable < ? > urls ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . adapter ; import java . io . Serializable ; public class NoOpMethodInvoker implements MethodInvoker , Serializable { public void invoke ( MethodInvocation invocation ) throws Throwable { } } 

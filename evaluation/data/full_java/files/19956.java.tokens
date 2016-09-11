@@ -1,0 +1,1 @@
+package io . netty . handler . ssl ; import javax . net . ssl . SSLEngine ; import java . util . List ; import java . util . Set ; public interface CipherSuiteFilter { String [ ] filterCipherSuites ( Iterable < String > ciphers , List < String > defaultCiphers , Set < String > supportedCiphers ) ; } 

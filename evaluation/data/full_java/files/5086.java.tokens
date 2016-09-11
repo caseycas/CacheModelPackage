@@ -1,0 +1,1 @@
+package org . elasticsearch . action . admin . indices . close ; import org . elasticsearch . cluster . ack . IndicesClusterStateUpdateRequest ; public class CloseIndexClusterStateUpdateRequest extends IndicesClusterStateUpdateRequest < CloseIndexClusterStateUpdateRequest > { CloseIndexClusterStateUpdateRequest ( ) { } } 

@@ -1,0 +1,1 @@
+package org . gradle . launcher . daemon . protocol ; public class Failure extends Result < Throwable > { public Failure ( Throwable value ) { super ( assertNotNull ( value ) ) ; } private static Throwable assertNotNull ( Throwable value ) { if ( value = = null ) { throw new IllegalArgumentException ( <str> ) ; } return value ; } } 

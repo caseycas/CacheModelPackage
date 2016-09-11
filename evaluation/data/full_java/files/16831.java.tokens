@@ -1,0 +1,1 @@
+package com . badlogic . gdx . backends . gwt ; import com . badlogic . gdx . utils . Clipboard ; public class GwtClipboard implements Clipboard { private String content = <str> ; @Override public String getContents ( ) { return content ; } @Override public void setContents ( String content ) { this . content = content ; } } 

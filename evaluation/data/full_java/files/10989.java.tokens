@@ -1,0 +1,1 @@
+package org . gradle . api . plugins . buildcomparison . render . internal ; import org . gradle . api . plugins . buildcomparison . outcome . internal . BuildOutcome ; public interface BuildOutcomeRenderer < T extends BuildOutcome , C > { Class < T > getOutcomeType ( ) ; Class < C > getContextType ( ) ; void render ( T outcome , C context ) ; } 

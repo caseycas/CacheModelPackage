@@ -1,0 +1,1 @@
+package org . gradle . model . internal . core ; import org . gradle . api . Nullable ; public abstract class ModelPredicate { @Nullable public ModelPath getPath ( ) { return null ; } @Nullable public ModelPath getParent ( ) { return null ; } @Nullable public ModelPath getAncestor ( ) { return null ; } public boolean matches ( MutableModelNode node ) { return true ; } } 

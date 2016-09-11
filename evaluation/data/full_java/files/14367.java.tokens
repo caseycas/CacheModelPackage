@@ -1,0 +1,1 @@
+package org . gradle . model . internal . manage . schema ; import org . gradle . model . internal . type . ModelType ; public interface ModelSchemaStore { < T > ModelSchema < T > getSchema ( ModelType < T > type ) ; < T > ModelSchema < T > getSchema ( Class < T > type ) ; void cleanUp ( ) ; } 

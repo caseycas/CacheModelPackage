@@ -1,0 +1,1 @@
+package org . gradle . api . plugins . quality ; import org . gradle . api . reporting . ReportContainer ; import org . gradle . api . reporting . SingleFileReport ; public interface FindBugsReports extends ReportContainer < SingleFileReport > { FindBugsXmlReport getXml ( ) ; SingleFileReport getHtml ( ) ; SingleFileReport getText ( ) ; SingleFileReport getEmacs ( ) ; } 

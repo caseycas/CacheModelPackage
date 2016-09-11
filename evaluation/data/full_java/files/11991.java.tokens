@@ -1,0 +1,1 @@
+package org . gradle . initialization ; import org . gradle . messaging . dispatch . Dispatch ; public interface BuildEventConsumer extends Dispatch < Object > { } 

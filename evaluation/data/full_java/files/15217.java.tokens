@@ -1,0 +1,1 @@
+package controllers . scala ; import play . * ; import play . mvc . * ; import views . html . * ; public class MixedJava extends Controller { public static Result index ( ) { System . out . println ( new models . ScalaClass ( <str> ) ) ; return ok ( index . render ( <str> ) ) ; } } 

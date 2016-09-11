@@ -1,0 +1,1 @@
+package org . elasticsearch . common . text ; import org . elasticsearch . common . bytes . BytesReference ; public interface Text extends Comparable < Text > { boolean hasBytes ( ) ; BytesReference bytes ( ) ; boolean hasString ( ) ; String string ( ) ; @Override String toString ( ) ; } 

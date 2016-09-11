@@ -1,0 +1,1 @@
+package org . elasticsearch . index . fielddata ; import org . elasticsearch . common . geo . GeoPoint ; public abstract class GeoPointValues { public abstract GeoPoint get ( int docID ) ; } 

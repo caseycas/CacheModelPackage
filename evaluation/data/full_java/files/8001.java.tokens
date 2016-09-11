@@ -1,0 +1,1 @@
+package org . elasticsearch . common . xcontent . json ; import org . elasticsearch . common . xcontent . BaseXContentTestCase ; import org . elasticsearch . common . xcontent . XContentType ; public class JsonXContentTests extends BaseXContentTestCase { @Override public XContentType xcontentType ( ) { return XContentType . JSON ; } } 

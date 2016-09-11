@@ -1,0 +1,1 @@
+package org . gradle . model . internal . inspect ; import org . gradle . model . Managed ; @Managed public interface ManagedWithReferenceOfInvalidManagedType { ParametrizedManaged < String > getInvalidManaged ( ) ; void setInvalidManaged ( ParametrizedManaged < String > invalidManaged ) ; } 

@@ -1,0 +1,1 @@
+package org . elasticsearch . search . aggregations . metrics . cardinality ; import org . elasticsearch . search . aggregations . metrics . NumericMetricsAggregation ; public interface Cardinality extends NumericMetricsAggregation . SingleValue { public long getValue ( ) ; } 

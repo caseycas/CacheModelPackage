@@ -1,0 +1,1 @@
+package org . gradle . launcher . daemon . protocol ; public class Success extends Result < Object > { public Success ( Object value ) { super ( value ) ; } } 

@@ -1,0 +1,1 @@
+package org . gradle . tooling . events . test ; import org . gradle . api . Incubating ; import org . gradle . api . Nullable ; @Incubating public interface JvmTestOperationDescriptor extends TestOperationDescriptor { JvmTestKind getJvmTestKind ( ) ; @Nullable String getSuiteName ( ) ; @Nullable String getClassName ( ) ; @Nullable String getMethodName ( ) ; } 

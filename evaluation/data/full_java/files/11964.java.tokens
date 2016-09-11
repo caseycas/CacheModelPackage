@@ -1,0 +1,1 @@
+package org . gradle . groovy . scripts . internal ; public class BuildScriptData { private final boolean hasImperativeStatements ; public BuildScriptData ( boolean hasImperativeStatements ) { this . hasImperativeStatements = hasImperativeStatements ; } public boolean getHasImperativeStatements ( ) { return hasImperativeStatements ; } } 

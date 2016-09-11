@@ -1,0 +1,1 @@
+package org . gradle . platform . base ; import org . gradle . api . GradleException ; public class InvalidModelException extends GradleException { public InvalidModelException ( String message ) { super ( message ) ; } public InvalidModelException ( String message , Exception cause ) { super ( message , cause ) ; } } 

@@ -1,0 +1,1 @@
+package org . elasticsearch . discovery ; public interface InitialStateDiscoveryListener { void initialStateProcessed ( ) ; } 

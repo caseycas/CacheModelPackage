@@ -1,0 +1,1 @@
+package org . gradle . messaging . remote . internal ; import org . gradle . api . Nullable ; public interface RemoteConnection < T > extends Connection < T > { void dispatch ( T message ) throws MessageIOException ; @Nullable T receive ( ) throws MessageIOException ; } 

@@ -1,0 +1,1 @@
+package jcuda . jcublas ; import jcuda . NativePointerObject ; public class cublasHandle extends NativePointerObject { public cublasHandle ( ) { } @Override public String toString ( ) { return <str> + <str> + Long . toHexString ( getNativePointer ( ) ) + <str> ; } } 

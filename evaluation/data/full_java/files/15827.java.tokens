@@ -1,0 +1,1 @@
+package org . gradle . integtests . tooling . fixture ; public class ToolingApiVersions { private ToolingApiVersions ( ) { } public static final String SUPPORTS_CANCELLATION = <str> ; public static final String SUPPORTS_RICH_PROGRESS_EVENTS = <str> ; public static final String PRE_CANCELLATION = <str> ; } 

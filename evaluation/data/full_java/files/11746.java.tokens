@@ -1,0 +1,1 @@
+package org . gradle . api . plugins ; import org . gradle . api . InvalidUserDataException ; public class UnknownPluginException extends InvalidUserDataException { public UnknownPluginException ( String message ) { super ( message ) ; } } 

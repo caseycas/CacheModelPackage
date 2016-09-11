@@ -1,0 +1,1 @@
+package org . gradle . configuration . project ; import org . gradle . api . Action ; import org . gradle . api . internal . project . ProjectInternal ; public interface ProjectConfigureAction extends Action < ProjectInternal > { } 

@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . model . provisional ; import org . eclipse . jface . viewers . ViewerFilter ; abstract public class TreeModelViewerFilter extends ViewerFilter { abstract public boolean isApplicable ( ITreeModelViewer viewer , Object parentElement ) ; } 

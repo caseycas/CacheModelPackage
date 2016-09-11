@@ -1,0 +1,1 @@
+package org . gradle . logging ; public enum ShowStacktrace { INTERNAL_EXCEPTIONS , ALWAYS , ALWAYS_FULL } 

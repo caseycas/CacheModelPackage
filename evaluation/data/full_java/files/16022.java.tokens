@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . protocol ; public interface BuildableProjectVersion1 { Iterable < ? extends TaskVersion1 > getTasks ( ) ; } 

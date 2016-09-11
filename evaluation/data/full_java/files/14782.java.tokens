@@ -1,0 +1,1 @@
+package org . gradle . language . base . internal . model ; public interface VariantDimension3 extends VariantDimension1 { } 

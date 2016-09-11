@@ -1,0 +1,1 @@
+package org . gradle . tooling . model . build ; import org . gradle . api . Incubating ; import java . io . File ; public interface GradleEnvironment { @Incubating File getGradleUserHome ( ) ; String getGradleVersion ( ) ; } 

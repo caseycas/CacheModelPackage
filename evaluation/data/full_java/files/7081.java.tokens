@@ -1,0 +1,1 @@
+package org . elasticsearch . script ; public interface ExecutableScript { void setNextVar ( String name , Object value ) ; Object run ( ) ; Object unwrap ( Object value ) ; } 

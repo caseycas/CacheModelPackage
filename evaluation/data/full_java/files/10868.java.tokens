@@ -1,0 +1,1 @@
+package org . gradle . internal . operations ; import org . gradle . api . Action ; public interface BuildOperationWorker < T extends BuildOperation > extends Action < T > { String getDisplayName ( ) ; } 

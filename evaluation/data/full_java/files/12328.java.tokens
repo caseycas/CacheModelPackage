@@ -1,0 +1,1 @@
+package org . gradle . tooling . provider . model . internal ; import java . lang . annotation . * ; @Retention ( RetentionPolicy . RUNTIME ) @Target ( ElementType . TYPE ) public @interface LegacyConsumerInterface { String value ( ) ; } 

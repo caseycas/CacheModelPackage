@@ -1,0 +1,1 @@
+package org . gradle . api . tasks ; public interface AntBuilderAware { Object addToAntBuilder ( Object node , String childNodeName ) ; } 

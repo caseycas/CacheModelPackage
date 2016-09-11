@@ -1,0 +1,1 @@
+package org . gradle . api . internal . initialization . loadercache ; import org . gradle . internal . classpath . ClassPath ; public interface ClassPathSnapshotter { ClassPathSnapshot snapshot ( ClassPath classPath ) ; } 

@@ -1,0 +1,1 @@
+package org . eclipse . debug . core ; public interface IDebugEventSetListener { public void handleDebugEvents ( DebugEvent [ ] events ) ; } 

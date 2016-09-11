@@ -1,0 +1,1 @@
+package org . gradle . performance . fixture ; import java . io . File ; public interface BuildExperimentInvocationInfo { BuildExperimentSpec getBuildExperimentSpec ( ) ; File getProjectDir ( ) ; BuildExperimentRunner . Phase getPhase ( ) ; int getIterationNumber ( ) ; int getIterationMax ( ) ; } 

@@ -1,0 +1,1 @@
+package org . elasticsearch . percolator ; import org . elasticsearch . common . inject . AbstractModule ; public class PercolatorModule extends AbstractModule { @Override protected void configure ( ) { bind ( PercolatorService . class ) . asEagerSingleton ( ) ; } } 

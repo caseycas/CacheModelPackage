@@ -1,0 +1,1 @@
+package org . gradle . cache . internal ; import org . gradle . cache . PersistentIndexedCache ; import java . io . Closeable ; public interface MultiProcessSafePersistentIndexedCache < K , V > extends PersistentIndexedCache < K , V > , UnitOfWorkParticipant , Closeable { void close ( ) ; } 

@@ -1,0 +1,1 @@
+package org . eclipse . core . variables ; public interface IValueVariableInitializer { public void initialize ( IValueVariable variable ) ; } 

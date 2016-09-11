@@ -1,0 +1,1 @@
+package org . gradle . integtests . fixtures . daemon ; public interface DaemonStateProbe { TestableDaemon . State getCurrentState ( ) ; } 

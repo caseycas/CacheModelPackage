@@ -1,0 +1,1 @@
+package jcuda . runtime ; import jcuda . NativePointerObject ; public class surfaceReference extends NativePointerObject { private cudaChannelFormatDesc channelDesc ; public surfaceReference ( ) { } @Override public String toString ( ) { return <str> + <str> + Long . toHexString ( getNativePointer ( ) ) + <str> + <str> + channelDesc + <str> ; } } 

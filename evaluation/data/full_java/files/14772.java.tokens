@@ -1,0 +1,1 @@
+package org . gradle . platform . base . internal . toolchain ; import org . gradle . util . TreeVisitor ; public interface ToolSearchResult { boolean isAvailable ( ) ; void explain ( TreeVisitor < ? super String > visitor ) ; } 

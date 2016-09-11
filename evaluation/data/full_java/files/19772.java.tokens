@@ -1,0 +1,1 @@
+package io . netty . util . internal . logging ; import org . junit . Test ; import static org . junit . Assert . * ; public class CommonsLoggerFactoryTest { @Test public void testCreation ( ) { InternalLogger logger = new CommonsLoggerFactory ( ) . newInstance ( <str> ) ; assertTrue ( logger instanceof CommonsLogger ) ; assertEquals ( <str> , logger . name ( ) ) ; } } 

@@ -1,0 +1,1 @@
+package org . gradle . internal . rules ; import org . gradle . api . Incubating ; import java . util . List ; @Incubating public interface RuleAction < T > { List < Class < ? > > getInputTypes ( ) ; void execute ( T subject , List < ? > inputs ) ; } 

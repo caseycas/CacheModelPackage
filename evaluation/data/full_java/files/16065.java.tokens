@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . protocol . eclipse ; import org . gradle . tooling . internal . protocol . ProjectDependencyVersion1 ; public interface EclipseProjectDependencyVersion2 extends ProjectDependencyVersion1 { HierarchicalEclipseProjectVersion1 getTargetProject ( ) ; String getPath ( ) ; } 

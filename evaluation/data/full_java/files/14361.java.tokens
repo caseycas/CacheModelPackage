@@ -1,0 +1,1 @@
+package org . gradle . model . internal . manage . schema ; public interface CompositeSchema < T > extends ModelSchema < T > { } 

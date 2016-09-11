@@ -1,0 +1,1 @@
+package org . gradle . integtests . fixtures . daemon ; import org . gradle . launcher . daemon . context . DaemonContext ; public interface DaemonFixture { DaemonContext getContext ( ) ; int getPort ( ) ; void kill ( ) ; void becomesIdle ( ) ; void stops ( ) ; void assertIdle ( ) ; void assertBusy ( ) ; void assertStopped ( ) ; } 

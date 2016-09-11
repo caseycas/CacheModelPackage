@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . commands . actions ; import org . eclipse . debug . core . commands . IStepOverHandler ; import org . eclipse . debug . ui . actions . DebugCommandHandler ; public class StepOverCommandHandler extends DebugCommandHandler { @Override protected Class < IStepOverHandler > getCommandType ( ) { return IStepOverHandler . class ; } } 

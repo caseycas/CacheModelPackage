@@ -1,0 +1,1 @@
+package org . elasticsearch . common . util ; public interface DoubleArray extends BigArray { public abstract double get ( long index ) ; public abstract double set ( long index , double value ) ; public abstract double increment ( long index , double inc ) ; public abstract void fill ( long fromIndex , long toIndex , double value ) ; } 

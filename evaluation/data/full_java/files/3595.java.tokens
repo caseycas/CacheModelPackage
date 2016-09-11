@@ -1,0 +1,1 @@
+package org . eclipse . debug . core . model ; public interface IExpression extends IDebugElement { public abstract String getExpressionText ( ) ; public abstract IValue getValue ( ) ; @Override public abstract IDebugTarget getDebugTarget ( ) ; public abstract void dispose ( ) ; } 

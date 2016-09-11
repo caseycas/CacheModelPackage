@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . provider . jdk6 ; import org . gradle . api . Transformer ; import java . io . ObjectStreamClass ; public class Jdk6ClassLookup implements Transformer < ObjectStreamClass , Class < ? > > { public ObjectStreamClass transform ( Class < ? > original ) { return ObjectStreamClass . lookupAny ( original ) ; } } 

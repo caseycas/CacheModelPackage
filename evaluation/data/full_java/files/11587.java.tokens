@@ -1,0 +1,1 @@
+package org . gradle . api . internal . initialization ; import org . gradle . api . internal . DomainObjectContext ; public class BasicDomainObjectContext implements DomainObjectContext { public String absoluteProjectPath ( String name ) { return name ; } } 

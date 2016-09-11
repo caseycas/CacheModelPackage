@@ -1,0 +1,1 @@
+package org . gradle . api . plugins . buildcomparison . outcome . internal ; public interface BuildOutcomeAssociation < T extends BuildOutcome > { T getSource ( ) ; T getTarget ( ) ; Class < T > getType ( ) ; } 

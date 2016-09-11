@@ -1,0 +1,1 @@
+package org . gradle . groovy . scripts ; public interface ScriptExecutionListener { void scriptClassLoaded ( ScriptSource source , Class < ? extends Script > scriptClass ) ; } 

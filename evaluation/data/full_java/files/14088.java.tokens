@@ -1,0 +1,1 @@
+package org . gradle . internal . serialize ; public class LongSerializer implements Serializer < Long > { public Long read ( Decoder decoder ) throws Exception { return decoder . readLong ( ) ; } public void write ( Encoder encoder , Long value ) throws Exception { if ( value = = null ) { throw new IllegalArgumentException ( <str> ) ; } encoder . writeLong ( value ) ; } } 

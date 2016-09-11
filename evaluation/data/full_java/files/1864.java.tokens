@@ -1,0 +1,1 @@
+package clojure . lang ; public interface ILookupThunk { Object get ( Object target ) ; } 

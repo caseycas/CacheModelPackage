@@ -1,0 +1,1 @@
+package jcuda . jcusparse ; public class cusparseAction { public static final int CUSPARSE_ACTION_SYMBOLIC = <int> ; public static final int CUSPARSE_ACTION_NUMERIC = <int> ; private cusparseAction ( ) { } public static String stringFor ( int n ) { switch ( n ) { case CUSPARSE_ACTION_SYMBOLIC : return <str> ; case CUSPARSE_ACTION_NUMERIC : return <str> ; } return <str> + n ; } } 

@@ -1,0 +1,1 @@
+package org . gradle . api . internal . component ; public class ComponentRegistry { private BuildableJavaComponent mainComponent ; public BuildableJavaComponent getMainComponent ( ) { return mainComponent ; } public void setMainComponent ( BuildableJavaComponent mainComponent ) { this . mainComponent = mainComponent ; } } 

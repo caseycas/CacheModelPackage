@@ -1,0 +1,1 @@
+package org . gradle . api . internal . tasks . compile . incremental . jar ; public interface JarSnapshotter { JarSnapshot createSnapshot ( JarArchive jarArchive ) ; } 

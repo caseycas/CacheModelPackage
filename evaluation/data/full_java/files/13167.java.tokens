@@ -1,0 +1,1 @@
+package org . gradle . plugins . ide . internal . generator . generator ; import java . io . File ; public interface Generator < T > { T read ( File inputFile ) ; T defaultInstance ( ) ; void configure ( T object ) ; void write ( T object , File outputFile ) ; } 

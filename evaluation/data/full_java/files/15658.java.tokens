@@ -1,0 +1,1 @@
+package org . gradle ; import org . junit . Test ; public class NoCatTests { @Test public void noCatOk1 ( ) { } @Test public void noCatOk2 ( ) { } @Test public void noCatOk3 ( ) { } @Test public void noCatOk4 ( ) { } } 

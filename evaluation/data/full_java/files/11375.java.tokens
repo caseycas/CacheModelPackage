@@ -1,0 +1,1 @@
+package org . gradle . api . internal . cache ; import org . gradle . internal . Factory ; public interface Store < T > { T load ( Factory < T > createIfNotPresent ) ; } 

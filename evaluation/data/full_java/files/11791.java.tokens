@@ -1,0 +1,1 @@
+package org . gradle . api . tasks ; import org . gradle . api . Incubating ; import org . gradle . api . Nullable ; public interface TaskState { boolean getExecuted ( ) ; @Nullable Throwable getFailure ( ) ; void rethrowFailure ( ) ; boolean getDidWork ( ) ; boolean getSkipped ( ) ; @Nullable String getSkipMessage ( ) ; @Incubating boolean getUpToDate ( ) ; } 

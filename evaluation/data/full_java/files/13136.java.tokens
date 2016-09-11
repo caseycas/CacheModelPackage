@@ -1,0 +1,1 @@
+package org . gradle . plugins . ear . descriptor ; public interface EarWebModule extends EarModule { public String getContextRoot ( ) ; public void setContextRoot ( String contextRoot ) ; } 

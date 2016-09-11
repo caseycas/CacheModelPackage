@@ -1,0 +1,1 @@
+package com . badlogic . gdx . physics . box2d ; public class FixtureDef { public Shape shape ; public float friction = <float> ; public float restitution = <int> ; public float density = <int> ; public boolean isSensor = false ; public final Filter filter = new Filter ( ) ; } 

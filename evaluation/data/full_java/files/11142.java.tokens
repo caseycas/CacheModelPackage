@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts ; import org . gradle . internal . HasInternalProtocol ; @HasInternalProtocol @Deprecated public interface Module { public static final String DEFAULT_STATUS = <str> ; String getGroup ( ) ; String getName ( ) ; String getVersion ( ) ; String getStatus ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . openapi . external . ui ; @Deprecated public interface DualPaneUIInteractionVersion1 extends GradleUIInteractionVersion1 { } 

@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . provider ; import java . util . Map ; public interface SerializeMap { short visitClass ( Class < ? > target ) ; Map < Short , ClassLoaderDetails > getClassLoaders ( ) ; } 

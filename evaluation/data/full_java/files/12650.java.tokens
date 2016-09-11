@@ -1,0 +1,1 @@
+package org . gradle . api . internal . artifacts . ivyservice . resolutionstrategy ; public class DefaultExternalResourceCachePolicy extends DefaultCachePolicy implements ExternalResourceCachePolicy { public boolean mustRefreshExternalResource ( long ageMillis ) { return ageMillis ! = <int> ? true : false ; } } 

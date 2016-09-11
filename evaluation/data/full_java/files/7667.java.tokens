@@ -1,0 +1,1 @@
+package org . elasticsearch . transport ; public interface TransportRequestHandler < T extends TransportRequest > { void messageReceived ( T request , TransportChannel channel ) throws Exception ; } 

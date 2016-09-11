@@ -1,0 +1,1 @@
+package org . elasticsearch . common . compress ; import org . elasticsearch . common . xcontent . XContent ; public class NotXContentException extends RuntimeException { public NotXContentException ( String message ) { super ( message ) ; } } 

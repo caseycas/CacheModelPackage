@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts ; public interface ExcludeRule { String GROUP_KEY = <str> ; String MODULE_KEY = <str> ; String getGroup ( ) ; String getModule ( ) ; } 

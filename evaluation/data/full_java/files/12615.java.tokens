@@ -1,0 +1,1 @@
+package org . gradle . api . internal . artifacts . ivyservice . ivyresolve . strategy ; public interface VersionSelectorScheme { VersionSelector parseSelector ( String selectorString ) ; String renderSelector ( VersionSelector selector ) ; } 

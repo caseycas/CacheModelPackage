@@ -1,0 +1,1 @@
+package org . eclipse . debug . examples . core . pda . protocol ; public class PDAStackDepthCommandResult extends PDACommandResult { final public int fDepth ; PDAStackDepthCommandResult ( String response ) { super ( response ) ; int depth = <int> ; try { depth = Integer . parseInt ( response ) ; } catch ( NumberFormatException e ) { } fDepth = depth ; } } 

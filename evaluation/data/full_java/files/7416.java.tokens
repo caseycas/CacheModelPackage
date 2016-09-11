@@ -1,0 +1,1 @@
+package org . elasticsearch . search . aggregations . pipeline . derivative ; import org . elasticsearch . search . aggregations . pipeline . SimpleValue ; public interface Derivative extends SimpleValue { double normalizedValue ( ) ; } 

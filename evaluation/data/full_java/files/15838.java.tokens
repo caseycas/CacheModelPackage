@@ -1,0 +1,1 @@
+package org . gradle . integtests . tooling . r18 ; import org . gradle . tooling . BuildAction ; import org . gradle . tooling . BuildController ; public class NullAction implements BuildAction < Object > { public Object execute ( BuildController controller ) { return null ; } } 

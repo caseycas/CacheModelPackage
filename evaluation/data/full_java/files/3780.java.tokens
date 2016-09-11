@@ -1,0 +1,1 @@
+package org . eclipse . debug . examples . core . pda . protocol ; public class PDASetBreakpointCommand extends PDACommand { public PDASetBreakpointCommand ( int line , boolean stopVM ) { super ( <str> + line + <str> + ( stopVM ? <str> : <str> ) ) ; } @Override public PDACommandResult createResult ( String resultText ) { return new PDACommandResult ( resultText ) ; } } 

@@ -1,0 +1,1 @@
+package org . apache . cassandra . index ; import java . util . Collection ; import org . apache . cassandra . schema . IndexMetadata ; public interface IndexRegistry { void registerIndex ( Index index ) ; void unregisterIndex ( Index index ) ; Index getIndex ( IndexMetadata indexMetadata ) ; Collection < Index > listIndexes ( ) ; } 

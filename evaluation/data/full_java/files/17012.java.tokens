@@ -1,0 +1,1 @@
+package com . google . gwt . webgl . client ; public class WebGLActiveInfo extends WebGLObject { protected WebGLActiveInfo ( ) { } public final native int getSize ( ) ; public final native String getName ( ) ; public final native int getType ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . api . tasks . diagnostics . internal ; import org . gradle . api . Project ; import java . io . IOException ; public interface ProjectReportGenerator { void generateReport ( Project project ) throws IOException ; } 

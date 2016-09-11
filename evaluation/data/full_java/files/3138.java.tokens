@@ -1,0 +1,1 @@
+package jcuda . driver ; import jcuda . NativePointerObject ; import jcuda . runtime . cudaArray ; public class CUarray extends NativePointerObject { public CUarray ( ) { } public CUarray ( cudaArray array ) { super ( array ) ; } @Override public String toString ( ) { return <str> + <str> + Long . toHexString ( getNativePointer ( ) ) + <str> ; } } 

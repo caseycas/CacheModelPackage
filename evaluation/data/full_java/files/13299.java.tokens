@@ -1,0 +1,1 @@
+package org . gradle . integtests . fixtures ; public interface TestExecutionResult { TestExecutionResult assertTestClassesExecuted ( String . . . testClasses ) ; TestClassExecutionResult testClass ( String testClass ) ; } 

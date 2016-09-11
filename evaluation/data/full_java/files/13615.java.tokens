@@ -1,0 +1,1 @@
+package org . gradle . language . jvm . internal ; import org . gradle . language . base . sources . BaseLanguageSourceSet ; import org . gradle . language . jvm . JvmResourceSet ; public class DefaultJvmResourceLanguageSourceSet extends BaseLanguageSourceSet implements JvmResourceSet { @Override protected String getTypeName ( ) { return <str> ; } } 

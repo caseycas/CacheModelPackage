@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . model . provisional ; public interface IElementMementoProvider { public void encodeElements ( IElementMementoRequest [ ] requests ) ; public void compareElements ( IElementCompareRequest [ ] requests ) ; } 

@@ -1,0 +1,1 @@
+package org . eclipse . debug . ui . console ; import org . eclipse . debug . core . model . IProcess ; import org . eclipse . swt . graphics . Color ; public interface IConsoleColorProvider { public boolean isReadOnly ( ) ; public Color getColor ( String streamIdentifer ) ; public void connect ( IProcess process , IConsole console ) ; public void disconnect ( ) ; } 

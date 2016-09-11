@@ -1,0 +1,1 @@
+package org . elasticsearch . http ; import org . elasticsearch . rest . RestRequest ; public abstract class HttpRequest extends RestRequest { } 

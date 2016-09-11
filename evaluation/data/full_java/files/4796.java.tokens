@@ -1,0 +1,1 @@
+package org . eclipse . ui . console ; public interface IPatternMatchListener extends IPatternMatchListenerDelegate { public String getPattern ( ) ; public int getCompilerFlags ( ) ; public String getLineQualifier ( ) ; } 

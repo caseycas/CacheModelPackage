@@ -1,0 +1,1 @@
+package org . gradle . model ; import org . gradle . api . Named ; @Managed public interface NamedThingInterface extends Named { String getOther ( ) ; void setOther ( String string ) ; } 

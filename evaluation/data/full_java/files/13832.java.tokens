@@ -1,0 +1,1 @@
+package org . gradle . launcher . daemon . protocol ; public class DaemonUnavailable extends Message { private final String reason ; public DaemonUnavailable ( String reason ) { this . reason = reason ; } public String getReason ( ) { return reason ; } } 

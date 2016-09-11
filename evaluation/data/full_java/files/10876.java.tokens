@@ -1,0 +1,1 @@
+package org . gradle . internal . reflect ; public interface Instantiator { < T > T newInstance ( Class < ? extends T > type , Object . . . parameters ) throws ObjectInstantiationException ; } 

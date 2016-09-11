@@ -1,0 +1,1 @@
+package clojure . asm . commons ; import clojure . asm . Label ; public interface TableSwitchGenerator { void generateCase ( int key , Label end ) ; void generateDefault ( ) ; } 

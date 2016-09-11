@@ -1,0 +1,1 @@
+package com . badlogic . gdx . backends . iosrobovm ; public interface IOSViewControllerListener { public void viewDidAppear ( boolean animated ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . plugins . ide . idea . model ; import groovy . util . Node ; public interface Dependency { void addToNode ( Node parentNode ) ; } 

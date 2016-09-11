@@ -1,0 +1,1 @@
+package org . gradle . internal . concurrent ; public interface AsyncStoppable extends Stoppable { void requestStop ( ) ; } 

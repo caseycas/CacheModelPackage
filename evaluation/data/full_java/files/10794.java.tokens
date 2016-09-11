@@ -1,0 +1,1 @@
+package org . gradle . api . specs ; public class NotSpec < T > implements Spec < T > { private Spec < ? super T > sourceSpec ; public NotSpec ( Spec < ? super T > sourceSpec ) { this . sourceSpec = sourceSpec ; } public boolean isSatisfiedBy ( T element ) { return ! sourceSpec . isSatisfiedBy ( element ) ; } } 

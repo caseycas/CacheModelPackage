@@ -1,0 +1,1 @@
+package org . gradle . tooling ; public interface ProgressEvent { String getDescription ( ) ; } 

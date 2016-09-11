@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . model . provisional ; public interface IViewerInputUpdate extends IViewerUpdate { public void setInputElement ( Object element ) ; public Object getInputElement ( ) ; } 

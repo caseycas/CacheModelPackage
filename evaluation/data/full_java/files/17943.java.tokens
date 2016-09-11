@@ -1,0 +1,1 @@
+package com . badlogic . gdx . graphics ; import com . badlogic . gdx . Graphics ; public interface Cursor { public void setSystemCursor ( ) ; } 

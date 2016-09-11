@@ -1,0 +1,1 @@
+package org . elasticsearch . script ; import org . elasticsearch . common . lucene . ScorerAware ; import java . util . Map ; public interface LeafSearchScript extends ScorerAware , ExecutableScript { void setDocument ( int doc ) ; void setSource ( Map < String , Object > source ) ; float runAsFloat ( ) ; long runAsLong ( ) ; double runAsDouble ( ) ; } 

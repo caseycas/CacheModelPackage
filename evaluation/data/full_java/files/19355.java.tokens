@@ -1,0 +1,1 @@
+package io . netty . handler . codec . http2 ; import io . netty . buffer . ByteBuf ; public interface Http2HeadersDecoder { interface Configuration { Http2HeaderTable headerTable ( ) ; int maxHeaderSize ( ) ; } Http2Headers decodeHeaders ( ByteBuf headerBlock ) throws Http2Exception ; Configuration configuration ( ) ; } 

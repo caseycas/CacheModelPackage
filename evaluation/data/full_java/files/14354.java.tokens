@@ -1,0 +1,1 @@
+package org . gradle . model . internal . manage . instance ; import org . gradle . model . internal . core . MutableModelNode ; import org . gradle . model . internal . type . ModelType ; public interface ManagedInstance { MutableModelNode getBackingNode ( ) ; ModelType < ? > getManagedType ( ) ; } 

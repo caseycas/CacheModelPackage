@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . views . memory ; public interface IMemoryView { public IMemoryViewTab getTopMemoryTab ( ) ; public IMemoryViewTab [ ] getAllViewTabs ( ) ; public void moveToTop ( IMemoryViewTab viewTab ) ; } 

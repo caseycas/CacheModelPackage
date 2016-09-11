@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts . result ; import org . gradle . api . Incubating ; @Incubating public interface ComponentSelectionReason { boolean isForced ( ) ; boolean isConflictResolution ( ) ; boolean isSelectedByRule ( ) ; boolean isExpected ( ) ; String getDescription ( ) ; } 

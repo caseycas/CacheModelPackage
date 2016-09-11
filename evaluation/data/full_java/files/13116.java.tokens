@@ -1,0 +1,1 @@
+package org . gradle . sample . services ; import org . gradle . sample . api . Person ; import org . gradle . sample . shared . Helper ; public class PersonService { boolean checkPerson ( Person person ) { System . out . println ( Helper . prettyPrint ( <str> ) ) ; if ( person . getFirstname ( ) . length ( ) < <int> ) { return false ; } return true ; } } 

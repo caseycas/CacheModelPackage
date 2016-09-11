@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . provider ; import java . io . Serializable ; public class CustomPayload implements Serializable , PayloadInterface { Object value ; boolean ok ; Integer [ ] anArray = new Integer [ <int> ] ; public String getValue ( ) { return value . toString ( ) ; } } 

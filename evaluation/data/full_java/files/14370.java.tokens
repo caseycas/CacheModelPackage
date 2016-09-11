@@ -1,0 +1,1 @@
+package org . gradle . model . internal . manage . schema ; import org . gradle . model . internal . type . ModelType ; public class ScalarValueSchema < T > extends AbstractModelSchema < T > { public ScalarValueSchema ( ModelType < T > type ) { super ( type ) ; } @Override public String toString ( ) { return <str> + getType ( ) ; } } 

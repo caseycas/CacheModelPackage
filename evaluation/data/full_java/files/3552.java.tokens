@@ -1,0 +1,1 @@
+package org . eclipse . debug . core ; import org . eclipse . core . runtime . CoreException ; public interface ILaunchConfigurationMigrationDelegate { public boolean isCandidate ( ILaunchConfiguration candidate ) throws CoreException ; public void migrate ( ILaunchConfiguration candidate ) throws CoreException ; } 

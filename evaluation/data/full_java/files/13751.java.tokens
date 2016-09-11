@@ -1,0 +1,1 @@
+package org . gradle . launcher ; import org . gradle . launcher . bootstrap . ProcessBootstrap ; public class GradleMain { public static void main ( String [ ] args ) throws Exception { new ProcessBootstrap ( ) . run ( <str> , args ) ; } } 

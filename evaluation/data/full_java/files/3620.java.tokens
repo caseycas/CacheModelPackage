@@ -1,0 +1,1 @@
+package org . eclipse . debug . core . model ; import org . eclipse . debug . core . DebugException ; public interface ISuspendResume { public boolean canResume ( ) ; public boolean canSuspend ( ) ; public boolean isSuspended ( ) ; public void resume ( ) throws DebugException ; public void suspend ( ) throws DebugException ; } 

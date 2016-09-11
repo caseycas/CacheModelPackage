@@ -1,0 +1,1 @@
+package org . gradle . api . internal . project ; @Deprecated public interface ServiceRegistry { } 

@@ -1,0 +1,1 @@
+package jcuda . runtime ; public class cudaMemoryType { public static final int cudaMemoryTypeHost = <int> ; public static final int cudaMemoryTypeDevice = <int> ; public static String stringFor ( int k ) { switch ( k ) { case cudaMemoryTypeHost : return <str> ; case cudaMemoryTypeDevice : return <str> ; } return <str> + k ; } private cudaMemoryType ( ) { } } 

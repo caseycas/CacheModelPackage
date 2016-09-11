@@ -1,0 +1,1 @@
+package org . gradle . language . coffeescript . internal ; import org . gradle . language . base . sources . BaseLanguageSourceSet ; import org . gradle . language . coffeescript . CoffeeScriptSourceSet ; public class DefaultCoffeeScriptSourceSet extends BaseLanguageSourceSet implements CoffeeScriptSourceSet { @Override protected String getTypeName ( ) { return <str> ; } } 

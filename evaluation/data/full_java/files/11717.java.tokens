@@ -1,0 +1,1 @@
+package org . gradle . api . internal . tasks . options ; import java . lang . annotation . * ; @Retention ( RetentionPolicy . RUNTIME ) @Target ( { ElementType . METHOD , ElementType . FIELD } ) @Inherited public @interface Option { String option ( ) default <str> ; String description ( ) ; } 

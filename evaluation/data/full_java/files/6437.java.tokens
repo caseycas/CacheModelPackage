@@ -1,0 +1,1 @@
+package org . elasticsearch . index . fielddata ; import org . apache . lucene . index . SortedNumericDocValues ; public interface AtomicNumericFieldData extends AtomicFieldData { SortedNumericDocValues getLongValues ( ) ; SortedNumericDoubleValues getDoubleValues ( ) ; } 

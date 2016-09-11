@@ -1,0 +1,1 @@
+package com . google . common . graph ; final class GraphErrorMessageUtils { private GraphErrorMessageUtils ( ) { } static final String NODE_NOT_IN_GRAPH = <str> ; static final String EDGE_NOT_IN_GRAPH = <str> ; static final String REUSING_EDGE = <str> + <str> ; static final String ADDING_PARALLEL_EDGE = <str> ; static final String SELF_LOOPS_NOT_ALLOWED = <str> ; } 

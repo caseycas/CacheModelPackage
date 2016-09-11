@@ -1,0 +1,1 @@
+package org . apache . cassandra . stress . generate ; import java . io . Serializable ; public interface DistributionFactory extends Serializable { Distribution get ( ) ; } 

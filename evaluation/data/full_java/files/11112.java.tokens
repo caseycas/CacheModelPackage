@@ -1,0 +1,1 @@
+package org . gradle . api ; public class UnknownDomainObjectException extends GradleException { public UnknownDomainObjectException ( String message ) { super ( message ) ; } public UnknownDomainObjectException ( String message , Throwable cause ) { super ( message , cause ) ; } } 

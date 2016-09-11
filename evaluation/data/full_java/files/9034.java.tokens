@@ -1,0 +1,1 @@
+package org . elasticsearch . test . rest . parser ; public class RestTestParseException extends Exception { RestTestParseException ( String message ) { super ( message ) ; } RestTestParseException ( String message , Throwable cause ) { super ( message , cause ) ; } } 

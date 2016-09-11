@@ -1,0 +1,1 @@
+package org . gradle . api . publication . maven . internal ; import org . gradle . api . artifacts . maven . GroovyMavenDeployer ; import org . gradle . api . artifacts . maven . MavenResolver ; public interface DeployerFactory { GroovyMavenDeployer createMavenDeployer ( ) ; MavenResolver createMavenInstaller ( ) ; } 

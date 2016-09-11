@@ -1,0 +1,1 @@
+package org . eclipse . debug . core ; public interface IBreakpointManagerListener { public void breakpointManagerEnablementChanged ( boolean enabled ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . api . resources ; import org . gradle . api . Incubating ; public interface ResourceHandler { ReadableResource gzip ( Object path ) ; ReadableResource bzip2 ( Object path ) ; @Incubating TextResourceFactory getText ( ) ; } 

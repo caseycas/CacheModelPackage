@@ -1,0 +1,1 @@
+package org . elasticsearch . search . aggregations . metrics . sum ; import org . elasticsearch . search . aggregations . metrics . NumericMetricsAggregation ; public interface Sum extends NumericMetricsAggregation . SingleValue { double getValue ( ) ; } 

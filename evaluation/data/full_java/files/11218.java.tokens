@@ -1,0 +1,1 @@
+package org . gradle . api . component ; import org . gradle . api . Incubating ; import org . gradle . api . Named ; import org . gradle . internal . HasInternalProtocol ; @Incubating @HasInternalProtocol public interface SoftwareComponent extends Named { } 

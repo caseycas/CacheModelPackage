@@ -1,0 +1,1 @@
+package org . gradle . api . internal ; public class NoNamingPropertyException extends RuntimeException { NoNamingPropertyException ( Object thing , String property ) { super ( String . format ( <str> , thing , property ) ) ; } } 

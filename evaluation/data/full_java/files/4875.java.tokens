@@ -1,0 +1,1 @@
+package org . apache . lucene . index ; public class OneMergeHelper { private OneMergeHelper ( ) { } public static String getSegmentName ( MergePolicy . OneMerge merge ) { return merge . info ! = null ? merge . info . info . name : <str> ; } } 

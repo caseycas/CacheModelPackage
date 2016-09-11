@@ -1,0 +1,1 @@
+package org . gradle . api . internal . tasks ; import org . gradle . api . internal . TaskInternal ; public interface TaskExecuter { void execute ( TaskInternal task , TaskStateInternal state , TaskExecutionContext context ) ; } 

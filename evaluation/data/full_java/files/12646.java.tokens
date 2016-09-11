@@ -1,0 +1,1 @@
+package org . gradle . api . internal . artifacts . ivyservice . projectmodule ; import org . gradle . api . artifacts . ModuleVersionIdentifier ; public interface ProjectPublication { ModuleVersionIdentifier getId ( ) ; } 

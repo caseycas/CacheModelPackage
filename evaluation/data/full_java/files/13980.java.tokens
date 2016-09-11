@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts . maven ; import org . apache . ivy . core . module . descriptor . Artifact ; import java . io . File ; public interface PublishFilter { PublishFilter ALWAYS_ACCEPT = new PublishFilter ( ) { public boolean accept ( Artifact artifact , File src ) { return true ; } } ; boolean accept ( Artifact artifact , File src ) ; } 

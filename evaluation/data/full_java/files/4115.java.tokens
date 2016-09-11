@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . commands . actions ; public class DisconnectCommandActionDelegate extends DebugCommandActionDelegate { public DisconnectCommandActionDelegate ( ) { super ( ) ; setAction ( new DisconnectCommandAction ( ) ) ; } } 

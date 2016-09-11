@@ -1,0 +1,1 @@
+package org . gradle . jvm . application . scripts ; import org . gradle . api . Incubating ; import java . io . Writer ; @Incubating public interface ScriptGenerator { void generateScript ( JavaAppStartScriptGenerationDetails details , Writer destination ) ; } 

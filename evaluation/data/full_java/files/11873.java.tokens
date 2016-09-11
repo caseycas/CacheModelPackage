@@ -1,0 +1,1 @@
+package org . gradle . cache . internal . filelock ; import org . gradle . cache . internal . FileLockManager ; public interface LockOptions { FileLockManager . LockMode getMode ( ) ; boolean isUseCrossVersionImplementation ( ) ; LockOptions withMode ( FileLockManager . LockMode mode ) ; } 

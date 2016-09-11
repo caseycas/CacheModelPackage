@@ -1,0 +1,1 @@
+package org . gradle . api . internal . tasks . testing . testng ; import org . testng . ITestResult ; public interface TestNGConfigurationListener { void onConfigurationSuccess ( ITestResult itr ) ; void onConfigurationFailure ( ITestResult itr ) ; void onConfigurationSkip ( ITestResult itr ) ; void beforeConfiguration ( ITestResult tr ) ; } 

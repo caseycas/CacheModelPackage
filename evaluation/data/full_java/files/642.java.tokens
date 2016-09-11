@@ -1,0 +1,1 @@
+package org . apache . cassandra . index ; public final class IndexNotAvailableException extends RuntimeException { public IndexNotAvailableException ( Index index ) { super ( String . format ( <str> , index . getIndexMetadata ( ) . name ) ) ; } } 

@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts . repositories ; import org . gradle . internal . HasInternalProtocol ; @HasInternalProtocol public interface ArtifactRepository { String getName ( ) ; void setName ( String name ) ; } 

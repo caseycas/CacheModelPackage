@@ -1,0 +1,1 @@
+package org . gradle . launcher . daemon . protocol ; abstract public class Result < T > extends Message { private final T value ; public Result ( T value ) { this . value = value ; } public T getValue ( ) { return value ; } @Override public String toString ( ) { return String . format ( <str> , getClass ( ) . getSimpleName ( ) , getValue ( ) ) ; } } 

@@ -1,0 +1,1 @@
+package org . gradle . internal . filewatch ; public interface FileWatcherListener { void onChange ( FileWatcher watcher , FileWatcherEvent event ) ; } 

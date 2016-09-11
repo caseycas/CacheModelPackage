@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . commands . actions ; import org . eclipse . jface . action . IAction ; public class StepOverCommandActionDelegate extends DebugCommandActionDelegate { public StepOverCommandActionDelegate ( ) { super ( ) ; setAction ( new StepOverCommandAction ( ) ) ; } @Override public void init ( IAction action ) { super . init ( action ) ; } } 

@@ -1,0 +1,1 @@
+package org . elasticsearch . common . recycler ; public class LockedRecyclerTests extends AbstractRecyclerTestCase { @Override protected Recycler < byte [ ] > newRecycler ( int limit ) { return Recyclers . locked ( Recyclers . deque ( RECYCLER_C , limit ) ) ; } } 

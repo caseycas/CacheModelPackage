@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . protocol ; import java . io . InputStream ; import java . io . OutputStream ; @Deprecated public interface LongRunningOperationParametersVersion1 { OutputStream getStandardOutput ( ) ; OutputStream getStandardError ( ) ; ProgressListenerVersion1 getProgressListener ( ) ; InputStream getStandardInput ( ) ; } 

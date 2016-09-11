@@ -1,0 +1,1 @@
+package org . gradle . internal . reflect ; public interface PropertyMutator { String getName ( ) ; Class < ? > getType ( ) ; void setValue ( Object target , Object value ) ; } 

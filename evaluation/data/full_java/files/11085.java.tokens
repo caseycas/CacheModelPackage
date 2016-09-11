@@ -1,0 +1,1 @@
+package org . gradle . api ; @Incubating public class BuildCancelledException extends GradleException { public BuildCancelledException ( ) { this ( <str> ) ; } public BuildCancelledException ( String message ) { super ( message ) ; } public BuildCancelledException ( String message , Throwable cause ) { super ( message , cause ) ; } } 

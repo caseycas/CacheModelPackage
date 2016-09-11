@@ -1,0 +1,1 @@
+package org . elasticsearch . action ; public interface ActionListener < Response > { void onResponse ( Response response ) ; void onFailure ( Throwable e ) ; } 

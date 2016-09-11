@@ -1,0 +1,1 @@
+package org . jbox2d . dynamics . joints ; import org . jbox2d . dynamics . Body ; public class JointDef { public JointDef ( JointType type ) { this . type = type ; userData = null ; bodyA = null ; bodyB = null ; collideConnected = false ; } public JointType type ; public Object userData ; public Body bodyA ; public Body bodyB ; public boolean collideConnected ; } 

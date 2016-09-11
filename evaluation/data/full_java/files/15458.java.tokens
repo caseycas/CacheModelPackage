@@ -1,0 +1,1 @@
+package org . gradle . api . tasks ; import groovy . lang . Closure ; import org . gradle . api . file . SourceDirectorySet ; public interface ScalaSourceSet { SourceDirectorySet getScala ( ) ; ScalaSourceSet scala ( Closure configureClosure ) ; SourceDirectorySet getAllScala ( ) ; } 

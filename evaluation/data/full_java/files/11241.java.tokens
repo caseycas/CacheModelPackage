@@ -1,0 +1,1 @@
+package org . gradle . api . file ; import org . gradle . api . tasks . util . PatternSet ; import java . io . File ; public interface DirectoryTree { File getDir ( ) ; PatternSet getPatterns ( ) ; } 

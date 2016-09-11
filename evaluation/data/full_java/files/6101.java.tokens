@@ -1,0 +1,1 @@
+package org . elasticsearch . common . util ; public interface LongArray extends BigArray { public abstract long get ( long index ) ; public abstract long set ( long index , long value ) ; public abstract long increment ( long index , long inc ) ; public abstract void fill ( long fromIndex , long toIndex , long value ) ; } 

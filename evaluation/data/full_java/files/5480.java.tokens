@@ -1,0 +1,1 @@
+package org . elasticsearch . bootstrap ; public interface ConsoleCtrlHandler { int CTRL_CLOSE_EVENT = <int> ; boolean handle ( int code ) ; } 

@@ -1,0 +1,1 @@
+package com . google . common . testing ; import com . google . common . annotations . Beta ; import com . google . common . annotations . GwtCompatible ; @Beta @GwtCompatible public interface TearDownAccepter { void addTearDown ( TearDown tearDown ) ; } 

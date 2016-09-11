@@ -1,0 +1,1 @@
+package org . eclipse . debug . core . model ; import org . eclipse . core . runtime . CoreException ; public interface ILineBreakpoint extends IBreakpoint { public int getLineNumber ( ) throws CoreException ; public int getCharStart ( ) throws CoreException ; public int getCharEnd ( ) throws CoreException ; } 

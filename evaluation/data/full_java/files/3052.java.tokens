@@ -1,0 +1,1 @@
+package jcuda . jcusparse ; import jcuda . NativePointerObject ; public class cusparseColorInfo extends NativePointerObject { public cusparseColorInfo ( ) { } @Override public String toString ( ) { return <str> + <str> + Long . toHexString ( getNativePointer ( ) ) + <str> ; } } 

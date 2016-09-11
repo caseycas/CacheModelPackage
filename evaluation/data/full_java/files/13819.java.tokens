@@ -1,0 +1,1 @@
+package org . gradle . launcher . daemon . context ; import org . gradle . messaging . remote . Address ; public interface DaemonInstanceDetails { String getUid ( ) ; Address getAddress ( ) ; Long getPid ( ) ; } 

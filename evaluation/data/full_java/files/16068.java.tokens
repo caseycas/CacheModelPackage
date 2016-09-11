@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . protocol . eclipse ; import org . gradle . tooling . internal . protocol . TaskVersion1 ; public interface EclipseTaskVersion1 extends TaskVersion1 { EclipseProjectVersion3 getProject ( ) ; } 

@@ -1,0 +1,1 @@
+package org . elasticsearch . search . aggregations . metrics . min ; import org . elasticsearch . search . aggregations . metrics . NumericMetricsAggregation ; public interface Min extends NumericMetricsAggregation . SingleValue { double getValue ( ) ; } 

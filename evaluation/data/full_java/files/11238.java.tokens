@@ -1,0 +1,1 @@
+package org . gradle . api . file ; import groovy . lang . Closure ; public interface CopySourceSpec { CopySourceSpec from ( Object . . . sourcePaths ) ; CopySourceSpec from ( Object sourcePath , Closure configureClosure ) ; } 

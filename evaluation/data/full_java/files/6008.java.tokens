@@ -1,0 +1,1 @@
+package org . elasticsearch . common . math ; public enum MathUtils { ; public static int mod ( int v , int m ) { int r = v % m ; if ( r < <int> ) { r + = m ; } return r ; } } 

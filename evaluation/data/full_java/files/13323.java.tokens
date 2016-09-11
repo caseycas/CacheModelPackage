@@ -1,0 +1,1 @@
+package org . gradle . api . publish . ivy ; import org . gradle . api . Action ; import org . gradle . api . DomainObjectSet ; import org . gradle . api . Incubating ; @Incubating public interface IvyArtifactSet extends DomainObjectSet < IvyArtifact > { IvyArtifact artifact ( Object source ) ; IvyArtifact artifact ( Object source , Action < ? super IvyArtifact > config ) ; } 

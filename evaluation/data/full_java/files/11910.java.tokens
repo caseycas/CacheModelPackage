@@ -1,0 +1,1 @@
+package org . gradle . execution ; import org . gradle . api . internal . GradleInternal ; public interface BuildExecuter { void execute ( GradleInternal gradle ) ; } 

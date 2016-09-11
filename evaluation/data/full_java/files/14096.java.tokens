@@ -1,0 +1,1 @@
+package org . gradle . internal . serialize ; public interface SerializerRegistry < T > { < U extends T > void register ( Class < U > implementationType , Serializer < U > serializer ) ; < U extends T > void useJavaSerialization ( Class < U > implementationType ) ; Serializer < T > build ( ) ; } 

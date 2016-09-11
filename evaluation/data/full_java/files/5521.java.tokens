@@ -1,0 +1,1 @@
+package org . elasticsearch . cluster ; public interface ClusterStateListener { void clusterChanged ( ClusterChangedEvent event ) ; } 

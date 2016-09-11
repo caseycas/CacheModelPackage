@@ -1,0 +1,1 @@
+package org . gradle . internal . featurelifecycle ; public interface UsageLocationReporter { void reportLocation ( DeprecatedFeatureUsage usage , StringBuilder target ) ; } 

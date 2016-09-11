@@ -1,0 +1,1 @@
+package org . gradle . api . plugins . antlr ; import groovy . lang . Closure ; import org . gradle . api . file . SourceDirectorySet ; public interface AntlrSourceVirtualDirectory { public static final String NAME = <str> ; public SourceDirectorySet getAntlr ( ) ; public AntlrSourceVirtualDirectory antlr ( Closure configureClosure ) ; } 

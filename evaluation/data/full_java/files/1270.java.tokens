@@ -1,0 +1,1 @@
+package org . apache . cassandra . utils . concurrent ; public interface SharedCloseable extends AutoCloseable { public SharedCloseable sharedCopy ( ) ; public Throwable close ( Throwable accumulate ) ; public void addTo ( Ref . IdentityCollection identities ) ; } 

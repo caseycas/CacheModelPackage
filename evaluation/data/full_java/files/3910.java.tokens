@@ -1,0 +1,1 @@
+package org . eclipse . debug . tests . sourcelookup ; import org . eclipse . debug . core . Launch ; public class TestLaunch extends Launch { public TestLaunch ( ) { super ( null , <str> , new TestSourceDirector ( ) ) ; } } 

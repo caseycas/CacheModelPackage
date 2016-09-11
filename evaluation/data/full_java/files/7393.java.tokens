@@ -1,0 +1,1 @@
+package org . elasticsearch . search . aggregations . pipeline . bucketmetrics . percentile ; import org . elasticsearch . search . aggregations . metrics . percentiles . Percentiles ; public interface PercentilesBucket extends Percentiles { } 

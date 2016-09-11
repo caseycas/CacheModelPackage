@@ -1,0 +1,1 @@
+package io . netty . handler . codec . marshalling ; public class SerialThreadLocalCompatibleMarshallingEncoderTest extends SerialCompatibleMarshallingEncoderTest { @Override protected MarshallerProvider createProvider ( ) { return new ThreadLocalMarshallerProvider ( createMarshallerFactory ( ) , createMarshallingConfig ( ) ) ; } } 

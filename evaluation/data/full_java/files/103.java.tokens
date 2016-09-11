@@ -1,0 +1,1 @@
+package org . apache . cassandra . concurrent ; public interface JMXEnabledThreadPoolExecutorMBean { public int getCoreThreads ( ) ; public void setCoreThreads ( int number ) ; public int getMaximumThreads ( ) ; public void setMaximumThreads ( int number ) ; } 

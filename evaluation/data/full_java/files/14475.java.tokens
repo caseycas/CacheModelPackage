@@ -1,0 +1,1 @@
+package org . gradle . model . internal . manage . schema . extract ; import org . gradle . model . Managed ; @Managed public interface SimpleManagedType { String getName ( ) ; void setName ( String name ) ; } 

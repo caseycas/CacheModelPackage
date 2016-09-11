@@ -1,0 +1,1 @@
+package org . gradle . language . base ; import org . gradle . api . DomainObjectSet ; import org . gradle . api . Incubating ; @Incubating public interface ProjectSourceSet extends DomainObjectSet < LanguageSourceSet > { } 

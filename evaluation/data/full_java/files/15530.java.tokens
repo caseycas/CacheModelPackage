@@ -1,0 +1,1 @@
+package org . gradle . testkit . runner ; import org . gradle . api . Incubating ; @Incubating public interface BuildTask { String getPath ( ) ; TaskOutcome getOutcome ( ) ; } 

@@ -1,0 +1,1 @@
+package io . netty . channel . rxtx ; import java . net . SocketAddress ; public class RxtxDeviceAddress extends SocketAddress { private static final long serialVersionUID = - <int> ; private final String value ; public RxtxDeviceAddress ( String value ) { this . value = value ; } public String value ( ) { return value ; } } 

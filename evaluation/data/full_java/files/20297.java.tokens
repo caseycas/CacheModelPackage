@@ -1,0 +1,1 @@
+package io . netty . channel . socket ; import io . netty . channel . ChannelHandlerContext ; import io . netty . channel . ChannelInboundHandler ; public final class ChannelInputShutdownEvent { @SuppressWarnings ( <str> ) public static final ChannelInputShutdownEvent INSTANCE = new ChannelInputShutdownEvent ( ) ; private ChannelInputShutdownEvent ( ) { } } 

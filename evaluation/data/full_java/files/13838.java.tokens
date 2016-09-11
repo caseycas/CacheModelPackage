@@ -1,0 +1,1 @@
+package org . gradle . launcher . daemon . protocol ; import org . gradle . logging . internal . OutputEvent ; public class OutputMessage extends Message { private final OutputEvent event ; public OutputMessage ( OutputEvent event ) { this . event = event ; } public OutputEvent getEvent ( ) { return event ; } } 

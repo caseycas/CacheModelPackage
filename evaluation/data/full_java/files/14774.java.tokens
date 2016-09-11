@@ -1,0 +1,1 @@
+package org . gradle . platform . base . test ; import org . gradle . api . Incubating ; import org . gradle . platform . base . BinarySpec ; @Incubating public interface TestSuiteBinarySpec extends BinarySpec { TestSuiteSpec getTestSuite ( ) ; } 

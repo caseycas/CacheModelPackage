@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . commands . actions ; import org . eclipse . debug . core . commands . ITerminateHandler ; import org . eclipse . debug . ui . actions . DebugCommandHandler ; public class TerminateCommandHandler extends DebugCommandHandler { @Override protected Class < ITerminateHandler > getCommandType ( ) { return ITerminateHandler . class ; } } 

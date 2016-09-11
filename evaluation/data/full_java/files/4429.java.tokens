@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . model . provisional ; public interface IModelProxyFactory { public IModelProxy createModelProxy ( Object element , IPresentationContext context ) ; } 

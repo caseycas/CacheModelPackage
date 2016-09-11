@@ -1,0 +1,1 @@
+package org . elasticsearch . script ; import org . elasticsearch . common . Nullable ; import java . util . Map ; public interface NativeScriptFactory { ExecutableScript newScript ( @Nullable Map < String , Object > params ) ; boolean needsScores ( ) ; } 

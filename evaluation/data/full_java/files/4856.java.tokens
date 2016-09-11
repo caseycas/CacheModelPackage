@@ -1,0 +1,1 @@
+package org . eclipse . ui . externaltools . internal . model ; public interface IPreferenceConstants { public static final String PROMPT_FOR_TOOL_MIGRATION = <str> ; public static final String PROMPT_FOR_PROJECT_MIGRATION = <str> ; } 

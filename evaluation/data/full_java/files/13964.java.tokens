@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . provider ; import java . io . Serializable ; public class WrapperPayload implements Serializable , PayloadInterface { PayloadInterface payload ; public String getValue ( ) { return payload . getValue ( ) ; } } 

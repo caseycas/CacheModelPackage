@@ -1,0 +1,1 @@
+package org . gradle . util ; public class NoOpChangeListener < T > implements ChangeListener < T > { public void added ( T element ) { } public void removed ( T element ) { } public void changed ( T element ) { } } 

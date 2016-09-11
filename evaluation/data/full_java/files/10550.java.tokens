@@ -1,0 +1,1 @@
+package com . google . common . io ; public interface TestStreamSupplier { boolean wasStreamOpened ( ) ; boolean wasStreamClosed ( ) ; } 

@@ -1,0 +1,1 @@
+package org . eclipse . debug . core ; public interface IDebugEventFilter { public DebugEvent [ ] filterDebugEvents ( DebugEvent [ ] events ) ; } 

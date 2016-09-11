@@ -1,0 +1,1 @@
+package models ; public class DataType { private final String foo ; private final int bar ; public DataType ( String foo , int bar ) { this . foo = foo ; this . bar = bar ; } @Override public String toString ( ) { return String . format ( <str> , foo , bar ) ; } } 

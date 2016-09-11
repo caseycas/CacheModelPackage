@@ -1,0 +1,1 @@
+package org . gradle . nativeplatform ; import org . gradle . api . Incubating ; @Incubating public interface NativeLibraryRequirement { String getProjectPath ( ) ; String getLibraryName ( ) ; String getLinkage ( ) ; } 

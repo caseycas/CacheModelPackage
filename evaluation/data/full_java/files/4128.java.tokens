@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . commands . actions ; import org . eclipse . debug . core . commands . IResumeHandler ; import org . eclipse . debug . ui . actions . DebugCommandHandler ; public class ResumeCommandHandler extends DebugCommandHandler { @Override protected Class < IResumeHandler > getCommandType ( ) { return IResumeHandler . class ; } } 

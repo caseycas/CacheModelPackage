@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . adapter ; public interface MethodInvoker { void invoke ( MethodInvocation invocation ) throws Throwable ; } 

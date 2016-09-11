@@ -1,0 +1,1 @@
+package jcuda . driver ; public class CUDA_ARRAY_DESCRIPTOR { public long Width ; public long Height ; public int Format ; public int NumChannels ; public CUDA_ARRAY_DESCRIPTOR ( ) { } @Override public String toString ( ) { return <str> + <str> + Width + <str> + <str> + Height + <str> + <str> + Format + <str> + <str> + NumChannels + <str> ; } } 

@@ -1,0 +1,1 @@
+package org . eclipse . ui . console ; public interface IPatternMatchListenerDelegate { public void connect ( TextConsole console ) ; public void disconnect ( ) ; public void matchFound ( PatternMatchEvent event ) ; } 

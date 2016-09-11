@@ -1,0 +1,1 @@
+package io . netty . handler . codec . spdy ; public interface SpdyGoAwayFrame extends SpdyFrame { int lastGoodStreamId ( ) ; SpdyGoAwayFrame setLastGoodStreamId ( int lastGoodStreamId ) ; SpdySessionStatus status ( ) ; SpdyGoAwayFrame setStatus ( SpdySessionStatus status ) ; } 

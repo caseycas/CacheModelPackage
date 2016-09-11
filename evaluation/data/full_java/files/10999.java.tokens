@@ -1,0 +1,1 @@
+package webinar ; import org . junit . Assert ; import org . junit . Test ; public class WebinarTest { @Test public void normalizesDescription ( ) { Demoable demoable = new Webinar ( <str> ) ; Assert . assertEquals ( <str> , demoable . getDescription ( ) ) ; } } 

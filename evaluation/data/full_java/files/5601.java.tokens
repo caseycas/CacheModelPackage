@@ -1,0 +1,1 @@
+package org . elasticsearch . cluster . routing ; import org . elasticsearch . index . shard . ShardId ; public interface ShardIterator extends ShardsIterator , Comparable < ShardIterator > { ShardId shardId ( ) ; @Override void reset ( ) ; } 

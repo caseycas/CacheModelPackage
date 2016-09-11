@@ -1,0 +1,1 @@
+package org . elasticsearch . action . search . type ; public class ScrollIdForNode { private final String node ; private final long scrollId ; public ScrollIdForNode ( String node , long scrollId ) { this . node = node ; this . scrollId = scrollId ; } public String getNode ( ) { return node ; } public long getScrollId ( ) { return scrollId ; } } 

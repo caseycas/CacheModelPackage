@@ -1,0 +1,1 @@
+package org . elasticsearch . index . fielddata ; import org . apache . lucene . index . SortedDocValues ; import java . util . Set ; public interface AtomicParentChildFieldData extends AtomicFieldData { Set < String > types ( ) ; SortedDocValues getOrdinalsValues ( String type ) ; } 

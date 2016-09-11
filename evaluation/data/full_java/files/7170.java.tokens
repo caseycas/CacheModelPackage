@@ -1,0 +1,1 @@
+package org . elasticsearch . search . aggregations . bucket . geogrid ; import org . elasticsearch . search . aggregations . bucket . MultiBucketsAggregation ; import java . util . List ; public interface GeoHashGrid extends MultiBucketsAggregation { interface Bucket extends MultiBucketsAggregation . Bucket { } @Override List < Bucket > getBuckets ( ) ; } 

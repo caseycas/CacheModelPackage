@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . protocol . events ; import org . gradle . tooling . internal . protocol . InternalProtocolInterface ; public interface InternalProgressEvent extends InternalProtocolInterface { long getEventTime ( ) ; String getDisplayName ( ) ; InternalOperationDescriptor getDescriptor ( ) ; } 

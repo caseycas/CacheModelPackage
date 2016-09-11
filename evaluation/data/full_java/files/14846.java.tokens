@@ -1,0 +1,1 @@
+package org . gradle . jvm . tasks . api . internal ; public class EnumAnnotationValue extends SimpleAnnotationValue { private final String typeDesc ; public EnumAnnotationValue ( String name , String value , String typeDesc ) { super ( name , value ) ; this . typeDesc = typeDesc ; } public String getTypeDesc ( ) { return typeDesc ; } } 

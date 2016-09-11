@@ -1,0 +1,1 @@
+package org . gradle . language . base . internal . registry ; import org . gradle . api . DomainObjectSet ; public interface LanguageTransformContainer extends DomainObjectSet < LanguageTransform < ? , ? > > { } 

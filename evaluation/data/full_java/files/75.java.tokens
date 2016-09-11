@@ -1,0 +1,1 @@
+package org . apache . cassandra . batchlog ; public interface BatchlogManagerMBean { public int countAllBatches ( ) ; public long getTotalBatchesReplayed ( ) ; public void forceBatchlogReplay ( ) throws Exception ; } 

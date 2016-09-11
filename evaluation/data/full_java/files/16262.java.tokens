@@ -1,0 +1,1 @@
+package org . gradle . gradleplugin . userinterface . swing . generic . tabs ; import java . awt . * ; public interface GradleTab { public String getName ( ) ; public Component createComponent ( ) ; public void aboutToShow ( ) ; } 

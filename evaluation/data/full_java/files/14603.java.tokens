@@ -1,0 +1,1 @@
+package org . gradle . performance . fixture ; import java . util . List ; import java . util . Map ; public interface Profiler { void addProfilerDefaults ( GradleInvocationSpec . Builder invocation ) ; List < String > profilerArguments ( Map < String , Object > yourkitOptions ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . api . internal . tasks . testing . junit . report ; import org . gradle . api . internal . tasks . testing . junit . result . TestResultsProvider ; import java . io . File ; public interface TestReporter { void generateReport ( TestResultsProvider testResultsProvider , File reportDir ) ; } 

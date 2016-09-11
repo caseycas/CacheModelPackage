@@ -1,0 +1,1 @@
+package jcuda . driver ; public class CUipcEventHandle { private static final int CU_IPC_HANDLE_SIZE = <int> ; @SuppressWarnings ( <str> ) private byte reserved [ ] = new byte [ CU_IPC_HANDLE_SIZE ] ; public CUipcEventHandle ( ) { } @Override public String toString ( ) { return super . toString ( ) ; } } 

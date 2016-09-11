@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . actions ; import org . eclipse . debug . core . ILaunchConfiguration ; import org . eclipse . debug . internal . ui . contextlaunching . ContextRunner ; @Deprecated public abstract class RelaunchLastAction extends org . eclipse . debug . ui . actions . RelaunchLastAction { } 

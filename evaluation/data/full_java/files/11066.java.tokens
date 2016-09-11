@@ -1,0 +1,1 @@
+package org . gradle . api . plugins . quality . internal . findbugs ; public interface FindBugsWorkerClientProtocol { void executed ( FindBugsResult result ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . api . tasks . incremental ; import org . gradle . api . Incubating ; import java . io . File ; @Incubating public interface InputFileDetails { boolean isAdded ( ) ; boolean isModified ( ) ; boolean isRemoved ( ) ; File getFile ( ) ; } 

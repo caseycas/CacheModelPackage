@@ -1,0 +1,1 @@
+package org . gradle . model ; import org . gradle . api . GradleException ; import org . gradle . api . Incubating ; @Incubating public class ModelRuleBindingException extends GradleException { public ModelRuleBindingException ( String message ) { super ( message ) ; } } 

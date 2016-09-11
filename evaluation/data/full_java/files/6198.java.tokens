@@ -1,0 +1,1 @@
+package org . elasticsearch . gateway ; import org . elasticsearch . ElasticsearchCorruptionException ; public class CorruptStateException extends ElasticsearchCorruptionException { public CorruptStateException ( String message ) { super ( message ) ; } public CorruptStateException ( Throwable ex ) { super ( ex ) ; } } 

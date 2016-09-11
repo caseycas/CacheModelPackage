@@ -1,0 +1,1 @@
+package org . gradle . tooling . events ; import org . gradle . api . Incubating ; @Incubating public interface ProgressListener { void statusChanged ( ProgressEvent event ) ; } 

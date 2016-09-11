@@ -1,0 +1,1 @@
+package org . gradle . internal . service ; public class ServiceCreationException extends ServiceLookupException { public ServiceCreationException ( String message ) { super ( message ) ; } public ServiceCreationException ( String message , Throwable cause ) { super ( message , cause ) ; } } 

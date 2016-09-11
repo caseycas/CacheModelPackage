@@ -1,0 +1,1 @@
+package org . gradle . api . execution ; import org . gradle . api . Task ; import org . gradle . api . tasks . TaskState ; public class TaskExecutionAdapter implements TaskExecutionListener { public void beforeExecute ( Task task ) { } public void afterExecute ( Task task , TaskState state ) { } } 

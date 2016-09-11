@@ -1,0 +1,1 @@
+package org . elasticsearch . script . javascript . support ; import org . mozilla . javascript . Scriptable ; import java . util . Map ; public interface ScriptableMap < K , V > extends Scriptable , Map < K , V > { } 

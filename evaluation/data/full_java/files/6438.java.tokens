@@ -1,0 +1,1 @@
+package org . elasticsearch . index . fielddata ; import org . apache . lucene . index . RandomAccessOrds ; public interface AtomicOrdinalsFieldData extends AtomicFieldData { RandomAccessOrds getOrdinalsValues ( ) ; } 

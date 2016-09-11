@@ -1,0 +1,1 @@
+package io . netty . handler . codec . stomp ; final class StompConstants { static final byte CR = <int> ; static final byte LF = <int> ; static final byte NUL = <int> ; static final byte COLON = <int> ; private StompConstants ( ) { } } 

@@ -1,0 +1,1 @@
+package org . gradle . api . tasks ; public interface VerificationTask { void setIgnoreFailures ( boolean ignoreFailures ) ; boolean getIgnoreFailures ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . plugins . javascript . envjs . browser ; import java . io . Writer ; public interface BrowserEvaluator { void evaluate ( String url , Writer writer ) ; } 

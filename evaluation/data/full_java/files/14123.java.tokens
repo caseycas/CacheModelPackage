@@ -1,0 +1,1 @@
+package org . gradle . messaging . remote ; import java . io . Serializable ; public interface Address extends Serializable { String getDisplayName ( ) ; } 

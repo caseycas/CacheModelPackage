@@ -1,0 +1,1 @@
+package org . gradle . messaging . remote . internal ; import org . gradle . api . Action ; import org . gradle . messaging . remote . ConnectionAcceptor ; public interface IncomingConnector { ConnectionAcceptor accept ( Action < ConnectCompletion > action , boolean allowRemote ) ; } 

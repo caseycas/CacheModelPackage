@@ -1,0 +1,1 @@
+package org . elasticsearch . search . aggregations . bucket . nested ; import org . elasticsearch . search . aggregations . bucket . SingleBucketAggregation ; public interface Nested extends SingleBucketAggregation { } 

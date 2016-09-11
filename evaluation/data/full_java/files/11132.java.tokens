@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts ; import org . gradle . api . Incubating ; @Incubating public interface DependencyResolveDetails { ModuleVersionSelector getRequested ( ) ; void useVersion ( String version ) ; void useTarget ( Object notation ) ; ModuleVersionSelector getTarget ( ) ; } 

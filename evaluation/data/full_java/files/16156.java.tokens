@@ -1,0 +1,1 @@
+package org . gradle . tooling . model . java ; import org . gradle . api . Incubating ; import org . gradle . api . JavaVersion ; @Incubating public interface JavaSourceSettings { JavaVersion getSourceLanguageLevel ( ) ; JavaVersion getTargetBytecodeLevel ( ) ; JavaRuntime getTargetRuntime ( ) ; } 

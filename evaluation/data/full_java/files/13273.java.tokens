@@ -1,0 +1,1 @@
+package org . gradle . integtests . fixtures . executer ; public class GradleVersions { private GradleVersions ( ) { } public static final String SUPPORTS_CONTINUOUS = <str> ; public static final String PRE_CONTINUOUS = <str> ; public static final String SUPPORTS_DEPLOYMENT_REGISTRY = <str> ; } 

@@ -1,0 +1,1 @@
+package org . gradle . plugin . use . resolve . internal ; import org . gradle . api . Action ; import org . gradle . plugin . internal . PluginId ; public interface PluginResolution extends Action < PluginResolveContext > { PluginId getPluginId ( ) ; } 

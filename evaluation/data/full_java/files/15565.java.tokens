@@ -1,0 +1,1 @@
+package org . gradle . api . internal . tasks . testing ; import org . gradle . internal . concurrent . Stoppable ; public interface TestClassProcessor extends Stoppable { void startProcessing ( TestResultProcessor resultProcessor ) ; void processTestClass ( TestClassRunInfo testClass ) ; void stop ( ) ; } 

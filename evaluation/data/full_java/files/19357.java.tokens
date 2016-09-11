@@ -1,0 +1,1 @@
+package io . netty . handler . codec . http2 ; public interface Http2HeaderTable { void maxHeaderTableSize ( int max ) throws Http2Exception ; int maxHeaderTableSize ( ) ; void maxHeaderListSize ( int max ) throws Http2Exception ; int maxHeaderListSize ( ) ; } 

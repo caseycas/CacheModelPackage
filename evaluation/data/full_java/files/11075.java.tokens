@@ -1,0 +1,1 @@
+package org . gradle ; import org . gradle . api . initialization . Settings ; import org . gradle . api . invocation . Gradle ; public interface BuildListener { void buildStarted ( Gradle gradle ) ; void settingsEvaluated ( Settings settings ) ; void projectsLoaded ( Gradle gradle ) ; void projectsEvaluated ( Gradle gradle ) ; void buildFinished ( BuildResult result ) ; } 

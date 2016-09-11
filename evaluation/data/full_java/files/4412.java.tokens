@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . model . provisional ; public interface IChildrenUpdate extends IViewerUpdate { public int getOffset ( ) ; public int getLength ( ) ; public void setChild ( Object child , int offset ) ; } 

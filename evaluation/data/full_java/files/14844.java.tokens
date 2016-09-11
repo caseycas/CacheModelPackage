@@ -1,0 +1,1 @@
+package org . gradle . jvm . tasks . api . internal ; public class ArrayAnnotationValue extends AnnotationValue < AnnotationValue < ? > [ ] > { public ArrayAnnotationValue ( String name , AnnotationValue < ? > [ ] value ) { super ( name , value ) ; } } 

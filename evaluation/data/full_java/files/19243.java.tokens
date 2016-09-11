@@ -1,0 +1,1 @@
+package io . netty . handler . codec . spdy ; public interface SpdyHeadersFrame extends SpdyStreamFrame { boolean isInvalid ( ) ; SpdyHeadersFrame setInvalid ( ) ; boolean isTruncated ( ) ; SpdyHeadersFrame setTruncated ( ) ; SpdyHeaders headers ( ) ; @Override SpdyHeadersFrame setStreamId ( int streamID ) ; @Override SpdyHeadersFrame setLast ( boolean last ) ; } 

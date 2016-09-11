@@ -1,0 +1,1 @@
+package org . gradle . api . internal . specs ; import org . gradle . api . specs . Spec ; public interface ExplainingSpec < T > extends Spec < T > { String whyUnsatisfied ( T element ) ; } 

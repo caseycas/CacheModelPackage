@@ -1,0 +1,1 @@
+package org . gradle . platform . base ; import org . gradle . api . ExtensiblePolymorphicDomainObjectContainer ; import org . gradle . api . Incubating ; @Incubating public interface PlatformContainer extends ExtensiblePolymorphicDomainObjectContainer < Platform > { } 

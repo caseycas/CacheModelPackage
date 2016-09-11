@@ -1,0 +1,1 @@
+package org . gradle . ivy ; import org . gradle . api . Incubating ; import org . gradle . api . component . Component ; @Incubating public interface IvyModule extends Component { } 

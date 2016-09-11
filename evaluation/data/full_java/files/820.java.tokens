@@ -1,0 +1,1 @@
+package org . apache . cassandra . net ; import java . net . InetAddress ; public interface IMessageSink { boolean allowOutgoingMessage ( MessageOut message , int id , InetAddress to ) ; boolean allowIncomingMessage ( MessageIn message , int id ) ; } 

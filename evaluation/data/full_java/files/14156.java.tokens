@@ -1,0 +1,1 @@
+package org . gradle . messaging . remote . internal ; import org . gradle . messaging . remote . Address ; public interface OutgoingConnector { ConnectCompletion connect ( Address destinationAddress ) throws ConnectException ; } 

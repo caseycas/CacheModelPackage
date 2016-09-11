@@ -1,0 +1,1 @@
+package org . gradle . api . tasks . testing ; import org . gradle . api . reporting . DirectoryReport ; import org . gradle . api . reporting . Report ; import org . gradle . api . reporting . ReportContainer ; public interface TestTaskReports extends ReportContainer < Report > { DirectoryReport getHtml ( ) ; JUnitXmlReport getJunitXml ( ) ; } 

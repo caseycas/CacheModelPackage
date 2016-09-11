@@ -1,0 +1,1 @@
+package org . gradle . initialization ; public class ReportedException extends RuntimeException { public ReportedException ( Throwable throwable ) { super ( throwable ) ; } } 

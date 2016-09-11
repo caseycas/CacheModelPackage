@@ -1,0 +1,1 @@
+package org . gradle . api . publish . maven ; import org . gradle . api . Incubating ; import org . gradle . internal . HasInternalProtocol ; @Incubating @HasInternalProtocol public interface MavenDependency { String getGroupId ( ) ; String getArtifactId ( ) ; String getVersion ( ) ; } 

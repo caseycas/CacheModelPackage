@@ -1,0 +1,1 @@
+package io . netty . channel . udt . nio ; import com . barchart . udt . TypeUDT ; import io . netty . channel . udt . UdtMessage ; public class NioUdtMessageRendezvousChannel extends NioUdtMessageConnectorChannel { public NioUdtMessageRendezvousChannel ( ) { super ( NioUdtProvider . newRendezvousChannelUDT ( TypeUDT . DATAGRAM ) ) ; } } 

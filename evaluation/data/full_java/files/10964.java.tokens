@@ -1,0 +1,1 @@
+package org . gradle . api . plugins . buildcomparison . outcome . internal ; public interface BuildOutcomeAssociator { Class < ? extends BuildOutcome > findAssociationType ( BuildOutcome source , BuildOutcome target ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . jvm . internal ; import org . gradle . api . internal . AbstractBuildableModelElement ; import java . io . File ; public class DefaultJarFile extends AbstractBuildableModelElement implements JarFile { private File file ; @Override public File getFile ( ) { return file ; } @Override public void setFile ( File jarFile ) { this . file = jarFile ; } } 

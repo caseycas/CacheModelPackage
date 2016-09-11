@@ -1,0 +1,1 @@
+package org . eclipse . debug . examples . core . midi . launcher ; public class LengthControl extends TimeControl { public LengthControl ( MidiLaunch launch ) { super ( <str> , launch ) ; } @Override protected long getTimeValue ( ) { return getSequencer ( ) . getMicrosecondLength ( ) ; } } 

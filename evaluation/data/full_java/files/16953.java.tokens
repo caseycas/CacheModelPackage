@@ -1,0 +1,1 @@
+package java . nio ; public class InvalidMarkException extends IllegalStateException { private static final long serialVersionUID = <int> ; public InvalidMarkException ( ) { super ( ) ; } } 

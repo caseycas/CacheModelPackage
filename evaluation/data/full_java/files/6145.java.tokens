@@ -1,0 +1,1 @@
+package org . elasticsearch . common . xcontent ; public class XContentLocation { public final int lineNumber ; public final int columnNumber ; public XContentLocation ( int lineNumber , int columnNumber ) { super ( ) ; this . lineNumber = lineNumber ; this . columnNumber = columnNumber ; } } 

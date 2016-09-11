@@ -1,0 +1,1 @@
+package org . gradle . plugins . ear . descriptor ; import groovy . util . Node ; public interface EarModule { public String getPath ( ) ; public void setPath ( String path ) ; public String getAltDeployDescriptor ( ) ; public void setAltDeployDescriptor ( String altDeployDescriptor ) ; public Node toXmlNode ( Node parentModule , Object name ) ; } 

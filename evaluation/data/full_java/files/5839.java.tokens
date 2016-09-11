@@ -1,0 +1,1 @@
+package org . elasticsearch . common . inject . internal ; import org . elasticsearch . common . inject . spi . Message ; public interface ErrorHandler { void handle ( Object source , Errors errors ) ; void handle ( Message message ) ; } 

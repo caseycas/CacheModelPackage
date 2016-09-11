@@ -1,0 +1,1 @@
+package org . elasticsearch . test . hamcrest ; import org . elasticsearch . common . collect . ImmutableOpenMap ; import org . hamcrest . Matcher ; public class CollectionAssertions { public static Matcher < ImmutableOpenMap > hasKey ( final String key ) { return new CollectionMatchers . ImmutableOpenMapHasKeyMatcher ( key ) ; } } 

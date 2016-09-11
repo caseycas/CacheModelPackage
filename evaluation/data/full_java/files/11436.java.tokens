@@ -1,0 +1,1 @@
+package org . gradle . api . internal . classpath ; import org . gradle . internal . classpath . ClassPath ; import java . util . Set ; public interface Module { ClassPath getImplementationClasspath ( ) ; ClassPath getRuntimeClasspath ( ) ; ClassPath getClasspath ( ) ; Set < Module > getRequiredModules ( ) ; Set < Module > getAllRequiredModules ( ) ; } 

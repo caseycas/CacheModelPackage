@@ -1,0 +1,1 @@
+package org . nd4j . linalg . api . ops ; public interface BroadcastOp extends Op { int [ ] getDimension ( ) ; void setDimension ( int . . . dimension ) ; int broadcastLength ( ) ; int [ ] broadcastShape ( ) ; } 

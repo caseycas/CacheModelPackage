@@ -1,0 +1,1 @@
+package org . elasticsearch . search . aggregations ; import java . util . List ; import java . util . Map ; public interface Aggregations extends Iterable < Aggregation > { List < Aggregation > asList ( ) ; Map < String , Aggregation > asMap ( ) ; Map < String , Aggregation > getAsMap ( ) ; < A extends Aggregation > A get ( String name ) ; Object getProperty ( String path ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . language . base . internal . model ; import org . gradle . api . Named ; public interface VariantDimension2 extends Named { } 

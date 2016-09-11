@@ -1,0 +1,1 @@
+package org . gradle . nativeplatform ; import org . gradle . api . Incubating ; import org . gradle . api . Named ; @Incubating public interface BuildType extends Named { String getDisplayName ( ) ; } 

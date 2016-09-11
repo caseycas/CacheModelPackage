@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . model . provisional ; public interface IViewerUpdateListener { public void viewerUpdatesBegin ( ) ; public void viewerUpdatesComplete ( ) ; public void updateStarted ( IViewerUpdate update ) ; public void updateComplete ( IViewerUpdate update ) ; } 

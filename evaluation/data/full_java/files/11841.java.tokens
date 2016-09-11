@@ -1,0 +1,1 @@
+package org . gradle . cache . internal ; import java . io . Closeable ; import java . io . File ; public interface FileLock extends Closeable , FileAccess { boolean getUnlockedCleanly ( ) ; boolean isLockFile ( File file ) ; void close ( ) ; State getState ( ) ; FileLockManager . LockMode getMode ( ) ; interface State { boolean hasBeenUpdatedSince ( State state ) ; } } 

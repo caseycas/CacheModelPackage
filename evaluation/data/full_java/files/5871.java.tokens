@@ -1,0 +1,1 @@
+package org . elasticsearch . common . inject . matcher ; public interface Matcher < T > { boolean matches ( T t ) ; Matcher < T > and ( Matcher < ? super T > other ) ; Matcher < T > or ( Matcher < ? super T > other ) ; } 

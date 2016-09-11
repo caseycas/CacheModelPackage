@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts ; public interface DependencyArtifact { String DEFAULT_TYPE = <str> ; String getName ( ) ; String getType ( ) ; String getExtension ( ) ; String getClassifier ( ) ; String getUrl ( ) ; } 

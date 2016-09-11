@@ -1,0 +1,1 @@
+package org . gradle . execution ; import org . gradle . api . Task ; public interface TaskFailureHandler { void onTaskFailure ( Task task ) ; } 

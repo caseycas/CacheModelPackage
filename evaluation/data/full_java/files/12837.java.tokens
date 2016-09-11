@@ -1,0 +1,1 @@
+package org . gradle . internal . component . model ; public interface ComponentUsage { String getConfigurationName ( ) ; } 

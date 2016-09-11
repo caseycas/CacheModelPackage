@@ -1,0 +1,1 @@
+package com . google . common . base ; import com . google . common . testing . AbstractPackageSanityTests ; public class PackageSanityTests extends AbstractPackageSanityTests { public PackageSanityTests ( ) { publicApiOnly ( ) ; } } 

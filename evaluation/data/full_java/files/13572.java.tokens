@@ -1,0 +1,1 @@
+package org . gradle . api . internal . tasks . compile . incremental . test ; public class HasPrivateConstants { private final static int X = <int> ; private final static HasNonPrivateConstants C = new HasNonPrivateConstants ( ) ; } 

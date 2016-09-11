@@ -1,0 +1,1 @@
+package org . gradle . api . plugins . announce ; public interface Announcer { void send ( String title , String message ) ; } 

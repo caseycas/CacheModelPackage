@@ -1,0 +1,1 @@
+package org . gradle . tooling ; import org . gradle . api . Incubating ; @Incubating public class BuildCancelledException extends GradleConnectionException { public BuildCancelledException ( String message ) { super ( message ) ; } public BuildCancelledException ( String message , Throwable throwable ) { super ( message , throwable ) ; } } 

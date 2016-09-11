@@ -1,0 +1,1 @@
+package com . badlogic . gdx . backends . gwt . soundmanager2 ; import com . badlogic . gdx . backends . gwt . soundmanager2 . SMSound . SMSoundCallback ; public class SMSoundOptions { public SMSoundOptions ( ) { } ; public int volume = <int> ; public int pan = <int> ; public int loops = <int> ; public int from = <int> ; public SMSoundCallback callback = null ; } 

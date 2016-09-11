@@ -1,0 +1,1 @@
+package org . gradle . api . plugins . announce . internal ; import java . io . File ; public interface IconProvider { File getIcon ( int width , int height ) ; } 

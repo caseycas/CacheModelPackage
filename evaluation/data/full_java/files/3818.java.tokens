@@ -1,0 +1,1 @@
+package org . eclipse . debug . examples . internal . memory . engine ; import org . eclipse . debug . core . model . MemoryByte ; public class SampleMemoryUnit { MemoryByte [ ] fBytes ; public SampleMemoryUnit ( MemoryByte [ ] bytes ) { fBytes = bytes ; } public MemoryByte [ ] getBytes ( ) { return fBytes ; } public void setBytes ( MemoryByte [ ] bytes ) { fBytes = bytes ; } } 

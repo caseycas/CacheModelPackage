@@ -1,0 +1,1 @@
+package org . gradle . tooling ; import org . gradle . api . Incubating ; import org . gradle . api . Nullable ; import java . util . List ; @Incubating public interface Failure { @Nullable String getMessage ( ) ; @Nullable String getDescription ( ) ; List < ? extends Failure > getCauses ( ) ; } 

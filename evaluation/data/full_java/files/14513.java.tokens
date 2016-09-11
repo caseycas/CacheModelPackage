@@ -1,0 +1,1 @@
+package org . gradle . internal . nativeintegration . filesystem ; import java . io . File ; public interface FileCanonicalizer { File canonicalize ( File file ) throws FileException ; } 

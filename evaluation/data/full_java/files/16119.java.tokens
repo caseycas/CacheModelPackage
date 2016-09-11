@@ -1,0 +1,1 @@
+package org . gradle . tooling . model . eclipse ; import org . gradle . api . Incubating ; import org . gradle . tooling . model . java . JavaSourceSettings ; @Incubating public interface EclipseJavaSourceSettings extends JavaSourceSettings { } 

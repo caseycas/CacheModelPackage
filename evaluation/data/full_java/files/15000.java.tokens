@@ -1,0 +1,1 @@
+package org . gradle . nativeplatform . toolchain ; import org . gradle . api . Incubating ; import org . gradle . nativeplatform . platform . NativePlatform ; @Incubating public interface NativePlatformToolChain { NativePlatform getPlatform ( ) ; } 

@@ -1,0 +1,1 @@
+package org . eclipse . debug . core . model ; import org . eclipse . debug . core . DebugException ; @Deprecated public interface IFilteredStep extends IStep { public boolean canStepWithFilters ( ) ; public void stepWithFilters ( ) throws DebugException ; } 

@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . views . variables . details ; import org . eclipse . jface . viewers . ISelectionProvider ; public interface IDetailPaneContainer2 extends IDetailPaneContainer { public void setSelectionProvider ( ISelectionProvider provider ) ; } 

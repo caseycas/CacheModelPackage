@@ -1,0 +1,1 @@
+package org . gradle . play ; import org . gradle . api . Incubating ; import org . gradle . internal . HasInternalProtocol ; import org . gradle . platform . base . PlatformAwareComponentSpec ; @Incubating @HasInternalProtocol public interface PlayPlatformAwareComponentSpec extends PlatformAwareComponentSpec { void platform ( Object platformRequirements ) ; } 

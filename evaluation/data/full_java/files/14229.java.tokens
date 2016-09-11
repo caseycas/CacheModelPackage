@@ -1,0 +1,1 @@
+package org . gradle . messaging . remote . internal . protocol ; public interface RouteAvailableMessage { Object getId ( ) ; RouteUnavailableMessage getUnavailableMessage ( ) ; boolean acceptIncoming ( RouteAvailableMessage message ) ; } 

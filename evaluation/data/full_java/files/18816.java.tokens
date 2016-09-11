@@ -1,0 +1,1 @@
+package io . netty . buffer ; public class PooledBigEndianHeapByteBufTest extends AbstractPooledByteBufTest { @Override protected ByteBuf alloc ( int length ) { return PooledByteBufAllocator . DEFAULT . heapBuffer ( length ) ; } } 

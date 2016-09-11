@@ -1,0 +1,1 @@
+package org . gradle . messaging . remote . internal . hub ; public interface HubStateListener { void onConnect ( ) ; void onDisconnect ( ) ; } 

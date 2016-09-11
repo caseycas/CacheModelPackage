@@ -1,0 +1,1 @@
+package org . gradle . language . twirl . internal ; import org . gradle . language . base . sources . BaseLanguageSourceSet ; import org . gradle . language . twirl . TwirlSourceSet ; public class DefaultTwirlSourceSet extends BaseLanguageSourceSet implements TwirlSourceSet { @Override protected String getTypeName ( ) { return <str> ; } } 

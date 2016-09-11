@@ -1,0 +1,1 @@
+package org . gradle . plugins . ide . internal . tooling . idea ; import org . gradle . plugins . ide . internal . tooling . java . DefaultJavaSourceSettings ; public class DefaultIdeaProjectJavaSourceSettings extends DefaultJavaSourceSettings { } 

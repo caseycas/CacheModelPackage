@@ -1,0 +1,1 @@
+package org . gradle . openapi . wrappers . ui ; import org . gradle . openapi . external . ui . DualPaneUIInteractionVersion1 ; import org . gradle . openapi . wrappers . NoLongerSupportedException ; public class DualPaneUIWrapper { public DualPaneUIWrapper ( DualPaneUIInteractionVersion1 dualPaneUIArguments ) { throw new NoLongerSupportedException ( ) ; } } 

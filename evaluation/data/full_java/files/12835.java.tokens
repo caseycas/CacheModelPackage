@@ -1,0 +1,1 @@
+package org . gradle . internal . component . model ; import org . gradle . api . artifacts . ClientModule ; import java . util . Set ; public interface ComponentOverrideMetadata { Set < IvyArtifactName > getArtifacts ( ) ; ClientModule getClientModule ( ) ; boolean isChanging ( ) ; ComponentOverrideMetadata withChanging ( ) ; } 

@@ -1,0 +1,1 @@
+package org . elasticsearch . common . inject ; interface ConstructionProxyFactory < T > { ConstructionProxy < T > create ( ) ; } 

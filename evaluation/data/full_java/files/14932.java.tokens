@@ -1,0 +1,1 @@
+package org . gradle . nativeplatform . internal ; public interface SharedLibraryLinkerSpec extends LinkerSpec { String getInstallName ( ) ; void setInstallName ( String path ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . groovy . scripts . internal ; import groovy . lang . Script ; public interface CompiledScript < T extends Script , D > { boolean getRunDoesSomething ( ) ; boolean getHasMethods ( ) ; Class < ? extends T > loadClass ( ) ; D getData ( ) ; } 

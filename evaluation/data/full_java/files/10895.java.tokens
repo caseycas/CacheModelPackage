@@ -1,0 +1,1 @@
+package org . gradle . internal . service ; public interface ServiceRegistration { < T > void add ( Class < T > serviceType , T serviceInstance ) ; void add ( Class < ? > serviceType ) ; void addProvider ( Object provider ) ; } 

@@ -1,0 +1,1 @@
+package com . google . common . collect . testing ; import com . google . common . annotations . GwtCompatible ; @GwtCompatible public final class ExampleIteratorTester < E > extends AbstractTester < TestIteratorGenerator < E > > { public void testSomethingAboutIterators ( ) { assertTrue ( true ) ; } } 

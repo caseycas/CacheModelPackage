@@ -1,0 +1,1 @@
+package org . nd4j . linalg . benchmark . api ; import org . nd4j . linalg . factory . Nd4jBackend ; public interface BenchMarkPerformer { int nTimes ( ) ; long averageTime ( ) ; long run ( Nd4jBackend backend ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . external . javadoc ; public enum JavadocMemberLevel { PUBLIC , PROTECTED , PACKAGE , PRIVATE } 

@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . protocol ; public interface HierarchicalProjectVersion1 { HierarchicalProjectVersion1 getParent ( ) ; Iterable < ? extends HierarchicalProjectVersion1 > getChildren ( ) ; } 

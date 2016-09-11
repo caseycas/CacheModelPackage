@@ -1,0 +1,1 @@
+package org . apache . lucene . store ; import java . io . IOException ; import java . nio . file . Path ; public class SmbSimpleFSDirectoryTests extends ESBaseDirectoryTestCase { @Override protected Directory getDirectory ( Path file ) throws IOException { return new SmbDirectoryWrapper ( new SimpleFSDirectory ( file ) ) ; } } 

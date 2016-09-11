@@ -1,0 +1,1 @@
+package org . gradle . language . scala . internal . toolchain ; import org . gradle . language . scala . ScalaPlatform ; import org . gradle . language . scala . toolchain . ScalaToolChain ; import org . gradle . platform . base . internal . toolchain . ToolChainInternal ; public interface ScalaToolChainInternal extends ScalaToolChain , ToolChainInternal < ScalaPlatform > { } 

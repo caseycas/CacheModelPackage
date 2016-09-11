@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . protocol ; public interface ConfigurableConnection extends InternalProtocolInterface { void configure ( ConnectionParameters parameters ) ; } 

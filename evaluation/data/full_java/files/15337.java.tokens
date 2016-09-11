@@ -1,0 +1,1 @@
+package org . gradle . api . reporting ; import org . gradle . api . Incubating ; @Incubating public interface BuildDashboardReports extends ReportContainer < Report > { DirectoryReport getHtml ( ) ; } 

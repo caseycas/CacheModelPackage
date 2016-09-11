@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . model . provisional ; public interface IColumnPresentation2 extends IColumnPresentation { public int getInitialColumnWidth ( String id , int treeWidgetWidth , String [ ] visibleColumnIds ) ; } 

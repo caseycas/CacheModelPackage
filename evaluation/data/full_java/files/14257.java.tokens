@@ -1,0 +1,1 @@
+package org . gradle . model . collection ; import org . gradle . api . Action ; import java . util . Set ; @Deprecated public interface ManagedSet < T > extends Set < T > { void create ( Action < ? super T > action ) ; void beforeEach ( Action < ? super T > configAction ) ; void afterEach ( Action < ? super T > configAction ) ; } 

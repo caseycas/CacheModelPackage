@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . stringsubstitution ; public interface IArgumentSelector extends org . eclipse . debug . ui . stringsubstitution . IArgumentSelector { } 

@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . provisional ; import org . eclipse . debug . internal . ui . viewers . model . provisional . IPresentationContext ; public interface IAsynchronousLabelAdapter { public void retrieveLabel ( Object object , IPresentationContext context , ILabelRequestMonitor result ) ; } 

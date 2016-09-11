@@ -1,0 +1,1 @@
+package org . nd4j . linalg . learning ; import java . io . Serializable ; public interface GradientUpdaterAggregator extends Serializable { GradientUpdater getUpdater ( ) ; void aggregate ( GradientUpdater updater ) ; GradientUpdaterAggregator combine ( GradientUpdaterAggregator other ) ; } 

@@ -1,0 +1,1 @@
+package org . eclipse . debug . ui . contexts ; import org . eclipse . ui . IWorkbenchPart ; import org . eclipse . ui . IWorkbenchWindow ; public interface IDebugContextProvider2 extends IDebugContextProvider { boolean isWindowContextProvider ( ) ; } 

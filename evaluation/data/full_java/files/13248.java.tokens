@@ -1,0 +1,1 @@
+package org . gradle . integtests . fixtures ; public class IntegrationTestHint extends RuntimeException { public IntegrationTestHint ( Throwable cause ) { super ( <str> + <str> + <str> + <str> + <str> + <str> , cause ) ; } } 

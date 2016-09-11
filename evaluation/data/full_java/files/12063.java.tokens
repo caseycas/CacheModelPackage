@@ -1,0 +1,1 @@
+package org . gradle . internal . exceptions ; import org . gradle . initialization . BuildClientMetaData ; import org . gradle . logging . StyledTextOutput ; public interface FailureResolutionAware { public void appendResolution ( StyledTextOutput output , BuildClientMetaData clientMetaData ) ; } 

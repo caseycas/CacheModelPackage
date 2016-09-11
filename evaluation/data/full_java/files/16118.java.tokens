@@ -1,0 +1,1 @@
+package org . gradle . tooling . model . eclipse ; import org . gradle . api . Incubating ; import java . util . Map ; @Incubating public interface EclipseBuildCommand { String getName ( ) ; Map < String , String > getArguments ( ) ; } 

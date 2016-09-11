@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . model ; @Deprecated public interface ITreeModelViewer extends org . eclipse . debug . internal . ui . viewers . model . provisional . ITreeModelViewer { } 

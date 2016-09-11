@@ -1,0 +1,1 @@
+package org . gradle ; import org . junit . Assume ; import org . junit . Test ; public class TestWithAssumptions { @Test public void assumptionFailed ( ) { Assume . assumeTrue ( false ) ; } @Test public void assumptionSucceeded ( ) { Assume . assumeTrue ( true ) ; } } 

@@ -1,0 +1,1 @@
+package org . eclipse . ui . console ; public interface IConsoleFactory { public void openConsole ( ) ; } 

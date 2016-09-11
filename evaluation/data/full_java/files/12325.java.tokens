@@ -1,0 +1,1 @@
+package org . gradle . tooling . provider . model ; import org . gradle . api . Incubating ; @Incubating public interface ToolingModelBuilderRegistry { void register ( ToolingModelBuilder builder ) ; ToolingModelBuilder getBuilder ( String modelName ) throws UnknownModelException ; } 

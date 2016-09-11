@@ -1,0 +1,1 @@
+package org . gradle . jvm . test ; import org . gradle . api . Incubating ; import org . gradle . jvm . JvmBinarySpec ; import org . gradle . platform . base . test . TestSuiteBinarySpec ; @Incubating public interface JvmTestSuiteBinarySpec extends TestSuiteBinarySpec , JvmBinarySpec { @Override JvmTestSuiteSpec getTestSuite ( ) ; } 

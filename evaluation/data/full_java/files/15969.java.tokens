@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . consumer . connection ; import org . gradle . internal . concurrent . Stoppable ; public interface ConsumerActionExecutor extends Stoppable { void stop ( ) ; String getDisplayName ( ) ; < T > T run ( ConsumerAction < T > action ) throws UnsupportedOperationException , IllegalStateException ; } 

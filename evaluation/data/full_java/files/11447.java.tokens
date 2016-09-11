@@ -1,0 +1,1 @@
+package org . gradle . api . internal . collections ; import java . util . Set ; public class FilteredSet < T , S extends T > extends FilteredCollection < T , S > implements Set < S > { public FilteredSet ( Set < T > collection , CollectionFilter < S > filter ) { super ( collection , filter ) ; } } 

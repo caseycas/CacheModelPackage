@@ -1,0 +1,1 @@
+package org . elasticsearch . common . util ; public interface IntArray extends BigArray { public abstract int get ( long index ) ; public abstract int set ( long index , int value ) ; public abstract int increment ( long index , int inc ) ; public abstract void fill ( long fromIndex , long toIndex , int value ) ; } 

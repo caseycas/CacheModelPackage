@@ -1,0 +1,1 @@
+package org . elasticsearch . script ; public abstract class AbstractFloatSearchScript extends AbstractSearchScript { @Override public Object run ( ) { return runAsFloat ( ) ; } @Override public abstract float runAsFloat ( ) ; @Override public double runAsDouble ( ) { return runAsFloat ( ) ; } @Override public long runAsLong ( ) { return ( long ) runAsFloat ( ) ; } } 

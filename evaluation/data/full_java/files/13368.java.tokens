@@ -1,0 +1,1 @@
+package org . gradle . plugins . javascript . coffeescript ; import java . io . Serializable ; public class CoffeeScriptCompileOptions implements Serializable { private String encoding = <str> ; public String getEncoding ( ) { return encoding ; } public void setEncoding ( String encoding ) { this . encoding = encoding ; } } 

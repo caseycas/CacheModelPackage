@@ -1,0 +1,1 @@
+package org . eclipse . debug . ui ; public interface ILaunchConfigurationTab2 extends ILaunchConfigurationTab { public String getWarningMessage ( ) ; } 

@@ -1,0 +1,1 @@
+package jcuda . driver ; public class CUjit_fallback { public static final int CU_PREFER_PTX = <int> ; public static final int CU_PREFER_BINARY = <int> ; public static String stringFor ( int n ) { switch ( n ) { case CU_PREFER_PTX : return <str> ; case CU_PREFER_BINARY : return <str> ; } return <str> + n ; } private CUjit_fallback ( ) { } } 

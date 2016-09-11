@@ -1,0 +1,1 @@
+package org . apache . cassandra . cache ; import org . apache . cassandra . utils . Pair ; public abstract class CacheKey implements IMeasurableMemory { public final Pair < String , String > ksAndCFName ; public CacheKey ( Pair < String , String > ksAndCFName ) { this . ksAndCFName = ksAndCFName ; } } 

@@ -1,0 +1,1 @@
+package org . gradle . integtests . fixtures . daemon ; import java . util . List ; public interface DaemonsFixture { void killAll ( ) ; List < ? extends DaemonFixture > getDaemons ( ) ; List < ? extends DaemonFixture > getVisible ( ) ; DaemonFixture getDaemon ( ) ; } 

@@ -1,0 +1,1 @@
+package org . eclipse . debug . core ; public interface ILaunchConfigurationListener { public void launchConfigurationAdded ( ILaunchConfiguration configuration ) ; public void launchConfigurationChanged ( ILaunchConfiguration configuration ) ; public void launchConfigurationRemoved ( ILaunchConfiguration configuration ) ; } 

@@ -1,0 +1,1 @@
+package org . apache . cassandra . service ; import java . net . InetAddress ; public interface IEndpointLifecycleSubscriber { public void onJoinCluster ( InetAddress endpoint ) ; public void onLeaveCluster ( InetAddress endpoint ) ; public void onUp ( InetAddress endpoint ) ; public void onDown ( InetAddress endpoint ) ; public void onMove ( InetAddress endpoint ) ; } 

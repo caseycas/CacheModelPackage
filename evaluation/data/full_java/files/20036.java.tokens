@@ -1,0 +1,1 @@
+package io . netty . handler . ssl ; import org . junit . Assume ; public class OpenSslRenegotiateTest extends RenegotiateTest { @Override public void testRenegotiateServer ( ) throws Throwable { Assume . assumeTrue ( OpenSsl . isAvailable ( ) ) ; super . testRenegotiateServer ( ) ; } @Override protected SslProvider serverSslProvider ( ) { return SslProvider . OPENSSL ; } } 

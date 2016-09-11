@@ -1,0 +1,1 @@
+package jcuda . driver ; public class CUoutput_mode { public static final int CU_OUT_KEY_VALUE_PAIR = <hex> ; public static final int CU_OUT_CSV = <hex> ; public static String stringFor ( int n ) { switch ( n ) { case CU_OUT_KEY_VALUE_PAIR : return <str> ; case CU_OUT_CSV : return <str> ; } return <str> + n ; } private CUoutput_mode ( ) { } } 

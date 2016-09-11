@@ -1,0 +1,1 @@
+package clojure . asm ; class Edge { static final int NORMAL = <int> ; static final int EXCEPTION = <hex> ; int info ; Label successor ; Edge next ; } 

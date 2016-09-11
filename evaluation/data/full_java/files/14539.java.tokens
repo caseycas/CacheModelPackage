@@ -1,0 +1,1 @@
+package org . gradle . internal . nativeintegration . services ; import org . gradle . internal . nativeplatform . filesystem . FileSystem ; public abstract class FileSystems { public static FileSystem getDefault ( ) { return NativeServices . getInstance ( ) . get ( FileSystem . class ) ; } } 

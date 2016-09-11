@@ -1,0 +1,1 @@
+package org . gradle . internal . resource . transport ; import org . gradle . api . internal . artifacts . repositories . transport . RepositoryTransport ; public abstract class AbstractRepositoryTransport implements RepositoryTransport { protected final String name ; protected AbstractRepositoryTransport ( String name ) { this . name = name ; } } 

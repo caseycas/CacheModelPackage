@@ -1,0 +1,1 @@
+package org . eclipse . debug . core ; import org . eclipse . core . runtime . IStatus ; public interface IRequest { public void setStatus ( IStatus status ) ; public IStatus getStatus ( ) ; public void done ( ) ; public void cancel ( ) ; public boolean isCanceled ( ) ; } 

@@ -1,0 +1,1 @@
+package com . badlogic . gdx . backends . android ; import com . badlogic . gdx . ApplicationListener ; public interface AndroidWallpaperListener { abstract void offsetChange ( float xOffset , float yOffset , float xOffsetStep , float yOffsetStep , int xPixelOffset , int yPixelOffset ) ; abstract void previewStateChange ( boolean isPreview ) ; } 

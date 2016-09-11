@@ -1,0 +1,1 @@
+package org . gradle . performance . results ; import java . sql . Connection ; public interface ConnectionAction < T > { T execute ( Connection connection ) throws Exception ; } 

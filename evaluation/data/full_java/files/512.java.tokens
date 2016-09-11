@@ -1,0 +1,1 @@
+package org . apache . cassandra . db . rows ; import java . util . Iterator ; import org . apache . cassandra . db . Slice ; public interface SliceableUnfilteredRowIterator extends UnfilteredRowIterator { public Iterator < Unfiltered > slice ( Slice slice ) ; } 

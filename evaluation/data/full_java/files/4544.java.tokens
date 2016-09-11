@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . views . launch ; import org . eclipse . debug . internal . ui . commands . actions . DebugActionHandler ; public class TerminateAndRemoveHandler extends DebugActionHandler { public TerminateAndRemoveHandler ( ) { super ( LaunchView . TERMINATE_AND_REMOVE ) ; } } 

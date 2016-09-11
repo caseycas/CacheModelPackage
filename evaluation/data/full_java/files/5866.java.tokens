@@ -1,0 +1,1 @@
+package org . elasticsearch . common . inject . internal ; public class Strings { private Strings ( ) { } public static String capitalize ( String s ) { if ( s . length ( ) = = <int> ) { return s ; } char first = s . charAt ( <int> ) ; char capitalized = Character . toUpperCase ( first ) ; return ( first = = capitalized ) ? s : capitalized + s . substring ( <int> ) ; } } 

@@ -1,0 +1,1 @@
+package org . eclipse . debug . examples . core . pda . protocol ; public class PDATerminateCommand extends PDACommand { public PDATerminateCommand ( ) { super ( <str> ) ; } @Override public PDACommandResult createResult ( String resultText ) { return new PDACommandResult ( resultText ) ; } } 

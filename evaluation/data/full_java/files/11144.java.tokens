@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts ; import java . io . Serializable ; public interface ModuleIdentifier extends Serializable { String getGroup ( ) ; String getName ( ) ; } 

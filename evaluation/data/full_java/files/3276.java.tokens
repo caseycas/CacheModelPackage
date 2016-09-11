@@ -1,0 +1,1 @@
+package jcuda . runtime ; public class cudaOutputMode { public static final int cudaKeyValuePair = <hex> ; public static final int cudaCSV = <hex> ; public static String stringFor ( int n ) { switch ( n ) { case cudaKeyValuePair : return <str> ; case cudaCSV : return <str> ; } return <str> + n ; } private cudaOutputMode ( ) { } } 

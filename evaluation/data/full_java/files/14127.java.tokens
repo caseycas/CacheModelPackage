@@ -1,0 +1,1 @@
+package org . gradle . messaging . remote ; import org . gradle . internal . concurrent . AsyncStoppable ; public interface ObjectConnection extends AsyncStoppable , ObjectConnectionBuilder { void connect ( ) ; void requestStop ( ) ; void stop ( ) ; } 

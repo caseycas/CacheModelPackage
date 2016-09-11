@@ -1,0 +1,1 @@
+package org . elasticsearch . common ; public class Explicit < T > { private final T value ; private final boolean explicit ; public Explicit ( T value , boolean explicit ) { this . value = value ; this . explicit = explicit ; } public T value ( ) { return this . value ; } public boolean explicit ( ) { return this . explicit ; } } 

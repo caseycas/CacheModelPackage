@@ -1,0 +1,1 @@
+package org . elasticsearch . common . recycler ; public class NoneRecyclerTests extends AbstractRecyclerTestCase { @Override protected Recycler < byte [ ] > newRecycler ( int limit ) { return Recyclers . none ( RECYCLER_C ) ; } @Override protected void assertRecycled ( byte [ ] data ) { } @Override protected void assertDead ( byte [ ] data ) { } } 

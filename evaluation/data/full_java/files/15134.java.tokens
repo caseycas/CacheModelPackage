@@ -1,0 +1,1 @@
+package org . gradle . play . internal ; import org . gradle . model . Managed ; import org . gradle . play . PlayApplicationSpec ; @Managed public interface PlayApplicationSpecInternal extends PlayApplicationSpec , PlayPlatformAwareComponentSpecInternal { } 

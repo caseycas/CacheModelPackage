@@ -1,0 +1,1 @@
+package org . eclipse . debug . examples . core . pda . protocol ; public class PDAClearBreakpointCommand extends PDACommand { public PDAClearBreakpointCommand ( int line ) { super ( <str> + line ) ; } @Override public PDACommandResult createResult ( String resultText ) { return new PDACommandResult ( resultText ) ; } } 

@@ -1,0 +1,1 @@
+package org . nd4j . linalg . api . shape . loop . two ; import org . nd4j . linalg . api . buffer . DataBuffer ; public interface LoopFunction2 { void perform ( int i , RawArrayIterationInformation2 info , DataBuffer a , int aOffset , DataBuffer b , int bOffset ) ; } 

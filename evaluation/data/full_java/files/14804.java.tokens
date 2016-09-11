@@ -1,0 +1,1 @@
+package org . gradle . jvm ; import org . gradle . api . Incubating ; import org . gradle . platform . base . TransformationFileType ; @Incubating public class JvmResources implements TransformationFileType { } 

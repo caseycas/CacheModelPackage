@@ -1,0 +1,1 @@
+package jcuda . runtime ; import jcuda . Pointer ; public class cudaPitchedPtr { public Pointer ptr = new Pointer ( ) ; public long pitch ; public long xsize ; public long ysize ; public cudaPitchedPtr ( ) { } @Override public String toString ( ) { return <str> + <str> + ptr + <str> + <str> + pitch + <str> + <str> + xsize + <str> + <str> + ysize + <str> ; } } 

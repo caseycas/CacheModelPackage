@@ -1,0 +1,1 @@
+package org . elasticsearch . common ; interface UUIDGenerator { public String getBase64UUID ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . launcher . bootstrap ; public class ProcessCompleter implements ExecutionCompleter { public void complete ( ) { System . exit ( <int> ) ; } public void completeWithFailure ( Throwable t ) { System . exit ( <int> ) ; } } 

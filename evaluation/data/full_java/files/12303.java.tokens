@@ -1,0 +1,1 @@
+package org . gradle . profile ; public interface ProfileListener { void buildFinished ( BuildProfile result ) ; } 

@@ -1,0 +1,1 @@
+package org . elasticsearch . plan . a ; final class CompilerSettings { private boolean numericOverflow = true ; public boolean getNumericOverflow ( ) { return numericOverflow ; } public void setNumericOverflow ( boolean allow ) { this . numericOverflow = allow ; } } 

@@ -1,0 +1,1 @@
+package org . gradle . internal . typeconversion ; public class TypeInfo < T > { private final Class < T > targetType ; public TypeInfo ( Class targetType ) { assert targetType ! = null ; this . targetType = targetType ; } public Class < T > getTargetType ( ) { return targetType ; } } 

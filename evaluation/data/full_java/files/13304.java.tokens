@@ -1,0 +1,1 @@
+package org . gradle . test . fixtures . file ; public interface TestDirectoryProvider { TestFile getTestDirectory ( ) ; void suppressCleanup ( ) ; } 

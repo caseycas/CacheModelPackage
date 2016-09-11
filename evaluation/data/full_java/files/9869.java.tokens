@@ -1,0 +1,1 @@
+package com . google . common . testing ; import static com . google . common . base . Preconditions . checkNotNull ; final class Platform { @SuppressWarnings ( <str> ) static < T > T reserialize ( T object ) { return checkNotNull ( object ) ; } private Platform ( ) { } } 

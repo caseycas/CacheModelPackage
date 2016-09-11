@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts ; import org . gradle . api . Buildable ; import java . io . File ; import java . util . Set ; public interface SelfResolvingDependency extends Dependency , Buildable { Set < File > resolve ( ) ; Set < File > resolve ( boolean transitive ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . openapi . external . ui ; import java . io . File ; @Deprecated public interface AlternateUIInteractionVersion1 { public void openFile ( File file , int line ) ; public void editFile ( File file , int line ) ; public boolean doesSupportEditingOpeningFiles ( ) ; public void aboutToExecuteCommand ( String fullCommandLine ) ; } 

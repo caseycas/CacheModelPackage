@@ -1,0 +1,1 @@
+package org . elasticsearch . cluster ; public class NotMasterException extends IllegalStateException { public NotMasterException ( String msg ) { super ( msg ) ; } @Override public Throwable fillInStackTrace ( ) { return null ; } } 

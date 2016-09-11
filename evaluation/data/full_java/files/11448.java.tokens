@@ -1,0 +1,1 @@
+package org . gradle . api . internal . component ; import org . gradle . util . GUtil ; public enum ArtifactType { SOURCES , JAVADOC , IVY_DESCRIPTOR , MAVEN_POM ; public String toString ( ) { return String . format ( <str> , GUtil . toWords ( name ( ) ) ) ; } } 

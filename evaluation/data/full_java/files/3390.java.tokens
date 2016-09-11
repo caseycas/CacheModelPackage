@@ -1,0 +1,1 @@
+package org . nd4j . linalg . benchmark . api ; public interface OpRunner { void runOp ( ) ; } 

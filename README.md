@@ -69,6 +69,10 @@ netty/netty, eclipse/ide, nostra13/Android-Universal-Image-Loader,
 elastic/elasticsearch, ReactiveX/RxJava, google/guava) all from github except
 the eclipse ide.  
 
+The full version of the corpus (minus very large source code files) can be found at
+full_java. This is almost 17 million tokens in size.  Due to size difference, entropy
+values may not be comparable to smaller corpora.
+
 The ruby corpus is a random sample of ruby files from 15
 projects (cloudfoundry/bosh, Homebrew/homebrew, rapid7/metasploit-framework, 
 diaspora/diaspora, jekyll/jekyll, rubinius/rubinius, discourse/discourse, 

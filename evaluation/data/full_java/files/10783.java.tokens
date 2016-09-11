@@ -1,0 +1,1 @@
+package org . gradle . api ; public class GradleException extends RuntimeException { public GradleException ( ) { super ( ) ; } public GradleException ( String message ) { super ( message ) ; } public GradleException ( String message , Throwable cause ) { super ( message , cause ) ; } } 

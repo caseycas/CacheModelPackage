@@ -1,0 +1,1 @@
+package org . gradle . api . file ; import org . gradle . api . Incubating ; @Incubating public enum DuplicatesStrategy { INCLUDE , EXCLUDE , WARN , FAIL } 

@@ -1,0 +1,1 @@
+package org . gradle . testkit . runner . internal . dist ; import java . io . File ; public final class InstalledGradleDistribution extends GradleDistribution { private final File gradleHome ; public InstalledGradleDistribution ( File gradleHome ) { this . gradleHome = gradleHome ; } public File getGradleHome ( ) { return gradleHome ; } } 

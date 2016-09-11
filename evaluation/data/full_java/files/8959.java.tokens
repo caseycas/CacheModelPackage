@@ -1,0 +1,1 @@
+package org . elasticsearch . test ; import org . elasticsearch . env . ShardLock ; import org . elasticsearch . index . shard . ShardId ; public class DummyShardLock extends ShardLock { public DummyShardLock ( ShardId id ) { super ( id ) ; } @Override protected void closeInternal ( ) { } } 

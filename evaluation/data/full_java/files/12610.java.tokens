@@ -1,0 +1,1 @@
+package org . gradle . api . internal . artifacts . ivyservice . ivyresolve . strategy ; public interface Version { String [ ] getParts ( ) ; Version getBaseVersion ( ) ; boolean isQualified ( ) ; } 

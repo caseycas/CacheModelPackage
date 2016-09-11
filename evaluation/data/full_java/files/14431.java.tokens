@@ -1,0 +1,1 @@
+package org . gradle . model . internal . registry ; import org . gradle . model . internal . core . ModelPredicate ; abstract class ModelListener extends ModelPredicate { public abstract boolean onDiscovered ( ModelNodeInternal node ) ; } 

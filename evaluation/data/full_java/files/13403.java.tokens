@@ -1,0 +1,1 @@
+package org . gradle . plugins . javascript . rhino . worker . internal ; import java . io . Serializable ; public interface RhinoClientWorkerProtocol < P extends Serializable > { void process ( P payload ) ; } 

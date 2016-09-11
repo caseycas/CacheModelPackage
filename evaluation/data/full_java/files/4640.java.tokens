@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . views . registers ; import org . eclipse . osgi . util . NLS ; public class RegistersViewMessages extends NLS { private static final String BUNDLE_NAME = <str> ; public static String RegistersView_0 ; static { NLS . initializeMessages ( BUNDLE_NAME , RegistersViewMessages . class ) ; } } 

@@ -1,0 +1,1 @@
+package org . gradle . api . logging ; public enum LogLevel { DEBUG , INFO , LIFECYCLE , WARN , QUIET , ERROR } 

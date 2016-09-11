@@ -1,0 +1,1 @@
+package org . gradle . api . internal . project ; import groovy . lang . Closure ; import java . io . File ; public interface IsolatedAntBuilder { IsolatedAntBuilder withClasspath ( Iterable < File > classpath ) ; void execute ( Closure antClosure ) ; } 

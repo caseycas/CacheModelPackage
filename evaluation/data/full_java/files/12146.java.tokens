@@ -1,0 +1,1 @@
+package org . gradle . internal . typeconversion ; import org . gradle . internal . exceptions . DiagnosticsVisitor ; public interface NotationParser < N , T > { T parseNotation ( N notation ) throws UnsupportedNotationException , TypeConversionException ; void describe ( DiagnosticsVisitor visitor ) ; } 

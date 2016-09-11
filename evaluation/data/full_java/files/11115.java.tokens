@@ -1,0 +1,1 @@
+package org . gradle . api ; import groovy . util . Node ; import org . w3c . dom . Element ; public interface XmlProvider { StringBuilder asString ( ) ; Node asNode ( ) ; Element asElement ( ) ; } 

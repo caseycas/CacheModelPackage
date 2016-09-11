@@ -1,0 +1,1 @@
+package org . gradle . internal . reflect ; public class JavaTestSubjectSubclass extends JavaTestSubject { private String myProp = <str> ; @Override protected String overridden ( ) { return <str> ; } public boolean getSubclassBoolean ( ) { return false ; } } 

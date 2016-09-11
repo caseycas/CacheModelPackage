@@ -1,0 +1,1 @@
+package com . badlogic . gdx . physics . bullet . dynamics ; public final class btConstraintSolverType { public final static int BT_SEQUENTIAL_IMPULSE_SOLVER = <int> ; public final static int BT_MLCP_SOLVER = <int> ; public final static int BT_NNCG_SOLVER = <int> ; } 

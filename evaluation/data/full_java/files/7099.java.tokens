@@ -1,0 +1,1 @@
+package org . elasticsearch . script ; import org . apache . lucene . index . LeafReaderContext ; import java . io . IOException ; public interface SearchScript { LeafSearchScript getLeafSearchScript ( LeafReaderContext context ) throws IOException ; boolean needsScores ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . nativeplatform ; import org . gradle . platform . base . LibraryBinarySpec ; public interface NativeLibraryBinarySpec extends NativeBinarySpec , LibraryBinarySpec { @Override NativeLibrarySpec getComponent ( ) ; @Override NativeLibrarySpec getLibrary ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . plugins . javascript . coffeescript . compile . internal ; import org . gradle . api . tasks . WorkResult ; public class CoffeeScriptCompileResult implements WorkResult { private final boolean didWork ; public CoffeeScriptCompileResult ( boolean didWork ) { this . didWork = didWork ; } public boolean getDidWork ( ) { return didWork ; } } 

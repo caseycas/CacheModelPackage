@@ -1,0 +1,1 @@
+package org . elasticsearch . common . util . concurrent ; import org . elasticsearch . common . SuppressForbidden ; import java . util . concurrent . Future ; public class FutureUtils { @SuppressForbidden ( reason = <str> ) public static boolean cancel ( Future < ? > toCancel ) { if ( toCancel ! = null ) { return toCancel . cancel ( false ) ; } return false ; } } 

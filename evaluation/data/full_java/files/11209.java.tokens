@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts . result ; import org . gradle . api . Incubating ; import java . io . File ; @Incubating public interface ResolvedArtifactResult extends ArtifactResult { File getFile ( ) ; } 

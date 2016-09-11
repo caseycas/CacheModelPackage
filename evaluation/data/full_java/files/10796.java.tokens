@@ -1,0 +1,1 @@
+package org . gradle . api . specs ; public interface Spec < T > { boolean isSatisfiedBy ( T element ) ; } 

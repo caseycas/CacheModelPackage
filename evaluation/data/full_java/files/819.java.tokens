@@ -1,0 +1,1 @@
+package org . apache . cassandra . net ; import java . net . InetAddress ; public interface IAsyncCallbackWithFailure < T > extends IAsyncCallback < T > { void onFailure ( InetAddress from ) ; } 

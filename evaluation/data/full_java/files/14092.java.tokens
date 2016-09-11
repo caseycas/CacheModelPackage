@@ -1,0 +1,1 @@
+package org . gradle . internal . serialize ; import java . io . EOFException ; public interface ObjectReader < T > { T read ( ) throws EOFException , Exception ; } 

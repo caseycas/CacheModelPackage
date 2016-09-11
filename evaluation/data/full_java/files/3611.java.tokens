@@ -1,0 +1,1 @@
+package org . eclipse . debug . core . model ; import org . eclipse . debug . core . DebugException ; public interface IRegisterGroup extends IDebugElement { public String getName ( ) throws DebugException ; public IRegister [ ] getRegisters ( ) throws DebugException ; public boolean hasRegisters ( ) throws DebugException ; } 

@@ -1,0 +1,1 @@
+package org . gradle . testkit . runner ; import org . gradle . api . Incubating ; @Incubating public class UnexpectedBuildFailure extends UnexpectedBuildResultException { public UnexpectedBuildFailure ( String message , BuildResult buildResult ) { super ( message , buildResult ) ; } } 

@@ -1,0 +1,1 @@
+package org . elasticsearch . common . inject . spi ; import org . elasticsearch . common . inject . Binder ; public interface Element { Object getSource ( ) ; < T > T acceptVisitor ( ElementVisitor < T > visitor ) ; void applyTo ( Binder binder ) ; } 

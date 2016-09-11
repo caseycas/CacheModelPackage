@@ -1,0 +1,1 @@
+package io . netty . handler . codec . http ; public interface HttpRequest extends HttpMessage { @Deprecated HttpMethod getMethod ( ) ; HttpMethod method ( ) ; HttpRequest setMethod ( HttpMethod method ) ; @Deprecated String getUri ( ) ; String uri ( ) ; HttpRequest setUri ( String uri ) ; @Override HttpRequest setProtocolVersion ( HttpVersion version ) ; } 

@@ -1,0 +1,1 @@
+package io . netty . handler . codec . dns ; public interface DnsRecord { int CLASS_IN = <hex> ; int CLASS_CSNET = <hex> ; int CLASS_CHAOS = <hex> ; int CLASS_HESIOD = <hex> ; int CLASS_NONE = <hex> ; int CLASS_ANY = <hex> ; String name ( ) ; DnsRecordType type ( ) ; int dnsClass ( ) ; long timeToLive ( ) ; } 

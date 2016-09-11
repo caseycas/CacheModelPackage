@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . views ; import org . eclipse . debug . core . DebugException ; public interface IDebugExceptionHandler { public abstract void handleException ( DebugException e ) ; } 

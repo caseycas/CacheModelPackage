@@ -1,0 +1,1 @@
+package org . elasticsearch . common . inject ; import org . elasticsearch . common . inject . internal . Errors ; import org . elasticsearch . common . inject . internal . ErrorsException ; interface Initializable < T > { T get ( Errors errors ) throws ErrorsException ; } 

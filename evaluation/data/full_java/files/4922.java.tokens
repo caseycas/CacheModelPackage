@@ -1,0 +1,1 @@
+package org . elasticsearch . action ; public interface ListenableActionFuture < T > extends ActionFuture < T > { void addListener ( final ActionListener < T > listener ) ; } 

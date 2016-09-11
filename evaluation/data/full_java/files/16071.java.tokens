@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . protocol . events ; public interface InternalJvmTestDescriptor extends InternalTestDescriptor { String KIND_SUITE = <str> ; String KIND_ATOMIC = <str> ; String getTestKind ( ) ; String getSuiteName ( ) ; String getClassName ( ) ; String getMethodName ( ) ; } 

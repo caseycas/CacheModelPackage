@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . idea ; import org . gradle . tooling . provider . model . internal . LegacyConsumerInterface ; @Deprecated @LegacyConsumerInterface ( <str> ) public class DefaultIdeaModuleDependency extends org . gradle . plugins . ide . internal . tooling . idea . DefaultIdeaModuleDependency { } 

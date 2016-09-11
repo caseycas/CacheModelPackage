@@ -1,0 +1,1 @@
+package org . gradle . api . internal . plugins ; import org . gradle . api . Rule ; public abstract class AbstractRule implements Rule { @Override public String toString ( ) { return String . format ( <str> , getDescription ( ) ) ; } } 

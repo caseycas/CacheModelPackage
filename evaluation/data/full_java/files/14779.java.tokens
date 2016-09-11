@@ -1,0 +1,1 @@
+package org . gradle . language . base . internal . model ; import org . gradle . api . Named ; public interface ParametrizedVariant < T > extends Named { T blah ( ) ; } 

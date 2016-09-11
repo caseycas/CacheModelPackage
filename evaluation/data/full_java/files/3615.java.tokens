@@ -1,0 +1,1 @@
+package org . eclipse . debug . core . model ; public interface IStepFilter { public boolean isFiltered ( Object object ) ; } 

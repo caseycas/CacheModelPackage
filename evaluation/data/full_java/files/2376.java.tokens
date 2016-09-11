@@ -1,0 +1,1 @@
+package org . nd4j . instrumentation . server ; import io . dropwizard . Configuration ; public class Nd4jInstrumentationConfiguration extends Configuration { } 

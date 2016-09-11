@@ -1,0 +1,1 @@
+package org . gradle . launcher . daemon . client ; public class DaemonConnectionException extends RuntimeException { public DaemonConnectionException ( String message ) { super ( message ) ; } public DaemonConnectionException ( String message , Throwable cause ) { super ( message , cause ) ; } } 

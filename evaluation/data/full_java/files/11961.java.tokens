@@ -1,0 +1,1 @@
+package org . gradle . groovy . scripts ; import org . gradle . internal . resource . Resource ; import java . io . Serializable ; public interface ScriptSource extends Serializable { String getClassName ( ) ; Resource getResource ( ) ; String getFileName ( ) ; String getDisplayName ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . api . tasks . scala ; import org . gradle . api . tasks . compile . BaseForkOptions ; public class ScalaForkOptions extends BaseForkOptions { private static final long serialVersionUID = <int> ; } 

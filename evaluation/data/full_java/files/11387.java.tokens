@@ -1,0 +1,1 @@
+package org . gradle . api . internal . changedetection . rules ; enum ChangeType { ADDED ( <str> ) , MODIFIED ( <str> ) , REMOVED ( <str> ) ; private final String description ; private ChangeType ( String description ) { this . description = description ; } public String describe ( ) { return description ; } } 

@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui ; public interface ILaunchHistoryChangedListener { public void launchHistoryChanged ( ) ; } 

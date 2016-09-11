@@ -1,0 +1,1 @@
+package org . gradle . api . tasks . testing ; import org . gradle . api . Incubating ; import org . gradle . api . reporting . DirectoryReport ; public interface JUnitXmlReport extends DirectoryReport { @Incubating boolean isOutputPerTestCase ( ) ; @Incubating void setOutputPerTestCase ( boolean outputPerTestCase ) ; } 

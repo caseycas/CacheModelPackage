@@ -1,0 +1,1 @@
+package org . gradle . cache . internal . filelock ; public class LockInfo { public int port = - <int> ; public long lockId ; public String pid = <str> ; public String operation = <str> ; } 

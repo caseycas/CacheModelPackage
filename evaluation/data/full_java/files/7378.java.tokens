@@ -1,0 +1,1 @@
+package org . elasticsearch . search . aggregations . pipeline ; import org . elasticsearch . search . aggregations . metrics . NumericMetricsAggregation ; public interface SimpleValue extends NumericMetricsAggregation . SingleValue { } 

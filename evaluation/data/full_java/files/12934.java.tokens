@@ -1,0 +1,1 @@
+package org . gradle . api . reporting . dependencies ; import org . gradle . api . reporting . DirectoryReport ; import org . gradle . api . reporting . Report ; import org . gradle . api . reporting . ReportContainer ; public interface DependencyReportContainer extends ReportContainer < Report > { DirectoryReport getHtml ( ) ; } 

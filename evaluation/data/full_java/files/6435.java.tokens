@@ -1,0 +1,1 @@
+package org . elasticsearch . index . fielddata ; import org . apache . lucene . util . Accountable ; import org . elasticsearch . common . lease . Releasable ; public interface AtomicFieldData extends Accountable , Releasable { ScriptDocValues getScriptValues ( ) ; SortedBinaryDocValues getBytesValues ( ) ; } 

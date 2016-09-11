@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . views . modules ; public interface IHelpContextIdProvider { public String getHelpContextId ( String helpId ) ; } 

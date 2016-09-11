@@ -1,0 +1,1 @@
+package org . gradle . integtests . tooling . r20 ; import org . gradle . tooling . BuildAction ; import org . gradle . tooling . BuildController ; public class BrokenAction implements BuildAction { public Object execute ( BuildController controller ) { throw new UnsupportedOperationException ( ) ; } } 

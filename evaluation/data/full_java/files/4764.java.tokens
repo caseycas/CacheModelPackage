@@ -1,0 +1,1 @@
+package org . eclipse . debug . ui . memory ; public interface IMemoryRenderingSite2 extends IMemoryRenderingSite { public void setContainerVisible ( String id , boolean visible ) ; } 

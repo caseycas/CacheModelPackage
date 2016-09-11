@@ -1,0 +1,1 @@
+package org . elasticsearch . cluster ; import org . elasticsearch . common . unit . TimeValue ; public interface TimeoutClusterStateListener extends ClusterStateListener { void postAdded ( ) ; void onClose ( ) ; void onTimeout ( TimeValue timeout ) ; } 

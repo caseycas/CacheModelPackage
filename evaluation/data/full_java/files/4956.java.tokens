@@ -1,0 +1,1 @@
+package org . elasticsearch . action . admin . cluster . node . liveness ; import org . elasticsearch . action . ActionRequest ; import org . elasticsearch . action . ActionRequestValidationException ; public final class LivenessRequest extends ActionRequest < LivenessRequest > { @Override public ActionRequestValidationException validate ( ) { return null ; } } 

@@ -1,0 +1,1 @@
+package org . elasticsearch . common . xcontent . yaml ; import org . elasticsearch . common . xcontent . BaseXContentTestCase ; import org . elasticsearch . common . xcontent . XContentType ; public class YamlXContentTests extends BaseXContentTestCase { @Override public XContentType xcontentType ( ) { return XContentType . YAML ; } } 

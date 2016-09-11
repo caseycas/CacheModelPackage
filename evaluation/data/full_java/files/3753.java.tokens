@@ -1,0 +1,1 @@
+package org . eclipse . debug . examples . core . pda . protocol ; public class PDAChildrenCommand extends PDACommand { public PDAChildrenCommand ( int threadId , int frameId , String name ) { super ( <str> + threadId + <str> + frameId + <str> + name ) ; } @Override public PDACommandResult createResult ( String resultText ) { return new PDAListResult ( resultText ) ; } } 

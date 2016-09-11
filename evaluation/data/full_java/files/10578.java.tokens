@@ -1,0 +1,1 @@
+package com . google . common . net ; import com . google . common . testing . AbstractPackageSanityTests ; public class PackageSanityTests extends AbstractPackageSanityTests { public PackageSanityTests ( ) { setDefault ( InternetDomainName . class , InternetDomainName . from ( <str> ) ) ; } } 

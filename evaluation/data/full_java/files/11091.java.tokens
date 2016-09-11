@@ -1,0 +1,1 @@
+package org . gradle . api ; import org . gradle . internal . exceptions . Contextual ; @Contextual public class GradleScriptException extends GradleException { public GradleScriptException ( String message , Throwable cause ) { super ( message , cause ) ; } } 

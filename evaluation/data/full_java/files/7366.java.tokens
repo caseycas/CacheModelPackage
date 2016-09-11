@@ -1,0 +1,1 @@
+package org . elasticsearch . search . aggregations . metrics . valuecount ; import org . elasticsearch . search . aggregations . metrics . NumericMetricsAggregation ; public interface ValueCount extends NumericMetricsAggregation . SingleValue { long getValue ( ) ; } 

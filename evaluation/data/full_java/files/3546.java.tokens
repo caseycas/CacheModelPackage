@@ -1,0 +1,1 @@
+package org . eclipse . debug . core ; import org . eclipse . debug . core . model . IExpression ; public interface IExpressionListener { public void expressionAdded ( IExpression expression ) ; public void expressionRemoved ( IExpression expression ) ; public void expressionChanged ( IExpression expression ) ; } 

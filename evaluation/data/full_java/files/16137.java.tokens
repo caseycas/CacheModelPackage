@@ -1,0 +1,1 @@
+package org . gradle . tooling . model . idea ; import org . gradle . tooling . model . Dependency ; public interface IdeaDependency extends Dependency { IdeaDependencyScope getScope ( ) ; boolean getExported ( ) ; } 

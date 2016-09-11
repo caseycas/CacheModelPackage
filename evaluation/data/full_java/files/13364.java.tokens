@@ -1,0 +1,1 @@
+package org . gradle . plugins . javascript . base ; public class JavaScriptExtension { public static final String NAME = <str> ; } 

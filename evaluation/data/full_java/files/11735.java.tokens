@@ -1,0 +1,1 @@
+package org . gradle . api . plugins ; public interface ExtensionAware { ExtensionContainer getExtensions ( ) ; } 

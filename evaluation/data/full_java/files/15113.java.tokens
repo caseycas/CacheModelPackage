@@ -1,0 +1,1 @@
+package org . gradle . language . javascript . internal ; import org . gradle . language . base . sources . BaseLanguageSourceSet ; import org . gradle . language . javascript . JavaScriptSourceSet ; public class DefaultJavaScriptSourceSet extends BaseLanguageSourceSet implements JavaScriptSourceSet { @Override protected String getTypeName ( ) { return <str> ; } } 

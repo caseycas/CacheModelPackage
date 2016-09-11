@@ -1,0 +1,1 @@
+package org . gradle . openapi . external . ui ; import javax . swing . * ; @Deprecated public interface SinglePaneUIVersion1 extends BasicGradleUIVersion1 { public JComponent getComponent ( ) ; } 

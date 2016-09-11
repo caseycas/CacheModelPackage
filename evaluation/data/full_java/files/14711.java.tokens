@@ -1,0 +1,1 @@
+package org . gradle . platform . base ; import org . gradle . api . Incubating ; @Incubating public interface LibrarySpec extends ComponentSpec { } 

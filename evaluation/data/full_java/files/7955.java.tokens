@@ -1,0 +1,1 @@
+package org . elasticsearch . common . recycler ; public class ConcurrentRecyclerTests extends AbstractRecyclerTestCase { @Override protected Recycler < byte [ ] > newRecycler ( int limit ) { return Recyclers . concurrent ( Recyclers . dequeFactory ( RECYCLER_C , limit ) , randomIntBetween ( <int> , <int> ) ) ; } } 

@@ -1,0 +1,1 @@
+package org . gradle . util ; public class TreeVisitor < T > { public void node ( T node ) { } public void startChildren ( ) { } public void endChildren ( ) { } } 

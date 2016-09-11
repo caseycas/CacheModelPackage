@@ -1,0 +1,1 @@
+package org . nd4j . linalg . util ; public final class ReflectionUtil { public static Class < ? > [ ] classesFor ( Object [ ] objects ) { Class < ? > [ ] ret = new Class < ? > [ objects . length ] ; for ( int i = <int> ; i < objects . length ; i + + ) { ret [ i ] = objects [ i ] . getClass ( ) ; } return ret ; } } 

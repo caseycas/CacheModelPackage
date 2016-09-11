@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui ; import org . eclipse . debug . ui . ILaunchGroup ; public interface ILaunchLabelChangedListener { public void labelChanged ( ) ; public ILaunchGroup getLaunchGroup ( ) ; } 

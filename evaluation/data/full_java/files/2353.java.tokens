@@ -1,0 +1,1 @@
+package org . nd4j . bytebuddy . util ; public class OpCodeUtil { public static int getAloadInstructionForReference ( int ref ) { return <int> + ref ; } } 

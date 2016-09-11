@@ -1,0 +1,1 @@
+package org . gradle . test ; public interface JavaInterfaceWithConstants { String STRING_CONST = <str> ; public static final int INT_CONST = <int> ; } 

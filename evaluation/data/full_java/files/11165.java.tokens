@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts . cache ; import org . gradle . api . Incubating ; import org . gradle . api . artifacts . ModuleVersionIdentifier ; import org . gradle . api . artifacts . ResolvedModuleVersion ; @Incubating public interface ModuleResolutionControl extends ResolutionControl < ModuleVersionIdentifier , ResolvedModuleVersion > { boolean isChanging ( ) ; } 

@@ -1,0 +1,1 @@
+package org . nd4j . linalg . indexing . functions ; import com . google . common . base . Function ; public class Identity implements Function < Number , Number > { @Override public Number apply ( Number input ) { return input ; } } 

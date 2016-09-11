@@ -1,0 +1,1 @@
+package org . gradle . cache ; public interface CacheValidator { boolean isValid ( ) ; } 

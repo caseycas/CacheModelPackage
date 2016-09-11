@@ -1,0 +1,1 @@
+package org . elasticsearch . common ; public interface HasContextAndHeaders extends HasContext , HasHeaders { void copyContextAndHeadersFrom ( HasContextAndHeaders other ) ; } 

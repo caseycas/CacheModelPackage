@@ -1,0 +1,1 @@
+package io . netty . channel . unix ; public interface DomainSocketChannel extends UnixChannel { @Override DomainSocketAddress remoteAddress ( ) ; @Override DomainSocketAddress localAddress ( ) ; @Override DomainSocketChannelConfig config ( ) ; } 

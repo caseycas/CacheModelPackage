@@ -1,0 +1,1 @@
+package org . gradle . api ; import org . gradle . internal . exceptions . Contextual ; @Contextual public class InvalidUserCodeException extends GradleException { public InvalidUserCodeException ( ) { } public InvalidUserCodeException ( String message ) { super ( message ) ; } public InvalidUserCodeException ( String message , Throwable cause ) { super ( message , cause ) ; } } 

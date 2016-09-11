@@ -1,0 +1,1 @@
+package org . eclipse . debug . tests . launching ; public class ArgumentsPrinter { public static void main ( String [ ] args ) { for ( int i = <int> ; i < args . length ; i + + ) { String arg = args [ i ] ; System . out . println ( arg ) ; } } } 

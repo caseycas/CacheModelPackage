@@ -1,0 +1,1 @@
+package org . gradle . nativeplatform . platform ; import org . gradle . api . Incubating ; import org . gradle . api . Named ; @Incubating public interface OperatingSystem extends Named { String getDisplayName ( ) ; boolean isCurrent ( ) ; boolean isWindows ( ) ; boolean isMacOsX ( ) ; boolean isLinux ( ) ; boolean isSolaris ( ) ; boolean isFreeBSD ( ) ; } 

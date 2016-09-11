@@ -1,0 +1,1 @@
+package org . gradle . api . internal . file . collections ; public interface FileCollectionContainer { void visitContents ( FileCollectionResolveContext context ) ; } 

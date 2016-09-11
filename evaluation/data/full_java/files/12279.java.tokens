@@ -1,0 +1,1 @@
+package org . gradle . process . internal ; import org . gradle . messaging . remote . ObjectConnection ; public interface WorkerProcessContext { Object getWorkerId ( ) ; String getDisplayName ( ) ; ObjectConnection getServerConnection ( ) ; ClassLoader getApplicationClassLoader ( ) ; } 

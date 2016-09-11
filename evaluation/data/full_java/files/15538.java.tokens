@@ -1,0 +1,1 @@
+package org . gradle . testkit . runner . internal ; import java . io . File ; class ConstantTestKitDirProvider implements TestKitDirProvider { private final File testKitDir ; public ConstantTestKitDirProvider ( File testKitDir ) { this . testKitDir = testKitDir ; } @Override public File getDir ( ) { return testKitDir ; } } 

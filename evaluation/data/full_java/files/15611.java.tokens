@@ -1,0 +1,1 @@
+package org . gradle . api . tasks . testing ; public interface TestListener { void beforeSuite ( TestDescriptor suite ) ; void afterSuite ( TestDescriptor suite , TestResult result ) ; void beforeTest ( TestDescriptor testDescriptor ) ; void afterTest ( TestDescriptor testDescriptor , TestResult result ) ; } 

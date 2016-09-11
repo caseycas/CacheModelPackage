@@ -1,0 +1,1 @@
+package org . gradle . api . internal . tasks . compile ; public class CompilationFailedException extends RuntimeException { public CompilationFailedException ( ) { super ( <str> ) ; } public CompilationFailedException ( int exitCode ) { super ( String . format ( <str> , exitCode ) ) ; } public CompilationFailedException ( Throwable cause ) { super ( cause ) ; } } 

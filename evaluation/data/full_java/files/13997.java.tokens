@@ -1,0 +1,1 @@
+package org . gradle . api . publication . maven . internal ; import java . io . File ; public interface MavenPomMetaInfoProvider { File getMavenPomDir ( ) ; } 

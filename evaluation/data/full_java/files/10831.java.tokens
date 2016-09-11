@@ -1,0 +1,1 @@
+package org . gradle . internal . concurrent ; public interface ExecutorFactory { StoppableExecutor create ( String displayName ) ; StoppableExecutor create ( String displayName , int fixedSize ) ; } 

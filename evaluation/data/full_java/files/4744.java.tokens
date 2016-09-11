@@ -1,0 +1,1 @@
+package org . eclipse . debug . ui . console ; public interface IConsoleLineTrackerExtension extends IConsoleLineTracker { public void consoleClosed ( ) ; } 

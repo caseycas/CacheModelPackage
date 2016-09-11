@@ -1,0 +1,1 @@
+package org . gradle . api . file ; public class EmptyFileVisitor implements FileVisitor { public void visitDir ( FileVisitDetails dirDetails ) { } public void visitFile ( FileVisitDetails fileDetails ) { } } 

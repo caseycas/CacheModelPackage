@@ -1,0 +1,1 @@
+package org . gradle . api . internal . file . collections ; import org . gradle . api . tasks . util . PatternFilterable ; public interface PatternFilterableFileTree extends MinimalFileTree { MinimalFileTree filter ( PatternFilterable patterns ) ; } 

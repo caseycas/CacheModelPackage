@@ -1,0 +1,1 @@
+package org . jbox2d . collision ; import org . jbox2d . common . Vec2 ; public class RayCastOutput { public final Vec2 normal ; public float fraction ; public RayCastOutput ( ) { normal = new Vec2 ( ) ; fraction = <int> ; } public void set ( final RayCastOutput rco ) { normal . set ( rco . normal ) ; fraction = rco . fraction ; } } ; 

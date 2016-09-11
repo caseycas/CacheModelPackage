@@ -1,0 +1,1 @@
+package org . gradle . build . docs . dsl . docbook ; import org . gradle . build . docs . dsl . docbook . model . ClassDoc ; import org . w3c . dom . Element ; public interface ClassDocMemberRenderer { void renderSummaryTo ( ClassDoc classDoc , Element parent ) ; void renderDetailsTo ( ClassDoc classDoc , Element parent ) ; } 

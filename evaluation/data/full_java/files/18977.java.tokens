@@ -1,0 +1,1 @@
+package io . netty . handler . codec . compression ; public class JZlibTest extends ZlibTest { @Override protected ZlibEncoder createEncoder ( ZlibWrapper wrapper ) { return new JZlibEncoder ( wrapper ) ; } @Override protected ZlibDecoder createDecoder ( ZlibWrapper wrapper ) { return new JZlibDecoder ( wrapper ) ; } } 

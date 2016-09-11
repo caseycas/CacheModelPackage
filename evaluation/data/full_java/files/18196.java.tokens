@@ -1,0 +1,1 @@
+package com . badlogic . gdx . math ; public interface Path < T > { T derivativeAt ( T out , float t ) ; T valueAt ( T out , float t ) ; float approximate ( T v ) ; float locate ( T v ) ; float approxLength ( int samples ) ; } 

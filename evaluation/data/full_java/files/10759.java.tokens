@@ -1,0 +1,1 @@
+package org . gradle . api . plugins . announce . internal ; public class AnnouncerUnavailableException extends RuntimeException { public AnnouncerUnavailableException ( String message ) { super ( message ) ; } public AnnouncerUnavailableException ( String message , Throwable cause ) { super ( message , cause ) ; } } 

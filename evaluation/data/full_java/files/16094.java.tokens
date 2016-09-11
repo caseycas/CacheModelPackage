@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . protocol . test ; public class InternalTestExecutionException extends RuntimeException { public InternalTestExecutionException ( String message , Throwable cause ) { super ( message , cause ) ; } } 

@@ -1,0 +1,1 @@
+package org . eclipse . ui . externaltools . internal . variables ; import org . eclipse . osgi . util . NLS ; public class VariableMessages extends NLS { private static final String BUNDLE_NAME = <str> ; public static String BuildProjectResolver_3 ; public static String SystemPathResolver_0 ; static { NLS . initializeMessages ( BUNDLE_NAME , VariableMessages . class ) ; } } 

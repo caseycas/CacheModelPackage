@@ -1,0 +1,1 @@
+package org . elasticsearch . bootstrap ; public final class Elasticsearch { private Elasticsearch ( ) { } public static void main ( String [ ] args ) throws StartupError { try { Bootstrap . init ( args ) ; } catch ( Throwable t ) { throw new StartupError ( t ) ; } } static void close ( String [ ] args ) { Bootstrap . stop ( ) ; } } 

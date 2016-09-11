@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts ; import org . gradle . api . internal . file . FileSystemSubset ; public interface FileCollectionDependency extends SelfResolvingDependency { void registerWatchPoints ( FileSystemSubset . Builder builder ) ; } 

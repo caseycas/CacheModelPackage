@@ -1,0 +1,1 @@
+package org . gradle . internal ; public class TrueTimeProvider implements TimeProvider { public long getCurrentTime ( ) { return System . currentTimeMillis ( ) ; } } 

@@ -1,0 +1,1 @@
+package io . netty . handler . ssl ; final class SslConstants { public static final int SSL_CONTENT_TYPE_CHANGE_CIPHER_SPEC = <int> ; public static final int SSL_CONTENT_TYPE_ALERT = <int> ; public static final int SSL_CONTENT_TYPE_HANDSHAKE = <int> ; public static final int SSL_CONTENT_TYPE_APPLICATION_DATA = <int> ; private SslConstants ( ) { } } 

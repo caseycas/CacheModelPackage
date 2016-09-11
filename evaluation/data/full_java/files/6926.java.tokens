@@ -1,0 +1,1 @@
+package org . elasticsearch . plugins ; final class SitePlugin extends Plugin { final String name ; final String description ; SitePlugin ( String name , String description ) { this . name = name ; this . description = description ; } @Override public String name ( ) { return name ; } @Override public String description ( ) { return description ; } } 

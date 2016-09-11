@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . gradle ; public interface GradleProjectIdentity { String getPath ( ) ; } 

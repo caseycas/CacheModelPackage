@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . core . variables ; import org . eclipse . core . resources . IResource ; public class ProjectResolver extends ResourceResolver { @Override protected IResource translateSelectedResource ( IResource resource ) { return resource . getProject ( ) ; } } 

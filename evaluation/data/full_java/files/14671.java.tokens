@@ -1,0 +1,1 @@
+package org . gradle . language . base . internal . registry ; import org . gradle . language . base . LanguageSourceSet ; import org . gradle . model . internal . type . ModelType ; public interface LanguageRegistration < U extends LanguageSourceSet > { String getName ( ) ; ModelType < U > getSourceSetType ( ) ; } 

@@ -1,0 +1,1 @@
+package org . elasticsearch . search . fetch ; public class FetchSubPhaseContext { private boolean hitExecutionNeeded = false ; public void setHitExecutionNeeded ( boolean hitExecutionNeeded ) { this . hitExecutionNeeded = hitExecutionNeeded ; } public boolean hitExecutionNeeded ( ) { return hitExecutionNeeded ; } } 

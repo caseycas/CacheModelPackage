@@ -1,0 +1,1 @@
+package org . gradle . internal . component . model ; import org . gradle . internal . component . external . model . ModuleComponentArtifactMetaData ; public interface ModuleDescriptorArtifactMetaData extends ModuleComponentArtifactMetaData { } 

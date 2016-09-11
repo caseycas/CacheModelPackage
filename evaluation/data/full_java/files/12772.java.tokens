@@ -1,0 +1,1 @@
+package org . gradle . api . internal . artifacts . repositories . resolver ; import java . net . URI ; public interface PatternBasedResolver { void setM2compatible ( boolean b ) ; void addArtifactLocation ( URI baseUri , String pattern ) ; void addDescriptorLocation ( URI baseUri , String pattern ) ; } 

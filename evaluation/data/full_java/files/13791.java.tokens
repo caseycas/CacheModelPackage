@@ -1,0 +1,1 @@
+package org . gradle . launcher . daemon . client ; import org . gradle . api . GradleException ; public class DaemonDisappearedException extends GradleException { public static final String MESSAGE = <str> ; public DaemonDisappearedException ( ) { super ( MESSAGE ) ; } } 

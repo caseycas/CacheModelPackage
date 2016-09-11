@@ -1,0 +1,1 @@
+package org . elasticsearch . action ; public interface AliasesRequest extends IndicesRequest . Replaceable { String [ ] aliases ( ) ; AliasesRequest aliases ( String [ ] aliases ) ; boolean expandAliasesWildcards ( ) ; } 

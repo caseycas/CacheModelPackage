@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . views . memory ; import org . eclipse . debug . ui . IDebugUIConstants ; public class ToggleSplitPaneAction extends ToggleViewPaneAction { @Override public String getPaneId ( ) { return IDebugUIConstants . ID_RENDERING_VIEW_PANE_2 ; } } 

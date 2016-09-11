@@ -1,0 +1,1 @@
+package org . eclipse . debug . core . model ; import org . eclipse . debug . core . DebugException ; public interface IMemoryBlockRetrievalExtension extends IMemoryBlockRetrieval { public IMemoryBlockExtension getExtendedMemoryBlock ( String expression , Object context ) throws DebugException ; } 

@@ -1,0 +1,1 @@
+package org . gradle . api . internal . classloading ; public class NoOpGroovySystemLoader implements GroovySystemLoader { @Override public void shutdown ( ) { } @Override public void discardTypesFrom ( ClassLoader classLoader ) { } } 

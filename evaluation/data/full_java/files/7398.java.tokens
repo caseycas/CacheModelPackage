@@ -1,0 +1,1 @@
+package org . elasticsearch . search . aggregations . pipeline . bucketmetrics . stats ; import org . elasticsearch . search . aggregations . metrics . stats . Stats ; public interface StatsBucket extends Stats { } 

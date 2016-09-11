@@ -1,0 +1,1 @@
+package org . gradle . api ; public class CircularReferenceException extends GradleException { public CircularReferenceException ( String message ) { super ( message ) ; } public CircularReferenceException ( String message , Throwable cause ) { super ( message , cause ) ; } } 

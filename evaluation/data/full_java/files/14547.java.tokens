@@ -1,0 +1,1 @@
+package org . gradle . openapi . external . foundation ; @Deprecated public interface TaskVersion1 { public ProjectVersion1 getProject ( ) ; public String getName ( ) ; public String getDescription ( ) ; public boolean isDefault ( ) ; public String getFullTaskName ( ) ; } 

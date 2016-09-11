@@ -1,0 +1,1 @@
+package org . nd4j . linalg . api . complex ; public interface IComplexDouble extends IComplexNumber { @Override Double realComponent ( ) ; @Override Double imaginaryComponent ( ) ; IComplexDouble divi ( double v ) ; IComplexNumber div ( double v ) ; } 

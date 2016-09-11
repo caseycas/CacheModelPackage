@@ -1,0 +1,1 @@
+package org . gradle . logging . internal ; import org . gradle . api . Nullable ; import org . gradle . api . logging . LogLevel ; public abstract class OutputEvent { @Nullable public abstract LogLevel getLogLevel ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . launcher . daemon . configuration ; import java . io . File ; import java . util . List ; public interface DaemonServerConfiguration { File getBaseDir ( ) ; int getIdleTimeout ( ) ; String getUid ( ) ; List < String > getJvmOptions ( ) ; } 

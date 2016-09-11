@@ -1,0 +1,1 @@
+package org . gradle . api . internal . artifacts . dsl . dependencies ; import org . gradle . api . internal . project . ProjectInternal ; public interface ProjectFinder { ProjectInternal getProject ( String path ) ; } 

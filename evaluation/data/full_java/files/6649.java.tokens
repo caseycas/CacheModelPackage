@@ -1,0 +1,1 @@
+package org . elasticsearch . index . query ; import java . io . IOException ; public interface QueryParser < QB extends QueryBuilder < QB > > { String [ ] names ( ) ; QB fromXContent ( QueryParseContext parseContext ) throws IOException ; QB getBuilderPrototype ( ) ; } 

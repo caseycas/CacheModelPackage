@@ -1,0 +1,1 @@
+package org . gradle . api . internal . artifacts . configurations ; import org . gradle . api . internal . artifacts . ModuleInternal ; public interface DependencyMetaDataProvider { ModuleInternal getModule ( ) ; } 

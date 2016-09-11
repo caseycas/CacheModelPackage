@@ -1,0 +1,1 @@
+package io . netty . handler . codec . stomp ; public interface StompFrame extends StompHeadersSubframe , LastStompContentSubframe { @Override StompFrame copy ( ) ; @Override StompFrame duplicate ( ) ; @Override StompFrame retain ( ) ; @Override StompFrame retain ( int increment ) ; @Override StompFrame touch ( ) ; @Override StompFrame touch ( Object hint ) ; } 

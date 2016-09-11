@@ -1,0 +1,1 @@
+package org . gradle . tooling . model . eclipse ; import org . gradle . tooling . model . ProjectDependency ; public interface EclipseProjectDependency extends ProjectDependency { HierarchicalEclipseProject getTargetProject ( ) ; String getPath ( ) ; boolean isExported ( ) ; } 

@@ -1,0 +1,1 @@
+package org . elasticsearch . script ; import org . apache . lucene . search . Explanation ; import java . io . IOException ; public interface ExplainableSearchScript extends LeafSearchScript { Explanation explain ( Explanation subQueryScore ) throws IOException ; } 

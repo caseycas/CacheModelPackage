@@ -1,0 +1,1 @@
+package org . eclipse . debug . core . model ; public interface IWatchExpressionDelegate { public void evaluateExpression ( String expression , IDebugElement context , IWatchExpressionListener listener ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . protocol . eclipse ; import java . io . File ; public interface EclipseSourceDirectoryVersion1 { File getDirectory ( ) ; String getPath ( ) ; } 

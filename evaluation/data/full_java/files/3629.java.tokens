@@ -1,0 +1,1 @@
+package org . eclipse . debug . core . model ; import org . eclipse . debug . core . DebugException ; public interface IWatchExpressionResult { public IValue getValue ( ) ; public boolean hasErrors ( ) ; public String [ ] getErrorMessages ( ) ; public String getExpressionText ( ) ; public DebugException getException ( ) ; } 

@@ -1,0 +1,1 @@
+package org . elasticsearch . index . fielddata ; import org . elasticsearch . common . geo . GeoPoint ; public abstract class MultiGeoPointValues { protected MultiGeoPointValues ( ) { } public abstract void setDocument ( int docId ) ; public abstract int count ( ) ; public abstract GeoPoint valueAt ( int i ) ; } 

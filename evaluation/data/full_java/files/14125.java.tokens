@@ -1,0 +1,1 @@
+package org . gradle . messaging . remote ; public interface MessagingClient { ObjectConnection getConnection ( Address address ) ; } 

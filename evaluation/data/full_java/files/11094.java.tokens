@@ -1,0 +1,1 @@
+package org . gradle . api ; public class InvalidUserDataException extends GradleException { public InvalidUserDataException ( ) { } public InvalidUserDataException ( String message ) { super ( message ) ; } public InvalidUserDataException ( String message , Throwable cause ) { super ( message , cause ) ; } } 

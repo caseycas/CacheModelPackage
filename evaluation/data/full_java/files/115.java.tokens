@@ -1,0 +1,1 @@
+package org . apache . cassandra . config ; import org . apache . cassandra . exceptions . ConfigurationException ; public interface ConfigurationLoader { Config loadConfig ( ) throws ConfigurationException ; } 

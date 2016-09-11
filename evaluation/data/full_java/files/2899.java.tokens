@@ -1,0 +1,1 @@
+package jcuda . runtime ; public class cudaIpcEventHandle { private static final int CUDA_IPC_HANDLE_SIZE = <int> ; @SuppressWarnings ( <str> ) private byte reserved [ ] = new byte [ CUDA_IPC_HANDLE_SIZE ] ; public cudaIpcEventHandle ( ) { } @Override public String toString ( ) { return super . toString ( ) ; } } 

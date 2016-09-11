@@ -1,0 +1,1 @@
+package org . gradle . api . logging ; public interface StandardOutputListener { void onOutput ( CharSequence output ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . api . resources ; import java . net . URI ; public interface Resource { String getDisplayName ( ) ; URI getURI ( ) ; String getBaseName ( ) ; } 

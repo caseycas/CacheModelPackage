@@ -1,0 +1,1 @@
+package org . gradle . api . internal . cache ; import org . gradle . internal . Factory ; public interface Cache < K , V > { V get ( K key , Factory < V > factory ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . cache ; import java . io . Closeable ; import java . io . File ; public interface PersistentCache extends PersistentStore , CacheAccess , Closeable { File getBaseDir ( ) ; < K , V > PersistentIndexedCache < K , V > createCache ( PersistentIndexedCacheParameters < K , V > parameters ) ; void close ( ) ; } 

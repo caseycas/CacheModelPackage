@@ -1,0 +1,1 @@
+package org . jbox2d . dynamics . joints ; public class GearJointDef extends JointDef { public Joint joint1 ; public Joint joint2 ; public float ratio ; public GearJointDef ( ) { super ( JointType . GEAR ) ; joint1 = null ; joint2 = null ; } } 

@@ -1,0 +1,1 @@
+package org . elasticsearch . common . util ; public interface ObjectArray < T > extends BigArray { T get ( long index ) ; T set ( long index , T value ) ; } 

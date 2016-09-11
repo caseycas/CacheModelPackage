@@ -1,0 +1,1 @@
+package org . gradle . api . internal ; @Deprecated public interface Factory < T > { } 

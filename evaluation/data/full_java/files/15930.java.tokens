@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . adapter ; import java . io . Serializable ; public interface TargetTypeProvider extends Serializable { < T > Class < ? extends T > getTargetType ( Class < T > initialTargetType , Object protocolObject ) ; } 

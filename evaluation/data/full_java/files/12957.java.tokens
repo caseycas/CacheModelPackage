@@ -1,0 +1,1 @@
+package org . gradle . api . tasks . diagnostics . internal ; public class PropertyReportRenderer extends TextReportRenderer { public void addProperty ( String name , Object value ) { getTextOutput ( ) . formatln ( <str> , name , value ) ; } } 

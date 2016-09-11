@@ -1,0 +1,1 @@
+package org . gradle . process ; import org . gradle . process . internal . ExecException ; public interface ExecResult { int getExitValue ( ) ; ExecResult assertNormalExitValue ( ) throws ExecException ; ExecResult rethrowFailure ( ) throws ExecException ; } 

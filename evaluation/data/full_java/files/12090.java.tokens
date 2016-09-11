@@ -1,0 +1,1 @@
+package org . gradle . internal . invocation ; import org . gradle . StartParameter ; public interface BuildAction { StartParameter getStartParameter ( ) ; } 

@@ -1,0 +1,1 @@
+package org . jbox2d . dynamics ; public class Filter { public int categoryBits ; public int maskBits ; public int groupIndex ; public Filter ( ) { categoryBits = <hex> ; maskBits = <hex> ; groupIndex = <int> ; } public void set ( Filter argOther ) { categoryBits = argOther . categoryBits ; maskBits = argOther . maskBits ; groupIndex = argOther . groupIndex ; } } 

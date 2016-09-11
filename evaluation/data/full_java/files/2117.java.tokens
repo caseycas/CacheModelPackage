@@ -1,0 +1,1 @@
+package org . nd4j . linalg . api . parallel ; public interface ParallelExecutionProvider { String EXECUTOR_SERVICE_PROVIDER = <str> ; ParallelExecutioner getService ( ) ; } 

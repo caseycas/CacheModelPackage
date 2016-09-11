@@ -1,0 +1,1 @@
+package org . gradle . tooling ; import org . gradle . api . Incubating ; @Incubating public interface BuildActionExecuter < T > extends ConfigurableLauncher < BuildActionExecuter < T > > { T run ( ) throws GradleConnectionException , IllegalStateException ; void run ( ResultHandler < ? super T > handler ) throws IllegalStateException ; } 

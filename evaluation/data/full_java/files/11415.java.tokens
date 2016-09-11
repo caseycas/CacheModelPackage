@@ -1,0 +1,1 @@
+package org . gradle . api . internal . changedetection . state ; import org . gradle . api . file . FileTreeElement ; import java . io . File ; public interface FileSnapshotter { FileSnapshot snapshot ( File file ) ; FileSnapshot snapshot ( FileTreeElement fileDetails ) ; } 

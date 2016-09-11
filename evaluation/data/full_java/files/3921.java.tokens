@@ -1,0 +1,1 @@
+package org . eclipse . debug . tests . view . memory ; public class MemoryBlockOne extends MemoryBlock { } 

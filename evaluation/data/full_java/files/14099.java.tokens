@@ -1,0 +1,1 @@
+package org . gradle . internal . serialize ; public interface StatefulSerializer < T > { ObjectReader < T > newReader ( Decoder decoder ) ; ObjectWriter < T > newWriter ( Encoder encoder ) ; } 

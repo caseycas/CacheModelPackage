@@ -1,0 +1,1 @@
+package jcuda . runtime ; public interface cudaStreamCallback { void call ( cudaStream_t stream , int status , Object userData ) ; } 

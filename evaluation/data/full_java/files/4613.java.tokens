@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . views . memory . renderings ; public interface IVirtualContentListener { public int BUFFER_START = <int> ; public int BUFFER_END = <int> ; public void handledAtBufferStart ( ) ; public void handleAtBufferEnd ( ) ; public int getThreshold ( int bufferEndOrStart ) ; } 

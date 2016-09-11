@@ -1,0 +1,1 @@
+package org . gradle . ide . visualstudio ; import org . gradle . api . Incubating ; import org . gradle . api . NamedDomainObjectSet ; @Incubating public interface VisualStudioExtension { NamedDomainObjectSet < ? extends VisualStudioProject > getProjects ( ) ; NamedDomainObjectSet < ? extends VisualStudioSolution > getSolutions ( ) ; } 

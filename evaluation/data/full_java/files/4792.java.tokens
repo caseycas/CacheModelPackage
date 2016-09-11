@@ -1,0 +1,1 @@
+package org . eclipse . ui . console ; import org . eclipse . swt . widgets . Event ; public interface IHyperlink2 extends IHyperlink { public void linkActivated ( Event event ) ; } 

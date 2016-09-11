@@ -1,0 +1,1 @@
+package org . gradle . messaging . remote . internal . hub . protocol ; public abstract class InterHubMessage { public enum Delivery { SingleHandler , AllHandlers , Stateful } public abstract Delivery getDelivery ( ) ; } 

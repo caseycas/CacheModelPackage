@@ -1,0 +1,1 @@
+package org . gradle . play . internal . toolchain ; import org . gradle . platform . base . internal . toolchain . ToolProvider ; public interface PlayToolProvider extends ToolProvider { } 

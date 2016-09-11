@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts . cache ; import org . gradle . api . Incubating ; import java . util . concurrent . TimeUnit ; @Incubating public interface ResolutionControl < A , B > { A getRequest ( ) ; B getCachedResult ( ) ; void cacheFor ( int value , TimeUnit units ) ; void useCachedResult ( ) ; void refresh ( ) ; } 

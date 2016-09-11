@@ -1,0 +1,1 @@
+package org . eclipse . debug . ui . sourcelookup ; import org . eclipse . ui . IEditorInput ; public interface ISourceLookupResult { public Object getArtifact ( ) ; public Object getSourceElement ( ) ; public String getEditorId ( ) ; public IEditorInput getEditorInput ( ) ; } 

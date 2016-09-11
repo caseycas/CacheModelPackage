@@ -1,0 +1,1 @@
+package com . google . common . graph ; import com . google . common . annotations . Beta ; import javax . annotation . CheckReturnValue ; @Beta @CheckReturnValue public interface DirectedGraph < N , E > extends Graph < N , E > { N source ( Object edge ) ; N target ( Object edge ) ; } 

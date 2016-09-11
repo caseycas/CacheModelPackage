@@ -1,0 +1,1 @@
+package org . elasticsearch . test . rest . parser ; import java . io . IOException ; public interface RestTestFragmentParser < T > { T parse ( RestTestSuiteParseContext parseContext ) throws IOException , RestTestParseException ; } 

@@ -1,0 +1,1 @@
+package org . gradle . platform . base . internal ; import org . gradle . api . Incubating ; import org . gradle . platform . base . PlatformAwareComponentSpec ; import java . util . List ; @Incubating public interface PlatformAwareComponentSpecInternal extends PlatformAwareComponentSpec , ComponentSpecInternal { List < PlatformRequirement > getTargetPlatforms ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . tooling . model . internal . outcomes ; import org . gradle . api . Nullable ; public interface GradleBuildOutcome { String getId ( ) ; String getDescription ( ) ; @Nullable String getTaskPath ( ) ; } 

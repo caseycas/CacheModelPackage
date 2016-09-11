@@ -1,0 +1,1 @@
+package org . gradle . api . internal . artifacts . ivyservice . resolveengine . graph . conflicts ; import org . gradle . api . Action ; import org . gradle . api . artifacts . ModuleIdentifier ; public interface PotentialConflict { void withParticipatingModules ( Action < ModuleIdentifier > action ) ; boolean conflictExists ( ) ; } 

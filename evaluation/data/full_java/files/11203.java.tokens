@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts . result ; import org . gradle . api . Incubating ; import org . gradle . api . component . Artifact ; import java . util . Set ; @Incubating public interface ComponentArtifactsResult extends ComponentResult { Set < ArtifactResult > getArtifacts ( Class < ? extends Artifact > type ) ; } 

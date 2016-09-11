@@ -1,0 +1,1 @@
+package org . apache . cassandra . tracing ; import java . util . UUID ; import org . apache . cassandra . utils . FBUtilities ; public class ExpiredTraceState extends TraceState { public ExpiredTraceState ( UUID sessionId , Tracing . TraceType traceType ) { super ( FBUtilities . getBroadcastAddress ( ) , sessionId , traceType ) ; } public int elapsed ( ) { return - <int> ; } } 

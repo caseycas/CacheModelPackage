@@ -1,0 +1,1 @@
+package org . gradle . api . internal . artifacts . repositories ; import org . gradle . api . internal . artifacts . ModuleVersionPublisher ; public interface PublicationAwareRepository { ModuleVersionPublisher createPublisher ( ) ; } 

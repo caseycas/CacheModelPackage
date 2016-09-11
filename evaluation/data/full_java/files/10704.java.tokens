@@ -1,0 +1,1 @@
+package org . gradle . build . docs . dsl . docbook ; import org . w3c . dom . Element ; import java . util . List ; public interface DocComment { List < Element > getDocbook ( ) ; } 

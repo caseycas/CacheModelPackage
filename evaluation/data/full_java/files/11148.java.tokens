@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts ; import org . gradle . api . Project ; import org . gradle . internal . HasInternalProtocol ; @HasInternalProtocol public interface ProjectDependency extends ModuleDependency , SelfResolvingDependency { Project getDependencyProject ( ) ; Configuration getProjectConfiguration ( ) ; ProjectDependency copy ( ) ; } 

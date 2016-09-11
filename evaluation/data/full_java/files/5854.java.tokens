@@ -1,0 +1,1 @@
+package org . elasticsearch . common . inject . internal ; import java . lang . annotation . Annotation ; public class Nullability { private Nullability ( ) { } public static boolean allowsNull ( Annotation [ ] annotations ) { for ( Annotation a : annotations ) { if ( <str> . equals ( a . annotationType ( ) . getSimpleName ( ) ) ) { return true ; } } return false ; } } 

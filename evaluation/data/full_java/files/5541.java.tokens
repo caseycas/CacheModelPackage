@@ -1,0 +1,1 @@
+package org . elasticsearch . cluster . ack ; public class ClusterStateUpdateResponse { private final boolean acknowledged ; public ClusterStateUpdateResponse ( boolean acknowledged ) { this . acknowledged = acknowledged ; } public boolean isAcknowledged ( ) { return acknowledged ; } } 

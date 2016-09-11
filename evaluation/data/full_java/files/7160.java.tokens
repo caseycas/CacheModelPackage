@@ -1,0 +1,1 @@
+package org . elasticsearch . search . aggregations . bucket . filter ; import org . elasticsearch . search . aggregations . bucket . SingleBucketAggregation ; public interface Filter extends SingleBucketAggregation { } 

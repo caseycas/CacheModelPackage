@@ -1,0 +1,1 @@
+package org . gradle . language . base . internal . model ; import org . gradle . platform . base . Variant ; import org . gradle . platform . base . internal . BinarySpecInternal ; public interface ParametrizedBinaryString extends BinarySpecInternal { @Variant ParametrizedVariant < String > getVariant ( ) ; } 

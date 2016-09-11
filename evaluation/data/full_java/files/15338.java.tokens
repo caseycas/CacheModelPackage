@@ -1,0 +1,1 @@
+package org . gradle . api . reporting ; import org . gradle . api . Incubating ; @Incubating public interface ConfigurableReport extends Report { void setDestination ( Object file ) ; } 

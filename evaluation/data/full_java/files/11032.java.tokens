@@ -1,0 +1,1 @@
+package org . gradle . buildinit . plugins . internal . maven ; import org . gradle . internal . exceptions . Contextual ; @Contextual public class MavenConversionException extends RuntimeException { public MavenConversionException ( String message ) { super ( message ) ; } public MavenConversionException ( String message , Throwable cause ) { super ( message , cause ) ; } } 

@@ -1,0 +1,1 @@
+package org . eclipse . debug . core . model ; import java . io . IOException ; public interface IStreamsProxy2 extends IStreamsProxy { public void closeInputStream ( ) throws IOException ; } 

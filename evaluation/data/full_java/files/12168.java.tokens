@@ -1,0 +1,1 @@
+package org . gradle . logging ; public interface ProgressLoggerFactory { ProgressLogger newOperation ( String loggerCategory ) ; ProgressLogger newOperation ( Class < ? > loggerCategory ) ; ProgressLogger newOperation ( Class < ? > loggerClass , ProgressLogger parent ) ; } 

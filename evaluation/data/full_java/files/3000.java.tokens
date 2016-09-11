@@ -1,0 +1,1 @@
+package jcuda . driver ; public interface CUstreamCallback { void call ( CUstream hStream , int status , Object userData ) ; } 

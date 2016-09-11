@@ -1,0 +1,1 @@
+package org . gradle . nativeplatform . toolchain ; import org . gradle . api . Action ; import org . gradle . api . Incubating ; import java . util . List ; @Incubating public interface CommandLineToolConfiguration { void withArguments ( Action < ? super List < String > > arguments ) ; } 

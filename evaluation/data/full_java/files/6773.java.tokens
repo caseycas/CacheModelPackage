@@ -1,0 +1,1 @@
+package org . elasticsearch . index . similarity ; import org . apache . lucene . search . similarities . Similarity ; import org . elasticsearch . common . settings . Settings ; public interface SimilarityProvider { String name ( ) ; Similarity get ( ) ; } 

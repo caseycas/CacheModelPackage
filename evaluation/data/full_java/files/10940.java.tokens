@@ -1,0 +1,1 @@
+package org . gradle . api . plugins . buildcomparison . compare . internal ; public interface BuildComparator { BuildComparisonResult compareBuilds ( BuildComparisonSpec spec ) ; } 

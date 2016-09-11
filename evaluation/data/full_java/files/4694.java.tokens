@@ -1,0 +1,1 @@
+package org . eclipse . debug . ui ; import org . eclipse . ui . IEditorInput ; public interface ISourcePresentation { public IEditorInput getEditorInput ( Object element ) ; public String getEditorId ( IEditorInput input , Object element ) ; } 

@@ -1,0 +1,1 @@
+package org . elasticsearch . watcher ; import java . io . IOException ; public interface ResourceWatcher { void init ( ) throws IOException ; void checkAndNotify ( ) throws IOException ; } 

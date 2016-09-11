@@ -1,0 +1,1 @@
+package org . gradle . api . java . archives ; import groovy . lang . Closure ; import org . gradle . api . Action ; public interface ManifestMergeSpec { ManifestMergeSpec from ( Object . . . mergePaths ) ; ManifestMergeSpec eachEntry ( Action < ? super ManifestMergeDetails > mergeAction ) ; ManifestMergeSpec eachEntry ( Closure < ? > mergeAction ) ; } 

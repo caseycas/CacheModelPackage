@@ -1,0 +1,1 @@
+package org . gradle . process . internal ; public class BadExitCodeException extends Exception { public BadExitCodeException ( String message ) { super ( message ) ; } } 

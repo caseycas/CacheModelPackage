@@ -1,0 +1,1 @@
+package org . gradle . model . collection . internal ; import org . gradle . model . internal . core . ChildNodeInitializerStrategy ; import org . gradle . model . internal . core . MutableModelNode ; public interface ChildNodeInitializerStrategyAccessor < T > { ChildNodeInitializerStrategy < T > getStrategy ( MutableModelNode node ) ; } 

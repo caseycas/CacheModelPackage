@@ -1,0 +1,1 @@
+package org . apache . cassandra . net ; import java . io . IOException ; import org . apache . cassandra . db . ReadCommand ; public interface IVerbHandler < T > { void doVerb ( MessageIn < T > message , int id ) throws IOException ; } 

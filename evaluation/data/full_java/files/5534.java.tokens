@@ -1,0 +1,1 @@
+package org . elasticsearch . cluster ; public interface LocalNodeMasterListener { void onMaster ( ) ; void offMaster ( ) ; String executorName ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . testkit . runner ; import org . gradle . api . Incubating ; @Incubating public enum TaskOutcome { SUCCESS , FAILED , UP_TO_DATE , SKIPPED } 

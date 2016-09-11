@@ -1,0 +1,1 @@
+package org . eclipse . debug . core ; import org . eclipse . debug . core . model . IMemoryBlock ; public interface IMemoryBlockListener { void memoryBlocksAdded ( IMemoryBlock [ ] memory ) ; void memoryBlocksRemoved ( IMemoryBlock [ ] memory ) ; } 

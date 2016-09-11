@@ -1,0 +1,1 @@
+package org . gradle . language . scala . internal ; import org . gradle . jvm . internal . JvmAssembly ; import org . gradle . language . scala . ScalaPlatform ; public interface ScalaJvmAssembly extends JvmAssembly { ScalaPlatform getScalaPlatform ( ) ; } 

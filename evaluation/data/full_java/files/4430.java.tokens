@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . model . provisional ; import org . eclipse . jface . viewers . TreePath ; public interface IModelProxyFactory2 { public IModelProxy createTreeModelProxy ( Object input , TreePath path , IPresentationContext context ) ; } 

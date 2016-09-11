@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts . dsl ; import groovy . lang . Closure ; import org . gradle . api . artifacts . PublishArtifact ; public interface ArtifactHandler { PublishArtifact add ( String configurationName , Object artifactNotation ) ; PublishArtifact add ( String configurationName , Object artifactNotation , Closure configureClosure ) ; } 

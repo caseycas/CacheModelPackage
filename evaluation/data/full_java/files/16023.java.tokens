@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . protocol ; @Deprecated public interface BuildActionRunner extends InternalProtocolInterface { @Deprecated < T > BuildResult < T > run ( Class < T > type , BuildParameters operationParameters ) throws UnsupportedOperationException , IllegalStateException ; } 

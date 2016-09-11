@@ -1,0 +1,1 @@
+package org . gradle ; public interface CategoryB extends org . gradle . CategoryA { } 

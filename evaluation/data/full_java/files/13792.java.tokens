@@ -1,0 +1,1 @@
+package org . gradle . launcher . daemon . client ; import org . gradle . api . GradleException ; class DaemonInitialConnectException extends GradleException { public DaemonInitialConnectException ( String message ) { super ( message ) ; } public DaemonInitialConnectException ( String message , Throwable cause ) { super ( message , cause ) ; } } 

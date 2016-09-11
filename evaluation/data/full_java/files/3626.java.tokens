@@ -1,0 +1,1 @@
+package org . eclipse . debug . core . model ; public interface IWatchExpression extends IErrorReportingExpression { public void evaluate ( ) ; public void setExpressionContext ( IDebugElement context ) ; public void setExpressionText ( String expressionText ) ; public boolean isPending ( ) ; public boolean isEnabled ( ) ; public void setEnabled ( boolean enabled ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . language . java . artifact ; import org . gradle . api . Incubating ; import org . gradle . api . component . Artifact ; @Incubating public interface JavadocArtifact extends Artifact { } 

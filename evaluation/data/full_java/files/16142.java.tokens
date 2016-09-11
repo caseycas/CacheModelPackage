@@ -1,0 +1,1 @@
+package org . gradle . tooling . model . idea ; import org . gradle . api . Incubating ; import org . gradle . tooling . model . java . JavaSourceSettings ; @Incubating public interface IdeaModuleJavaSourceSettings extends JavaSourceSettings { boolean isSourceLanguageLevelInherited ( ) ; boolean isTargetBytecodeLevelInherited ( ) ; boolean isTargetRuntimeInherited ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . nativeplatform . internal ; import java . io . File ; import java . util . List ; public interface StaticLibraryArchiverSpec extends BinaryToolSpec { File getOutputFile ( ) ; void setOutputFile ( File outputFile ) ; List < File > getObjectFiles ( ) ; void objectFiles ( Iterable < File > source ) ; } 

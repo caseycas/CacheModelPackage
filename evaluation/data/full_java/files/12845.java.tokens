@@ -1,0 +1,1 @@
+package org . gradle . internal . component . model ; import org . gradle . api . Nullable ; import java . util . Map ; public interface IvyArtifactName { String getName ( ) ; String getType ( ) ; @Nullable String getExtension ( ) ; String getClassifier ( ) ; Map < String , String > getAttributes ( ) ; } 

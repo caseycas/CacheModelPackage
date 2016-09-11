@@ -1,0 +1,1 @@
+package org . gradle . reporting ; import java . net . URL ; import java . util . Date ; public interface HtmlPageBuilder < T > { String requireResource ( URL resource ) ; String formatDate ( Date date ) ; T getOutput ( ) ; } 

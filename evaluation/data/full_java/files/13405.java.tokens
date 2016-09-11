@@ -1,0 +1,1 @@
+package org . gradle . plugins . javascript . rhino . worker . internal ; import java . io . Serializable ; public interface RhinoWorkerClientProtocol { void initialisationError ( Exception e ) ; void receiveResult ( Serializable result ) ; void executionError ( Exception e ) ; } 

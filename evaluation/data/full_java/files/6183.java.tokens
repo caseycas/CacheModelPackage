@@ -1,0 +1,1 @@
+package org . elasticsearch . discovery . zen . ping ; import org . elasticsearch . discovery . zen . DiscoveryNodesProvider ; public interface PingContextProvider extends DiscoveryNodesProvider { boolean nodeHasJoinedClusterOnce ( ) ; } 

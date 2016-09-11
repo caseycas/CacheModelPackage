@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . model . provisional ; import org . eclipse . jface . action . IAction ; public interface IViewActionProvider { public IAction getAction ( IPresentationContext presentationContext , String actionID ) ; } 

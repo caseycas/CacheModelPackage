@@ -1,0 +1,1 @@
+package org . jbox2d . callbacks ; import org . jbox2d . collision . broadphase . DynamicTree ; public interface TreeCallback { public boolean treeCallback ( int proxyId ) ; } 

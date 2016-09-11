@@ -1,0 +1,1 @@
+package org . gradle . testkit . runner . internal . dist ; public final class VersionBasedGradleDistribution extends GradleDistribution { private final String gradleVersion ; public VersionBasedGradleDistribution ( String gradleVersion ) { this . gradleVersion = gradleVersion ; } public String getGradleVersion ( ) { return gradleVersion ; } } 

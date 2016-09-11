@@ -1,0 +1,1 @@
+package org . eclipse . core . variables ; public interface IStringVariable { public String getName ( ) ; public String getDescription ( ) ; } 

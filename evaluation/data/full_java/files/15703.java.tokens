@@ -1,0 +1,1 @@
+package org . gradle ; public class SomeTest { @org.junit.Test public void ok ( ) throws Exception { } } 

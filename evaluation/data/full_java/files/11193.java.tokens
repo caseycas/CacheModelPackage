@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts . repositories ; import java . io . File ; import java . util . Set ; public interface FlatDirectoryArtifactRepository extends ArtifactRepository { Set < File > getDirs ( ) ; void dir ( Object dir ) ; void dirs ( Object . . . dirs ) ; void setDirs ( Iterable < ? > dirs ) ; } 

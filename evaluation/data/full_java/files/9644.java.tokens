@@ -1,0 +1,1 @@
+package com . google . common . cache ; final class LongAddables { public static LongAddable create ( ) { return new LongAdder ( ) ; } } 

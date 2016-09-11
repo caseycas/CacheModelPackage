@@ -1,0 +1,1 @@
+package io . netty . util . internal . logging ; import org . junit . Test ; import static org . junit . Assert . * ; public class Slf4JLoggerFactoryTest { @Test public void testCreation ( ) { InternalLogger logger = new Slf4JLoggerFactory ( ) . newInstance ( <str> ) ; assertTrue ( logger instanceof Slf4JLogger ) ; assertEquals ( <str> , logger . name ( ) ) ; } } 

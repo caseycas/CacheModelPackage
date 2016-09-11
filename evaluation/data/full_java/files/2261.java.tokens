@@ -1,0 +1,1 @@
+package org . nd4j . linalg . learning ; import org . nd4j . linalg . api . ndarray . INDArray ; import java . io . Serializable ; public interface GradientUpdater extends Serializable { void update ( Object . . . args ) ; INDArray getGradient ( INDArray gradient , int iteration ) ; GradientUpdaterAggregator getAggregator ( boolean addThis ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . internal . reflect ; public class ObjectInstantiationException extends RuntimeException { public ObjectInstantiationException ( Class < ? > targetType , Throwable throwable ) { super ( String . format ( <str> , targetType . getName ( ) ) , throwable ) ; } } 

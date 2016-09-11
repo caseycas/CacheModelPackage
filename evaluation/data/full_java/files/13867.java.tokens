@@ -1,0 +1,1 @@
+package org . gradle . launcher . daemon . server . api ; import org . gradle . launcher . daemon . protocol . ForwardInput ; public interface StdinHandler { void onInput ( ForwardInput input ) ; void onEndOfInput ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . groovy . scripts . internal ; import org . codehaus . groovy . ast . stmt . Statement ; import org . codehaus . groovy . control . SourceUnit ; public interface StatementTransformer { Statement transform ( SourceUnit sourceUnit , Statement statement ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . api . publication . maven . internal . pom ; import org . gradle . api . artifacts . ExcludeRule ; public interface ExcludeRuleConverter { Object convert ( ExcludeRule excludeRule ) ; } 

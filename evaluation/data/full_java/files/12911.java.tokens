@@ -1,0 +1,1 @@
+package org . gradle . internal . rules ; import org . gradle . api . GradleException ; public class RuleActionValidationException extends GradleException { public RuleActionValidationException ( String message ) { super ( message ) ; } public RuleActionValidationException ( String message , Throwable cause ) { super ( message , cause ) ; } } 

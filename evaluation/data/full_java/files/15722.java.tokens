@@ -1,0 +1,1 @@
+package org . gradle ; import org . testng . annotations . AfterSuite ; public class BrokenAfterSuite { @AfterSuite public void cleanup ( ) { throw new RuntimeException ( <str> ) ; } } 

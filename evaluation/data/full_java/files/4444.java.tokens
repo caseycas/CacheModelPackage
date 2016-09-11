@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . model . provisional ; public interface IVirtualItemValidator { public boolean isItemVisible ( VirtualItem item ) ; public void showItem ( VirtualItem item ) ; } 

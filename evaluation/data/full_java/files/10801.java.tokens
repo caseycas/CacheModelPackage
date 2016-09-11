@@ -1,0 +1,1 @@
+package org . gradle . internal ; import org . gradle . api . Action ; public abstract class ErroringAction < T > implements Action < T > { public void execute ( T thing ) { try { doExecute ( thing ) ; } catch ( Exception e ) { throw UncheckedException . throwAsUncheckedException ( e ) ; } } protected abstract void doExecute ( T thing ) throws Exception ; } 

@@ -1,0 +1,1 @@
+package org . gradle . api ; public class IllegalDependencyNotation extends GradleException { public IllegalDependencyNotation ( ) { } public IllegalDependencyNotation ( String message ) { super ( message ) ; } public IllegalDependencyNotation ( String message , Throwable cause ) { super ( message , cause ) ; } } 

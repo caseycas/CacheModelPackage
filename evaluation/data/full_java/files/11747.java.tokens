@@ -1,0 +1,1 @@
+package org . gradle . api . resources ; public class MissingResourceException extends ResourceException { public MissingResourceException ( String message ) { super ( message ) ; } } 

@@ -1,0 +1,1 @@
+package org . gradle . api . plugins . quality ; import org . gradle . api . reporting . ReportContainer ; import org . gradle . api . reporting . SingleFileReport ; public interface PmdReports extends ReportContainer < SingleFileReport > { SingleFileReport getHtml ( ) ; SingleFileReport getXml ( ) ; } 

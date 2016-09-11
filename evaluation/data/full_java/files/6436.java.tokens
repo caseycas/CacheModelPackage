@@ -1,0 +1,1 @@
+package org . elasticsearch . index . fielddata ; public interface AtomicGeoPointFieldData extends AtomicFieldData { MultiGeoPointValues getGeoPointValues ( ) ; } 

@@ -1,0 +1,1 @@
+package org . elasticsearch . common . inject . internal ; class NullOutputException extends NullPointerException { public NullOutputException ( String s ) { super ( s ) ; } } 

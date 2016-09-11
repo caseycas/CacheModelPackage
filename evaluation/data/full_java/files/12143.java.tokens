@@ -1,0 +1,1 @@
+package org . gradle . internal . typeconversion ; import org . gradle . internal . exceptions . DiagnosticsVisitor ; public interface NotationConverter < N , T > { void convert ( N notation , NotationConvertResult < ? super T > result ) throws TypeConversionException ; void describe ( DiagnosticsVisitor visitor ) ; } 

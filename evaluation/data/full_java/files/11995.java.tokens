@@ -1,0 +1,1 @@
+package org . gradle . initialization ; import org . gradle . api . logging . StandardOutputListener ; public interface BuildRequestContext extends BuildRequestMetaData { BuildCancellationToken getCancellationToken ( ) ; BuildEventConsumer getEventConsumer ( ) ; StandardOutputListener getOutputListener ( ) ; StandardOutputListener getErrorListener ( ) ; } 

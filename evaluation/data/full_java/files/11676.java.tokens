@@ -1,0 +1,1 @@
+package org . gradle . api . internal . resources ; import org . gradle . api . resources . ResourceException ; public class ResourceIsAFolderException extends ResourceException { public ResourceIsAFolderException ( String message ) { super ( message ) ; } } 

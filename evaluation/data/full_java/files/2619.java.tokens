@@ -1,0 +1,1 @@
+package jcuda . driver ; public interface CUoccupancyB2DSize { long call ( int blockSize ) ; } 

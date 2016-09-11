@@ -1,0 +1,1 @@
+package org . gradle . api . internal . artifacts . mvnsettings ; import org . apache . maven . settings . Settings ; import org . apache . maven . settings . building . SettingsBuildingException ; public interface MavenSettingsProvider { Settings buildSettings ( ) throws SettingsBuildingException ; } 

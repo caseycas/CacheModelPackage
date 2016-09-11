@@ -1,0 +1,1 @@
+package org . nd4j . linalg . jcublas . parallel ; import org . nd4j . linalg . api . parallel . ParallelExecutionProvider ; import org . nd4j . linalg . api . parallel . ParallelExecutioner ; public class GpuParallelExecutionProvider implements ParallelExecutionProvider { @Override public ParallelExecutioner getService ( ) { return new GpuParallelExecutioner ( ) ; } } 

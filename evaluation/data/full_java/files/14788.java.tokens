@@ -1,0 +1,1 @@
+package org . gradle . api . java . archives ; public interface ManifestMergeDetails { String getSection ( ) ; String getKey ( ) ; String getBaseValue ( ) ; String getMergeValue ( ) ; String getValue ( ) ; void setValue ( String value ) ; void exclude ( ) ; } 

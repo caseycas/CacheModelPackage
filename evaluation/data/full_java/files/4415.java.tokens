@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . model . provisional ; public interface IColumnPresentationFactory { public IColumnPresentation createColumnPresentation ( IPresentationContext context , Object element ) ; public String getColumnPresentationId ( IPresentationContext context , Object element ) ; } 

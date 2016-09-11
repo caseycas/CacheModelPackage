@@ -1,0 +1,1 @@
+package org . eclipse . debug . examples . core . pda . protocol ; public class PDAStackCommand extends PDACommand { public PDAStackCommand ( int threadId ) { super ( <str> + threadId ) ; } @Override public PDACommandResult createResult ( String resultText ) { return new PDAStackCommandResult ( resultText ) ; } } 

@@ -1,0 +1,1 @@
+package org . gradle . messaging . remote . internal ; public interface ConnectCompletion { < T > RemoteConnection < T > create ( ClassLoader messageClassLoader ) ; < T > RemoteConnection < T > create ( MessageSerializer < T > serializer ) ; } 

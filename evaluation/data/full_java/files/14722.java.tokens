@@ -1,0 +1,1 @@
+package org . gradle . platform . base ; public interface ToolChainRegistry < P extends Platform , T extends ToolChain > { T getForPlatform ( P targetPlatform ) ; } 

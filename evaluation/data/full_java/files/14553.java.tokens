@@ -1,0 +1,1 @@
+package org . gradle . openapi . external . ui ; @Deprecated public interface CommandLineArgumentAlteringListenerVersion1 { public String getAdditionalCommandLineArguments ( String commandLineArguments ) ; } 

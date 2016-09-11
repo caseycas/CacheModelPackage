@@ -1,0 +1,1 @@
+package com . badlogic . gdx . physics . box2d ; public final class Box2D { private Box2D ( ) { } public static void init ( ) { } } 

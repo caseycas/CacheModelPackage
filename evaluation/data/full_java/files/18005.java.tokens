@@ -1,0 +1,1 @@
+package com . badlogic . gdx . graphics . g3d . decals ; import com . badlogic . gdx . utils . Array ; public interface GroupPlug { public void beforeGroup ( Array < Decal > contents ) ; public void afterGroup ( ) ; } 

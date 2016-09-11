@@ -1,0 +1,1 @@
+package org . eclipse . debug . core . model ; public interface ILogicalStructureTypeDelegate2 { public String getDescription ( IValue value ) ; } 

@@ -1,0 +1,1 @@
+package com . google . common . util . concurrent ; abstract class InterruptibleTask implements Runnable { @Override public void run ( ) { runInterruptibly ( ) ; } abstract void runInterruptibly ( ) ; abstract boolean wasInterrupted ( ) ; final void interruptTask ( ) { } } 

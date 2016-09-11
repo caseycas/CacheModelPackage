@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts ; import org . gradle . api . Incubating ; public interface ModuleVersionSelector { String getGroup ( ) ; String getName ( ) ; String getVersion ( ) ; @Incubating boolean matchesStrictly ( ModuleVersionIdentifier identifier ) ; } 

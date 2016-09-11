@@ -1,0 +1,1 @@
+package org . gradle . api . plugins . antlr . internal ; public class AntlrWorkerClient implements AntlrWorkerClientProtocol { private AntlrResult result ; public void executed ( AntlrResult result ) { this . result = result ; } public AntlrResult getResult ( ) { return result ; } } 

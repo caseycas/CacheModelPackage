@@ -1,0 +1,1 @@
+package io . netty . channel . pool ; import io . netty . channel . Channel ; import io . netty . channel . EventLoop ; import io . netty . util . concurrent . Promise ; public interface ChannelPoolHandler { void channelReleased ( Channel ch ) throws Exception ; void channelAcquired ( Channel ch ) throws Exception ; void channelCreated ( Channel ch ) throws Exception ; } 

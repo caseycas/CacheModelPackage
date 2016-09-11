@@ -1,0 +1,1 @@
+package org . gradle . nativeplatform ; import org . gradle . api . Incubating ; import java . util . Map ; @Incubating public interface PreprocessingTool extends Tool { Map < String , String > getMacros ( ) ; void define ( String name ) ; void define ( String name , String definition ) ; } 

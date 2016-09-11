@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . protocol ; @Deprecated public interface InternalConnection extends ConnectionVersion4 , InternalProtocolInterface { @Deprecated < T > T getTheModel ( Class < T > type , BuildOperationParametersVersion1 operationParameters ) throws UnsupportedOperationException , IllegalStateException ; } 

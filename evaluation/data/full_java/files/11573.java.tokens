@@ -1,0 +1,1 @@
+package org . gradle . api . internal . file . pattern ; public class AnyWildcardPatternStep implements PatternStep { public boolean matches ( String candidate ) { return true ; } } 

@@ -1,0 +1,1 @@
+package org . gradle . integtests . fixtures . executer ; public class UnexpectedBuildFailure extends RuntimeException { public UnexpectedBuildFailure ( String message ) { super ( message ) ; } public UnexpectedBuildFailure ( Exception e ) { super ( e ) ; } } 

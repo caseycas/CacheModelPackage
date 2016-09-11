@@ -1,0 +1,1 @@
+package org . gradle . internal . nativeintegration . console ; public class NoOpConsoleDetector implements ConsoleDetector { public ConsoleMetaData getConsole ( ) { return null ; } } 

@@ -1,0 +1,1 @@
+package org . elasticsearch . test . junit . annotations ; import com . carrotsearch . randomizedtesting . annotations . TestGroup ; import java . lang . annotation . * ; @Retention ( RetentionPolicy . RUNTIME ) @Inherited @TestGroup ( enabled = false , sysProperty = <str> ) public @interface Network { } 

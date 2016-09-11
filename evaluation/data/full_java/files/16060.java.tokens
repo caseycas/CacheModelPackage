@@ -1,0 +1,1 @@
+package org . gradle . tooling . internal . protocol ; public interface ResultHandlerVersion1 < T > { void onComplete ( T result ) ; void onFailure ( Throwable failure ) ; } 

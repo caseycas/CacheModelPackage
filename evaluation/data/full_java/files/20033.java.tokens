@@ -1,0 +1,1 @@
+package io . netty . handler . ssl ; public class JdkSslRenegotiateTest extends RenegotiateTest { @Override protected SslProvider serverSslProvider ( ) { return SslProvider . JDK ; } } 

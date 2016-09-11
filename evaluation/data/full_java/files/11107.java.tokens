@@ -1,0 +1,1 @@
+package org . gradle . api ; public interface ProjectEvaluationListener { void beforeEvaluate ( Project project ) ; void afterEvaluate ( Project project , ProjectState state ) ; } 

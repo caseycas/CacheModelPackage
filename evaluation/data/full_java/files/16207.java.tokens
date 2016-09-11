@@ -1,0 +1,1 @@
+package org . gradle . foundation . output . definitions ; import org . gradle . foundation . output . FileLink ; import java . util . List ; public interface FileLinkDefinition { String getName ( ) ; String getSearchExpression ( ) ; int parseFileLink ( String fullSearchText , String matchedText , int start , int end , boolean verifyFileExists , List < FileLink > fileLinks ) ; } 

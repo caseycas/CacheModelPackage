@@ -1,0 +1,1 @@
+package org . gradle ; import org . junit . Test ; import org . junit . experimental . categories . Category ; @Category ( org . gradle . CategoryB . class ) public class CatBTests { @Test public void catBOk1 ( ) { } @Test public void catBOk2 ( ) { } @Test public void catBOk3 ( ) { } @Test public void catBOk4 ( ) { } } 

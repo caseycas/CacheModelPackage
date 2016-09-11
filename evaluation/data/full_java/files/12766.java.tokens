@@ -1,0 +1,1 @@
+package org . gradle . api . internal . artifacts . repositories . resolver ; public class MavenPattern { public static final String M2_PER_MODULE_VERSION_PATTERN = <str> ; public static final String M2_PER_MODULE_PATTERN = <str> + M2_PER_MODULE_VERSION_PATTERN ; public static final String M2_PATTERN = <str> + M2_PER_MODULE_PATTERN ; } 

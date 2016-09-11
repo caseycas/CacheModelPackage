@@ -1,0 +1,1 @@
+package org . jbox2d . callbacks ; import org . jbox2d . collision . RayCastInput ; import org . jbox2d . collision . broadphase . DynamicTree ; public interface TreeRayCastCallback { public float raycastCallback ( RayCastInput input , int nodeId ) ; } 

@@ -1,0 +1,1 @@
+package org . elasticsearch . search . aggregations . metrics . avg ; import org . elasticsearch . search . aggregations . metrics . NumericMetricsAggregation ; public interface Avg extends NumericMetricsAggregation . SingleValue { double getValue ( ) ; } 

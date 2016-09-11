@@ -1,0 +1,1 @@
+package org . elasticsearch . search . aggregations . metrics . scripted ; import org . elasticsearch . search . aggregations . Aggregation ; public interface ScriptedMetric extends Aggregation { Object aggregation ( ) ; } 

@@ -1,0 +1,1 @@
+package org . gradle . api . plugins . buildcomparison . compare . internal ; public enum ComparisonResultType { EQUAL , UNEQUAL , SOURCE_ONLY , TARGET_ONLY , NON_EXISTENT ; public void throwUnsupported ( ) throws UnsupportedOperationException { throw new UnsupportedOperationException ( String . format ( <str> , toString ( ) ) ) ; } } 

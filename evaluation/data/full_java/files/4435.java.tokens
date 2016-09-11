@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui . viewers . model . provisional ; import org . eclipse . core . runtime . IProgressMonitor ; import org . eclipse . core . runtime . IStatus ; public interface IStatusMonitor extends IProgressMonitor { public void setStatus ( IStatus status ) ; public IStatus getStatus ( ) ; } 

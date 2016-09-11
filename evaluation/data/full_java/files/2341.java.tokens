@@ -1,0 +1,1 @@
+package org . nd4j . bytebuddy . shape ; public interface IndexMapper { int [ ] ind2sub ( int [ ] shape , int index , int numIndices , char ordering ) ; } 

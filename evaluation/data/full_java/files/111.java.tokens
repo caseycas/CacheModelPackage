@@ -1,0 +1,1 @@
+package org . apache . cassandra . concurrent ; import java . util . concurrent . ExecutorService ; import org . apache . cassandra . tracing . TraceState ; public interface TracingAwareExecutorService extends ExecutorService { public void execute ( Runnable command , TraceState state ) ; public void maybeExecuteImmediately ( Runnable command ) ; } 

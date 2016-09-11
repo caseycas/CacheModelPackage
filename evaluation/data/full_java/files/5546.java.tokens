@@ -1,0 +1,1 @@
+package org . elasticsearch . cluster . action . shard ; public class NoOpShardStateActionListener implements ShardStateAction . Listener { } 

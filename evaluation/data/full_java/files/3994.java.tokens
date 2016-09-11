@@ -1,0 +1,1 @@
+package org . eclipse . debug . internal . ui ; public class Pair { public Object fFirst = null ; public Object fSecond = null ; public Pair ( Object first , Object second ) { fFirst = first ; fSecond = second ; } public String firstAsString ( ) { return ( String ) fFirst ; } public String secondAsString ( ) { return ( String ) fSecond ; } } 

@@ -1,0 +1,1 @@
+package org . eclipse . debug . core ; import org . eclipse . debug . core . model . IValue ; public interface ILogicalStructureProvider { public ILogicalStructureType [ ] getLogicalStructureTypes ( IValue value ) ; } 

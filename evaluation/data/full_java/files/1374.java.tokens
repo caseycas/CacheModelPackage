@@ -1,0 +1,1 @@
+package org . apache . cassandra . cql3 . validation . entities ; import org . junit . Test ; import org . apache . cassandra . cql3 . CQLTester ; public class DateTypeTest extends CQLTester { @Test public void testDate ( ) throws Throwable { createTable ( <str> ) ; execute ( <str> ) ; assertInvalid ( <str> ) ; } } 

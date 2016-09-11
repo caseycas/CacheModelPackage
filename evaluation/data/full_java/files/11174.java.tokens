@@ -1,0 +1,1 @@
+package org . gradle . api . artifacts . component ; import org . gradle . api . Incubating ; @Incubating public interface ModuleComponentIdentifier extends ComponentIdentifier { String getGroup ( ) ; String getModule ( ) ; String getVersion ( ) ; } 
