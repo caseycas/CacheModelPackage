@@ -28,6 +28,16 @@ if(args.tokens <= 0):
     print("Number of tokens to generate must be positive.")
     quit()
 
+#Adding some argument conversion to be more user friendly.
+if(args.language.strip().lower() == "ruby"):
+    args.language = "rb"
+elif(args.language.strip().lower() == "english"):
+    args.language = "txt"
+elif(args.language.strip().lower() == "haskell"):
+    args.language = "hs"
+elif(args.language.strip().lower() == "clojure"):
+    args.language = "cl"
+
 textPrefix = args.input
 
 with open("temp." + args.language, 'w') as f:
@@ -35,12 +45,12 @@ with open("temp." + args.language, 'w') as f:
 
 newInput = ""
 
-if(args.language == "txt"):
+if(args.language.strip().lower() == "txt"):
     #TODO Select English lexer.
     #python lexEnglish.py inputDir fileType outputDir filterStopwords [stopwordsFile]
     command = ["python", "./lexer/lexEnglish.py", "./", "temp.txt", "./", str(0)] #Right now it outputs just 0.tokens
     newInput = "0.tokens"
-elif(args.language in ["java", "hs", "rb", "c", "h", "cl"]):
+elif(args.language.strip().lower() in ["java", "hs", "rb", "c", "h", "cl"]):
     #Lex the textPrefix and store in file.
     #freqDir.getAbsolutePath(), fT_lex_regex, freqDir.getAbsolutePath(), "0", "full", "True", "False"}
     command = ["python", "./lexer/simplePyLex.py", "./", "*." + args.language,  "./", "3", "full", "True", "False"]
