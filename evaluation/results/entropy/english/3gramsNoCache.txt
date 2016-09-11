@@ -1,51 +1,4 @@
-
-=========================================================
-Author: Zhaopeng Tu
- Email: tuzhaopeng@gmail.com
-  Date: 2013-11-18
-  Note: A Caching LM-based Code Suggestion Tool V0.3
-=========================================================
-
-Parameters:
-Input File: ./data/english//fold2.test
-Output File: ./data/english//fold2.test.output
-Ngram File: ./data/english//fold2.train.3grams	 Order: 3
-Back-off: 1
-Test Mode: 0
-Test on Files: 1
-Entropy Mode
-Cache: 0, Order: 10
-
-Debug: 1
-
-
-
-=================================================
-Reading ngrams...
-
-=========================================================
-Author: Zhaopeng Tu
- Email: tuzhaopeng@gmail.com
-  Date: 2013-11-18
-  Note: A Caching LM-based Code Suggestion Tool V0.3
-=========================================================
-
-Parameters:
-Input File: ./data/english//fold1.test
-Output File: ./data/english//fold1.test.output
-Ngram File: ./data/english//fold1.train.3grams	 Order: 3
-Back-off: 1
-Test Mode: 0
-Test on Files: 1
-Entropy Mode
-Cache: 0, Order: 10
-
-Debug: 1
-
-
-
-=================================================
-Reading ngrams...
+2147483647
 
 =========================================================
 Author: Zhaopeng Tu
@@ -70,6 +23,7 @@ Debug: 1
 
 =================================================
 Reading ngrams...
+2147483647
 
 =========================================================
 Author: Zhaopeng Tu
@@ -79,9 +33,9 @@ Author: Zhaopeng Tu
 =========================================================
 
 Parameters:
-Input File: ./data/english//fold4.test
-Output File: ./data/english//fold4.test.output
-Ngram File: ./data/english//fold4.train.3grams	 Order: 3
+Input File: ./data/english//fold1.test
+Output File: ./data/english//fold1.test.output
+Ngram File: ./data/english//fold1.train.3grams	 Order: 3
 Back-off: 1
 Test Mode: 0
 Test on Files: 1
@@ -94,6 +48,7 @@ Debug: 1
 
 =================================================
 Reading ngrams...
+2147483647
 
 =========================================================
 Author: Zhaopeng Tu
@@ -103,9 +58,9 @@ Author: Zhaopeng Tu
 =========================================================
 
 Parameters:
-Input File: ./data/english//fold5.test
-Output File: ./data/english//fold5.test.output
-Ngram File: ./data/english//fold5.train.3grams	 Order: 3
+Input File: ./data/english//fold2.test
+Output File: ./data/english//fold2.test.output
+Ngram File: ./data/english//fold2.train.3grams	 Order: 3
 Back-off: 1
 Test Mode: 0
 Test on Files: 1
@@ -118,6 +73,7 @@ Debug: 1
 
 =================================================
 Reading ngrams...
+2147483647
 
 =========================================================
 Author: Zhaopeng Tu
@@ -142,6 +98,57 @@ Debug: 1
 
 =================================================
 Reading ngrams...
+2147483647
+
+=========================================================
+Author: Zhaopeng Tu
+ Email: tuzhaopeng@gmail.com
+  Date: 2013-11-18
+  Note: A Caching LM-based Code Suggestion Tool V0.3
+=========================================================
+
+Parameters:
+Input File: ./data/english//fold4.test
+Output File: ./data/english//fold4.test.output
+Ngram File: ./data/english//fold4.train.3grams	 Order: 3
+Back-off: 1
+Test Mode: 0
+Test on Files: 1
+Entropy Mode
+Cache: 0, Order: 10
+
+Debug: 1
+
+
+
+=================================================
+Reading ngrams...
+2147483647
+
+=========================================================
+Author: Zhaopeng Tu
+ Email: tuzhaopeng@gmail.com
+  Date: 2013-11-18
+  Note: A Caching LM-based Code Suggestion Tool V0.3
+=========================================================
+
+Parameters:
+Input File: ./data/english//fold5.test
+Output File: ./data/english//fold5.test.output
+Ngram File: ./data/english//fold5.train.3grams	 Order: 3
+Back-off: 1
+Test Mode: 0
+Test on Files: 1
+Entropy Mode
+Cache: 0, Order: 10
+
+Debug: 1
+
+
+
+=================================================
+Reading ngrams...
+2147483647
 
 =========================================================
 Author: Zhaopeng Tu
@@ -166,6 +173,7 @@ Debug: 1
 
 =================================================
 Reading ngrams...
+2147483647
 
 =========================================================
 Author: Zhaopeng Tu
@@ -190,30 +198,7 @@ Debug: 1
 
 =================================================
 Reading ngrams...
-
-=========================================================
-Author: Zhaopeng Tu
- Email: tuzhaopeng@gmail.com
-  Date: 2013-11-18
-  Note: A Caching LM-based Code Suggestion Tool V0.3
-=========================================================
-
-Parameters:
-Input File: ./data/english//fold9.test
-Output File: ./data/english//fold9.test.output
-Ngram File: ./data/english//fold9.train.3grams	 Order: 3
-Back-off: 1
-Test Mode: 0
-Test on Files: 1
-Entropy Mode
-Cache: 0, Order: 10
-
-Debug: 1
-
-
-
-=================================================
-Reading ngrams...
+2147483647
 
 =========================================================
 Author: Zhaopeng Tu
@@ -238,6 +223,31 @@ Debug: 1
 
 =================================================
 Reading ngrams...
+2147483647
+
+=========================================================
+Author: Zhaopeng Tu
+ Email: tuzhaopeng@gmail.com
+  Date: 2013-11-18
+  Note: A Caching LM-based Code Suggestion Tool V0.3
+=========================================================
+
+Parameters:
+Input File: ./data/english//fold9.test
+Output File: ./data/english//fold9.test.output
+Ngram File: ./data/english//fold9.train.3grams	 Order: 3
+Back-off: 1
+Test Mode: 0
+Test on Files: 1
+Entropy Mode
+Cache: 0, Order: 10
+
+Debug: 1
+
+
+
+=================================================
+Reading ngrams...
 1/3 finished.
 1/3 finished.
 1/3 finished.
@@ -268,53 +278,53 @@ Reading ngrams...
 3/3 finished.
 3/3 finished.
 3/3 finished.
+./data/english//fold5.test
+Total tokens: 101105
+Sum: 936963
+Entropy: 9.26722
+./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/english//fold5.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold5.scope -INPUT_FILE ./data/english//fold5.test -OUTPUT_FILE ./data/english//fold5.test.output | tee ./data/english//fold5.test.log
 ./data/english//fold0.test
-Total tokens: 101115
-Sum: 948107
-Entropy: 9.37653
-./data/english//fold9.test
-Total tokens: 101482
-Sum: 946181
-Entropy: 9.32363
-./data/english//fold1.test
-Total tokens: 101729
-Sum: 952481
-Entropy: 9.36292
-./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/english//fold9.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold9.scope -INPUT_FILE ./data/english//fold9.test -OUTPUT_FILE ./data/english//fold9.test.output | tee ./data/english//fold9.test.log
-./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/english//fold1.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold1.scope -INPUT_FILE ./data/english//fold1.test -OUTPUT_FILE ./data/english//fold1.test.output | tee ./data/english//fold1.test.log
-./data/english//fold3.test
-Total tokens: 101627
-Sum: 947734
-Entropy: 9.32561
+Total tokens: 101496
+Sum: 948469
+Entropy: 9.34489
 ./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/english//fold0.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold0.scope -INPUT_FILE ./data/english//fold0.test -OUTPUT_FILE ./data/english//fold0.test.output | tee ./data/english//fold0.test.log
+./data/english//fold1.test
+Total tokens: 100957
+Sum: 940308
+Entropy: 9.31394
+./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/english//fold1.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold1.scope -INPUT_FILE ./data/english//fold1.test -OUTPUT_FILE ./data/english//fold1.test.output | tee ./data/english//fold1.test.log
+./data/english//fold7.test
+Total tokens: 101563
+Sum: 950436
+Entropy: 9.3581
+./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/english//fold7.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold7.scope -INPUT_FILE ./data/english//fold7.test -OUTPUT_FILE ./data/english//fold7.test.output | tee ./data/english//fold7.test.log
+./data/english//fold9.test
+Total tokens: 101241
+Sum: 960063
+Entropy: 9.48295
+./data/english//fold8.test
+Total tokens: 101368
+Sum: 939007
+Entropy: 9.26335
+./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/english//fold9.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold9.scope -INPUT_FILE ./data/english//fold9.test -OUTPUT_FILE ./data/english//fold9.test.output | tee ./data/english//fold9.test.log
+./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/english//fold8.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold8.scope -INPUT_FILE ./data/english//fold8.test -OUTPUT_FILE ./data/english//fold8.test.output | tee ./data/english//fold8.test.log
+./data/english//fold3.test
+Total tokens: 101327
+Sum: 949886
+Entropy: 9.37446
 ./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/english//fold3.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold3.scope -INPUT_FILE ./data/english//fold3.test -OUTPUT_FILE ./data/english//fold3.test.output | tee ./data/english//fold3.test.log
 ./data/english//fold4.test
-Total tokens: 101221
-Sum: 938368
-Entropy: 9.27049
+Total tokens: 101396
+Sum: 950885
+Entropy: 9.37793
 ./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/english//fold4.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold4.scope -INPUT_FILE ./data/english//fold4.test -OUTPUT_FILE ./data/english//fold4.test.output | tee ./data/english//fold4.test.log
-./data/english//fold6.test
-Total tokens: 101056
-Sum: 932562
-Entropy: 9.22817
-./data/english//fold5.test
-Total tokens: 100819
-Sum: 952505
-Entropy: 9.44767
-./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/english//fold6.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold6.scope -INPUT_FILE ./data/english//fold6.test -OUTPUT_FILE ./data/english//fold6.test.output | tee ./data/english//fold6.test.log
-./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/english//fold5.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold5.scope -INPUT_FILE ./data/english//fold5.test -OUTPUT_FILE ./data/english//fold5.test.output | tee ./data/english//fold5.test.log
-./data/english//fold7.test
-Total tokens: 101383
-Sum: 951563
-Entropy: 9.38582
 ./data/english//fold2.test
-Total tokens: 101466
-Sum: 946158
-Entropy: 9.32488
-./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/english//fold7.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold7.scope -INPUT_FILE ./data/english//fold7.test -OUTPUT_FILE ./data/english//fold7.test.output | tee ./data/english//fold7.test.log
+Total tokens: 101389
+Sum: 940121
+Entropy: 9.27241
 ./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/english//fold2.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold2.scope -INPUT_FILE ./data/english//fold2.test -OUTPUT_FILE ./data/english//fold2.test.output | tee ./data/english//fold2.test.log
-./data/english//fold8.test
-Total tokens: 101589
-Sum: 950385
-Entropy: 9.3552
-./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/english//fold8.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold8.scope -INPUT_FILE ./data/english//fold8.test -OUTPUT_FILE ./data/english//fold8.test.output | tee ./data/english//fold8.test.log
+./data/english//fold6.test
+Total tokens: 101645
+Sum: 952040
+Entropy: 9.36633
+./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/english//fold6.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold6.scope -INPUT_FILE ./data/english//fold6.test -OUTPUT_FILE ./data/english//fold6.test.output | tee ./data/english//fold6.test.log

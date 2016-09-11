@@ -1,3 +1,73 @@
+2147483647
+
+=========================================================
+Author: Zhaopeng Tu
+ Email: tuzhaopeng@gmail.com
+  Date: 2013-11-18
+  Note: A Caching LM-based Code Suggestion Tool V0.3
+=========================================================
+
+Parameters:
+Input File: ./data/english//fold1.test
+Output File: ./data/english//fold1.test.output
+Ngram File: ./data/english//fold1.train.3grams	 Order: 3
+Back-off: 1
+Test Mode: 0
+Test on Files: 1
+Entropy Mode
+Cache: 1, Order: 3
+Type: WINDOW CACHE, Interpolation weight: DYNAMIC
+Debug: 1
+
+
+
+2147483647
+
+=========================================================
+Author: Zhaopeng Tu
+ Email: tuzhaopeng@gmail.com
+  Date: 2013-11-18
+  Note: A Caching LM-based Code Suggestion Tool V0.3
+=========================================================
+
+Parameters:
+Input File: ./data/english//fold3.test
+Output File: ./data/english//fold3.test.output
+Ngram File: ./data/english//fold3.train.3grams	 Order: 3
+Back-off: 1
+Test Mode: 0
+Test on Files: 1
+Entropy Mode
+Cache: 1, Order: 3
+Type: WINDOW CACHE, Interpolation weight: DYNAMIC
+Debug: 1
+
+
+
+2147483647
+
+=========================================================
+Author: Zhaopeng Tu
+ Email: tuzhaopeng@gmail.com
+  Date: 2013-11-18
+  Note: A Caching LM-based Code Suggestion Tool V0.3
+=========================================================
+
+Parameters:
+Input File: ./data/english//fold2.test
+Output File: ./data/english//fold2.test.output
+Ngram File: ./data/english//fold2.train.3grams	 Order: 3
+Back-off: 1
+Test Mode: 0
+Test on Files: 1
+Entropy Mode
+Cache: 1, Order: 3
+Type: WINDOW CACHE, Interpolation weight: DYNAMIC
+Debug: 1
+
+
+
+2147483647
 
 =========================================================
 Author: Zhaopeng Tu
@@ -22,30 +92,7 @@ Debug: 1
 
 =================================================
 Reading ngrams...
-
-=========================================================
-Author: Zhaopeng Tu
- Email: tuzhaopeng@gmail.com
-  Date: 2013-11-18
-  Note: A Caching LM-based Code Suggestion Tool V0.3
-=========================================================
-
-Parameters:
-Input File: ./data/english//fold1.test
-Output File: ./data/english//fold1.test.output
-Ngram File: ./data/english//fold1.train.3grams	 Order: 3
-Back-off: 1
-Test Mode: 0
-Test on Files: 1
-Entropy Mode
-Cache: 1, Order: 3
-Type: WINDOW CACHE, Interpolation weight: DYNAMIC
-Debug: 1
-
-
-
-=================================================
-Reading ngrams...
+2147483647
 
 =========================================================
 Author: Zhaopeng Tu
@@ -70,150 +117,7 @@ Debug: 1
 
 =================================================
 Reading ngrams...
-
-=========================================================
-Author: Zhaopeng Tu
- Email: tuzhaopeng@gmail.com
-  Date: 2013-11-18
-  Note: A Caching LM-based Code Suggestion Tool V0.3
-=========================================================
-
-Parameters:
-Input File: ./data/english//fold2.test
-Output File: ./data/english//fold2.test.output
-Ngram File: ./data/english//fold2.train.3grams	 Order: 3
-Back-off: 1
-Test Mode: 0
-Test on Files: 1
-Entropy Mode
-Cache: 1, Order: 3
-Type: WINDOW CACHE, Interpolation weight: DYNAMIC
-Debug: 1
-
-
-
-=================================================
-Reading ngrams...
-
-=========================================================
-Author: Zhaopeng Tu
- Email: tuzhaopeng@gmail.com
-  Date: 2013-11-18
-  Note: A Caching LM-based Code Suggestion Tool V0.3
-=========================================================
-
-Parameters:
-Input File: ./data/english//fold3.test
-Output File: ./data/english//fold3.test.output
-Ngram File: ./data/english//fold3.train.3grams	 Order: 3
-Back-off: 1
-Test Mode: 0
-Test on Files: 1
-Entropy Mode
-Cache: 1, Order: 3
-Type: WINDOW CACHE, Interpolation weight: DYNAMIC
-Debug: 1
-
-
-
-=================================================
-Reading ngrams...
-
-=========================================================
-Author: Zhaopeng Tu
- Email: tuzhaopeng@gmail.com
-  Date: 2013-11-18
-  Note: A Caching LM-based Code Suggestion Tool V0.3
-=========================================================
-
-Parameters:
-Input File: ./data/english//fold6.test
-Output File: ./data/english//fold6.test.output
-Ngram File: ./data/english//fold6.train.3grams	 Order: 3
-Back-off: 1
-Test Mode: 0
-Test on Files: 1
-Entropy Mode
-Cache: 1, Order: 3
-Type: WINDOW CACHE, Interpolation weight: DYNAMIC
-Debug: 1
-
-
-
-=================================================
-Reading ngrams...
-
-=========================================================
-Author: Zhaopeng Tu
- Email: tuzhaopeng@gmail.com
-  Date: 2013-11-18
-  Note: A Caching LM-based Code Suggestion Tool V0.3
-=========================================================
-
-Parameters:
-Input File: ./data/english//fold7.test
-Output File: ./data/english//fold7.test.output
-Ngram File: ./data/english//fold7.train.3grams	 Order: 3
-Back-off: 1
-Test Mode: 0
-Test on Files: 1
-Entropy Mode
-Cache: 1, Order: 3
-Type: WINDOW CACHE, Interpolation weight: DYNAMIC
-Debug: 1
-
-
-
-=================================================
-Reading ngrams...
-
-=========================================================
-Author: Zhaopeng Tu
- Email: tuzhaopeng@gmail.com
-  Date: 2013-11-18
-  Note: A Caching LM-based Code Suggestion Tool V0.3
-=========================================================
-
-Parameters:
-Input File: ./data/english//fold8.test
-Output File: ./data/english//fold8.test.output
-Ngram File: ./data/english//fold8.train.3grams	 Order: 3
-Back-off: 1
-Test Mode: 0
-Test on Files: 1
-Entropy Mode
-Cache: 1, Order: 3
-Type: WINDOW CACHE, Interpolation weight: DYNAMIC
-Debug: 1
-
-
-
-
-=========================================================
-Author: Zhaopeng Tu
- Email: tuzhaopeng@gmail.com
-  Date: 2013-11-18
-  Note: A Caching LM-based Code Suggestion Tool V0.3
-=========================================================
-
-Parameters:
-Input File: ./data/english//fold9.test
-Output File: ./data/english//fold9.test.output
-Ngram File: ./data/english//fold9.train.3grams	 Order: 3
-Back-off: 1
-Test Mode: 0
-Test on Files: 1
-Entropy Mode
-Cache: 1, Order: 3
-Type: WINDOW CACHE, Interpolation weight: DYNAMIC
-Debug: 1
-
-
-
-=================================================
-Reading ngrams...
-=================================================
-Reading ngrams...
+2147483647
 
 =========================================================
 Author: Zhaopeng Tu
@@ -238,6 +142,112 @@ Debug: 1
 
 =================================================
 Reading ngrams...
+=================================================
+Reading ngrams...
+=================================================
+Reading ngrams...
+=================================================
+Reading ngrams...
+2147483647
+
+=========================================================
+Author: Zhaopeng Tu
+ Email: tuzhaopeng@gmail.com
+  Date: 2013-11-18
+  Note: A Caching LM-based Code Suggestion Tool V0.3
+=========================================================
+
+Parameters:
+Input File: ./data/english//fold6.test
+Output File: ./data/english//fold6.test.output
+Ngram File: ./data/english//fold6.train.3grams	 Order: 3
+Back-off: 1
+Test Mode: 0
+Test on Files: 1
+Entropy Mode
+Cache: 1, Order: 3
+Type: WINDOW CACHE, Interpolation weight: DYNAMIC
+Debug: 1
+
+
+
+=================================================
+Reading ngrams...
+2147483647
+
+=========================================================
+Author: Zhaopeng Tu
+ Email: tuzhaopeng@gmail.com
+  Date: 2013-11-18
+  Note: A Caching LM-based Code Suggestion Tool V0.3
+=========================================================
+
+Parameters:
+Input File: ./data/english//fold7.test
+Output File: ./data/english//fold7.test.output
+Ngram File: ./data/english//fold7.train.3grams	 Order: 3
+Back-off: 1
+Test Mode: 0
+Test on Files: 1
+Entropy Mode
+Cache: 1, Order: 3
+Type: WINDOW CACHE, Interpolation weight: DYNAMIC
+Debug: 1
+
+
+
+=================================================
+Reading ngrams...
+2147483647
+
+=========================================================
+Author: Zhaopeng Tu
+ Email: tuzhaopeng@gmail.com
+  Date: 2013-11-18
+  Note: A Caching LM-based Code Suggestion Tool V0.3
+=========================================================
+
+Parameters:
+Input File: ./data/english//fold8.test
+Output File: ./data/english//fold8.test.output
+Ngram File: ./data/english//fold8.train.3grams	 Order: 3
+Back-off: 1
+Test Mode: 0
+Test on Files: 1
+Entropy Mode
+Cache: 1, Order: 3
+Type: WINDOW CACHE, Interpolation weight: DYNAMIC
+Debug: 1
+
+
+
+=================================================
+Reading ngrams...
+2147483647
+
+=========================================================
+Author: Zhaopeng Tu
+ Email: tuzhaopeng@gmail.com
+  Date: 2013-11-18
+  Note: A Caching LM-based Code Suggestion Tool V0.3
+=========================================================
+
+Parameters:
+Input File: ./data/english//fold9.test
+Output File: ./data/english//fold9.test.output
+Ngram File: ./data/english//fold9.train.3grams	 Order: 3
+Back-off: 1
+Test Mode: 0
+Test on Files: 1
+Entropy Mode
+Cache: 1, Order: 3
+Type: WINDOW CACHE, Interpolation weight: DYNAMIC
+Debug: 1
+
+
+
+=================================================
+Reading ngrams...
 1/3 finished.
 1/3 finished.
 1/3 finished.
@@ -268,53 +278,53 @@ Reading ngrams...
 3/3 finished.
 3/3 finished.
 3/3 finished.
-./data/english//fold4.test
-Total tokens: 101221
-Sum: 949784
-Entropy: 9.38327
-./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/english//fold4.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold4.scope -INPUT_FILE ./data/english//fold4.test -OUTPUT_FILE ./data/english//fold4.test.output | tee ./data/english//fold4.test.log
 ./data/english//fold5.test
-Total tokens: 100819
-Sum: 964233
-Entropy: 9.564
+Total tokens: 101105
+Sum: 947730
+Entropy: 9.37372
+./data/english//fold4.test
+Total tokens: 101396
+Sum: 965254
+Entropy: 9.51965
+./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/english//fold4.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold4.scope -INPUT_FILE ./data/english//fold4.test -OUTPUT_FILE ./data/english//fold4.test.output | tee ./data/english//fold4.test.log
 ./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/english//fold5.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold5.scope -INPUT_FILE ./data/english//fold5.test -OUTPUT_FILE ./data/english//fold5.test.output | tee ./data/english//fold5.test.log
-./data/english//fold0.test
-Total tokens: 101115
-Sum: 961358
-Entropy: 9.50757
-./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/english//fold0.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold0.scope -INPUT_FILE ./data/english//fold0.test -OUTPUT_FILE ./data/english//fold0.test.output | tee ./data/english//fold0.test.log
-./data/english//fold7.test
-Total tokens: 101383
-Sum: 964079
-Entropy: 9.50928
-./data/english//fold8.test
-Total tokens: 101589
-Sum: 957566
-Entropy: 9.42588
-./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/english//fold7.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold7.scope -INPUT_FILE ./data/english//fold7.test -OUTPUT_FILE ./data/english//fold7.test.output | tee ./data/english//fold7.test.log
-./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/english//fold8.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold8.scope -INPUT_FILE ./data/english//fold8.test -OUTPUT_FILE ./data/english//fold8.test.output | tee ./data/english//fold8.test.log
 ./data/english//fold3.test
-Total tokens: 101627
-Sum: 962121
-Entropy: 9.46718
+Total tokens: 101327
+Sum: 966104
+Entropy: 9.53452
+./data/english//fold7.test
+Total tokens: 101563
+Sum: 966257
+Entropy: 9.51387
 ./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/english//fold3.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold3.scope -INPUT_FILE ./data/english//fold3.test -OUTPUT_FILE ./data/english//fold3.test.output | tee ./data/english//fold3.test.log
+./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/english//fold7.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold7.scope -INPUT_FILE ./data/english//fold7.test -OUTPUT_FILE ./data/english//fold7.test.output | tee ./data/english//fold7.test.log
 ./data/english//fold2.test
-Total tokens: 101466
-Sum: 962636
-Entropy: 9.48728
-./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/english//fold2.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold2.scope -INPUT_FILE ./data/english//fold2.test -OUTPUT_FILE ./data/english//fold2.test.output | tee ./data/english//fold2.test.log
-./data/english//fold6.test
-Total tokens: 101056
-Sum: 949432
-Entropy: 9.39511
+Total tokens: 101389
+Sum: 955910
+Entropy: 9.42815
 ./data/english//fold1.test
-Total tokens: 101729
-Sum: 961202
-Entropy: 9.44865
-./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/english//fold6.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold6.scope -INPUT_FILE ./data/english//fold6.test -OUTPUT_FILE ./data/english//fold6.test.output | tee ./data/english//fold6.test.log
+Total tokens: 100957
+Sum: 951510
+Entropy: 9.4249
 ./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/english//fold1.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold1.scope -INPUT_FILE ./data/english//fold1.test -OUTPUT_FILE ./data/english//fold1.test.output | tee ./data/english//fold1.test.log
+./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/english//fold2.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold2.scope -INPUT_FILE ./data/english//fold2.test -OUTPUT_FILE ./data/english//fold2.test.output | tee ./data/english//fold2.test.log
 ./data/english//fold9.test
-Total tokens: 101482
-Sum: 959401
-Entropy: 9.4539
+Total tokens: 101241
+Sum: 965176
+Entropy: 9.53345
 ./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/english//fold9.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold9.scope -INPUT_FILE ./data/english//fold9.test -OUTPUT_FILE ./data/english//fold9.test.output | tee ./data/english//fold9.test.log
+./data/english//fold8.test
+Total tokens: 101368
+Sum: 950934
+Entropy: 9.38101
+./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/english//fold8.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold8.scope -INPUT_FILE ./data/english//fold8.test -OUTPUT_FILE ./data/english//fold8.test.output | tee ./data/english//fold8.test.log
+./data/english//fold6.test
+Total tokens: 101645
+Sum: 965185
+Entropy: 9.49565
+./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/english//fold6.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold6.scope -INPUT_FILE ./data/english//fold6.test -OUTPUT_FILE ./data/english//fold6.test.output | tee ./data/english//fold6.test.log
+./data/english//fold0.test
+Total tokens: 101496
+Sum: 959958
+Entropy: 9.45809
+./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/english//fold0.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/english//fold0.scope -INPUT_FILE ./data/english//fold0.test -OUTPUT_FILE ./data/english//fold0.test.output | tee ./data/english//fold0.test.log

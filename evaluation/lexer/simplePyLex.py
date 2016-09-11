@@ -330,10 +330,13 @@ for path in fileList:
 
 #Write out the mapping from projects to files.
 #Put this in the directory above the rest of the files.
-if(outputDir.endswith("/")):
-    aboveOutputDir = "/".join(outputDir.split("/")[0:-2]) 
-else:
-    aboveOutputDir = "/".join(outputDir.split("/")[0:-1])
-pickle.dump(projectFiles, open(aboveOutputDir + "/project_file_map.pickle", "w"))
-print(projectFiles)
-print("Token.Error in this corpus: " + str(errorCount))
+try:
+    if(outputDir.endswith("/")):
+        aboveOutputDir = "/".join(outputDir.split("/")[0:-2]) 
+    else:
+        aboveOutputDir = "/".join(outputDir.split("/")[0:-1])
+    pickle.dump(projectFiles, open(aboveOutputDir + "/project_file_map.pickle", "w"))
+    print(projectFiles)
+    print("Token.Error in this corpus: " + str(errorCount))
+except:
+    print("Skipping project-file map.")

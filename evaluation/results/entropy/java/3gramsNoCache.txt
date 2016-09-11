@@ -55,6 +55,54 @@ Author: Zhaopeng Tu
 =========================================================
 
 Parameters:
+Input File: ./data/java//fold2.test
+Output File: ./data/java//fold2.test.output
+Ngram File: ./data/java//fold2.train.3grams	 Order: 3
+Back-off: 1
+Test Mode: 0
+Test on Files: 1
+Entropy Mode
+Cache: 0, Order: 10
+
+Debug: 1
+
+
+
+=================================================
+Reading ngrams...
+
+=========================================================
+Author: Zhaopeng Tu
+ Email: tuzhaopeng@gmail.com
+  Date: 2013-11-18
+  Note: A Caching LM-based Code Suggestion Tool V0.3
+=========================================================
+
+Parameters:
+Input File: ./data/java//fold3.test
+Output File: ./data/java//fold3.test.output
+Ngram File: ./data/java//fold3.train.3grams	 Order: 3
+Back-off: 1
+Test Mode: 0
+Test on Files: 1
+Entropy Mode
+Cache: 0, Order: 10
+
+Debug: 1
+
+
+
+=================================================
+Reading ngrams...
+
+=========================================================
+Author: Zhaopeng Tu
+ Email: tuzhaopeng@gmail.com
+  Date: 2013-11-18
+  Note: A Caching LM-based Code Suggestion Tool V0.3
+=========================================================
+
+Parameters:
 Input File: ./data/java//fold4.test
 Output File: ./data/java//fold4.test.output
 Ngram File: ./data/java//fold4.train.3grams	 Order: 3
@@ -103,33 +151,9 @@ Author: Zhaopeng Tu
 =========================================================
 
 Parameters:
-Input File: ./data/java//fold3.test
-Output File: ./data/java//fold3.test.output
-Ngram File: ./data/java//fold3.train.3grams	 Order: 3
-Back-off: 1
-Test Mode: 0
-Test on Files: 1
-Entropy Mode
-Cache: 0, Order: 10
-
-Debug: 1
-
-
-
-=================================================
-Reading ngrams...
-
-=========================================================
-Author: Zhaopeng Tu
- Email: tuzhaopeng@gmail.com
-  Date: 2013-11-18
-  Note: A Caching LM-based Code Suggestion Tool V0.3
-=========================================================
-
-Parameters:
-Input File: ./data/java//fold2.test
-Output File: ./data/java//fold2.test.output
-Ngram File: ./data/java//fold2.train.3grams	 Order: 3
+Input File: ./data/java//fold6.test
+Output File: ./data/java//fold6.test.output
+Ngram File: ./data/java//fold6.train.3grams	 Order: 3
 Back-off: 1
 Test Mode: 0
 Test on Files: 1
@@ -175,30 +199,6 @@ Author: Zhaopeng Tu
 =========================================================
 
 Parameters:
-Input File: ./data/java//fold8.test
-Output File: ./data/java//fold8.test.output
-Ngram File: ./data/java//fold8.train.3grams	 Order: 3
-Back-off: 1
-Test Mode: 0
-Test on Files: 1
-Entropy Mode
-Cache: 0, Order: 10
-
-Debug: 1
-
-
-
-=================================================
-Reading ngrams...
-
-=========================================================
-Author: Zhaopeng Tu
- Email: tuzhaopeng@gmail.com
-  Date: 2013-11-18
-  Note: A Caching LM-based Code Suggestion Tool V0.3
-=========================================================
-
-Parameters:
 Input File: ./data/java//fold9.test
 Output File: ./data/java//fold9.test.output
 Ngram File: ./data/java//fold9.train.3grams	 Order: 3
@@ -223,9 +223,9 @@ Author: Zhaopeng Tu
 =========================================================
 
 Parameters:
-Input File: ./data/java//fold6.test
-Output File: ./data/java//fold6.test.output
-Ngram File: ./data/java//fold6.train.3grams	 Order: 3
+Input File: ./data/java//fold8.test
+Output File: ./data/java//fold8.test.output
+Ngram File: ./data/java//fold8.train.3grams	 Order: 3
 Back-off: 1
 Test Mode: 0
 Test on Files: 1
@@ -268,53 +268,53 @@ Reading ngrams...
 3/3 finished.
 3/3 finished.
 3/3 finished.
-./data/java//fold8.test
-Total tokens: 98208
-Sum: 562449
-Entropy: 5.72712
-./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/java//fold8.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold8.scope -INPUT_FILE ./data/java//fold8.test -OUTPUT_FILE ./data/java//fold8.test.output | tee ./data/java//fold8.test.log
 ./data/java//fold0.test
-Total tokens: 110964
-Sum: 594067
-Entropy: 5.35369
+Total tokens: 89713
+Sum: 458523
+Entropy: 5.111
 ./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/java//fold0.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold0.scope -INPUT_FILE ./data/java//fold0.test -OUTPUT_FILE ./data/java//fold0.test.output | tee ./data/java//fold0.test.log
-./data/java//fold4.test
-Total tokens: 110164
-Sum: 626821
-Entropy: 5.68989
-./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/java//fold4.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold4.scope -INPUT_FILE ./data/java//fold4.test -OUTPUT_FILE ./data/java//fold4.test.output | tee ./data/java//fold4.test.log
-./data/java//fold2.test
-Total tokens: 116103
-Sum: 633278
-Entropy: 5.45445
-./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/java//fold2.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold2.scope -INPUT_FILE ./data/java//fold2.test -OUTPUT_FILE ./data/java//fold2.test.output | tee ./data/java//fold2.test.log
-./data/java//fold6.test
-Total tokens: 116701
-Sum: 640303
-Entropy: 5.4867
-./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/java//fold6.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold6.scope -INPUT_FILE ./data/java//fold6.test -OUTPUT_FILE ./data/java//fold6.test.output | tee ./data/java//fold6.test.log
-./data/java//fold9.test
-Total tokens: 123016
-Sum: 597063
-Entropy: 4.85354
-./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/java//fold9.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold9.scope -INPUT_FILE ./data/java//fold9.test -OUTPUT_FILE ./data/java//fold9.test.output | tee ./data/java//fold9.test.log
 ./data/java//fold3.test
-Total tokens: 120469
-Sum: 648559
-Entropy: 5.38362
+Total tokens: 95076
+Sum: 515496
+Entropy: 5.42194
 ./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/java//fold3.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold3.scope -INPUT_FILE ./data/java//fold3.test -OUTPUT_FILE ./data/java//fold3.test.output | tee ./data/java//fold3.test.log
-./data/java//fold1.test
-Total tokens: 128571
-Sum: 700373
-Entropy: 5.44737
-./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/java//fold1.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold1.scope -INPUT_FILE ./data/java//fold1.test -OUTPUT_FILE ./data/java//fold1.test.output | tee ./data/java//fold1.test.log
+./data/java//fold8.test
+Total tokens: 99109
+Sum: 515628
+Entropy: 5.20264
+./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/java//fold8.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold8.scope -INPUT_FILE ./data/java//fold8.test -OUTPUT_FILE ./data/java//fold8.test.output | tee ./data/java//fold8.test.log
 ./data/java//fold5.test
-Total tokens: 131062
-Sum: 694967
-Entropy: 5.30258
+Total tokens: 115724
+Sum: 684201
+Entropy: 5.91235
 ./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/java//fold5.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold5.scope -INPUT_FILE ./data/java//fold5.test -OUTPUT_FILE ./data/java//fold5.test.output | tee ./data/java//fold5.test.log
+./data/java//fold9.test
+Total tokens: 119537
+Sum: 674909
+Entropy: 5.64603
+./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/java//fold9.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold9.scope -INPUT_FILE ./data/java//fold9.test -OUTPUT_FILE ./data/java//fold9.test.output | tee ./data/java//fold9.test.log
+./data/java//fold2.test
+Total tokens: 117278
+Sum: 605611
+Entropy: 5.16389
+./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/java//fold2.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold2.scope -INPUT_FILE ./data/java//fold2.test -OUTPUT_FILE ./data/java//fold2.test.output | tee ./data/java//fold2.test.log
+./data/java//fold4.test
+Total tokens: 127686
+Sum: 666196
+Entropy: 5.21745
+./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/java//fold4.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold4.scope -INPUT_FILE ./data/java//fold4.test -OUTPUT_FILE ./data/java//fold4.test.output | tee ./data/java//fold4.test.log
+./data/java//fold6.test
+Total tokens: 132732
+Sum: 673222
+Entropy: 5.07204
+./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/java//fold6.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold6.scope -INPUT_FILE ./data/java//fold6.test -OUTPUT_FILE ./data/java//fold6.test.output | tee ./data/java//fold6.test.log
+./data/java//fold1.test
+Total tokens: 144746
+Sum: 836450
+Entropy: 5.77874
+./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/java//fold1.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold1.scope -INPUT_FILE ./data/java//fold1.test -OUTPUT_FILE ./data/java//fold1.test.output | tee ./data/java//fold1.test.log
 ./data/java//fold7.test
-Total tokens: 139398
-Sum: 771985
-Entropy: 5.53799
+Total tokens: 153055
+Sum: 835339
+Entropy: 5.45777
 ./completion -ENTROPY -BACKOFF -DEBUG -FILES -NGRAM_FILE ./data/java//fold7.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold7.scope -INPUT_FILE ./data/java//fold7.test -OUTPUT_FILE ./data/java//fold7.test.output | tee ./data/java//fold7.test.log

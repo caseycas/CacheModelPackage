@@ -49,6 +49,9 @@ public:
     static bool CACHE_DYNAMIC_LAMBDA;
     
     static bool USE_CACHE_ONLY;
+    static bool GENERATE;
+
+    static int GENCOUNT;
     
     static int BEAM_SIZE;
 

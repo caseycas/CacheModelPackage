@@ -1,5 +1,95 @@
 #include "suggestion.h"
 
+void Suggestion::Generate()
+{
+    vector<Word> candidates; //These are Words, not strings, what's the difference? Why do I need this?
+    vector<Word> output;
+    vector<string> context;
+    string prefix = "";
+    context.push_back("<s>");
+    int genCount = Data::GENCOUNT;
+    string debug_info;
+
+
+    ifstream fin(Data::INPUT_FILE.c_str());
+    string line, token;
+    while (getline(fin, line))
+    {
+        stringstream ss(line);
+
+        while (ss >> token)
+        {
+            context.push_back(token);
+        }
+    }
+
+    cout << "Input file read" << endl;
+    int end = context.size() + genCount;
+    //Word has the probs built into them.
+    for(int c_tok = context.size(); c_tok < end; c_tok++)
+    {
+        int start = c_tok-(Data::NGRAM_ORDER-1)>0? c_tok-(Data::NGRAM_ORDER-1) : 0;
+        cout << c_tok << "/" << end << endl;
+        cout << "Start: " << start << endl;
+        Join(context, start, c_tok-1, prefix);
+        cout << "Prefix: " << prefix << endl;
+        Suggestion::GetCandidates(prefix, prefix, candidates);
+
+        cout << candidates.size() << " Candidates selected for spot " << c_tok << endl;
+        cout << "Prefix is " << prefix << endl;
+        for(int i = 0; i < candidates.size(); i++)
+        {
+            cout << "Candidate " << i << ": " << candidates[i].m_token << endl;
+        }
+
+        //Iterate over the words suggested.
+        vector<float> probs(candidates.size());
+        /*
+        for(int i = 0; i < probs.size(); i++)
+        {
+            probs[i] = Suggestion::GetProbability(prefix, prefix, candidates[i], debug_info);
+        }*/
+        for(int i = 0; i < probs.size(); i++)
+        {
+            probs[i] = candidates[i].m_prob;
+        }
+        //TODO: Normalize the probabilities and pick one?
+        float sum = 0;
+        for(int i = 0; i < probs.size(); i++)
+        {
+            sum += probs[i];
+        }
+        for(int i = 0; i < probs.size(); i++)
+        {
+            probs[i] = probs[i]/sum;
+        }
+        //TODO: Is candidates ordered in terms of probabilities?
+        for(int i = 0; i < probs.size(); i++)
+        {
+            cout << "Candidate: " << candidates[i].m_token << " Original Prob: " << candidates[i].m_prob << " Prob: " << probs[i] << endl;
+        }
+        Word candidate = Suggestion::selectCandidate(candidates, probs);
+        //Update the context
+        context.push_back(candidate.m_token);
+        output.push_back(candidate);
+    }
+
+    cout << "Context: " << endl;
+
+    for(int i = 0; i < context.size(); i++)
+    {
+        cout << context[i] << " ";
+    }
+
+    cout << endl << "Generated Tokens: " << endl;
+
+    for(int i = 0; i < output.size(); i++)
+    {
+        cout << output[i].m_token << " ";
+    }
+    cout << endl;
+}
+
 void Suggestion::Process()
 {
     // initilize the statistics
@@ -486,4 +576,22 @@ void Suggestion::ReadScope(const string& scope_file_name)
             }
         }
     }
+}
+
+Word Suggestion::selectCandidate(const vector<Word>& candidates, const vector<float>& probs)
+{
+    //Generate random number between 0 and 1
+    //Map to a suggestion.
+    float select = getRandom();
+    cout << "Random value: " << select << endl;
+    float threshold = 0;
+    for(int i=0; i < candidates.size(); i++)
+    {
+        threshold += probs[i];
+        if(select < threshold)
+        {
+            return candidates[i];
+        }
+    }
+    return candidates[candidates.size()-1];
 }

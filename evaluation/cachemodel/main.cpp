@@ -1,5 +1,6 @@
 #include <iostream>
 
+#include "data.h"
 #include "suggestion.h"
 
 using namespace std;
@@ -25,6 +26,9 @@ the optional parameters:\n\
 ---------------------------------------------------------------\n\
 -ENTROPY      \t\t calculate the cross entropy of the test file\n\
               \t\t rather than providing the suggestions\n\
+-GENERATE     \t\t takes a string and generates text based on a model instead of on test set.\n\
+-GENCOUNT     \t\t followed by an int, determines how many tokens we generate in generate mode\n\
+              \t\t required when you have selected the -GENERATE option.\n\
 -TEST         \t\t test mode, no output, no debug information\n\
 -FILES        \t\t test on files or not, default on a single file\n\
 -DEBUG        \t\t output debug information\n\
@@ -52,6 +56,9 @@ the optional parameters:\n\
 
 int main(int argc, const char* argv[])
 {
+    srand(time(0));
+    getRandom(); // I'm sticking one in here b/c the first pseudo random num seems to be rather consistent.
+    //I see greater variance calling it once before hand.
     cout << copy_right << endl;
     
     if (argc < 9)
@@ -68,7 +75,16 @@ int main(int argc, const char* argv[])
     }
 
     Suggestion suggestion;
-    suggestion.Process();
+    if(!Data::GENERATE) //Create new data option to select --GENERATE MODE.
+    {
+      suggestion.Process();
+    }
+    else
+    {
+      cout << "Generating Tokens" << endl;
+      //Or should I read them in Generate??
+      suggestion.Generate();
+    }
         
 	return 0;
 }

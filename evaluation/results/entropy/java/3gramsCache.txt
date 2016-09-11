@@ -7,30 +7,6 @@ Author: Zhaopeng Tu
 =========================================================
 
 Parameters:
-Input File: ./data/java//fold0.test
-Output File: ./data/java//fold0.test.output
-Ngram File: ./data/java//fold0.train.3grams	 Order: 3
-Back-off: 1
-Test Mode: 0
-Test on Files: 1
-Entropy Mode
-Cache: 1, Order: 3
-Type: WINDOW CACHE, Interpolation weight: DYNAMIC
-Debug: 1
-
-
-
-=================================================
-Reading ngrams...
-
-=========================================================
-Author: Zhaopeng Tu
- Email: tuzhaopeng@gmail.com
-  Date: 2013-11-18
-  Note: A Caching LM-based Code Suggestion Tool V0.3
-=========================================================
-
-Parameters:
 Input File: ./data/java//fold1.test
 Output File: ./data/java//fold1.test.output
 Ngram File: ./data/java//fold1.train.3grams	 Order: 3
@@ -44,8 +20,6 @@ Debug: 1
 
 
 
-=================================================
-Reading ngrams...
 
 =========================================================
 Author: Zhaopeng Tu
@@ -68,8 +42,28 @@ Debug: 1
 
 
 
-=================================================
-Reading ngrams...
+
+=========================================================
+Author: Zhaopeng Tu
+ Email: tuzhaopeng@gmail.com
+  Date: 2013-11-18
+  Note: A Caching LM-based Code Suggestion Tool V0.3
+=========================================================
+
+Parameters:
+Input File: ./data/java//fold0.test
+Output File: ./data/java//fold0.test.output
+Ngram File: ./data/java//fold0.train.3grams	 Order: 3
+Back-off: 1
+Test Mode: 0
+Test on Files: 1
+Entropy Mode
+Cache: 1, Order: 3
+Type: WINDOW CACHE, Interpolation weight: DYNAMIC
+Debug: 1
+
+
+
 
 =========================================================
 Author: Zhaopeng Tu
@@ -92,32 +86,6 @@ Debug: 1
 
 
 
-=================================================
-Reading ngrams...
-
-=========================================================
-Author: Zhaopeng Tu
- Email: tuzhaopeng@gmail.com
-  Date: 2013-11-18
-  Note: A Caching LM-based Code Suggestion Tool V0.3
-=========================================================
-
-Parameters:
-Input File: ./data/java//fold5.test
-Output File: ./data/java//fold5.test.output
-Ngram File: ./data/java//fold5.train.3grams	 Order: 3
-Back-off: 1
-Test Mode: 0
-Test on Files: 1
-Entropy Mode
-Cache: 1, Order: 3
-Type: WINDOW CACHE, Interpolation weight: DYNAMIC
-Debug: 1
-
-
-
-=================================================
-Reading ngrams...
 
 =========================================================
 Author: Zhaopeng Tu
@@ -142,6 +110,14 @@ Debug: 1
 
 =================================================
 Reading ngrams...
+=================================================
+Reading ngrams...
+=================================================
+Reading ngrams...
+=================================================
+Reading ngrams...
+=================================================
+Reading ngrams...
 
 =========================================================
 Author: Zhaopeng Tu
@@ -154,6 +130,30 @@ Parameters:
 Input File: ./data/java//fold6.test
 Output File: ./data/java//fold6.test.output
 Ngram File: ./data/java//fold6.train.3grams	 Order: 3
+Back-off: 1
+Test Mode: 0
+Test on Files: 1
+Entropy Mode
+Cache: 1, Order: 3
+Type: WINDOW CACHE, Interpolation weight: DYNAMIC
+Debug: 1
+
+
+
+=================================================
+Reading ngrams...
+
+=========================================================
+Author: Zhaopeng Tu
+ Email: tuzhaopeng@gmail.com
+  Date: 2013-11-18
+  Note: A Caching LM-based Code Suggestion Tool V0.3
+=========================================================
+
+Parameters:
+Input File: ./data/java//fold5.test
+Output File: ./data/java//fold5.test.output
+Ngram File: ./data/java//fold5.train.3grams	 Order: 3
 Back-off: 1
 Test Mode: 0
 Test on Files: 1
@@ -268,53 +268,53 @@ Reading ngrams...
 3/3 finished.
 3/3 finished.
 3/3 finished.
-./data/java//fold8.test
-Total tokens: 98208
-Sum: 434999
-Entropy: 4.42936
-./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/java//fold8.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold8.scope -INPUT_FILE ./data/java//fold8.test -OUTPUT_FILE ./data/java//fold8.test.output | tee ./data/java//fold8.test.log
-./data/java//fold4.test
-Total tokens: 110164
-Sum: 464352
-Entropy: 4.21509
-./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/java//fold4.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold4.scope -INPUT_FILE ./data/java//fold4.test -OUTPUT_FILE ./data/java//fold4.test.output | tee ./data/java//fold4.test.log
 ./data/java//fold0.test
-Total tokens: 110964
-Sum: 467690
-Entropy: 4.21479
+Total tokens: 89713
+Sum: 395272
+Entropy: 4.40596
 ./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/java//fold0.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold0.scope -INPUT_FILE ./data/java//fold0.test -OUTPUT_FILE ./data/java//fold0.test.output | tee ./data/java//fold0.test.log
-./data/java//fold6.test
-Total tokens: 116701
-Sum: 496888
-Entropy: 4.25779
-./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/java//fold6.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold6.scope -INPUT_FILE ./data/java//fold6.test -OUTPUT_FILE ./data/java//fold6.test.output | tee ./data/java//fold6.test.log
-./data/java//fold2.test
-Total tokens: 116103
-Sum: 482266
-Entropy: 4.15378
-./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/java//fold2.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold2.scope -INPUT_FILE ./data/java//fold2.test -OUTPUT_FILE ./data/java//fold2.test.output | tee ./data/java//fold2.test.log
 ./data/java//fold3.test
-Total tokens: 120469
-Sum: 491471
-Entropy: 4.07965
+Total tokens: 95076
+Sum: 403805
+Entropy: 4.24718
 ./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/java//fold3.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold3.scope -INPUT_FILE ./data/java//fold3.test -OUTPUT_FILE ./data/java//fold3.test.output | tee ./data/java//fold3.test.log
-./data/java//fold9.test
-Total tokens: 123016
-Sum: 448203
-Entropy: 3.64345
-./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/java//fold9.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold9.scope -INPUT_FILE ./data/java//fold9.test -OUTPUT_FILE ./data/java//fold9.test.output | tee ./data/java//fold9.test.log
-./data/java//fold1.test
-Total tokens: 128571
-Sum: 533454
-Entropy: 4.1491
-./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/java//fold1.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold1.scope -INPUT_FILE ./data/java//fold1.test -OUTPUT_FILE ./data/java//fold1.test.output | tee ./data/java//fold1.test.log
+./data/java//fold8.test
+Total tokens: 99109
+Sum: 415367
+Entropy: 4.19101
+./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/java//fold8.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold8.scope -INPUT_FILE ./data/java//fold8.test -OUTPUT_FILE ./data/java//fold8.test.output | tee ./data/java//fold8.test.log
 ./data/java//fold5.test
-Total tokens: 131062
-Sum: 531350
-Entropy: 4.05418
+Total tokens: 115724
+Sum: 457749
+Entropy: 3.95553
 ./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/java//fold5.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold5.scope -INPUT_FILE ./data/java//fold5.test -OUTPUT_FILE ./data/java//fold5.test.output | tee ./data/java//fold5.test.log
+./data/java//fold2.test
+Total tokens: 117278
+Sum: 454885
+Entropy: 3.87869
+./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/java//fold2.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold2.scope -INPUT_FILE ./data/java//fold2.test -OUTPUT_FILE ./data/java//fold2.test.output | tee ./data/java//fold2.test.log
+./data/java//fold9.test
+Total tokens: 119537
+Sum: 503760
+Entropy: 4.21426
+./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/java//fold9.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold9.scope -INPUT_FILE ./data/java//fold9.test -OUTPUT_FILE ./data/java//fold9.test.output | tee ./data/java//fold9.test.log
+./data/java//fold4.test
+Total tokens: 127686
+Sum: 535825
+Entropy: 4.19643
+./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/java//fold4.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold4.scope -INPUT_FILE ./data/java//fold4.test -OUTPUT_FILE ./data/java//fold4.test.output | tee ./data/java//fold4.test.log
+./data/java//fold6.test
+Total tokens: 132732
+Sum: 506640
+Entropy: 3.81702
+./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/java//fold6.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold6.scope -INPUT_FILE ./data/java//fold6.test -OUTPUT_FILE ./data/java//fold6.test.output | tee ./data/java//fold6.test.log
+./data/java//fold1.test
+Total tokens: 144746
+Sum: 675241
+Entropy: 4.66501
+./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/java//fold1.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold1.scope -INPUT_FILE ./data/java//fold1.test -OUTPUT_FILE ./data/java//fold1.test.output | tee ./data/java//fold1.test.log
 ./data/java//fold7.test
-Total tokens: 139398
-Sum: 562640
-Entropy: 4.03621
+Total tokens: 153055
+Sum: 564146
+Entropy: 3.6859
 ./completion -ENTROPY -BACKOFF -DEBUG -CACHE -CACHE_ORDER 3 -CACHE_DYNAMIC_LAMBDA -WINDOW_CACHE -WINDOW_SIZE 5000 -FILES -NGRAM_FILE ./data/java//fold7.train.3grams -NGRAM_ORDER 3 -SCOPE_FILE ./data/java//fold7.scope -INPUT_FILE ./data/java//fold7.test -OUTPUT_FILE ./data/java//fold7.test.output | tee ./data/java//fold7.test.log
