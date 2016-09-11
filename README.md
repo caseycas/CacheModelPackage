@@ -1,4 +1,4 @@
-# Version .1
+# Version .2
 # CacheModelPackage
 This is a package that contains a modified version of Zhaopeng's Cache model
 (see http://dl.acm.org/citation.cfm?id=2635875).  I've modified the scripts
@@ -156,3 +156,16 @@ csv file. Each ngram order and cache/no cache option gets its own column in the
 csv. From our java sample, we have columns "java3Cache3" and "java3NoCache" which
 respectively mean a java trigram cache model that also has a trigram cache, and a
 java trigram model with no cache.
+
+#Generation Mode
+
+If you wish to see what suggestions the language model will generate for some code or text,
+there is a -GENERATE mode for the completion tool.  I have added a python script generate.py in
+evaluation/scripts to make this easier to manage.  Running python ./scripts/generate.py -h
+wil provide some additional information about the arguments, but for example if you typed:
+
+    python ./scripts/generate.py "import java.io" data/java/fold0.train.3grams 3 2 java
+
+The script will use "import java.io" as the base on which to generate, data/java/fold0.train.3grams is the .arpa
+language model file it will use to generate new tokens, 3 tells the script that you are using a trigram model,
+2 is the number of new tokens to generate after the base, and java is the language (used for lexing the string).
