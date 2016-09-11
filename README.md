@@ -6,8 +6,12 @@ for robustness and ease of use.  While the original Cache model was based
 on SRILM language models, this allows for the swapping out to the model of your
 choice.
 
-Along with the language models, this package uses a combination of C++ and python.
-Make sure that that you run the scripts under python 2.7.
+#OS and Dependency Requirements
+Along with the language models, this package uses a combination of C++ and python 2.7.
+If you want to make use of the lexer (required for the generative mode), you must also
+have the Pygments library installed, e.g. run:
+
+    pip install Pygments
 
 I have currently tested this package on Ubuntu and MacOSX.  Further tests with OSX and
 maybe windows will be provided in the future.
@@ -73,7 +77,7 @@ As a final note, the current ruby and java corpora have been lexed in such a
 way to collpase string and number literals to a few types (like &lt;str&gt;, &lt;int&gt;, 
 etc).
 
-# Changing language corpora
+# Changing language model (How to modify lm.ini)
 
 The file evaluation/scripts/lm.ini contains information that must be set to choose what language model is used.
 I've include commented out suggestions for how to select your language model, which requires two* items.
