@@ -169,3 +169,5 @@ wil provide some additional information about the arguments, but for example if 
 The script will use "import java.io" as the base on which to generate, data/java/fold0.train.3grams is the .arpa
 language model file it will use to generate new tokens, 3 tells the script that you are using a trigram model,
 2 is the number of new tokens to generate after the base, and java is the language (used for lexing the string).
+
+Note: The Generation Mode currently just uses the raw ngram language model and does not make use of the cache.
