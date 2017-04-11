@@ -1,3 +1,11 @@
+def addToDictCount(dict_count, key):
+    if(key in dict_count):
+        dict_count[key] += 1
+    else:
+        dict_count[key] = 1
+    return dict_count
+
+
 def addToDictList(dict_list, key, item):
     if(key in dict_list):
         dict_list[key].append(item)

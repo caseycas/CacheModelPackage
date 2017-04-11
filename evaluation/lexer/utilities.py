@@ -14,6 +14,18 @@ import csv
 from sets import Set
 import re
 
+#Check for TREE_TEXTS before NATURAL_LANGUAGE_EXTS
+TREE_TEXTS = {
+   '*.txt.tokens',
+   '*.java_ast.tokens' 
+}
+
+NATURAL_LANGUAGE_EXTS = {
+    '*.txt',
+    '*.text',
+    '*.tokens' #Assume English for now.
+}
+
 SUPPORTED_LANGUAGE_STRINGS = {
     'Ruby',
     'Python',
@@ -212,6 +224,21 @@ def underscoreString(strToken):
 def singleStringToken(strToken):
     return (strToken[0], "<str>")
 
+#Keep strings that are empty or single character ascii, replace all others with <str>
+def threeTypeToken(strToken):
+    if(len(strToken[1]) == 2 or len(strToken[1]) == 3): #Includes the '' and "" so if 2 or 3, str is empty or 1 char.
+        #Replace "" with '' on single chars.
+        try:
+            strToken[1].decode('ascii')
+            new = strToken[1].replace("\"", "\'")
+        except UnicodeDecodeError:
+            new = "<str>"
+        except UnicodeEncodeError:
+            new = "<str>"
+    else:
+        new = "<str>"
+    return (strToken[0], new)
+
 #Handles the case where there are baskslahes in the string to reduce to a single item.
 def collapseStrings(tokens):
     newTokens = []
@@ -227,7 +254,11 @@ def collapseStrings(tokens):
 
     return newTokens
      
-        
+#Reduce the strings to " ", single characters, and <str> for everything else.
+#def collapseStringsThreeTypes(tokens):
+#    newTokens = []
+#    newTokens.append(tokens[0])
+#    for t in tokens[1:]:
 
 #Ensure that all string tokens have spaces after the initial " and before the
 #closing "
@@ -235,6 +266,19 @@ def spaceString(strToken):
     assert(strToken[1][0] == "\"")
     assert(strToken[1][len(strToken[1]) - 1] == "\"")
     return (strToken[0], strToken[1][:1] + " " + strToken[1][1:len(strToken[1])-1] + " " + strToken[1][len(strToken[1])-1])
+
+
+#Collapse the numbers, but retain numbers were the value is a integer close to 0.
+def keepSmallNumToken(numToken):
+    try:
+        if(numToken[0] == Token.Literal.Number.Integer and int(numToken[1]) in [0,1,2,3]): #The way this is treated means -1,-2,-3 will be retained to
+            return numToken
+        elif(numToken[0] == Token.Literal.Number.Float and float(numToken[1]) in [0,1,2,3]): #Retain floating point ones too.
+            return numToken
+        else:
+            return singleNumberToken(numToken)
+    except:
+        return singleNumberToken(numToken) #If error, default to type '3'
 
 #Currently can handle Hex, Float, Integer, Oct, Bin types, if something else, return <num>
 def singleNumberToken(numToken):
