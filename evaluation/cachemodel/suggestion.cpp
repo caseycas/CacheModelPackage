@@ -257,6 +257,10 @@ void Suggestion::DealFile(const string& input_file)
     //Check if metadata file exists and read in project and file name
     vector<string> pieces;
     Split(input_file, ".", pieces);
+    cout << input_file << endl;
+    if(pieces.size() >= 2)
+    {
+    //cout << pieces[0] << " " << pieces[1] << endl;
     string meta_file = pieces[0] + "." + pieces[1] + ".metadata";
     vector<string> metaInfo; //project, file
     if (Data::DEBUG)
@@ -275,7 +279,7 @@ void Suggestion::DealFile(const string& input_file)
             metaIn.close();
     	}
     }
-
+    }
     // analysis the tokens
     // common usage
     string prefix, cache_prefix;
