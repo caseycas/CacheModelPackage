@@ -23,7 +23,9 @@ included some instructions to compile them from source.  Currently, it seems the
 but MITLM must be compiled from source on your own machine.
 
 #Mitlm
+
 On Linux:
+
     git clone https://github.com/mitlm/mitlm.git ~/mitlm
     sudo apt-get install gfortran autoconf automake libtool autoconf_archive
     cd ~/mitlm
@@ -31,6 +33,7 @@ On Linux:
     ./configure
     make
     make install
+
 On Mac (source: https://github.com/eddieantonio/mitlm/issues/49):
 To install from brew as a command line tool (this is where the included estimate ngram comes from):
 
