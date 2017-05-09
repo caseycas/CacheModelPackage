@@ -6,7 +6,7 @@ for robustness and ease of use.  While the original Cache model was based
 on SRILM language models, this allows for the swapping out to the model of your
 choice.
 
-#OS and Dependency Requirements
+# OS and Dependency Requirements
 Along with the language models, this package uses a combination of C++ and python 2.7.
 If you want to make use of the lexer (required for the generative mode), you must also
 have the Pygments library installed, e.g. run:
@@ -22,7 +22,7 @@ This package is set up to be able to swap out different language models and trai
 included some instructions to compile them from source.  Currently, it seems the SRILM binary is portable to other systems,
 but MITLM must be compiled from source on your own machine.
 
-#Mitlm
+# Mitlm
 
 On Linux:
 
@@ -54,16 +54,16 @@ https://github.com/mitlm/mitlm/issues/42
 http://simon-joseph.github.io/mitml-osx-yosemite/
 
 
-#Srilm
+# Srilm
 I've included binaries for the relevant SRILM programs in ./evaluation/.  They should work on linux or mac machines. 
 If these do not work, you need to compile from source.  This requires a license from www.speech.sri.com/projects/srilm
 Follow the steps in the included INSTALL file to compile from source.  Additional MacOSX instructions can be found here:
 http://www1.icsi.berkeley.edu/~wooters/SRILM/
 
-#KenLM
+# KenLM
 Instructions incoming.
 
-#Sample corpora
+# Sample corpora
 There are several sample corpora provided in the package. 
 
 The java corpus is a random sample of files from 12 java projects (apache/cassandra, gradle/gradle,
@@ -124,7 +124,7 @@ location and location2 respectively. So, for example, srilm could be configured 
     location = ~/srilm/bin/ngram
 
 
-#Compiling Cache Model Code
+# Compiling Cache Model Code
 The directory evaluation/cachemodel contains the source for producing the entropies
 from the language model files.  Before running, you must run:
 
@@ -132,7 +132,7 @@ from the language model files.  Before running, you must run:
     make
     cp completion ../
 
-#Running Instructions
+# Running Instructions
 I've provided sample shell scripts in evaluation to create cache and no cache models.  These are located in evaluation/.  To run the java one from example, 
 type "sh java_example.sh".  I will use this shell script to explain the folder
 structure.
