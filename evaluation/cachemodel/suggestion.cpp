@@ -1,95 +1,5 @@
 #include "suggestion.h"
 
-void Suggestion::Generate()
-{
-    vector<Word> candidates; //These are Words, not strings, what's the difference? Why do I need this?
-    vector<Word> output;
-    vector<string> context;
-    string prefix = "";
-    context.push_back("<s>");
-    int genCount = Data::GENCOUNT;
-    string debug_info;
-
-
-    ifstream fin(Data::INPUT_FILE.c_str());
-    string line, token;
-    while (getline(fin, line))
-    {
-        stringstream ss(line);
-
-        while (ss >> token)
-        {
-            context.push_back(token);
-        }
-    }
-
-    cout << "Input file read" << endl;
-    int end = context.size() + genCount;
-    //Word has the probs built into them.
-    for(int c_tok = context.size(); c_tok < end; c_tok++)
-    {
-        int start = c_tok-(Data::NGRAM_ORDER-1)>0? c_tok-(Data::NGRAM_ORDER-1) : 0;
-        cout << c_tok << "/" << end << endl;
-        cout << "Start: " << start << endl;
-        Join(context, start, c_tok-1, prefix);
-        cout << "Prefix: " << prefix << endl;
-        Suggestion::GetCandidates(prefix, prefix, candidates);
-
-        cout << candidates.size() << " Candidates selected for spot " << c_tok << endl;
-        cout << "Prefix is " << prefix << endl;
-        for(int i = 0; i < candidates.size(); i++)
-        {
-            cout << "Candidate " << i << ": " << candidates[i].m_token << endl;
-        }
-
-        //Iterate over the words suggested.
-        vector<float> probs(candidates.size());
-        /*
-        for(int i = 0; i < probs.size(); i++)
-        {
-            probs[i] = Suggestion::GetProbability(prefix, prefix, candidates[i], debug_info);
-        }*/
-        for(int i = 0; i < probs.size(); i++)
-        {
-            probs[i] = candidates[i].m_prob;
-        }
-        //TODO: Normalize the probabilities and pick one?
-        float sum = 0;
-        for(int i = 0; i < probs.size(); i++)
-        {
-            sum += probs[i];
-        }
-        for(int i = 0; i < probs.size(); i++)
-        {
-            probs[i] = probs[i]/sum;
-        }
-        //TODO: Is candidates ordered in terms of probabilities?
-        for(int i = 0; i < probs.size(); i++)
-        {
-            cout << "Candidate: " << candidates[i].m_token << " Original Prob: " << candidates[i].m_prob << " Prob: " << probs[i] << endl;
-        }
-        Word candidate = Suggestion::selectCandidate(candidates, probs);
-        //Update the context
-        context.push_back(candidate.m_token);
-        output.push_back(candidate);
-    }
-
-    cout << "Context: " << endl;
-
-    for(int i = 0; i < context.size(); i++)
-    {
-        cout << context[i] << " ";
-    }
-
-    cout << endl << "Generated Tokens: " << endl;
-
-    for(int i = 0; i < output.size(); i++)
-    {
-        cout << output[i].m_token << " ";
-    }
-    cout << endl;
-}
-
 void Suggestion::Process()
 {
     // initilize the statistics
@@ -280,6 +190,7 @@ void Suggestion::DealFile(const string& input_file)
     	}
     }
     }
+
     // analysis the tokens
     // common usage
     string prefix, cache_prefix;
@@ -343,7 +254,7 @@ void Suggestion::DealFile(const string& input_file)
         }
         else
         {
-            GetCandidates(prefix, cache_prefix, candidates);
+            GetCandidates(prefix, cache_prefix, candidates); //This is what we'd want to call
             // for calcuting accuracy
             rank= GetRank(candidates, tokens.at(i));
             if (rank > 0)
@@ -413,17 +324,32 @@ void Suggestion::GetCandidates(const string& prefix,
                                const string& cache_prefix,
                                vector<Word>& candidates)
 {
+    //cout << "Options role call!\n";
+	//cout << "TEST: " << Data::TEST << "\n";
+	//cout << "FILES: " << Data::FILES << "\n";
+	//cout << "ENTROPY: " << Data::ENTROPY << "\n";
+    //cout << "USE_BACKOFF: " << Data::USE_BACKOFF << "\n";
+    //cout << "USE_CACHE: " << Data::USE_CACHE << "\n";
+    //cout << "USE_WINDOW_CACHE: " << Data::USE_WINDOW_CACHE << "\n";
+    //cout << "USE_FILE_CACHE: " << Data::USE_FILE_CACHE << "\n";
+    //cout << "USE_RELATED_FILE: " << Data::USE_RELATED_FILE << "\n";
+    //cout << "CACHE_DYNAMIC_LAMBDA: " << Data::CACHE_DYNAMIC_LAMBDA << "\n";
+    //cout << "USE_CACHE_ONLY: " << Data::USE_CACHE_ONLY << "\n";
+
     if (!Data::USE_CACHE_ONLY)
     {
+        //cout << "DING!" << "\n";
         // n-gram word candidates
         Data::NGRAM->GetCandidates(prefix, Data::USE_BACKOFF, candidates);
         if (Data::DEBUG)
         {
             for (int i=0; i<(int)candidates.size(); ++i)
             {
-                candidates.at(i).m_debug = "ngram prob: " + double_to_string(candidates.at(i).m_prob);
+                candidates.at(i).m_debug = "ngram prob: " + to_string(candidates.at(i).m_prob);
             }
         }
+        //cout << "Prefix: " << prefix << "\n";
+        //cout << "Candidates (Ngram): " << candidates.size() << "\n";
     }
     else
     {
@@ -434,6 +360,7 @@ void Suggestion::GetCandidates(const string& prefix,
     {
         // update the candidates according to the cache
         Data::CACHE.UpdateCandidates(cache_prefix, Data::CACHE_LAMBDA, Data::CACHE_DYNAMIC_LAMBDA, candidates);
+        //cout << "Candidates (Cache): " << candidates.size() << "\n";
     }
 }
 
@@ -451,15 +378,32 @@ float Suggestion::GetProbability(const string& prefix,
         prob = Data::NGRAM->GetProbability(prefix, token, Data::USE_BACKOFF);
         if (Data::DEBUG)
         {
-            debug_info = "ngram prob: " + double_to_string(pow(2, prob));
+            debug_info = "ngram prob: " + to_string(pow(2, prob));
         }
     }
 
     if (Data::USE_CACHE)
     {
+	int prefixSubset = 0;
+
+        //Bugfix:  We need to find the longest cache prefix in which we have seen this token
+	//Then, we must use this prefix of the same length when find the prefix in general.
+	//If we match longer prefixes (because we can find them), but this token has not been
+	//seen in this context, then we get probabilities greater than 1.
+	int ngram_count = Data::CACHE.GetCount(cache_prefix, token, prefixSubset);
         int cache_count = Data::CACHE.GetCount(cache_prefix);
         if (cache_count != 0)
         {
+	    //cout << "Specific Count: " << ngram_count << " Total Count: " << cache_count << endl;
+	    if(ngram_count > 0)
+		{
+		if(prefixSubset == 0)
+		{
+			cout << "(Terminal Error) if there have been an ngram count found for this prefix, then we should have had some associated prefix size." << endl;
+			exit(1);
+		}
+	    	cache_count = Data::CACHE.GetCount(cache_prefix, prefixSubset);
+		}
             float cache_discount = Data::CACHE_LAMBDA;
             if (Data::CACHE_DYNAMIC_LAMBDA)
             {
@@ -469,10 +413,21 @@ float Suggestion::GetProbability(const string& prefix,
 
             float ngram_discount = 1-cache_discount;
 
-            int ngram_count = Data::CACHE.GetCount(cache_prefix, token);
+            //int ngram_count = Data::CACHE.GetCount(cache_prefix, token);
             prob = ngram_discount * pow(2, prob) + cache_discount * ((float)ngram_count/cache_count);
-            debug_info += ", in cache: " + int_to_string(ngram_count) + "/" + int_to_string(cache_count);
-            
+            debug_info += ", in cache: " + to_string(ngram_count) + "/" + to_string(cache_count);
+           
+            if(prob > 1.0)
+	    	{
+                        cout << "Prob: " << prob << endl;
+			cout << debug_info << endl;
+			Data::CACHE.printCache();
+			cout << "Current Prefix: " << cache_prefix << endl;
+			cout << "Token: " << token << endl;
+                        exit(1);
+		}
+
+ 
             if (prob > 0.0)
             {   //Noticed this behavior in 4 and 5 grams. (in both cache and no cache model, doesn't appear in trigrams for either?)
                 prob = log2(prob); //Can be positive or negative, what about if prob > 1?  Is this not being calculated correctly?
@@ -484,6 +439,7 @@ float Suggestion::GetProbability(const string& prefix,
         }
     }
 
+    /*
     if(prob > 0.0)
     {
         cout << "Error found in Suggestion.cpp" << endl;
@@ -492,7 +448,7 @@ float Suggestion::GetProbability(const string& prefix,
         cout << "Token: " << token << endl;
         cout << "Probability: " <<prob << endl;
 	}
-
+    */
     return prob;
 }
 
@@ -580,22 +536,4 @@ void Suggestion::ReadScope(const string& scope_file_name)
             }
         }
     }
-}
-
-Word Suggestion::selectCandidate(const vector<Word>& candidates, const vector<float>& probs)
-{
-    //Generate random number between 0 and 1
-    //Map to a suggestion.
-    float select = getRandom();
-    cout << "Random value: " << select << endl;
-    float threshold = 0;
-    for(int i=0; i < candidates.size(); i++)
-    {
-        threshold += probs[i];
-        if(select < threshold)
-        {
-            return candidates[i];
-        }
-    }
-    return candidates[candidates.size()-1];
 }

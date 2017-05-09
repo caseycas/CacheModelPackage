@@ -24,9 +24,6 @@ string Data::FILE_DIR;
 float Data::CACHE_LAMBDA = 0.0;
 bool Data::CACHE_DYNAMIC_LAMBDA = false;
 bool Data::USE_CACHE_ONLY = false;
-bool Data::GENERATE = false;
-
-int Data::GENCOUNT = 1;
 
 int Data::BEAM_SIZE=10;
 
@@ -153,16 +150,6 @@ bool Data::ReadConfig(const int &argc, const char* argv[])
         {
             SPLIT_FILE = argv[i+1]; 
             i += 2; 
-        }
-        else if(strcmp(argv[i], "-GENERATE") == 0)
-        {
-            GENERATE = true;
-            i += 1;
-        }
-        else if(strcmp(argv[i], "-GENCOUNT") == 0)
-        {
-            GENCOUNT = atoi(argv[i+1]);
-            i += 2;
         }
         else
         {

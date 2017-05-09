@@ -16,7 +16,6 @@ class Suggestion
 {
 public:
     void Process();
-    void Generate();
 private:
     void DealFiles();
 
@@ -74,10 +73,6 @@ private:
     int Is_in(const vector<Word>& candidates, const string& ref, const int top_n);
 
     void ReadScope(const string& scope_file_name);
-
-    // return: one of the candidates based on the probabilities.
-    // assumes suggestions are in rank order...
-    Word selectCandidate(const vector<Word>& candidates, const vector<float>& probs);
 };
 #endif
 

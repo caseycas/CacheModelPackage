@@ -1,6 +1,7 @@
 #include "ngram.h"
 
 
+//Error: the ngram base map is not actually loaded in ever?
 Ngram::Ngram(const string& ngramFile,
              const int order,
              const int beam_size)
@@ -29,6 +30,7 @@ Ngram::Ngram(const string& ngramFile,
             if (n > 0)
             {
                 cout << n << "/" << order << " finished." << endl;
+				cout << words.size() << " words processed." << endl;
             }
             // push the words into the list, before changing the "n"
             if (!words.empty())
@@ -97,6 +99,20 @@ Ngram::Ngram(const string& ngramFile,
     }
     
     cout << n << "/" << order << " finished." << endl;
+
+    //Print the whole thing out.
+    /*for(vector<map<string, vector<Word> > >::iterator it = m_ngrams_list.begin(); it != m_ngrams_list.end(); ++it)
+    {
+        map<string, vector<Word> > ngram_vector = *it;
+	for(map<string, vector<Word> >::iterator it2 = ngram_vector.begin(); it2 != ngram_vector.end(); ++it2)
+	{
+                prefix = it2->first;
+                for(vector<Word>::iterator it3 = it2->second.begin(); it3 != it2->second.end(); ++it3)
+		{
+			cout << "Prefix :" << prefix << " Word: " << it3->m_token << " Prob: " << it3->m_prob << endl;
+		}
+	}
+    }*/
 }
 
 bool Ngram::GetCandidates(const std::string& prefix, const bool use_backoff, vector<Word>& candidates)
@@ -106,16 +122,20 @@ bool Ngram::GetCandidates(const std::string& prefix, const bool use_backoff, vec
     int n = CountWords(prefix);
     // here n is the number of grams in the prefix, the real "n" should be n+1
     // therefore, here we use "n" rather than "n-1"
+    cout << "Ngram List size: " << m_ngrams_list.size() << endl;
     map<string, vector<Word> >& ngram_map = m_ngrams_list.at(n);
 
     map<string, vector<Word> >::iterator iter = ngram_map.find(prefix);
+    cout << "Ngram Map size: " << ngram_map.size() << endl;
     if (iter != ngram_map.end())
     {
+        cout << "Found in map\n"; 
         candidates = iter->second;
         return true;
     }
     else
     {
+        cout << "Using backoff\n";
         if (use_backoff)
         {
             if (n < 1)
@@ -158,6 +178,9 @@ Ngram::Ngram(const string& ngramFile,
     string prefix, last_prefix, token;
     float prob;
     int n = -1;
+    int lines = 0;
+    int added = 0;
+    int words_added = 0;
     while (getline(fin, line))
     {
         if (endswith(line, "-grams:"))
@@ -169,8 +192,17 @@ Ngram::Ngram(const string& ngramFile,
             // push the words into the list, before changing the "n"
             if (!words.empty())
             {
+               words_added += words.size();         
+               if(m_ngrams_map.at(n-1).find(last_prefix) != m_ngrams_map.at(n-1).end())
+               {
+                  //cout << "Prefix overwritten: " << last_prefix << endl;
+                  m_ngrams_map.at(n-1).find(last_prefix)->second.insert(words.begin(), words.end());
+               }
+               else
+	       {
                // sort the words according to their probabilities
                m_ngrams_map.at(n-1).insert(make_pair(last_prefix, words));
+               }
             }
 
             // here we don't need to update the last prefix
@@ -185,6 +217,7 @@ Ngram::Ngram(const string& ngramFile,
             Split(line, "\t", items);
             if (items.size() > 1)
             {
+                lines++;
                 prob = atof(items.at(0).c_str()); 
 
                 if (items.size() > 2)
@@ -211,17 +244,30 @@ Ngram::Ngram(const string& ngramFile,
                 //Then assign to the word with associated prefix?
                 if (prefix == last_prefix)
                 {
+                    added++;
                     words[token] = prob;
                 }
                 else
                 {
                     if (!words.empty())
                     {
-                        m_ngrams_map.at(n-1).insert(make_pair(last_prefix, words));
+
+                        words_added += words.size();
+                        if(m_ngrams_map.at(n-1).find(last_prefix) != m_ngrams_map.at(n-1).end())
+                        {
+                           	//cout << "Prefix overwritten: " << last_prefix << endl;
+                  		m_ngrams_map.at(n-1).find(last_prefix)->second.insert(words.begin(), words.end());
+                  	}
+               		else
+               		{
+              			// sort the words according to their probabilities 
+               			m_ngrams_map.at(n-1).insert(make_pair(last_prefix, words));
+               		}
                     }
 
                     last_prefix = prefix;
                     words.clear();
+                    added++;
                     words[token] = prob;
                 }
             }
@@ -230,17 +276,56 @@ Ngram::Ngram(const string& ngramFile,
     
     if (!words.empty())
     {
-        m_ngrams_map.at(n-1).insert(make_pair(last_prefix, words));
+        words_added += words.size();
+        if(m_ngrams_map.at(n-1).find(last_prefix) != m_ngrams_map.at(n-1).end())
+        {
+                  //cout << "Prefix overwritten: " << last_prefix << endl;
+                  m_ngrams_map.at(n-1).find(last_prefix)->second.insert(words.begin(), words.end());
+        }
+        else
+        {
+                  // sort the words according to their probabilities 
+                  m_ngrams_map.at(n-1).insert(make_pair(last_prefix, words));
+        }
     }
     
     cout << n << "/" << order << " finished." << endl;
-
+    //Vincent is pointing out that this is the source of the 10 entropy spike and that
+    //a more correct one should be the binary log of the vocab at a point in time.
+    //Something to fix maybe -> talk to Vincent tomorrow.
     m_unk_prob = -10;
     map<string, float>::iterator iter = m_ngrams_map.at(0)[""].find("<unk>");
     if (iter != m_ngrams_map.at(0)[""].end())
     {
         m_unk_prob = iter->second;
     }
+    /*
+    cout << "Ngram Lines Hit: " << lines << " Ngram Lines Added: " << added << endl;
+    cout << "Ngram max size: " << m_ngrams_map.size() << endl;
+    //std::vector<string, map<string, float > >::iterator it = m_ngrams_map.begin();
+    //Print the whole thing out.
+   
+    for(int i = 0; i < order; ++i)
+    {
+        cout << m_ngrams_map.at(i).size()<< endl;
+        for(map<string, map<string, float> >::iterator it = m_ngrams_map.at(i).begin(); it !=  m_ngrams_map.at(i).end(); ++it)
+        {
+		prefix = it->first;
+                for(map<string, float>::iterator it2 = it->second.begin(); it2 != it->second.end(); ++it2)
+        	{
+                	 cout << "Prefix: " << prefix << " Word: " << it2->first << " Prob: " << it2->second << endl;
+        	}
+	}
+        
+        prefix = m_ngrams_map.at(i).first;
+        map<string, float> ngram_vector = m_ngrams_map.at(i).second;
+        cout << "Ngram list length: " << ngram_vector.size() << endl;
+        for(map<string, float>::iterator it2 = ngram_vector.begin(); it2 != ngram_vector.end(); ++it2)
+        {
+        	 cout << "Prefix :" << prefix << " Word: " << it2->first << " Prob: " << it2->second << endl;
+        }
+       
+    }*/
 }
 
 //This seems to be rarely producing strange values in 4 and 5 grams.  I'm not sure I trust it.

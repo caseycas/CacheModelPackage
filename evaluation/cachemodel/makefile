@@ -2,15 +2,16 @@
 EXE    = completion
 
 # Compiler, Linker Defines
-CC      = g++
-CFLAGS  = -Wall -O2 -Wno-deprecated
+CC      = g++ -g -ggdb
+#CFLAGS = -g -ggdb
+#CFLAGS  = -Wall -O2 -Wno-deprecated
 # LIBS    = ./lib/libsrilm.a ./lib/lm.a ./lib/misc.a ./lib/dstruct.a
 LDFLAGS = $(LIBS)
 
 # Compile and Assemble C++ Source Files into Object Files
 %.o: %.cc
 	echo compiling...$<
-	$(CC) $(CFLAGS) -c $<
+	$(CC) $(CFLAGS)  -c $<
 # -o $@
 # Source and Object files
 SRC    = $(wildcard *.cpp)

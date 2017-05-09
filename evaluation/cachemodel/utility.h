@@ -13,21 +13,12 @@
 #include <math.h>
 #include <sys/stat.h>
 #include <unistd.h>
-#include <cstdlib>
-#include <ctime>
 
 using namespace std;
 
 const float LOG_E_10 = 2.30258509299405f;
 const float LOG_2_10 = 3.32192809488736f;
 const float NATURAL_LOG = (float)2.718;
-
-//Return a random number between 0 and 1.
-inline float getRandom()
-{
-	cout << RAND_MAX << endl;
-	return ((float) rand() / (RAND_MAX));
-}
 
 inline void Split(const string &line, const string separator, vector<string> &items)
 {
@@ -271,7 +262,7 @@ inline bool file_exists (const std::string& name)
   return (stat (name.c_str(), &buffer) == 0); 
 }
 
-inline string double_to_string(double m)
+inline string to_string(double m)
 {		
 	char r[64];
 	int		i;
@@ -295,9 +286,9 @@ inline string double_to_string(double m)
 	return string(r);
 }	
 
-inline string int_to_string(int m)
+inline string to_string(int m)
 {
-	return double_to_string((double)m);
+	return to_string((double)m);
 }
 #endif
 

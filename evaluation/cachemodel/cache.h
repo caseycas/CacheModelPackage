@@ -77,6 +77,15 @@ public:
     {
         token_counts = m_tokens;
     }
+    void printRecord()
+    {
+        cout << "Prefix occurances: " << m_count << endl;
+        for(map<string, int>::iterator iter =m_tokens.begin(); iter != m_tokens.end(); ++iter)
+        {
+            cout << "After Prefix: " << iter->first << " Count: " << iter->second << endl;
+        }
+    }
+    
 protected:
     // the count of the prefix: C(wi-2 wi-1)
     int m_count;
@@ -222,7 +231,7 @@ public:
                 if (iter != token_counts.end())
                 {
                     candidates.at(i).m_prob += cache_discount * ((float)iter->second/cache_count);
-                    candidates.at(i).m_debug += ", in cache with order " + int_to_string(valid_order) + " : " + int_to_string(iter->second) + "/" + int_to_string(cache_count);
+                    candidates.at(i).m_debug += ", in cache with order " + to_string(valid_order) + " : " + to_string(iter->second) + "/" + to_string(cache_count);
                     token_counts.erase(candidates.at(i).m_token);
                 }
             }
@@ -231,7 +240,7 @@ public:
             for (iter=token_counts.begin(); iter!=token_counts.end(); ++iter)
             {
                 Word candidate(iter->first, cache_discount * ((float)iter->second/cache_count));
-                candidate.m_debug += "only in cache with order " + int_to_string(valid_order) + " : " + int_to_string(iter->second) + "/" + int_to_string(cache_count);
+                candidate.m_debug += "only in cache with order " + to_string(valid_order) + " : " + to_string(iter->second) + "/" + to_string(cache_count);
                 candidates.push_back(candidate);
             }
 
@@ -286,14 +295,35 @@ public:
             map<string, Record>::iterator iter = m_records.find(new_prefix);
             if (iter != m_records.end())
             {
+		//cout << "Stop point, just prefix: " << i << endl;
                 return iter->second.GetCount();
             }
         }
 
         return 0;
     }
+
+    int GetCount(const string& prefix, int prefixSubset)
+    {
+        string new_prefix;
+        GetLastNWords(prefix, prefixSubset, new_prefix);
+
+        map<string, Record>::iterator iter = m_records.find(new_prefix);
+        if (iter != m_records.end())
+        {
+                return iter->second.GetCount();
+        }
+	else
+	{
+		cout << prefix << " " << new_prefix << " " << prefixSubset << endl;
+		cout << "Terminal Error.  This prefix was found for a token, but not in general?" << endl;
+		exit(1);
+	}
+
+        return 0;
+    }
     
-    int GetCount(const string& prefix, const string& token)
+    int GetCount(const string& prefix, const string& token, int& order_found)
     {
         int n = CountWords(prefix);
         string new_prefix;
@@ -308,12 +338,24 @@ public:
 
                 if (count != 0)
                 {
+                    //cout << "Stop point, prefix + token: " << i << endl;
+                    order_found = i;
                     return count;
                 }
             }
         }
 
         return 0;
+    }
+
+
+    void printCache()
+    {
+	for(map<string, Record>::iterator iter = m_records.begin(); iter != m_records.end(); ++iter)
+	{
+		cout << "Prefix: " << iter->first << endl;
+		iter->second.printRecord();
+	}
     }
 
     map<string, Record> m_records;
