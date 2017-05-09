@@ -372,7 +372,7 @@ def train(input_file_dir, fold_num, order, downSample, splitSelection):
                 os.system('rm %s.kn.lm.gz' % train_file)
             elif(lm_args["model_type"] == "KENLM"):
                 #Kenlm
-                print('%s -o %d --interpolate_unigrams 0 <% >%s.%dgrams'% (lm_args["location"],order, train_file, order))
+                print('%s -o %d --interpolate_unigrams 0 <%s >%s.%dgrams'% (lm_args["location"],order, train_file, train_file, order))
                 os.system('%s -o %d --interpolate_unigrams 0 <%s >%s.%dgrams'% (lm_args["location"],order, train_file, train_file, order))
             else:
                 print("This is not a recognized language model.")
