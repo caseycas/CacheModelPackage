@@ -1,4 +1,4 @@
-# Version .2
+# Version .3
 # CacheModelPackage
 This is a package that contains a modified version of Zhaopeng's Cache model
 (see http://dl.acm.org/citation.cfm?id=2635875).  I've modified the scripts
@@ -21,6 +21,19 @@ maybe windows will be provided in the future.
 This package is set up to be able to swap out different language models and train and test with them.  The cache model is then built on top of them. For convenience, I've provided binaries for SRILM and MITLM that have worked for me on linux (Ubuntu 15.10) and Mac OS X (10.11), under evaluation/srilm or evaluation/mitlm.  If these binaries do not work for you, I've 
 included some instructions to compile them from source.  Currently, it seems the SRILM binary is portable to other systems,
 but MITLM must be compiled from source on your own machine.
+
+# KenLM
+
+KenLm is currently the preferred language model to use.  Mitlm gets slightly worse scores, and Srilm occasionally reportes probably values greater than 1 for some tokens
+when going above 3-grams.  Instructions on building KenLM from source can be found [here](https://kheafield.com/code/kenlm/), but are copied here for convenience.
+
+    wget -O - https://kheafield.com/code/kenlm.tar.gz |tar xz
+    mkdir kenlm/build
+    cd kenlm/build
+    cmake ..
+    make -j2
+
+Then, in your lm.ini file, you'll want to link to <kenlm_path>/bin/lmplz
 
 # Mitlm
 
@@ -60,8 +73,6 @@ If these do not work, you need to compile from source.  This requires a license 
 Follow the steps in the included INSTALL file to compile from source.  Additional MacOSX instructions can be found here:
 http://www1.icsi.berkeley.edu/~wooters/SRILM/
 
-# KenLM
-Instructions incoming.
 
 # Sample corpora
 There are several sample corpora provided in the package. 
@@ -109,14 +120,20 @@ directories.
 
 The file evaluation/scripts/lm.ini contains information that must be set to choose what language model is used.
 I've include commented out suggestions for how to select your language model, which requires two* items.
-The first is the variable model_type, which selects which language model to run.  Currently, this is either
-SRILM or MITLM.  The second is location, which is the path to the binary for this language model.  Using mitlm
-as an example, which uses the 'estimate-ngram' binary:
+The first is the variable model_type, which selects which language model to run.  Currently, this is either Kenlm,
+Srilm, Mitlm.  The second is location, which is the path to the binary for this language model.  
+
+Kenlm is the prefered way, and as an example, if you have installed kenlm at ~/kenlm, then you would use:
+
+    model_type = KENLM
+    location = ~/kenlm/bin/lmplz
+
+Using Mitlm, which uses the 'estimate-ngram' binary:
 
     model_type = MITLM
     location = ~/mitlm/bin/estimate-ngram
 
-*SRILM requires two binaries to run 'ngram-count' and 'ngram'.  These must be specified as in variables as
+*Srilm requires two binaries to run 'ngram-count' and 'ngram'.  These must be specified as in variables as
 location and location2 respectively. So, for example, srilm could be configured as your model like this:
 
     model_Type = SRILM
